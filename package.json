@@ -9,7 +9,8 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "test": "vitest run",
-    "build-archives": "node scripts/build-archives.mjs"
+    "build-archives": "node scripts/build-archives.mjs",
+    "authorize": "node scripts/authorize.mjs"
   },
   "dependencies": {
     "react": "^19.2.8",

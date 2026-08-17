@@ -1,4 +1,5 @@
 const TOKEN_URL = 'https://accounts.spotify.com/api/token';
+const AUTHORIZE_URL = 'https://accounts.spotify.com/authorize';
 const API_BASE = 'https://api.spotify.com/v1';
 
 export async function getClientCredentialsToken(fetchImpl = fetch) {
@@ -18,6 +19,59 @@ export async function getClientCredentialsToken(fetchImpl = fetch) {
   });
   if (!res.ok) {
     throw new Error(`Spotify token request failed: ${res.status}`);
+  }
+  const data = await res.json();
+  return data.access_token;
+}
+
+export function buildAuthorizeUrl({ clientId, redirectUri, scopes }) {
+  const params = new URLSearchParams({
+    client_id: clientId,
+    response_type: 'code',
+    redirect_uri: redirectUri,
+    scope: scopes.join(' '),
+  });
+  return `${AUTHORIZE_URL}?${params.toString()}`;
+}
+
+export async function exchangeAuthorizationCode({ clientId, clientSecret, code, redirectUri }, fetchImpl = fetch) {
+  const basicAuth = Buffer.from(`${clientId}:${clientSecret}`).toString('base64');
+  const body = new URLSearchParams({
+    grant_type: 'authorization_code',
+    code,
+    redirect_uri: redirectUri,
+  });
+  const res = await fetchImpl(TOKEN_URL, {
+    method: 'POST',
+    headers: {
+      Authorization: `Basic ${basicAuth}`,
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: body.toString(),
+  });
+  if (!res.ok) {
+    throw new Error(`Spotify authorization code exchange failed: ${res.status}`);
+  }
+  const data = await res.json();
+  return { accessToken: data.access_token, refreshToken: data.refresh_token };
+}
+
+export async function getAccessTokenFromRefreshToken({ clientId, clientSecret, refreshToken }, fetchImpl = fetch) {
+  const basicAuth = Buffer.from(`${clientId}:${clientSecret}`).toString('base64');
+  const body = new URLSearchParams({
+    grant_type: 'refresh_token',
+    refresh_token: refreshToken,
+  });
+  const res = await fetchImpl(TOKEN_URL, {
+    method: 'POST',
+    headers: {
+      Authorization: `Basic ${basicAuth}`,
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: body.toString(),
+  });
+  if (!res.ok) {
+    throw new Error(`Spotify refresh token request failed: ${res.status}`);
   }
   const data = await res.json();
   return data.access_token;
