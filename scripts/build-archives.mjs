@@ -1,14 +1,9 @@
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import 'dotenv/config';
-import { getClientCredentialsToken } from './lib/spotify-client.mjs';
-import {
-  fetchAllPlaylists,
-  fetchPlaylistTracks,
-  fetchAudioFeaturesBatch,
-  fetchArtistGenres,
-} from './lib/spotify-api.mjs';
-import { classifyMood } from './lib/mood.mjs';
+import { getAccessTokenFromRefreshToken } from './lib/spotify-client.mjs';
+import { fetchAllPlaylists, fetchPlaylistTracks, fetchArtistGenres } from './lib/spotify-api.mjs';
+import { classifyMood, MOOD_FEATURE_CENTROIDS } from './lib/mood.mjs';
 import { rollupGenres } from './lib/genre-rollup.mjs';
 import { summarizeArchive } from './lib/summarize-archive.mjs';
 
@@ -24,7 +19,6 @@ export async function run({
   userId,
   fetchAllPlaylists: fetchPlaylistsFn,
   fetchPlaylistTracks: fetchTracksFn,
-  fetchAudioFeaturesBatch: fetchFeaturesFn,
   fetchArtistGenres: fetchGenresFn,
   writeFile,
   log = console.log,
@@ -38,28 +32,20 @@ export async function run({
   const summaries = [];
   for (const playlist of archivePlaylists) {
     const rawTracks = await fetchTracksFn(token, playlist.id);
-    const featureMap = await fetchFeaturesFn(token, rawTracks.map((t) => t.id));
     const artistGenreMap = await fetchGenresFn(token, rawTracks.flatMap((t) => t.artistIds));
 
     const tracks = [];
-    const skipped = [];
     for (const raw of rawTracks) {
-      const features = featureMap.get(raw.id);
-      if (!features) {
-        skipped.push(`${raw.name} — ${raw.artists.join(', ')}`);
-        continue;
-      }
       const artistGenres = raw.artistIds.flatMap((id) => artistGenreMap.get(id) ?? []);
+      const genres = rollupGenres(artistGenres);
+      const mood = classifyMood(genres);
       tracks.push({
         id: raw.id, name: raw.name, artists: raw.artists, album: raw.album,
         coverUrl: raw.coverUrl, releaseDate: raw.releaseDate, durationMs: raw.durationMs,
         addedAt: raw.addedAt, spotifyUrl: raw.spotifyUrl,
-        mood: classifyMood(features), genres: rollupGenres(artistGenres),
-        audioFeatures: features,
+        mood, genres,
+        audioFeatures: MOOD_FEATURE_CENTROIDS[mood],
       });
-    }
-    if (skipped.length > 0) {
-      warn(`Archive #${playlist.number}: skipped ${skipped.length} track(s) — ${skipped.join('; ')}`);
     }
 
     const id = `archive-${String(playlist.number).padStart(3, '0')}`;
@@ -78,13 +64,20 @@ export async function run({
 async function main() {
   const outDir = new URL('../public/data/', import.meta.url);
   mkdirSync(outDir, { recursive: true });
-  const token = await getClientCredentialsToken();
+  const refreshToken = process.env.SPOTIFY_REFRESH_TOKEN;
+  if (!refreshToken) {
+    throw new Error('SPOTIFY_REFRESH_TOKEN is not set — run npm run authorize first');
+  }
+  const token = await getAccessTokenFromRefreshToken({
+    clientId: process.env.SPOTIFY_CLIENT_ID,
+    clientSecret: process.env.SPOTIFY_CLIENT_SECRET,
+    refreshToken,
+  });
   await run({
     token,
     userId: process.env.SPOTIFY_USER_ID,
     fetchAllPlaylists,
     fetchPlaylistTracks,
-    fetchAudioFeaturesBatch,
     fetchArtistGenres,
     writeFile: (name, contents) => writeFileSync(new URL(name, outDir), contents),
   });

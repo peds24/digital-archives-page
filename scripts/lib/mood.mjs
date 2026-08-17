@@ -1,18 +1,30 @@
-const RECIPES = [
-  { mood: 'euphoric', test: (f) => f.valence > 0.7 && f.energy > 0.7 },
-  { mood: 'melancholic', test: (f) => f.valence < 0.35 && f.energy < 0.4 },
-  { mood: 'mellow', test: (f) => f.valence > 0.6 && f.energy < 0.45 },
-  { mood: 'intense', test: (f) => f.valence < 0.45 && f.energy > 0.75 },
-  { mood: 'chill', test: (f) => f.energy >= 0.3 && f.energy <= 0.55 && f.acousticness > 0.5 },
-  { mood: 'dreamy', test: (f) => f.valence >= 0.45 && f.valence <= 0.7 && f.acousticness > 0.6 },
-];
+const GENRE_TO_MOOD = {
+  pop: 'euphoric',
+  electronic: 'euphoric',
+  latin: 'euphoric',
+  'hip-hop': 'euphoric',
+  rock: 'intense',
+  metal: 'intense',
+  punk: 'intense',
+  jazz: 'chill',
+  reggae: 'chill',
+  'r&b': 'chill',
+  folk: 'mellow',
+  country: 'mellow',
+  indie: 'dreamy',
+  classical: 'dreamy',
+};
 
-export function classifyMood(features) {
-  for (const recipe of RECIPES) {
-    if (recipe.test(features)) return recipe.mood;
-  }
-  if (features.valence >= 0.5 && features.energy >= 0.5) return 'euphoric';
-  if (features.valence < 0.5 && features.energy < 0.5) return 'melancholic';
-  if (features.valence >= 0.5 && features.energy < 0.5) return 'mellow';
-  return 'intense';
+export function classifyMood(genres) {
+  const topGenre = genres?.[0];
+  return GENRE_TO_MOOD[topGenre] ?? 'melancholic';
 }
+
+export const MOOD_FEATURE_CENTROIDS = {
+  euphoric: { valence: 0.8, energy: 0.8, danceability: 0.7, tempo: 120, acousticness: 0.1 },
+  melancholic: { valence: 0.2, energy: 0.2, danceability: 0.3, tempo: 80, acousticness: 0.7 },
+  mellow: { valence: 0.75, energy: 0.3, danceability: 0.4, tempo: 90, acousticness: 0.4 },
+  intense: { valence: 0.3, energy: 0.85, danceability: 0.6, tempo: 150, acousticness: 0.05 },
+  chill: { valence: 0.5, energy: 0.4, danceability: 0.5, tempo: 100, acousticness: 0.65 },
+  dreamy: { valence: 0.55, energy: 0.6, danceability: 0.5, tempo: 95, acousticness: 0.7 },
+};
