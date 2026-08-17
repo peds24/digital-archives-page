@@ -39,4 +39,21 @@ describe('spotifyFetch', () => {
       'Spotify API request failed (404): /missing'
     );
   });
+
+  it('throws after exhausting 5 retries on repeated 429s', async () => {
+    const fakeFetch = vi.fn();
+    // Mock 6 consecutive 429 responses with Retry-After: 0
+    for (let i = 0; i < 6; i++) {
+      fakeFetch.mockResolvedValueOnce({
+        status: 429,
+        ok: false,
+        headers: new Map([['Retry-After', '0']]),
+      });
+    }
+    await expect(spotifyFetch('tok', '/me', fakeFetch)).rejects.toThrow(
+      'Spotify API rate limit exceeded after 5 retries: /me'
+    );
+    // Should have called fetch 5 times (initial + 4 retries before hitting the cap)
+    expect(fakeFetch).toHaveBeenCalledTimes(5);
+  });
 });
