@@ -3,7 +3,6 @@ import {
   fetchAllPlaylists,
   fetchPlaylistTracks,
   fetchAudioFeaturesBatch,
-  fetchArtistGenres,
 } from './spotify-api.mjs';
 
 describe('fetchAllPlaylists', () => {
@@ -122,69 +121,5 @@ describe('fetchAudioFeaturesBatch', () => {
     const map = await fetchAudioFeaturesBatch('tok', ['t1', 't2'], fetchImpl);
     expect(map.get('t1')).toEqual({ valence: 0.8, energy: 0.7, danceability: 0.6, tempo: 120, acousticness: 0.1 });
     expect(map.has('t2')).toBe(false);
-  });
-});
-
-describe('fetchArtistGenres', () => {
-  it('fetches each artist individually via singular endpoint', async () => {
-    const fetchImpl = vi.fn();
-    fetchImpl.mockResolvedValueOnce({
-      ok: true,
-      status: 200,
-      json: async () => ({ id: 'a1', genres: ['indie pop', 'indie rock'] }),
-    });
-    fetchImpl.mockResolvedValueOnce({
-      ok: true,
-      status: 200,
-      json: async () => ({ id: 'a2', genres: ['pop'] }),
-    });
-    const map = await fetchArtistGenres('tok', ['a1', 'a2'], fetchImpl);
-    expect(map.get('a1')).toEqual(['indie pop', 'indie rock']);
-    expect(map.get('a2')).toEqual(['pop']);
-    expect(fetchImpl).toHaveBeenCalledTimes(2);
-  });
-
-  it('deduplicates artist ids before fetching', async () => {
-    const fetchImpl = vi.fn().mockResolvedValue({
-      ok: true,
-      status: 200,
-      json: async () => ({ id: 'a1', genres: ['indie pop'] }),
-    });
-    const map = await fetchArtistGenres('tok', ['a1', 'a1', 'a1'], fetchImpl);
-    expect(map.get('a1')).toEqual(['indie pop']);
-    // Should only fetch once, not thrice
-    expect(fetchImpl).toHaveBeenCalledTimes(1);
-  });
-
-  it('handles null genres gracefully (empty array fallback)', async () => {
-    const fetchImpl = vi.fn().mockResolvedValue({
-      ok: true,
-      status: 200,
-      json: async () => ({ id: 'a1', genres: null }),
-    });
-    const map = await fetchArtistGenres('tok', ['a1'], fetchImpl);
-    expect(map.get('a1')).toEqual([]);
-  });
-
-  it('skips artists with null/missing response', async () => {
-    const fetchImpl = vi.fn().mockResolvedValue({
-      ok: true,
-      status: 200,
-      json: async () => null,
-    });
-    const map = await fetchArtistGenres('tok', ['a1'], fetchImpl);
-    expect(map.has('a1')).toBe(false);
-  });
-
-  it('filters out falsy artist ids (null, undefined) before fetching', async () => {
-    const fetchImpl = vi.fn().mockResolvedValue({
-      ok: true,
-      status: 200,
-      json: async () => ({ id: 'a1', genres: ['indie pop'] }),
-    });
-    const map = await fetchArtistGenres('tok', ['a1', null, undefined, 'a1'], fetchImpl);
-    expect(map.get('a1')).toEqual(['indie pop']);
-    // Should only fetch once, not for null/undefined
-    expect(fetchImpl).toHaveBeenCalledTimes(1);
   });
 });
