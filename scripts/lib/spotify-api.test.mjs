@@ -126,13 +126,53 @@ describe('fetchAudioFeaturesBatch', () => {
 });
 
 describe('fetchArtistGenres', () => {
-  it('builds a map keyed by artist id', async () => {
+  it('fetches each artist individually via singular endpoint', async () => {
+    const fetchImpl = vi.fn();
+    fetchImpl.mockResolvedValueOnce({
+      ok: true,
+      status: 200,
+      json: async () => ({ id: 'a1', genres: ['indie pop', 'indie rock'] }),
+    });
+    fetchImpl.mockResolvedValueOnce({
+      ok: true,
+      status: 200,
+      json: async () => ({ id: 'a2', genres: ['pop'] }),
+    });
+    const map = await fetchArtistGenres('tok', ['a1', 'a2'], fetchImpl);
+    expect(map.get('a1')).toEqual(['indie pop', 'indie rock']);
+    expect(map.get('a2')).toEqual(['pop']);
+    expect(fetchImpl).toHaveBeenCalledTimes(2);
+  });
+
+  it('deduplicates artist ids before fetching', async () => {
     const fetchImpl = vi.fn().mockResolvedValue({
       ok: true,
       status: 200,
-      json: async () => ({ artists: [{ id: 'a1', genres: ['indie pop'] }] }),
+      json: async () => ({ id: 'a1', genres: ['indie pop'] }),
+    });
+    const map = await fetchArtistGenres('tok', ['a1', 'a1', 'a1'], fetchImpl);
+    expect(map.get('a1')).toEqual(['indie pop']);
+    // Should only fetch once, not thrice
+    expect(fetchImpl).toHaveBeenCalledTimes(1);
+  });
+
+  it('handles null genres gracefully (empty array fallback)', async () => {
+    const fetchImpl = vi.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      json: async () => ({ id: 'a1', genres: null }),
     });
     const map = await fetchArtistGenres('tok', ['a1'], fetchImpl);
-    expect(map.get('a1')).toEqual(['indie pop']);
+    expect(map.get('a1')).toEqual([]);
+  });
+
+  it('skips artists with null/missing response', async () => {
+    const fetchImpl = vi.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      json: async () => null,
+    });
+    const map = await fetchArtistGenres('tok', ['a1'], fetchImpl);
+    expect(map.has('a1')).toBe(false);
   });
 });
