@@ -7,7 +7,7 @@ import {
 } from './spotify-api.mjs';
 
 describe('fetchAllPlaylists', () => {
-  it('follows pagination via next', async () => {
+  it('follows pagination via next and uses /me/playlists endpoint', async () => {
     const fetchImpl = vi
       .fn()
       .mockResolvedValueOnce({
@@ -15,7 +15,7 @@ describe('fetchAllPlaylists', () => {
         status: 200,
         json: async () => ({
           items: [{ id: 'p1', name: 'Digital Archive #001' }],
-          next: 'https://api.spotify.com/v1/users/u/playlists?offset=50',
+          next: 'https://api.spotify.com/v1/me/playlists?offset=50',
         }),
       })
       .mockResolvedValueOnce({
@@ -25,6 +25,9 @@ describe('fetchAllPlaylists', () => {
       });
     const playlists = await fetchAllPlaylists('tok', 'u', fetchImpl);
     expect(playlists.map((p) => p.id)).toEqual(['p1', 'p2']);
+    // Verify that the /me/playlists endpoint was called, not /users/
+    expect(fetchImpl.mock.calls[0][0]).toContain('/me/playlists');
+    expect(fetchImpl.mock.calls[0][0]).not.toContain('/users/');
   });
 });
 

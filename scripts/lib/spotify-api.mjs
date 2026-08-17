@@ -2,7 +2,7 @@ import { spotifyFetch } from './spotify-client.mjs';
 
 export async function fetchAllPlaylists(token, userId, fetchImpl) {
   const playlists = [];
-  let url = `/users/${userId}/playlists?limit=50`;
+  let url = `/me/playlists?limit=50`;
   while (url) {
     const page = await spotifyFetch(token, url, fetchImpl);
     playlists.push(...page.items);
