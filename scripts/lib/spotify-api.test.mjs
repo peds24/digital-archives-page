@@ -40,7 +40,7 @@ describe('fetchPlaylistTracks', () => {
         items: [
           {
             added_at: '2026-01-01T00:00:00Z',
-            track: {
+            item: {
               id: 't1',
               name: 'Song',
               duration_ms: 200000,
@@ -70,11 +70,37 @@ describe('fetchPlaylistTracks', () => {
     ]);
   });
 
-  it('skips items with a null track (removed from Spotify)', async () => {
+  it('skips items with a null item (removed from Spotify)', async () => {
     const fetchImpl = vi.fn().mockResolvedValue({
       ok: true,
       status: 200,
-      json: async () => ({ items: [{ added_at: '2026-01-01T00:00:00Z', track: null }], next: null }),
+      json: async () => ({ items: [{ added_at: '2026-01-01T00:00:00Z', item: null }], next: null }),
+    });
+    const tracks = await fetchPlaylistTracks('tok', 'pl1', fetchImpl);
+    expect(tracks).toEqual([]);
+  });
+
+  it('skips items with non-track types (e.g., episodes)', async () => {
+    const fetchImpl = vi.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      json: async () => ({
+        items: [
+          {
+            added_at: '2026-01-01T00:00:00Z',
+            item: {
+              id: 'ep1',
+              type: 'episode',
+              name: 'Episode',
+              duration_ms: 3600000,
+              artists: [{ id: 'a1', name: 'Podcaster' }],
+              album: { name: 'Podcast', release_date: '2025-01-01', images: [{ url: 'http://img' }] },
+              external_urls: { spotify: 'http://open.spotify.com/episode/ep1' },
+            },
+          },
+        ],
+        next: null,
+      }),
     });
     const tracks = await fetchPlaylistTracks('tok', 'pl1', fetchImpl);
     expect(tracks).toEqual([]);

@@ -13,12 +13,14 @@ export async function fetchAllPlaylists(token, userId, fetchImpl) {
 
 export async function fetchPlaylistTracks(token, playlistId, fetchImpl) {
   const tracks = [];
-  let url = `/playlists/${playlistId}/tracks?limit=100`;
+  let url = `/playlists/${playlistId}/items?limit=100`;
   while (url) {
     const page = await spotifyFetch(token, url, fetchImpl);
     for (const item of page.items) {
-      const t = item.track;
+      const t = item.item;
       if (!t) continue;
+      // Skip non-track items (e.g., episodes) — playlists can contain mixed types
+      if (t.type && t.type !== 'track') continue;
       tracks.push({
         id: t.id,
         name: t.name,
