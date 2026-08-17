@@ -59,7 +59,7 @@ export async function fetchAudioFeaturesBatch(token, trackIds, fetchImpl) {
 }
 
 export async function fetchArtistGenres(token, artistIds, fetchImpl) {
-  const uniqueIds = [...new Set(artistIds)];
+  const uniqueIds = [...new Set(artistIds.filter(Boolean))];
   const genreMap = new Map();
   for (const id of uniqueIds) {
     const artist = await spotifyFetch(token, `/artists/${id}`, fetchImpl);

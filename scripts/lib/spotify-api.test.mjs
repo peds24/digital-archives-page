@@ -175,4 +175,16 @@ describe('fetchArtistGenres', () => {
     const map = await fetchArtistGenres('tok', ['a1'], fetchImpl);
     expect(map.has('a1')).toBe(false);
   });
+
+  it('filters out falsy artist ids (null, undefined) before fetching', async () => {
+    const fetchImpl = vi.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      json: async () => ({ id: 'a1', genres: ['indie pop'] }),
+    });
+    const map = await fetchArtistGenres('tok', ['a1', null, undefined, 'a1'], fetchImpl);
+    expect(map.get('a1')).toEqual(['indie pop']);
+    // Should only fetch once, not for null/undefined
+    expect(fetchImpl).toHaveBeenCalledTimes(1);
+  });
 });
