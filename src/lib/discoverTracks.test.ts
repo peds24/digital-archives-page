@@ -53,6 +53,28 @@ describe('discoverTracks', () => {
     expect(results).toHaveLength(3);
   });
 
+  it('spreads picks across archives when the pool has enough archive diversity', () => {
+    // 12 archives, 2 tracks each, every track a distinct artist — plenty of room to
+    // pick 5 tracks from 5 distinct archives without falling back to repeats.
+    const pool = Array.from({ length: 12 }, (_, archiveIndex) =>
+      Array.from({ length: 2 }, (_, trackIndex) =>
+        track({
+          id: `track-${archiveIndex}-${trackIndex}`,
+          name: `Track ${archiveIndex}-${trackIndex}`,
+          artists: [`Artist${archiveIndex}-${trackIndex}`],
+          archiveId: `archive-${String(archiveIndex).padStart(3, '0')}`,
+          archiveNumber: archiveIndex,
+        })
+      )
+    ).flat();
+
+    const results = discoverTracks(pool, 5);
+
+    expect(results).toHaveLength(5);
+    const distinctArchives = new Set(results.map((t) => t.archiveId));
+    expect(distinctArchives.size).toBe(5);
+  });
+
   it('is deterministic for a given rnd sequence', () => {
     const pool = Array.from({ length: 10 }, (_, i) =>
       track({

@@ -15,6 +15,7 @@ export function ArchivePanel({ archive, onClose }: ArchivePanelProps) {
       <ol className="archive-tracklist">
         {archive.tracks.map((track) => (
           <li key={track.id}>
+            <img src={track.coverUrl} alt="" width={40} height={40} />
             <span>{track.name} — {track.artists.join(', ')}</span>
             <a href={track.spotifyUrl} target="_blank" rel="noreferrer">open ↗</a>
           </li>

@@ -5,10 +5,11 @@ import type { ArchiveSummary } from '../lib/types';
 
 interface ArchiveTileProps {
   archive: ArchiveSummary;
+  selected?: boolean;
   onSelect: (id: string) => void;
 }
 
-export function ArchiveTile({ archive, onSelect }: ArchiveTileProps) {
+export function ArchiveTile({ archive, selected = false, onSelect }: ArchiveTileProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
@@ -27,7 +28,10 @@ export function ArchiveTile({ archive, onSelect }: ArchiveTileProps) {
   }, [archive]);
 
   return (
-    <button className="archive-tile" onClick={() => onSelect(archive.id)}>
+    <button
+      className={`archive-tile${selected ? ' selected' : ''}`}
+      onClick={() => onSelect(archive.id)}
+    >
       <canvas ref={canvasRef} />
       <div className="archive-tile-meta">
         <span>#{String(archive.number).padStart(3, '0')}</span>

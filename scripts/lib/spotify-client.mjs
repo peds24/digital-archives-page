@@ -61,9 +61,13 @@ export async function spotifyFetch(token, path, fetchImpl = fetch, retryCount = 
   });
   if (res.status === 429) {
     if (retryCount >= 4) {
-      throw new Error(`Spotify API rate limit exceeded after 5 retries: ${path}`);
+      throw new Error(`Spotify API rate limit exceeded after 5 attempts: ${path}`);
     }
-    const retryAfter = Number(res.headers.get('Retry-After') ?? '1');
+    // Retry-After is *usually* a delay in seconds, but per HTTP spec it may legally be
+    // an HTTP-date instead — guard against that (and any other non-numeric value)
+    // turning into NaN, which would otherwise skip the backoff delay entirely.
+    const raw = res.headers.get('Retry-After');
+    const retryAfter = raw && Number.isFinite(Number(raw)) ? Number(raw) : 1;
     await new Promise((resolve) => setTimeout(resolve, retryAfter * 1000));
     return spotifyFetch(token, path, fetchImpl, retryCount + 1);
   }

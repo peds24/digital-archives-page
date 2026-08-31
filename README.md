@@ -1,32 +1,61 @@
-# React + TypeScript + Vite
+# Digital Archives
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A static site that browses "Digital Archive #NNN" playlists — batches of 30 liked
+songs, sealed off once full — pulled from Spotify. A build script fetches the
+playlists and their tracks into `public/data/*.json`; the React app reads that
+data at runtime with no server involved.
 
-Currently, two official plugins are available:
+## Spotify app setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. Create an app in the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard).
+2. Add `http://127.0.0.1:8888/callback` as a Redirect URI in the app's settings.
+3. Copy `.env.example` to `.env` and fill in the app's Client ID and Client Secret:
 
-## React Compiler
+   ```bash
+   cp .env.example .env
+   ```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+   ```
+   SPOTIFY_CLIENT_ID=your-client-id
+   SPOTIFY_CLIENT_SECRET=your-client-secret
+   ```
 
-## Expanding the Oxlint configuration
+## One-time authorization
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+Spotify's user-playlist endpoints require a user-authorized token, so a one-time
+login step mints a long-lived refresh token:
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+npm run authorize
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+This prints an authorize URL — open it in your browser and approve access. You'll
+land on `http://127.0.0.1:8888/callback?code=...`, which will likely show a
+browser error page since nothing is listening on that port; that's expected. Copy
+the `code` value from the address bar, then run:
+
+```bash
+node scripts/authorize.mjs <code>
+```
+
+This exchanges the code for a refresh token and saves it to `.env` as
+`SPOTIFY_REFRESH_TOKEN`. You only need to do this once — future runs reuse it.
+
+## Regenerating the archive data
+
+```bash
+npm run build-archives
+```
+
+This fetches every "Digital Archive #NNN" playlist from your account and
+(re)writes `public/data/*.json`. Run it whenever your Spotify playlists change.
+
+## Development
+
+```bash
+npm install
+npm run dev      # start the dev server
+npm test         # run the test suite
+npm run lint     # lint
+npm run build    # typecheck + production build
+```

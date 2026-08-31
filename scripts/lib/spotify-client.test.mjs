@@ -24,7 +24,7 @@ describe('spotifyFetch', () => {
     );
   });
 
-  it('throws after exhausting 5 retries on repeated 429s', async () => {
+  it('throws after exhausting 5 attempts on repeated 429s', async () => {
     const fakeFetch = vi.fn();
     // Mock 6 consecutive 429 responses with Retry-After: 0
     for (let i = 0; i < 6; i++) {
@@ -35,10 +35,39 @@ describe('spotifyFetch', () => {
       });
     }
     await expect(spotifyFetch('tok', '/me', fakeFetch)).rejects.toThrow(
-      'Spotify API rate limit exceeded after 5 retries: /me'
+      'Spotify API rate limit exceeded after 5 attempts: /me'
     );
-    // Should have called fetch 5 times (initial + 4 retries before hitting the cap)
+    // Should have called fetch 5 times (initial attempt + 4 retries before hitting the cap)
     expect(fakeFetch).toHaveBeenCalledTimes(5);
+  });
+
+  it('falls back to a 1-second delay when Retry-After is a non-numeric HTTP-date value', async () => {
+    const fakeFetch = vi
+      .fn()
+      .mockResolvedValueOnce({
+        status: 429,
+        ok: false,
+        headers: new Map([['Retry-After', 'Wed, 21 Oct 2026 07:28:00 GMT']]),
+      })
+      .mockResolvedValueOnce({ ok: true, status: 200, json: async () => ({ id: 'abc' }) });
+
+    const originalSetTimeout = global.setTimeout;
+    const delays = [];
+    global.setTimeout = (fn, ms) => {
+      delays.push(ms);
+      return originalSetTimeout(fn, 0);
+    };
+
+    try {
+      const result = await spotifyFetch('tok', '/me', fakeFetch);
+      expect(result).toEqual({ id: 'abc' });
+    } finally {
+      global.setTimeout = originalSetTimeout;
+    }
+
+    // Non-numeric Retry-After must fall back to a 1-second delay, not NaN (which
+    // setTimeout would treat as 0 — an immediate retry storm).
+    expect(delays).toEqual([1000]);
   });
 });
 

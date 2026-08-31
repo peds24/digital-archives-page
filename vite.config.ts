@@ -1,22 +1,27 @@
 import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
 import { copyFileSync } from 'node:fs';
-import { fileURLToPath } from 'node:url';
+import { resolve } from 'node:path';
 
-const distIndex = fileURLToPath(new URL('./dist/index.html', import.meta.url));
-const dist404 = fileURLToPath(new URL('./dist/404.html', import.meta.url));
+function copy404Plugin() {
+  let outDir = 'dist';
+  return {
+    name: 'copy-404',
+    apply: 'build' as const,
+    configResolved(config: { root: string; build: { outDir: string } }) {
+      // build.outDir may be relative to the project root — resolve it once here
+      // instead of hardcoding './dist', so a custom outDir stays correct.
+      outDir = resolve(config.root, config.build.outDir);
+    },
+    closeBundle() {
+      copyFileSync(resolve(outDir, 'index.html'), resolve(outDir, '404.html'));
+    },
+  };
+}
 
 export default defineConfig({
   base: process.env.BASE_PATH || '/digital-archives-page/',
-  plugins: [
-    react(),
-    {
-      name: 'copy-404',
-      closeBundle() {
-        copyFileSync(distIndex, dist404);
-      },
-    },
-  ],
+  plugins: [react(), copy404Plugin()],
   test: {
     environment: 'node',
     passWithNoTests: true,

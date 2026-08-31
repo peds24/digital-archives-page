@@ -13,11 +13,16 @@ export function discoverTracks(
 
   const result: DiscoverableTrack[] = [];
   const usedArtists = new Set<string>();
+  const usedArchives = new Set<string>();
   for (const track of shuffled) {
     if (result.length >= count) break;
     if (track.artists.some((a) => usedArtists.has(a))) continue;
+    // Spread picks across archives where possible — same greedy-with-fallback
+    // pattern as the artist constraint above.
+    if (usedArchives.has(track.archiveId)) continue;
     result.push(track);
     track.artists.forEach((a) => usedArtists.add(a));
+    usedArchives.add(track.archiveId);
   }
 
   if (result.length < count) {

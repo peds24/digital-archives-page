@@ -80,6 +80,7 @@ body {
   color: inherit;
   font-family: inherit;
 }
+.archive-tile.selected { border-color: var(--accent); }
 .archive-tile canvas { width: 100%; aspect-ratio: 1 / 1; display: block; }
 .archive-tile-meta {
   display: flex;
@@ -113,11 +114,19 @@ body {
 .archive-tracklist { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
 .archive-tracklist li {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 12px;
   font-size: 13px;
   border-bottom: 1px solid var(--hairline);
   padding-bottom: 8px;
+}
+.archive-tracklist li > span { flex: 1; }
+.archive-tracklist img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 .archive-tracklist a, .discovery-results a { color: var(--accent); text-decoration: none; white-space: nowrap; }
 
