@@ -24,7 +24,7 @@ function printAuthorizeInstructions() {
   console.log('5. Run: node scripts/authorize.mjs <code>');
 }
 
-function upsertEnvLine(contents, key, value) {
+export function upsertEnvLine(contents, key, value) {
   const line = `${key}=${value}`;
   const lines = contents.length > 0 ? contents.split('\n') : [];
   const pattern = new RegExp(`^${key}=`);
