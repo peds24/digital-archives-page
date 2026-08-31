@@ -104,6 +104,59 @@ describe('fetchPlaylistTracks', () => {
     const tracks = await fetchPlaylistTracks('tok', 'pl1', fetchImpl);
     expect(tracks).toEqual([]);
   });
+
+  it('skips local-file tracks (type:"track" but null id) and records them in the skipped list', async () => {
+    const fetchImpl = vi.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      json: async () => ({
+        items: [
+          {
+            added_at: '2026-01-01T00:00:00Z',
+            item: {
+              id: null,
+              type: 'track',
+              name: 'Some Local Recording',
+              duration_ms: 200000,
+              artists: [{ id: null, name: '' }],
+              album: { name: '', release_date: null, images: [] },
+              external_urls: {},
+            },
+          },
+          {
+            added_at: '2026-01-02T00:00:00Z',
+            item: {
+              id: 't2',
+              type: 'track',
+              name: 'Real Song',
+              duration_ms: 200000,
+              artists: [{ id: 'a2', name: 'Artist' }],
+              album: { name: 'Album', release_date: '2025-01-01', images: [{ url: 'http://img' }] },
+              external_urls: { spotify: 'http://open.spotify.com/track/t2' },
+            },
+          },
+        ],
+        next: null,
+      }),
+    });
+    const skipped = [];
+    const tracks = await fetchPlaylistTracks('tok', 'pl1', fetchImpl, skipped);
+    expect(tracks).toEqual([
+      {
+        id: 't2',
+        name: 'Real Song',
+        artists: ['Artist'],
+        artistIds: ['a2'],
+        album: 'Album',
+        coverUrl: 'http://img',
+        releaseDate: '2025-01-01',
+        durationMs: 200000,
+        addedAt: '2026-01-02T00:00:00Z',
+        spotifyUrl: 'http://open.spotify.com/track/t2',
+      },
+    ]);
+    expect(skipped).toEqual([{ name: 'Some Local Recording', artists: [''] }]);
+  });
 });
 
 describe('fetchAudioFeaturesBatch', () => {

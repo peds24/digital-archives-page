@@ -1,8 +1,8 @@
 {
   "id": "archive-015",
   "number": 15,
-  "trackCount": 30,
-  "inProgress": false,
+  "trackCount": 26,
+  "inProgress": true,
   "dateRange": {
     "earliest": "2024-04-21T05:31:25Z",
     "latest": "2024-04-21T05:31:25Z"
@@ -356,58 +356,6 @@
       "durationMs": 268087,
       "addedAt": "2024-04-21T05:31:25Z",
       "spotifyUrl": "https://open.spotify.com/track/0NdKnpfDtqT4ejsW4H58x4"
-    },
-    {
-      "id": null,
-      "name": "Nahuel Pennisi - Toco y Me Voy (En Estado Acústico)",
-      "artists": [
-        ""
-      ],
-      "album": "",
-      "coverUrl": "",
-      "releaseDate": null,
-      "durationMs": 267000,
-      "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": ""
-    },
-    {
-      "id": null,
-      "name": "The Concrete Cypher_ Lil Yachty, Draft Day, DC2TRILL, Camo! & Karrahbooo",
-      "artists": [
-        ""
-      ],
-      "album": "",
-      "coverUrl": "",
-      "releaseDate": null,
-      "durationMs": 376000,
-      "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": ""
-    },
-    {
-      "id": null,
-      "name": "10 VIRGINIA Going Back To VA 20.0 LV 4.4.24",
-      "artists": [
-        ""
-      ],
-      "album": "",
-      "coverUrl": "",
-      "releaseDate": null,
-      "durationMs": 182000,
-      "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": ""
-    },
-    {
-      "id": null,
-      "name": "09 VIRGINIA Cheryl 17.0x LV 3.26.24",
-      "artists": [
-        ""
-      ],
-      "album": "",
-      "coverUrl": "",
-      "releaseDate": null,
-      "durationMs": 158000,
-      "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": ""
     }
   ]
 }

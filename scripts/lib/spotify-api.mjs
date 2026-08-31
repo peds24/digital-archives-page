@@ -11,7 +11,7 @@ export async function fetchAllPlaylists(token, userId, fetchImpl) {
   return playlists;
 }
 
-export async function fetchPlaylistTracks(token, playlistId, fetchImpl) {
+export async function fetchPlaylistTracks(token, playlistId, fetchImpl, skipped = []) {
   const tracks = [];
   let url = `/playlists/${playlistId}/items?limit=100`;
   while (url) {
@@ -21,6 +21,12 @@ export async function fetchPlaylistTracks(token, playlistId, fetchImpl) {
       if (!t) continue;
       // Skip non-track items (e.g., episodes) — playlists can contain mixed types
       if (t.type && t.type !== 'track') continue;
+      // Skip local files — Spotify reports type:'track' for these but they have no
+      // catalog id (and therefore no usable spotifyUrl/coverUrl); never show a broken link.
+      if (!t.id) {
+        skipped.push({ name: t.name, artists: (t.artists ?? []).map((a) => a.name) });
+        continue;
+      }
       tracks.push({
         id: t.id,
         name: t.name,

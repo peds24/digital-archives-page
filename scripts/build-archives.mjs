@@ -28,7 +28,8 @@ export async function run({
 
   const summaries = [];
   for (const playlist of archivePlaylists) {
-    const rawTracks = await fetchTracksFn(token, playlist.id);
+    const skippedTracks = [];
+    const rawTracks = await fetchTracksFn(token, playlist.id, undefined, skippedTracks);
 
     const tracks = rawTracks.map((raw) => ({
       id: raw.id, name: raw.name, artists: raw.artists, album: raw.album,
@@ -37,6 +38,14 @@ export async function run({
     }));
 
     const id = `archive-${String(playlist.number).padStart(3, '0')}`;
+
+    if (skippedTracks.length > 0) {
+      const skippedSummary = skippedTracks
+        .map((t) => `"${t.name}" — ${(t.artists ?? []).join(', ') || 'unknown artist'}`)
+        .join('; ');
+      warn(`${id}: skipped ${skippedTracks.length} track(s) with no catalog id (likely local files): ${skippedSummary}`);
+    }
+
     const summary = summarizeArchive(id, playlist.number, tracks);
     const detail = { ...summary, tracks };
     writeFile(`${id}.json`, JSON.stringify(detail, null, 2));
