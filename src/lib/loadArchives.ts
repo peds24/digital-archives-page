@@ -5,7 +5,7 @@ export interface ArchiveLibrary {
   trackPool: DiscoverableTrack[];
 }
 
-export async function loadAllArchives(baseUrl = '/data'): Promise<ArchiveLibrary> {
+export async function loadAllArchives(baseUrl = `${import.meta.env.BASE_URL}data`): Promise<ArchiveLibrary> {
   const indexRes = await fetch(`${baseUrl}/index.json`);
   if (!indexRes.ok) throw new Error(`Failed to load archive index: ${indexRes.status}`);
   const index = (await indexRes.json()) as ArchiveIndex;
