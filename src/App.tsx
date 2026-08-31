@@ -1,122 +1,65 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import { useEffect, useState } from 'react';
+import { loadAllArchives, type ArchiveLibrary } from './lib/loadArchives';
+import { FilterBar, type ProgressFilter } from './components/FilterBar';
+import { ArchiveGrid } from './components/ArchiveGrid';
+import { ArchivePanel } from './components/ArchivePanel';
+import { DiscoveryPanel } from './components/DiscoveryPanel';
 
-function App() {
-  const [count, setCount] = useState(0)
+export function App() {
+  const [library, setLibrary] = useState<ArchiveLibrary | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const [dateFrom, setDateFrom] = useState('');
+  const [dateTo, setDateTo] = useState('');
+  const [progressFilter, setProgressFilter] = useState<ProgressFilter>('all');
+  const [selectedArchiveId, setSelectedArchiveId] = useState<string | null>(null);
+
+  useEffect(() => {
+    loadAllArchives()
+      .then(setLibrary)
+      .catch((err: Error) => setError(err.message));
+  }, []);
+
+  if (error) return <div className="app-error">Couldn't load the archives: {error}</div>;
+  if (!library) return <div className="app-loading">Loading archives…</div>;
+
+  const filteredArchives = library.archives.filter((archive) => {
+    if (progressFilter === 'inProgress' && !archive.inProgress) return false;
+    if (progressFilter === 'complete' && archive.inProgress) return false;
+    // ISO date strings from the API include a time component (e.g. "2026-04-29T17:58:28Z");
+    // slice to the date-only prefix before comparing against a plain "YYYY-MM-DD" <input type=date>
+    // value, or same-day archives get incorrectly excluded by a naive full-string compare.
+    const latestDate = archive.dateRange.latest?.slice(0, 10);
+    const earliestDate = archive.dateRange.earliest?.slice(0, 10);
+    if (dateFrom && latestDate && latestDate < dateFrom) return false;
+    if (dateTo && earliestDate && earliestDate > dateTo) return false;
+    return true;
+  });
+
+  const selectedArchive = selectedArchiveId
+    ? library.archives.find((a) => a.id === selectedArchiveId) ?? null
+    : null;
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
-
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+    <main className="app">
+      <header className="app-header">
+        <h1>digital archives</h1>
+        <p>every 30 liked songs, sealed off.</p>
+      </header>
+      <FilterBar
+        dateFrom={dateFrom}
+        dateTo={dateTo}
+        progressFilter={progressFilter}
+        onDateFromChange={setDateFrom}
+        onDateToChange={setDateTo}
+        onProgressFilterChange={setProgressFilter}
+      />
+      <ArchiveGrid archives={filteredArchives} onSelect={setSelectedArchiveId} />
+      {selectedArchive && (
+        <ArchivePanel archive={selectedArchive} onClose={() => setSelectedArchiveId(null)} />
+      )}
+      <DiscoveryPanel trackPool={library.trackPool} />
+    </main>
+  );
 }
 
-export default App
+export default App;
