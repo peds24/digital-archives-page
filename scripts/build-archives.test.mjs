@@ -18,7 +18,6 @@ describe('run', () => {
 
     await run({
       token: 'tok',
-      userId: 'pedro',
       fetchAllPlaylists: async () => [
         { id: 'p1', name: 'Digital Archive #014' },
         { id: 'p2', name: 'Discover Weekly' },
@@ -70,7 +69,6 @@ describe('run', () => {
 
     await run({
       token: 'tok',
-      userId: 'pedro',
       fetchAllPlaylists: async () => [{ id: 'p1', name: 'Digital Archive #001' }],
       fetchPlaylistTracks: async () => [
         {
@@ -99,7 +97,6 @@ describe('run', () => {
 
     await run({
       token: 'tok',
-      userId: 'pedro',
       fetchAllPlaylists: async () => [{ id: 'p1', name: 'Digital Archive #003' }],
       fetchPlaylistTracks: async (token, playlistId, fetchImpl, skipped) => {
         skipped.push({ name: 'Local File Song', artists: ['Unknown Artist'] });

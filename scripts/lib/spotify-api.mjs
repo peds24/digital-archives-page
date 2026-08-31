@@ -1,6 +1,6 @@
 import { spotifyFetch } from './spotify-client.mjs';
 
-export async function fetchAllPlaylists(token, userId, fetchImpl) {
+export async function fetchAllPlaylists(token, fetchImpl) {
   const playlists = [];
   let url = `/me/playlists?limit=50`;
   while (url) {
@@ -43,23 +43,4 @@ export async function fetchPlaylistTracks(token, playlistId, fetchImpl, skipped 
     url = page.next ? page.next.replace('https://api.spotify.com/v1', '') : null;
   }
   return tracks;
-}
-
-export async function fetchAudioFeaturesBatch(token, trackIds, fetchImpl) {
-  const featureMap = new Map();
-  for (let i = 0; i < trackIds.length; i += 100) {
-    const batch = trackIds.slice(i, i + 100);
-    const data = await spotifyFetch(token, `/audio-features?ids=${batch.join(',')}`, fetchImpl);
-    for (const f of data.audio_features) {
-      if (!f) continue;
-      featureMap.set(f.id, {
-        valence: f.valence,
-        energy: f.energy,
-        danceability: f.danceability,
-        tempo: f.tempo,
-        acousticness: f.acousticness,
-      });
-    }
-  }
-  return featureMap;
 }

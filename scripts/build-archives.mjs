@@ -14,14 +14,13 @@ export function parseArchiveNumber(name) {
 
 export async function run({
   token,
-  userId,
   fetchAllPlaylists: fetchPlaylistsFn,
   fetchPlaylistTracks: fetchTracksFn,
   writeFile,
   log = console.log,
   warn = console.warn,
 }) {
-  const playlists = await fetchPlaylistsFn(token, userId);
+  const playlists = await fetchPlaylistsFn(token);
   const archivePlaylists = playlists
     .map((p) => ({ ...p, number: parseArchiveNumber(p.name) }))
     .filter((p) => p.number !== null);
@@ -72,7 +71,6 @@ async function main() {
   });
   await run({
     token,
-    userId: process.env.SPOTIFY_USER_ID,
     fetchAllPlaylists,
     fetchPlaylistTracks,
     writeFile: (name, contents) => writeFileSync(new URL(name, outDir), contents),

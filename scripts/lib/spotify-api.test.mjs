@@ -1,9 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import {
-  fetchAllPlaylists,
-  fetchPlaylistTracks,
-  fetchAudioFeaturesBatch,
-} from './spotify-api.mjs';
+import { fetchAllPlaylists, fetchPlaylistTracks } from './spotify-api.mjs';
 
 describe('fetchAllPlaylists', () => {
   it('follows pagination via next and uses /me/playlists endpoint', async () => {
@@ -22,7 +18,7 @@ describe('fetchAllPlaylists', () => {
         status: 200,
         json: async () => ({ items: [{ id: 'p2', name: 'Digital Archive #002' }], next: null }),
       });
-    const playlists = await fetchAllPlaylists('tok', 'u', fetchImpl);
+    const playlists = await fetchAllPlaylists('tok', fetchImpl);
     expect(playlists.map((p) => p.id)).toEqual(['p1', 'p2']);
     // Verify that the /me/playlists endpoint was called, not /users/
     expect(fetchImpl.mock.calls[0][0]).toContain('/me/playlists');
@@ -156,23 +152,5 @@ describe('fetchPlaylistTracks', () => {
       },
     ]);
     expect(skipped).toEqual([{ name: 'Some Local Recording', artists: [''] }]);
-  });
-});
-
-describe('fetchAudioFeaturesBatch', () => {
-  it('builds a map keyed by track id, skipping nulls', async () => {
-    const fetchImpl = vi.fn().mockResolvedValue({
-      ok: true,
-      status: 200,
-      json: async () => ({
-        audio_features: [
-          { id: 't1', valence: 0.8, energy: 0.7, danceability: 0.6, tempo: 120, acousticness: 0.1 },
-          null,
-        ],
-      }),
-    });
-    const map = await fetchAudioFeaturesBatch('tok', ['t1', 't2'], fetchImpl);
-    expect(map.get('t1')).toEqual({ valence: 0.8, energy: 0.7, danceability: 0.6, tempo: 120, acousticness: 0.1 });
-    expect(map.has('t2')).toBe(false);
   });
 });

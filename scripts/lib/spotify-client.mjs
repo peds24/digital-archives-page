@@ -2,28 +2,6 @@ const TOKEN_URL = 'https://accounts.spotify.com/api/token';
 const AUTHORIZE_URL = 'https://accounts.spotify.com/authorize';
 const API_BASE = 'https://api.spotify.com/v1';
 
-export async function getClientCredentialsToken(fetchImpl = fetch) {
-  const clientId = process.env.SPOTIFY_CLIENT_ID;
-  const clientSecret = process.env.SPOTIFY_CLIENT_SECRET;
-  if (!clientId || !clientSecret) {
-    throw new Error('SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET must be set');
-  }
-  const basicAuth = Buffer.from(`${clientId}:${clientSecret}`).toString('base64');
-  const res = await fetchImpl(TOKEN_URL, {
-    method: 'POST',
-    headers: {
-      Authorization: `Basic ${basicAuth}`,
-      'Content-Type': 'application/x-www-form-urlencoded',
-    },
-    body: 'grant_type=client_credentials',
-  });
-  if (!res.ok) {
-    throw new Error(`Spotify token request failed: ${res.status}`);
-  }
-  const data = await res.json();
-  return data.access_token;
-}
-
 export function buildAuthorizeUrl({ clientId, redirectUri, scopes }) {
   const params = new URLSearchParams({
     client_id: clientId,
