@@ -1,0 +1,404 @@
+{
+  "id": "archive-025",
+  "number": 25,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2025-11-04T23:39:28Z",
+    "latest": "2025-11-04T23:39:28Z"
+  },
+  "tracks": [
+    {
+      "id": "51EpFns3CG9taCMQz6XDom",
+      "name": "INVISIBLE",
+      "artists": [
+        "Duran Duran"
+      ],
+      "album": "FUTURE PAST",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736a5be5601ccc727d0dbb9c1f",
+      "releaseDate": "2021-10-22",
+      "durationMs": 191459,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/51EpFns3CG9taCMQz6XDom"
+    },
+    {
+      "id": "2VhJ4nrPorAbySEgO4V0BS",
+      "name": "Soñé - En Vivo",
+      "artists": [
+        "Zoé"
+      ],
+      "album": "MTV Unplugged Música De Fondo (Reissue/Live)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739abba2e4a7600af6c16988a9",
+      "releaseDate": "2011-01-01",
+      "durationMs": 226626,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/2VhJ4nrPorAbySEgO4V0BS"
+    },
+    {
+      "id": "1ofvq6C31dm9bl9reVTWua",
+      "name": "Coolo",
+      "artists": [
+        "Illya Kuryaki & The Valderramas"
+      ],
+      "album": "Amores Perros (Soundtrack)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730a76e5e5bd2defb60bea0e29",
+      "releaseDate": "2000-01-01",
+      "durationMs": 245373,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/1ofvq6C31dm9bl9reVTWua"
+    },
+    {
+      "id": "5bq4jHJk8CTbFMplkF810z",
+      "name": "Ir A Más",
+      "artists": [
+        "Los Abuelos De La Nada"
+      ],
+      "album": "Los Abuelos De La Nada",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733298224e277341304fbbd1de",
+      "releaseDate": "1982-01-01",
+      "durationMs": 206826,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/5bq4jHJk8CTbFMplkF810z"
+    },
+    {
+      "id": "1b5E8GN7i8OkJslC1edv5w",
+      "name": "Tristeza De La Ciudad",
+      "artists": [
+        "Los Abuelos De La Nada"
+      ],
+      "album": "Los Abuelos De La Nada",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733298224e277341304fbbd1de",
+      "releaseDate": "1982-01-01",
+      "durationMs": 215013,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/1b5E8GN7i8OkJslC1edv5w"
+    },
+    {
+      "id": "1MQpJgQp0goNJtEg9fBtnt",
+      "name": "No Te Dejes Desanimar",
+      "artists": [
+        "La Maquina De Hacer Pájaros"
+      ],
+      "album": "Peliculas",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c481d26ad0e28c0b30fce955",
+      "releaseDate": "1977-04-29",
+      "durationMs": 247946,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/1MQpJgQp0goNJtEg9fBtnt"
+    },
+    {
+      "id": "7iee007QypdrTXbLVF5KuF",
+      "name": "Love Generation - Edit",
+      "artists": [
+        "Bob Sinclar",
+        "Gary Pine"
+      ],
+      "album": "Love Generation (Edit)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273522b4cb1dd67178f9d10f15e",
+      "releaseDate": "2005-06-20",
+      "durationMs": 204105,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/7iee007QypdrTXbLVF5KuF"
+    },
+    {
+      "id": "2VEZx7NWsZ1D0eJ4uv5Fym",
+      "name": "Digital Love",
+      "artists": [
+        "Daft Punk"
+      ],
+      "album": "Discovery",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
+      "releaseDate": "2001-03-12",
+      "durationMs": 301373,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/2VEZx7NWsZ1D0eJ4uv5Fym"
+    },
+    {
+      "id": "2tnDCiCPQd7NdheD0EaSnR",
+      "name": "How Does It Feel?",
+      "artists": [
+        "Pharrell Williams"
+      ],
+      "album": "In My Mind",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bd18d067eb476f2318ae7dd8",
+      "releaseDate": "2006-01-01",
+      "durationMs": 215840,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/2tnDCiCPQd7NdheD0EaSnR"
+    },
+    {
+      "id": "70R0DnWrspawLLrOr00loI",
+      "name": "PiRATE DAYS",
+      "artists": [
+        "JuanLargo Tha Six6"
+      ],
+      "album": "PiRATE DAYS",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f8499c7bf2ea955c7287da41",
+      "releaseDate": "2024-12-22",
+      "durationMs": 223200,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/70R0DnWrspawLLrOr00loI"
+    },
+    {
+      "id": "1nULBrlzWatdcjA2ZctIMv",
+      "name": "Labios Rotos - En Vivo Desde México / 2010",
+      "artists": [
+        "Zoé"
+      ],
+      "album": "MTV Unplugged Música De Fondo (Reissue/Live)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739abba2e4a7600af6c16988a9",
+      "releaseDate": "2011-01-01",
+      "durationMs": 243040,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/1nULBrlzWatdcjA2ZctIMv"
+    },
+    {
+      "id": "7ffkdwy4EvMSeUnPVSyqqw",
+      "name": "Azul",
+      "artists": [
+        "Zoé"
+      ],
+      "album": "Aztlán",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731eada1495a082da8a6c3e516",
+      "releaseDate": "2018-04-18",
+      "durationMs": 194226,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/7ffkdwy4EvMSeUnPVSyqqw"
+    },
+    {
+      "id": "27G16GZASr5vZhk1j6VFqn",
+      "name": "Kid Charlemagne - 2025 Remaster",
+      "artists": [
+        "Steely Dan"
+      ],
+      "album": "The Royal Scam (2025 Remaster)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273934a94c1dbbfc78b8c67e5fe",
+      "releaseDate": "1976-05-31",
+      "durationMs": 274151,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/27G16GZASr5vZhk1j6VFqn"
+    },
+    {
+      "id": "34hrzygpainAGFK6fS4ZmJ",
+      "name": "Hijos Del Desierto",
+      "artists": [
+        "The Mouts"
+      ],
+      "album": "Hijos Del Desierto",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b8c903c791a0017ec034af5e",
+      "releaseDate": "2020-02-24",
+      "durationMs": 286026,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/34hrzygpainAGFK6fS4ZmJ"
+    },
+    {
+      "id": "0evTkLjoSWqhHSQrn6FCaA",
+      "name": "Que Se Puede Hacer Salvo Ver Peliculas",
+      "artists": [
+        "La Maquina De Hacer Pájaros"
+      ],
+      "album": "Peliculas",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c481d26ad0e28c0b30fce955",
+      "releaseDate": "1977-04-29",
+      "durationMs": 372146,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/0evTkLjoSWqhHSQrn6FCaA"
+    },
+    {
+      "id": "6MPWIV7Qnk09fLjbSS4JMF",
+      "name": "Footprints",
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "album": "People's Instinctive Travels and the Paths of Rhythm (25th Anniversary Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731093b1a9528d6ac67479228b",
+      "releaseDate": "1990",
+      "durationMs": 240691,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/6MPWIV7Qnk09fLjbSS4JMF"
+    },
+    {
+      "id": "2wNEcJHnFxoKZIrxjxF5jL",
+      "name": "Changes - 2009 Remaster",
+      "artists": [
+        "Black Sabbath"
+      ],
+      "album": "Vol. 4",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730a774ec695cc0a967250b966",
+      "releaseDate": "1972-09-25",
+      "durationMs": 284666,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/2wNEcJHnFxoKZIrxjxF5jL"
+    },
+    {
+      "id": "3Jnxngdff0lVu2rza1GVx6",
+      "name": "Paranoid - 2009 Remaster",
+      "artists": [
+        "Black Sabbath"
+      ],
+      "album": "Paranoid",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273605b25c031f809d78054a13c",
+      "releaseDate": "1970-09-18",
+      "durationMs": 167720,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/3Jnxngdff0lVu2rza1GVx6"
+    },
+    {
+      "id": "0hxd6Q8SFbuGbJTJ46qNzQ",
+      "name": "Brown-Eyed Women - Live at Playing In The Sand, Riviera Maya, MX 2/15/18",
+      "artists": [
+        "Dead & Company"
+      ],
+      "album": "Playing In The Sand, Riviera Maya, 2/15/18 (Live)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b1ff0ddb1505bedb2f653588",
+      "releaseDate": "2019-01-10",
+      "durationMs": 594099,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/0hxd6Q8SFbuGbJTJ46qNzQ"
+    },
+    {
+      "id": "3UqHlIBI771FNCiLY5MKrp",
+      "name": "Tears in Heaven - Acoustic Live",
+      "artists": [
+        "Eric Clapton"
+      ],
+      "album": "Unplugged (Deluxe Edition) (Live)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273195d2c01c72fc37c5bd58019",
+      "releaseDate": "1992-08-25",
+      "durationMs": 280000,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/3UqHlIBI771FNCiLY5MKrp"
+    },
+    {
+      "id": "78Ld60e2y57fRik5I7KwYf",
+      "name": "Circus",
+      "artists": [
+        "Eric Clapton"
+      ],
+      "album": "Unplugged (Deluxe Edition) (Live)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273195d2c01c72fc37c5bd58019",
+      "releaseDate": "1992-08-25",
+      "durationMs": 268093,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/78Ld60e2y57fRik5I7KwYf"
+    },
+    {
+      "id": "51hSFxO4RN0kWVtBfAccIL",
+      "name": "i can't go back",
+      "artists": [
+        "Emma Aibara"
+      ],
+      "album": "i can't go back",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273847ea9363ad1bdd9408dc87e",
+      "releaseDate": "2025-06-13",
+      "durationMs": 208604,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/51hSFxO4RN0kWVtBfAccIL"
+    },
+    {
+      "id": "4pNiE4LCVV74vfIBaUHm1b",
+      "name": "Sir Duke",
+      "artists": [
+        "Stevie Wonder"
+      ],
+      "album": "Songs In The Key Of Life",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732fee61bfec596bb6f5447c50",
+      "releaseDate": "1976-09-28",
+      "durationMs": 232760,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/4pNiE4LCVV74vfIBaUHm1b"
+    },
+    {
+      "id": "2UQWW8rhNJo5tBt77LnbZH",
+      "name": "I Need You",
+      "artists": [
+        "Lynyrd Skynyrd"
+      ],
+      "album": "Second Helping (Expanded Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27317e1907923e91181f38290ac",
+      "releaseDate": "1974-04-15",
+      "durationMs": 415600,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/2UQWW8rhNJo5tBt77LnbZH"
+    },
+    {
+      "id": "1SDiiE3v2z89VxC3aVRKHQ",
+      "name": "Since I've Been Loving You - Remaster",
+      "artists": [
+        "Led Zeppelin"
+      ],
+      "album": "Led Zeppelin III (Remaster)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27390a50cfe99a4c19ff3cbfbdb",
+      "releaseDate": "1970",
+      "durationMs": 444148,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/1SDiiE3v2z89VxC3aVRKHQ"
+    },
+    {
+      "id": "3b1IQflSLrgzYQPGFzI9cl",
+      "name": "Es Por Ti",
+      "artists": [
+        "Juanes"
+      ],
+      "album": "Un Día Normal",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27323a1613112c1ecf946f51177",
+      "releaseDate": "2002-01-01",
+      "durationMs": 250693,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/3b1IQflSLrgzYQPGFzI9cl"
+    },
+    {
+      "id": "0cT9mUeMqJYnvubixdGU0b",
+      "name": "Don't Be so Serious",
+      "artists": [
+        "Low Roar"
+      ],
+      "album": "Once in a Long, Long While...",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730a5bc6cd17930648973e9c65",
+      "releaseDate": "2017-04-14",
+      "durationMs": 373318,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/0cT9mUeMqJYnvubixdGU0b"
+    },
+    {
+      "id": "52MqoTJ6kT0h8JTe5rjpG5",
+      "name": "Half the Man",
+      "artists": [
+        "Jamiroquai"
+      ],
+      "album": "The Return of the Space Cowboy (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27315b3727c6abdcfe4826f91ff",
+      "releaseDate": "1994-10-17",
+      "durationMs": 289680,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/52MqoTJ6kT0h8JTe5rjpG5"
+    },
+    {
+      "id": "2ruY7BpsZRwr6UUzLeDSk1",
+      "name": "Woman",
+      "artists": [
+        "Little Simz",
+        "Cleo Sol"
+      ],
+      "album": "Sometimes I Might Be Introvert",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738880312891033e27f0e4341b",
+      "releaseDate": "2021-09-03",
+      "durationMs": 269413,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/2ruY7BpsZRwr6UUzLeDSk1"
+    },
+    {
+      "id": "7p4IJ6jJ3KG1ocIeWPcGBO",
+      "name": "Jupiter Jazz",
+      "artists": [
+        "Haruki"
+      ],
+      "album": "Jupiter Jazz",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d244099363c5ac7342871010",
+      "releaseDate": "2024-08-30",
+      "durationMs": 199950,
+      "addedAt": "2025-11-04T23:39:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/7p4IJ6jJ3KG1ocIeWPcGBO"
+    }
+  ]
+}

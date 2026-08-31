@@ -1,0 +1,413 @@
+{
+  "id": "archive-006",
+  "number": 6,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2022-10-31T20:00:46Z",
+    "latest": "2022-10-31T20:10:09Z"
+  },
+  "tracks": [
+    {
+      "id": "32DRpZgrvQZddDkKF2DoTr",
+      "name": "Slowly",
+      "artists": [
+        "Natalia Lafourcade",
+        "Leiva"
+      ],
+      "album": "Giralunas, Un Homenaje a L.E.Aute",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27323a28574c7aeb491bada5a98",
+      "releaseDate": "2015-05-25",
+      "durationMs": 336814,
+      "addedAt": "2022-10-31T20:00:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/32DRpZgrvQZddDkKF2DoTr"
+    },
+    {
+      "id": "4YU0xHroexMt4ohhPVbKla",
+      "name": "Mamita (feat. Natalia Lafourcade)",
+      "artists": [
+        "Rawayana",
+        "Natalia Lafourcade"
+      ],
+      "album": "RawayanaLand",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bfbdfd61a4c13f2b4a14a4fa",
+      "releaseDate": "2013-05-19",
+      "durationMs": 267200,
+      "addedAt": "2022-10-31T20:01:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/4YU0xHroexMt4ohhPVbKla"
+    },
+    {
+      "id": "0aQCcrt3i2HcQYdRbmzNET",
+      "name": "Canta la arena",
+      "artists": [
+        "Natalia Lafourcade"
+      ],
+      "album": "De Todas las Flores",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730106e80c9055f8de4aa9322b",
+      "releaseDate": "2022-10-28",
+      "durationMs": 362199,
+      "addedAt": "2022-10-31T20:01:23Z",
+      "spotifyUrl": "https://open.spotify.com/track/0aQCcrt3i2HcQYdRbmzNET"
+    },
+    {
+      "id": "2rT9arG3oKOPquWNik5l73",
+      "name": "Mi manera de querer",
+      "artists": [
+        "Natalia Lafourcade"
+      ],
+      "album": "De Todas las Flores",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730106e80c9055f8de4aa9322b",
+      "releaseDate": "2022-10-28",
+      "durationMs": 233800,
+      "addedAt": "2022-10-31T20:01:37Z",
+      "spotifyUrl": "https://open.spotify.com/track/2rT9arG3oKOPquWNik5l73"
+    },
+    {
+      "id": "6YnvENj0TdekZctNH1LiFQ",
+      "name": "Caminar bonito",
+      "artists": [
+        "Natalia Lafourcade"
+      ],
+      "album": "De Todas las Flores",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730106e80c9055f8de4aa9322b",
+      "releaseDate": "2022-10-28",
+      "durationMs": 237346,
+      "addedAt": "2022-10-31T20:02:17Z",
+      "spotifyUrl": "https://open.spotify.com/track/6YnvENj0TdekZctNH1LiFQ"
+    },
+    {
+      "id": "3G6XpCfczuhbTSBlgfqe9v",
+      "name": "El lugar correcto",
+      "artists": [
+        "Natalia Lafourcade"
+      ],
+      "album": "De Todas las Flores",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730106e80c9055f8de4aa9322b",
+      "releaseDate": "2022-10-28",
+      "durationMs": 231053,
+      "addedAt": "2022-10-31T20:02:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/3G6XpCfczuhbTSBlgfqe9v"
+    },
+    {
+      "id": "0U1tYg60QpzEStW7DhwdHO",
+      "name": "Pasan los días",
+      "artists": [
+        "Natalia Lafourcade"
+      ],
+      "album": "De Todas las Flores",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730106e80c9055f8de4aa9322b",
+      "releaseDate": "2022-10-28",
+      "durationMs": 403306,
+      "addedAt": "2022-10-31T20:02:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/0U1tYg60QpzEStW7DhwdHO"
+    },
+    {
+      "id": "3MAHwAmag1U1gLLuvEQNHU",
+      "name": "De todas las flores",
+      "artists": [
+        "Natalia Lafourcade"
+      ],
+      "album": "De Todas las Flores",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730106e80c9055f8de4aa9322b",
+      "releaseDate": "2022-10-28",
+      "durationMs": 322013,
+      "addedAt": "2022-10-31T20:03:06Z",
+      "spotifyUrl": "https://open.spotify.com/track/3MAHwAmag1U1gLLuvEQNHU"
+    },
+    {
+      "id": "2WThzynUFaqCuVRo6wvJN0",
+      "name": "マスカレード",
+      "artists": [
+        "SHIGEO SEKITO"
+      ],
+      "album": "華麗なるエレクトーン -ザ・ワード-",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273583e3a677882a4a4e7115234",
+      "releaseDate": "1975-01-25",
+      "durationMs": 244677,
+      "addedAt": "2022-10-31T20:03:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/2WThzynUFaqCuVRo6wvJN0"
+    },
+    {
+      "id": "2tYHCZNhGoWZ6cCGzgkAPo",
+      "name": "ブラック・ジョーク",
+      "artists": [
+        "CASIOPEA"
+      ],
+      "album": "CASIOPEA",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273648478cb25e3e302454e40e1",
+      "releaseDate": "1979",
+      "durationMs": 256959,
+      "addedAt": "2022-10-31T20:03:35Z",
+      "spotifyUrl": "https://open.spotify.com/track/2tYHCZNhGoWZ6cCGzgkAPo"
+    },
+    {
+      "id": "5mhMk5MWThkEtMe7i1vhko",
+      "name": "スペース・ロード",
+      "artists": [
+        "CASIOPEA"
+      ],
+      "album": "CASIOPEA",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273648478cb25e3e302454e40e1",
+      "releaseDate": "1979",
+      "durationMs": 314200,
+      "addedAt": "2022-10-31T20:03:53Z",
+      "spotifyUrl": "https://open.spotify.com/track/5mhMk5MWThkEtMe7i1vhko"
+    },
+    {
+      "id": "15DKVRxHhKqRmIE2L6G82h",
+      "name": "ティアーズ・オブ・ザ・スター",
+      "artists": [
+        "CASIOPEA"
+      ],
+      "album": "CASIOPEA",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273648478cb25e3e302454e40e1",
+      "releaseDate": "1979",
+      "durationMs": 272600,
+      "addedAt": "2022-10-31T20:04:10Z",
+      "spotifyUrl": "https://open.spotify.com/track/15DKVRxHhKqRmIE2L6G82h"
+    },
+    {
+      "id": "1XeOqgzh2fZhmgxnmyiIJ8",
+      "name": "残機",
+      "artists": [
+        "ZUTOMAYO"
+      ],
+      "album": "残機",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cc23f581f239e59cea2afc7b",
+      "releaseDate": "2022-10-18",
+      "durationMs": 230066,
+      "addedAt": "2022-10-31T20:04:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/1XeOqgzh2fZhmgxnmyiIJ8"
+    },
+    {
+      "id": "4wYCZ6QS5EClBXqjakTieR",
+      "name": "消えてしまいそうです",
+      "artists": [
+        "ZUTOMAYO"
+      ],
+      "album": "消えてしまいそうです",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27388ae48200161d233526a26d1",
+      "releaseDate": "2022-09-08",
+      "durationMs": 257799,
+      "addedAt": "2022-10-31T20:04:35Z",
+      "spotifyUrl": "https://open.spotify.com/track/4wYCZ6QS5EClBXqjakTieR"
+    },
+    {
+      "id": "5LInOGDHqrgetnMlnvaDNq",
+      "name": "Everything Eventually Ends",
+      "artists": [
+        "L'Impératrice",
+        "Rejjie Snow"
+      ],
+      "album": "Everything Eventually Ends",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27328a8246fd9c1fba9100b4877",
+      "releaseDate": "2022-10-06",
+      "durationMs": 177280,
+      "addedAt": "2022-10-31T20:04:44Z",
+      "spotifyUrl": "https://open.spotify.com/track/5LInOGDHqrgetnMlnvaDNq"
+    },
+    {
+      "id": "7q5yaaSCIAZuZG2RQ9Cv8l",
+      "name": "Lobster Omelette (feat. Rick Ross)",
+      "artists": [
+        "Freddie Gibbs",
+        "Rick Ross"
+      ],
+      "album": "Lobster Omelette (feat. Rick Ross)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733c91b21ba7005a20dd4fa59e",
+      "releaseDate": "2022-09-29",
+      "durationMs": 160774,
+      "addedAt": "2022-10-31T20:05:02Z",
+      "spotifyUrl": "https://open.spotify.com/track/7q5yaaSCIAZuZG2RQ9Cv8l"
+    },
+    {
+      "id": "7IqheOBJjs2pZYKacBktRy",
+      "name": "Rabbit Vision",
+      "artists": [
+        "Freddie Gibbs"
+      ],
+      "album": "$oul $old $eparately",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730693760420e3f75b082031ee",
+      "releaseDate": "2022-09-30",
+      "durationMs": 193198,
+      "addedAt": "2022-10-31T20:05:54Z",
+      "spotifyUrl": "https://open.spotify.com/track/7IqheOBJjs2pZYKacBktRy"
+    },
+    {
+      "id": "20UFm0JkFTmqpoRjgDYHnk",
+      "name": "Zipper Bagz",
+      "artists": [
+        "Freddie Gibbs"
+      ],
+      "album": "$oul $old $eparately",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730693760420e3f75b082031ee",
+      "releaseDate": "2022-09-30",
+      "durationMs": 134922,
+      "addedAt": "2022-10-31T20:06:13Z",
+      "spotifyUrl": "https://open.spotify.com/track/20UFm0JkFTmqpoRjgDYHnk"
+    },
+    {
+      "id": "3cJhvKu04O5akhOHpZmMvP",
+      "name": "Couldn’t Be Done (feat. Kelly Price)",
+      "artists": [
+        "Freddie Gibbs",
+        "Kelly Price"
+      ],
+      "album": "$oul $old $eparately",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730693760420e3f75b082031ee",
+      "releaseDate": "2022-09-30",
+      "durationMs": 151233,
+      "addedAt": "2022-10-31T20:06:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/3cJhvKu04O5akhOHpZmMvP"
+    },
+    {
+      "id": "5whawbmOtjIogkTeWv8PW3",
+      "name": "Blackest in the Room",
+      "artists": [
+        "Freddie Gibbs"
+      ],
+      "album": "$oul $old $eparately",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730693760420e3f75b082031ee",
+      "releaseDate": "2022-09-30",
+      "durationMs": 167223,
+      "addedAt": "2022-10-31T20:06:40Z",
+      "spotifyUrl": "https://open.spotify.com/track/5whawbmOtjIogkTeWv8PW3"
+    },
+    {
+      "id": "0U1ZzfstbEYbqTmxRy95pp",
+      "name": "Melt Session #1 - Cold Blooded Soul Version",
+      "artists": [
+        "Denzel Curry"
+      ],
+      "album": "Melt My Eyez See Your Future (The Extended Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273069dc0623d2e2ad7f10b6d3c",
+      "releaseDate": "2022-09-30",
+      "durationMs": 189620,
+      "addedAt": "2022-10-31T20:07:15Z",
+      "spotifyUrl": "https://open.spotify.com/track/0U1ZzfstbEYbqTmxRy95pp"
+    },
+    {
+      "id": "0LdCOtpdCqgcEYuzNy1VS6",
+      "name": "Mental - Cold Blooded Soul Version",
+      "artists": [
+        "Denzel Curry"
+      ],
+      "album": "Melt My Eyez See Your Future (The Extended Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273069dc0623d2e2ad7f10b6d3c",
+      "releaseDate": "2022-09-30",
+      "durationMs": 127013,
+      "addedAt": "2022-10-31T20:07:27Z",
+      "spotifyUrl": "https://open.spotify.com/track/0LdCOtpdCqgcEYuzNy1VS6"
+    },
+    {
+      "id": "6MEDfjHxnVNcYmHe3mM6L2",
+      "name": "Sweet Life",
+      "artists": [
+        "Frank Ocean"
+      ],
+      "album": "channel ORANGE",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737aede4855f6d0d738012e2e5",
+      "releaseDate": "2012-07-10",
+      "durationMs": 262680,
+      "addedAt": "2022-10-31T20:07:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/6MEDfjHxnVNcYmHe3mM6L2"
+    },
+    {
+      "id": "3VSnfhbaNKZzvmNQilWcZ6",
+      "name": "Space Hos",
+      "artists": [
+        "DANGERDOOM",
+        "MF DOOM",
+        "Danger Mouse"
+      ],
+      "album": "THE MOUSE & THE MASK",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736c3fb85147fcf2972923cf2d",
+      "releaseDate": "2005-10-17",
+      "durationMs": 209480,
+      "addedAt": "2022-10-31T20:07:56Z",
+      "spotifyUrl": "https://open.spotify.com/track/3VSnfhbaNKZzvmNQilWcZ6"
+    },
+    {
+      "id": "7AE0NKbt0BemBF8wuC2uCG",
+      "name": "Vats of Urine",
+      "artists": [
+        "DANGERDOOM",
+        "MF DOOM",
+        "Danger Mouse"
+      ],
+      "album": "THE MOUSE & THE MASK",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736c3fb85147fcf2972923cf2d",
+      "releaseDate": "2005-10-17",
+      "durationMs": 107853,
+      "addedAt": "2022-10-31T20:08:09Z",
+      "spotifyUrl": "https://open.spotify.com/track/7AE0NKbt0BemBF8wuC2uCG"
+    },
+    {
+      "id": "3T2LUDcZRrOnYzV1FprZTy",
+      "name": "Crosshairs",
+      "artists": [
+        "DANGERDOOM",
+        "MF DOOM",
+        "Danger Mouse"
+      ],
+      "album": "THE MOUSE & THE MASK",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736c3fb85147fcf2972923cf2d",
+      "releaseDate": "2005-10-17",
+      "durationMs": 146853,
+      "addedAt": "2022-10-31T20:08:20Z",
+      "spotifyUrl": "https://open.spotify.com/track/3T2LUDcZRrOnYzV1FprZTy"
+    },
+    {
+      "id": "4iVpZVKaPUnMhEagBOIIuI",
+      "name": "Tudo Que Voce Podia Ser",
+      "artists": [
+        "Quarteto Em Cy"
+      ],
+      "album": "Quarteto Em Cy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733bb0096793594508b5007f56",
+      "releaseDate": "1972-03-01",
+      "durationMs": 161106,
+      "addedAt": "2022-10-31T20:08:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/4iVpZVKaPUnMhEagBOIIuI"
+    },
+    {
+      "id": "2zwmugV2IbUwKq5JgOWEpv",
+      "name": "Mary Jane (All Night Long)",
+      "artists": [
+        "Mary J. Blige"
+      ],
+      "album": "My Life",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730b283be60e1ca4d3b43137c2",
+      "releaseDate": "1994-01-01",
+      "durationMs": 279240,
+      "addedAt": "2022-10-31T20:08:50Z",
+      "spotifyUrl": "https://open.spotify.com/track/2zwmugV2IbUwKq5JgOWEpv"
+    },
+    {
+      "id": "3gJ3yI4UgOg8lY8EUxrFvO",
+      "name": "BLUE CURACAO",
+      "artists": [
+        "Masayoshi Takanaka"
+      ],
+      "album": "オン・ギター",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273863f4540e18c97fd196d1116",
+      "releaseDate": "1994",
+      "durationMs": 328266,
+      "addedAt": "2022-10-31T20:09:17Z",
+      "spotifyUrl": "https://open.spotify.com/track/3gJ3yI4UgOg8lY8EUxrFvO"
+    },
+    {
+      "id": "2niUiaoJDCzNldW0pV66zb",
+      "name": "Nunca Es Suficiente",
+      "artists": [
+        "Natalia Lafourcade"
+      ],
+      "album": "Hasta la Raíz (Edición Especial)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bd4c237c04735257dd64c510",
+      "releaseDate": "2015-11-13",
+      "durationMs": 237106,
+      "addedAt": "2022-10-31T20:10:09Z",
+      "spotifyUrl": "https://open.spotify.com/track/2niUiaoJDCzNldW0pV66zb"
+    }
+  ]
+}

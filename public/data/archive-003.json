@@ -1,0 +1,431 @@
+{
+  "id": "archive-003",
+  "number": 3,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2022-06-01T06:31:41Z",
+    "latest": "2022-06-01T06:34:02Z"
+  },
+  "tracks": [
+    {
+      "id": "2SfE58UZe7Y3TVjozT1fPC",
+      "name": "Break in the Action",
+      "artists": [
+        "CZARFACE",
+        "MF DOOM"
+      ],
+      "album": "Super What?",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c81512cf4ad12711299b94ea",
+      "releaseDate": "2021-05-07",
+      "durationMs": 149613,
+      "addedAt": "2022-06-01T06:31:41Z",
+      "spotifyUrl": "https://open.spotify.com/track/2SfE58UZe7Y3TVjozT1fPC"
+    },
+    {
+      "id": "3djWekEDgbhAtkXGdFNbFt",
+      "name": "BALD!",
+      "artists": [
+        "JPEGMAFIA"
+      ],
+      "album": "EP!",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735a8c72a8c75ba0ae4929cd46",
+      "releaseDate": "2020-11-06",
+      "durationMs": 153932,
+      "addedAt": "2022-06-01T06:31:56Z",
+      "spotifyUrl": "https://open.spotify.com/track/3djWekEDgbhAtkXGdFNbFt"
+    },
+    {
+      "id": "7DOwjvuLCa6A4hIRzZ27kd",
+      "name": "Knock Knock",
+      "artists": [
+        "Blu",
+        "Madlib",
+        "MED",
+        "MF DOOM"
+      ],
+      "album": "Bad Neighbor",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273be39a4b8b771d9a5c3117309",
+      "releaseDate": "2015-10-30",
+      "durationMs": 285093,
+      "addedAt": "2022-06-01T06:31:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/7DOwjvuLCa6A4hIRzZ27kd"
+    },
+    {
+      "id": "6gdTVZdQcVN54ynCk38l5U",
+      "name": "The Shade of the Mango Tree",
+      "artists": [
+        "Luiz Bonfá"
+      ],
+      "album": "Bonfa Burrows Brazil",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27353f2cf5f1c12a11960292528",
+      "releaseDate": "1999-02-23",
+      "durationMs": 234200,
+      "addedAt": "2022-06-01T06:32:02Z",
+      "spotifyUrl": "https://open.spotify.com/track/6gdTVZdQcVN54ynCk38l5U"
+    },
+    {
+      "id": "3RatJCBICEQwTyOJtteB4I",
+      "name": "ワン・フォー・ジロー",
+      "artists": [
+        "稲垣次郎とソウル・メディア"
+      ],
+      "album": "ファンキー・スタッフ",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27387af363f9702e794f50682de",
+      "releaseDate": "1975-01-25",
+      "durationMs": 291106,
+      "addedAt": "2022-06-01T06:32:06Z",
+      "spotifyUrl": "https://open.spotify.com/track/3RatJCBICEQwTyOJtteB4I"
+    },
+    {
+      "id": "2llFlNkPX4hW1M3HLdEMBm",
+      "name": "ブリーズ",
+      "artists": [
+        "稲垣次郎とソウル・メディア"
+      ],
+      "album": "ファンキー・スタッフ",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27387af363f9702e794f50682de",
+      "releaseDate": "1975-01-25",
+      "durationMs": 277160,
+      "addedAt": "2022-06-01T06:32:08Z",
+      "spotifyUrl": "https://open.spotify.com/track/2llFlNkPX4hW1M3HLdEMBm"
+    },
+    {
+      "id": "6QrgxKiGjdJ5wOmZvGzWPu",
+      "name": "Latin Grammys",
+      "artists": [
+        "Action Bronson"
+      ],
+      "album": "Only For Dolphins",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e8e6cc55058bbd882aa6ef5a",
+      "releaseDate": "2020-09-25",
+      "durationMs": 169813,
+      "addedAt": "2022-06-01T06:32:11Z",
+      "spotifyUrl": "https://open.spotify.com/track/6QrgxKiGjdJ5wOmZvGzWPu"
+    },
+    {
+      "id": "6vqdkwE7hm31vukxPK6pAC",
+      "name": "Estaciones [Feat. Hologram]",
+      "artists": [
+        "Action Bronson",
+        "Hologram"
+      ],
+      "album": "Cocodrillo Turbo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732a3e3c2cfad3f1f4e3ee0004",
+      "releaseDate": "2022-04-29",
+      "durationMs": 200346,
+      "addedAt": "2022-06-01T06:32:13Z",
+      "spotifyUrl": "https://open.spotify.com/track/6vqdkwE7hm31vukxPK6pAC"
+    },
+    {
+      "id": "3gDRZkL8YfzpZg1N1YsW5x",
+      "name": "Frankenstein (feat. A$AP Rocky)",
+      "artists": [
+        "Swedish House Mafia",
+        "A$AP Rocky"
+      ],
+      "album": "Paradise Again",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bd6f8ac82dc5fe1028c14f7d",
+      "releaseDate": "2022-04-15",
+      "durationMs": 207360,
+      "addedAt": "2022-06-01T06:32:16Z",
+      "spotifyUrl": "https://open.spotify.com/track/3gDRZkL8YfzpZg1N1YsW5x"
+    },
+    {
+      "id": "35592qATAP1u72mO9oelLc",
+      "name": "Where the Money Flows",
+      "artists": [
+        "Peter Cat Recording Co."
+      ],
+      "album": "Bismillah",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27319497200ef054bccfab27d0c",
+      "releaseDate": "2019-06-07",
+      "durationMs": 313266,
+      "addedAt": "2022-06-01T06:32:18Z",
+      "spotifyUrl": "https://open.spotify.com/track/35592qATAP1u72mO9oelLc"
+    },
+    {
+      "id": "6snYsavG9vq3C7RGN98dst",
+      "name": "Gang Signs (feat. ScHoolboy Q)",
+      "artists": [
+        "Freddie Gibbs",
+        "ScHoolboy Q"
+      ],
+      "album": "Gang Signs (feat. ScHoolboy Q)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730fc970a0bab1139bb7cddc31",
+      "releaseDate": "2021-02-05",
+      "durationMs": 166840,
+      "addedAt": "2022-06-01T06:32:21Z",
+      "spotifyUrl": "https://open.spotify.com/track/6snYsavG9vq3C7RGN98dst"
+    },
+    {
+      "id": "5LOiuvbH62YGtnwe6Ltt4T",
+      "name": "Mirror",
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "album": "Mr. Morale & The Big Steppers",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f30764d5fa1e439ad6a7742f",
+      "releaseDate": "2022-05-13",
+      "durationMs": 256006,
+      "addedAt": "2022-06-01T06:32:23Z",
+      "spotifyUrl": "https://open.spotify.com/track/5LOiuvbH62YGtnwe6Ltt4T"
+    },
+    {
+      "id": "7zvfDihYiJ8RQ1nRcpKBF5",
+      "name": "Mr. Morale",
+      "artists": [
+        "Kendrick Lamar",
+        "Tanna Leone"
+      ],
+      "album": "Mr. Morale & The Big Steppers",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f30764d5fa1e439ad6a7742f",
+      "releaseDate": "2022-05-13",
+      "durationMs": 210841,
+      "addedAt": "2022-06-01T06:32:27Z",
+      "spotifyUrl": "https://open.spotify.com/track/7zvfDihYiJ8RQ1nRcpKBF5"
+    },
+    {
+      "id": "19Fg3WrTfo35Ji3PtfZE6J",
+      "name": "Auntie Diaries",
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "album": "Mr. Morale & The Big Steppers",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f30764d5fa1e439ad6a7742f",
+      "releaseDate": "2022-05-13",
+      "durationMs": 281069,
+      "addedAt": "2022-06-01T06:32:29Z",
+      "spotifyUrl": "https://open.spotify.com/track/19Fg3WrTfo35Ji3PtfZE6J"
+    },
+    {
+      "id": "0YeUVm23SAkUruwEx9LWnt",
+      "name": "Savior",
+      "artists": [
+        "Kendrick Lamar",
+        "Baby Keem",
+        "Sam Dew"
+      ],
+      "album": "Mr. Morale & The Big Steppers",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f30764d5fa1e439ad6a7742f",
+      "releaseDate": "2022-05-13",
+      "durationMs": 224466,
+      "addedAt": "2022-06-01T06:32:31Z",
+      "spotifyUrl": "https://open.spotify.com/track/0YeUVm23SAkUruwEx9LWnt"
+    },
+    {
+      "id": "401160izncPtca3CmX3dvM",
+      "name": "Purple Hearts",
+      "artists": [
+        "Kendrick Lamar",
+        "Summer Walker",
+        "Ghostface Killah"
+      ],
+      "album": "Mr. Morale & The Big Steppers",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f30764d5fa1e439ad6a7742f",
+      "releaseDate": "2022-05-13",
+      "durationMs": 329295,
+      "addedAt": "2022-06-01T06:32:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/401160izncPtca3CmX3dvM"
+    },
+    {
+      "id": "05zd5Nv0e02ZqrlC8A2cwx",
+      "name": "United In Grief",
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "album": "Mr. Morale & The Big Steppers",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f30764d5fa1e439ad6a7742f",
+      "releaseDate": "2022-05-13",
+      "durationMs": 255377,
+      "addedAt": "2022-06-01T06:32:37Z",
+      "spotifyUrl": "https://open.spotify.com/track/05zd5Nv0e02ZqrlC8A2cwx"
+    },
+    {
+      "id": "4xIhSUJantE6BMl3u8dtCJ",
+      "name": "Father Time (feat. Sampha)",
+      "artists": [
+        "Kendrick Lamar",
+        "Sampha"
+      ],
+      "album": "Mr. Morale & The Big Steppers",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f30764d5fa1e439ad6a7742f",
+      "releaseDate": "2022-05-13",
+      "durationMs": 222497,
+      "addedAt": "2022-06-01T06:32:40Z",
+      "spotifyUrl": "https://open.spotify.com/track/4xIhSUJantE6BMl3u8dtCJ"
+    },
+    {
+      "id": "6gI9b2VsoWhjhIuIeToDVs",
+      "name": "Die Hard",
+      "artists": [
+        "Kendrick Lamar",
+        "Blxst",
+        "Amanda Reifer"
+      ],
+      "album": "Mr. Morale & The Big Steppers",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f30764d5fa1e439ad6a7742f",
+      "releaseDate": "2022-05-13",
+      "durationMs": 239026,
+      "addedAt": "2022-06-01T06:32:42Z",
+      "spotifyUrl": "https://open.spotify.com/track/6gI9b2VsoWhjhIuIeToDVs"
+    },
+    {
+      "id": "2GYHyAoLWpkxLVa4oYTVko",
+      "name": "Alors on danse - Radio Edit",
+      "artists": [
+        "Stromae"
+      ],
+      "album": "Cheese",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ae373174b14e3eac81554402",
+      "releaseDate": "2010-01-01",
+      "durationMs": 206066,
+      "addedAt": "2022-06-01T06:32:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/2GYHyAoLWpkxLVa4oYTVko"
+    },
+    {
+      "id": "2aQ8NyRJcsQFgb8jwUil90",
+      "name": "Que Bandeira",
+      "artists": [
+        "Evinha"
+      ],
+      "album": "Cartão Postal",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a5e994914c15f75d998d7870",
+      "releaseDate": "1971-01-05",
+      "durationMs": 149420,
+      "addedAt": "2022-06-01T06:33:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/2aQ8NyRJcsQFgb8jwUil90"
+    },
+    {
+      "id": "5MMW4CZsZiZt2iuqAXzzWC",
+      "name": "The Heart Part 5",
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "album": "The Heart Part 5",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27389877ffdd584dc9b7168044b",
+      "releaseDate": "2022-05-08",
+      "durationMs": 332228,
+      "addedAt": "2022-06-01T06:33:07Z",
+      "spotifyUrl": "https://open.spotify.com/track/5MMW4CZsZiZt2iuqAXzzWC"
+    },
+    {
+      "id": "1Q1onoQM04M590VO7aLOyt",
+      "name": "Spiritual State",
+      "artists": [
+        "Nujabes",
+        "The Champloo"
+      ],
+      "album": "Spiritual State",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e69089328f6c1973040ba7ca",
+      "releaseDate": "2022-04-22",
+      "durationMs": 417506,
+      "addedAt": "2022-06-01T06:33:11Z",
+      "spotifyUrl": "https://open.spotify.com/track/1Q1onoQM04M590VO7aLOyt"
+    },
+    {
+      "id": "26qaiAmkELbplFdT9jQu2h",
+      "name": "F.I.L.O (12inch Ver.)",
+      "artists": [
+        "Nujabes",
+        "Shing02"
+      ],
+      "album": "F.I.L.O (First In Last Out) [12inch Ver.]",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d40a254f91f352153ce8f3b4",
+      "releaseDate": "2003-01-01",
+      "durationMs": 214084,
+      "addedAt": "2022-06-01T06:33:13Z",
+      "spotifyUrl": "https://open.spotify.com/track/26qaiAmkELbplFdT9jQu2h"
+    },
+    {
+      "id": "4rnj9LIIotxPIe9qih7tjb",
+      "name": "Cookie Chips",
+      "artists": [
+        "Rejjie Snow",
+        "MF DOOM",
+        "Cam O'bi"
+      ],
+      "album": "Cookie Chips",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fb913ff4d22b3a559b3dbe3d",
+      "releaseDate": "2020-07-13",
+      "durationMs": 259906,
+      "addedAt": "2022-06-01T06:33:15Z",
+      "spotifyUrl": "https://open.spotify.com/track/4rnj9LIIotxPIe9qih7tjb"
+    },
+    {
+      "id": "7050rrS8ipHBjWmNV7PpXs",
+      "name": "Egyptian Luvr (feat. Aminé and Dana Williams)",
+      "artists": [
+        "Rejjie Snow",
+        "Aminé",
+        "Dana Williams"
+      ],
+      "album": "Dear Annie, Pt. 1",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27306d7fcf8db30d916700dbd21",
+      "releaseDate": "2018-01-17",
+      "durationMs": 256613,
+      "addedAt": "2022-06-01T06:33:18Z",
+      "spotifyUrl": "https://open.spotify.com/track/7050rrS8ipHBjWmNV7PpXs"
+    },
+    {
+      "id": "47v4uUtj5AukJmCbMq4Kry",
+      "name": "Freeze Tag (feat. Phoelix)",
+      "artists": [
+        "Terrace Martin",
+        "Robert Glasper",
+        "9th Wonder",
+        "Kamasi Washington",
+        "Dinner Party",
+        "Phoelix"
+      ],
+      "album": "Dinner Party",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735557786a9c1b65b81c018551",
+      "releaseDate": "2020-07-10",
+      "durationMs": 191936,
+      "addedAt": "2022-06-01T06:33:55Z",
+      "spotifyUrl": "https://open.spotify.com/track/47v4uUtj5AukJmCbMq4Kry"
+    },
+    {
+      "id": "1kKLWkqyZEnrOd5tBYYCUn",
+      "name": "Afro Blue - 9th Wonder's Blue Light Basement Remix",
+      "artists": [
+        "Robert Glasper",
+        "Erykah Badu",
+        "Phonte",
+        "9th Wonder"
+      ],
+      "album": "Black Radio Recovered: The Remix EP",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b16ab32a11a8d212ec9cf88e",
+      "releaseDate": "2012-10-05",
+      "durationMs": 307440,
+      "addedAt": "2022-06-01T06:33:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/1kKLWkqyZEnrOd5tBYYCUn"
+    },
+    {
+      "id": "6gSalwEvVQfSFiqgwfyITp",
+      "name": "Luv (sic) pt2",
+      "artists": [
+        "Nujabes"
+      ],
+      "album": "Luv(sic) Hexalogy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731a1ba7785a4b91c8aee7a79c",
+      "releaseDate": "2015-12-09",
+      "durationMs": 273080,
+      "addedAt": "2022-06-01T06:34:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/6gSalwEvVQfSFiqgwfyITp"
+    },
+    {
+      "id": "52uoswu0lLoyL4zV0ITuA6",
+      "name": "CLOUD WALKER / LOVE BCK",
+      "artists": [
+        "MESSIAH!"
+      ],
+      "album": "PERFECT 7",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d94a623f71e49585d3df4ed2",
+      "releaseDate": "2022-03-24",
+      "durationMs": 155918,
+      "addedAt": "2022-06-01T06:34:02Z",
+      "spotifyUrl": "https://open.spotify.com/track/52uoswu0lLoyL4zV0ITuA6"
+    }
+  ]
+}

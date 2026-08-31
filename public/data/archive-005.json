@@ -1,0 +1,425 @@
+{
+  "id": "archive-005",
+  "number": 5,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2022-09-06T08:16:15Z",
+    "latest": "2022-09-06T08:19:30Z"
+  },
+  "tracks": [
+    {
+      "id": "7hgTD3nmWLbF58Rsugc27d",
+      "name": "BREEZIN'",
+      "artists": [
+        "Masayoshi Takanaka"
+      ],
+      "album": "オン・ギター",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273863f4540e18c97fd196d1116",
+      "releaseDate": "1994",
+      "durationMs": 350000,
+      "addedAt": "2022-09-06T08:16:15Z",
+      "spotifyUrl": "https://open.spotify.com/track/7hgTD3nmWLbF58Rsugc27d"
+    },
+    {
+      "id": "1Xtz05nIgJiEYdncfd1w8h",
+      "name": "Soledad y el Mar (feat. Los Macorinos)",
+      "artists": [
+        "Natalia Lafourcade",
+        "Los Macorinos"
+      ],
+      "album": "Musas (Un Homenaje al Folclore Latinoamericano en Manos de Los Macorinos, Vol. 1)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311f5f38824cdfb0a69c7fa07",
+      "releaseDate": "2017-05-05",
+      "durationMs": 214546,
+      "addedAt": "2022-09-06T08:16:22Z",
+      "spotifyUrl": "https://open.spotify.com/track/1Xtz05nIgJiEYdncfd1w8h"
+    },
+    {
+      "id": "6IbPLjFp8fd0x4vwRnwBEG",
+      "name": "I Know",
+      "artists": [
+        "Gipsy Kings"
+      ],
+      "album": "Rare and Unplugged",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737d8550788f33ebb001b27242",
+      "releaseDate": "2003",
+      "durationMs": 194960,
+      "addedAt": "2022-09-06T08:16:27Z",
+      "spotifyUrl": "https://open.spotify.com/track/6IbPLjFp8fd0x4vwRnwBEG"
+    },
+    {
+      "id": "6J2ufwDZjaXQTtzAPIq1w7",
+      "name": "Bossamba",
+      "artists": [
+        "Gipsy Kings"
+      ],
+      "album": "Mosaïque",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739c90ed4b52bdb183c60669ad",
+      "releaseDate": "1989-05-01",
+      "durationMs": 198253,
+      "addedAt": "2022-09-06T08:16:40Z",
+      "spotifyUrl": "https://open.spotify.com/track/6J2ufwDZjaXQTtzAPIq1w7"
+    },
+    {
+      "id": "6I3LXAGlKejmgxXloLPiGK",
+      "name": "A Mi Manera (Comme D'Habitude)",
+      "artists": [
+        "Gipsy Kings"
+      ],
+      "album": "Gipsy Kings",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736e7cb1429534f0d21133b714",
+      "releaseDate": "1987-08-24",
+      "durationMs": 231533,
+      "addedAt": "2022-09-06T08:16:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/6I3LXAGlKejmgxXloLPiGK"
+    },
+    {
+      "id": "0QSlgbKl5MZW7AbjTbj8jw",
+      "name": "Submarine",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "Tako Tsubo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273389ffd99d51037a6f0a256f5",
+      "releaseDate": "2021-03-26",
+      "durationMs": 285574,
+      "addedAt": "2022-09-06T08:16:50Z",
+      "spotifyUrl": "https://open.spotify.com/track/0QSlgbKl5MZW7AbjTbj8jw"
+    },
+    {
+      "id": "49PyCCLOdJi0jHkGyyY2vv",
+      "name": "Sonate Pacifique",
+      "artists": [
+        "L'Impératrice",
+        "Isaac Delusion"
+      ],
+      "album": "Sonate Pacifique",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e50378ba73fb513daf8d6c95",
+      "releaseDate": "2014-09-22",
+      "durationMs": 348944,
+      "addedAt": "2022-09-06T08:16:55Z",
+      "spotifyUrl": "https://open.spotify.com/track/49PyCCLOdJi0jHkGyyY2vv"
+    },
+    {
+      "id": "3pr0y5h4MkBngy6gyozLDV",
+      "name": "Voodoo?",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "Tako Tsubo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273389ffd99d51037a6f0a256f5",
+      "releaseDate": "2021-03-26",
+      "durationMs": 255746,
+      "addedAt": "2022-09-06T08:17:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/3pr0y5h4MkBngy6gyozLDV"
+    },
+    {
+      "id": "3F5CgOj3wFlRv51JsHbxhe",
+      "name": "Jimmy Cooks (feat. 21 Savage)",
+      "artists": [
+        "Drake",
+        "21 Savage"
+      ],
+      "album": "Honestly, Nevermind",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738dc0d801766a5aa6a33cbe37",
+      "releaseDate": "2022-06-17",
+      "durationMs": 218364,
+      "addedAt": "2022-09-06T08:17:15Z",
+      "spotifyUrl": "https://open.spotify.com/track/3F5CgOj3wFlRv51JsHbxhe"
+    },
+    {
+      "id": "1q8DwZtQen5fvyB7cKbShC",
+      "name": "Walkin",
+      "artists": [
+        "Denzel Curry"
+      ],
+      "album": "Melt My Eyez See Your Future",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735b924aa009b61b6b9d831eec",
+      "releaseDate": "2022-03-25",
+      "durationMs": 280000,
+      "addedAt": "2022-09-06T08:17:22Z",
+      "spotifyUrl": "https://open.spotify.com/track/1q8DwZtQen5fvyB7cKbShC"
+    },
+    {
+      "id": "5Mi3Qt2bXMqXRG2vnmp4a0",
+      "name": "Belize (feat. MF DOOM)",
+      "artists": [
+        "Danger Mouse",
+        "Black Thought",
+        "MF DOOM"
+      ],
+      "album": "Cheat Codes",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737d79b9c2cacc84b20de67f80",
+      "releaseDate": "2022-08-12",
+      "durationMs": 234333,
+      "addedAt": "2022-09-06T08:17:26Z",
+      "spotifyUrl": "https://open.spotify.com/track/5Mi3Qt2bXMqXRG2vnmp4a0"
+    },
+    {
+      "id": "7oFiFPltiQTBqVutyiSwvE",
+      "name": "Figaro",
+      "artists": [
+        "Madvillain",
+        "Madlib",
+        "MF DOOM"
+      ],
+      "album": "Madvillainy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733e3bb917af94bd82074c5d47",
+      "releaseDate": "2004-03-24",
+      "durationMs": 145706,
+      "addedAt": "2022-09-06T08:17:33Z",
+      "spotifyUrl": "https://open.spotify.com/track/7oFiFPltiQTBqVutyiSwvE"
+    },
+    {
+      "id": "20NMLVE99eTdmfQ0r40XSC",
+      "name": "Le Baron Rouge",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "L'impératrice",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b9ef2c8906fef7d69f11ab5f",
+      "releaseDate": "2012-10-22",
+      "durationMs": 276765,
+      "addedAt": "2022-09-06T08:17:38Z",
+      "spotifyUrl": "https://open.spotify.com/track/20NMLVE99eTdmfQ0r40XSC"
+    },
+    {
+      "id": "6UTDgh5ezazezpAe4HmAos",
+      "name": "Paris",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "Matahari (French Version)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735a27a28ae29e671a7a967657",
+      "releaseDate": "2018-03-02",
+      "durationMs": 236653,
+      "addedAt": "2022-09-06T08:17:54Z",
+      "spotifyUrl": "https://open.spotify.com/track/6UTDgh5ezazezpAe4HmAos"
+    },
+    {
+      "id": "3vDJUlhCEqZLyRQVbsWsEI",
+      "name": "Odyssée",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "Odyssée - EP",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27391d5af63d5acc752950d5927",
+      "releaseDate": "2015-10-12",
+      "durationMs": 288528,
+      "addedAt": "2022-09-06T08:17:59Z",
+      "spotifyUrl": "https://open.spotify.com/track/3vDJUlhCEqZLyRQVbsWsEI"
+    },
+    {
+      "id": "76fdtNvwn6hkOmBvgOom7L",
+      "name": "Parfum thérémine",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "Odyssée - EP",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27391d5af63d5acc752950d5927",
+      "releaseDate": "2015-10-12",
+      "durationMs": 304993,
+      "addedAt": "2022-09-06T08:18:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/76fdtNvwn6hkOmBvgOom7L"
+    },
+    {
+      "id": "2La21GqU4fKTQLcfLxTeoz",
+      "name": "Agitations tropicales",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "Odyssée - EP",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27391d5af63d5acc752950d5927",
+      "releaseDate": "2015-10-12",
+      "durationMs": 248892,
+      "addedAt": "2022-09-06T08:18:08Z",
+      "spotifyUrl": "https://open.spotify.com/track/2La21GqU4fKTQLcfLxTeoz"
+    },
+    {
+      "id": "00mO8JKk2wQ7VqdPcY1r4O",
+      "name": "Peur des filles",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "Tako Tsubo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273389ffd99d51037a6f0a256f5",
+      "releaseDate": "2021-03-26",
+      "durationMs": 208805,
+      "addedAt": "2022-09-06T08:18:13Z",
+      "spotifyUrl": "https://open.spotify.com/track/00mO8JKk2wQ7VqdPcY1r4O"
+    },
+    {
+      "id": "4h9HP7OvITCE1vapKTSkck",
+      "name": "Off to the Side",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "Tako Tsubo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273389ffd99d51037a6f0a256f5",
+      "releaseDate": "2021-03-26",
+      "durationMs": 268179,
+      "addedAt": "2022-09-06T08:18:27Z",
+      "spotifyUrl": "https://open.spotify.com/track/4h9HP7OvITCE1vapKTSkck"
+    },
+    {
+      "id": "1F2JdXzAJRfCYNhIelTuVU",
+      "name": "Hématome",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "Tako Tsubo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273389ffd99d51037a6f0a256f5",
+      "releaseDate": "2021-03-26",
+      "durationMs": 218813,
+      "addedAt": "2022-09-06T08:18:31Z",
+      "spotifyUrl": "https://open.spotify.com/track/1F2JdXzAJRfCYNhIelTuVU"
+    },
+    {
+      "id": "1GmIFHYT3N2V3G0MoYhEil",
+      "name": "Melt Session #1 [Feat. Robert Glasper]",
+      "artists": [
+        "Denzel Curry",
+        "Robert Glasper"
+      ],
+      "album": "Melt My Eyez See Your Future",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735b924aa009b61b6b9d831eec",
+      "releaseDate": "2022-03-25",
+      "durationMs": 241240,
+      "addedAt": "2022-09-06T08:18:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/1GmIFHYT3N2V3G0MoYhEil"
+    },
+    {
+      "id": "3rMQe2is2UAxuhtFjRyYyz",
+      "name": "Mental [Feat. Saul Williams & Bridget Perez]",
+      "artists": [
+        "Denzel Curry",
+        "Saul Williams",
+        "Bridget Perez"
+      ],
+      "album": "Melt My Eyez See Your Future",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735b924aa009b61b6b9d831eec",
+      "releaseDate": "2022-03-25",
+      "durationMs": 146840,
+      "addedAt": "2022-09-06T08:18:41Z",
+      "spotifyUrl": "https://open.spotify.com/track/3rMQe2is2UAxuhtFjRyYyz"
+    },
+    {
+      "id": "1EzmTNUSKb0J5eXGgrP6wy",
+      "name": "Times Is Rough",
+      "artists": [
+        "Black Soprano Family",
+        "Benny The Butcher",
+        "DJ Premier",
+        "Heem B$F",
+        "Rick Hyde"
+      ],
+      "album": "Times Is Rough",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f15f1b350a7ae7a1710cec74",
+      "releaseDate": "2022-08-05",
+      "durationMs": 201128,
+      "addedAt": "2022-09-06T08:18:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/1EzmTNUSKb0J5eXGgrP6wy"
+    },
+    {
+      "id": "6z4n862KhNJNWDYSn4aLL5",
+      "name": "Anomalie bleue",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "Tako Tsubo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273389ffd99d51037a6f0a256f5",
+      "releaseDate": "2021-03-26",
+      "durationMs": 232178,
+      "addedAt": "2022-09-06T08:18:52Z",
+      "spotifyUrl": "https://open.spotify.com/track/6z4n862KhNJNWDYSn4aLL5"
+    },
+    {
+      "id": "0L3XCv9i9IHs8cJEVhsJ3J",
+      "name": "More Than A Woman - SG's Paradise Edit",
+      "artists": [
+        "Bee Gees",
+        "SG Lewis"
+      ],
+      "album": "More Than A Woman (SG's Paradise Edit)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bd8e2af160f4664d666c4132",
+      "releaseDate": "2021-06-25",
+      "durationMs": 357936,
+      "addedAt": "2022-09-06T08:18:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/0L3XCv9i9IHs8cJEVhsJ3J"
+    },
+    {
+      "id": "03yMZBtC3QxyK7ttlBLeme",
+      "name": "A.T.H.F. (Aqua Teen Hunger Force)",
+      "artists": [
+        "DANGERDOOM",
+        "MF DOOM",
+        "Danger Mouse"
+      ],
+      "album": "THE MOUSE & THE MASK",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736c3fb85147fcf2972923cf2d",
+      "releaseDate": "2005-10-17",
+      "durationMs": 183413,
+      "addedAt": "2022-09-06T08:19:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/03yMZBtC3QxyK7ttlBLeme"
+    },
+    {
+      "id": "3bPqgo3RO3ZESEpyCdNsnr",
+      "name": "Sofa King",
+      "artists": [
+        "DANGERDOOM",
+        "MF DOOM",
+        "Danger Mouse"
+      ],
+      "album": "THE MOUSE & THE MASK",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736c3fb85147fcf2972923cf2d",
+      "releaseDate": "2005-10-17",
+      "durationMs": 177066,
+      "addedAt": "2022-09-06T08:19:09Z",
+      "spotifyUrl": "https://open.spotify.com/track/3bPqgo3RO3ZESEpyCdNsnr"
+    },
+    {
+      "id": "2fhYmsDLFnntLFlzSom4x2",
+      "name": "El Chupa Nibre",
+      "artists": [
+        "DANGERDOOM",
+        "MF DOOM",
+        "Danger Mouse"
+      ],
+      "album": "THE MOUSE & THE MASK",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736c3fb85147fcf2972923cf2d",
+      "releaseDate": "2005-10-17",
+      "durationMs": 156253,
+      "addedAt": "2022-09-06T08:19:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/2fhYmsDLFnntLFlzSom4x2"
+    },
+    {
+      "id": "0yDO4PTWyBeGtR35Q3Qt1a",
+      "name": "El Balajú / Serenata Huasteca",
+      "artists": [
+        "Natalia Lafourcade",
+        "Los Cojolites"
+      ],
+      "album": "Un Canto por México, Vol. 1",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736b949365b6d447dc8ee21ce0",
+      "releaseDate": "2020-05-08",
+      "durationMs": 268813,
+      "addedAt": "2022-09-06T08:19:21Z",
+      "spotifyUrl": "https://open.spotify.com/track/0yDO4PTWyBeGtR35Q3Qt1a"
+    },
+    {
+      "id": "2wGSgTmgSF3xjRrHkTc25R",
+      "name": "Hate It Or Love It",
+      "artists": [
+        "The Game",
+        "50 Cent"
+      ],
+      "album": "The Documentary",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b1d860ab1ba847e778b2796d",
+      "releaseDate": "2005",
+      "durationMs": 206400,
+      "addedAt": "2022-09-06T08:19:30Z",
+      "spotifyUrl": "https://open.spotify.com/track/2wGSgTmgSF3xjRrHkTc25R"
+    }
+  ]
+}

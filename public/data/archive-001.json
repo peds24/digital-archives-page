@@ -1,0 +1,421 @@
+{
+  "id": "archive-001",
+  "number": 1,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2026-04-29T17:58:28Z",
+    "latest": "2026-04-29T17:58:28Z"
+  },
+  "tracks": [
+    {
+      "id": "4qS2KPWvsQzLvRa9oCHw41",
+      "name": "You (feat. Travis Scott)",
+      "artists": [
+        "Don Toliver",
+        "Travis Scott"
+      ],
+      "album": "Life of a DON",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27372951fef63d89bee5e8224c7",
+      "releaseDate": "2021-10-08",
+      "durationMs": 213636,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/4qS2KPWvsQzLvRa9oCHw41"
+    },
+    {
+      "id": "4pNT8XTKWb2vhcsqwzdXCT",
+      "name": "Survival Tactics",
+      "artists": [
+        "Joey Bada$$",
+        "Capital Steez"
+      ],
+      "album": "1999",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fcd3724fba954e6104e4530d",
+      "releaseDate": "2012-06-12",
+      "durationMs": 202784,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/4pNT8XTKWb2vhcsqwzdXCT"
+    },
+    {
+      "id": "4gh0ZnHzaTMT1sDga7Ek0N",
+      "name": "sdp interlude",
+      "artists": [
+        "Travis Scott"
+      ],
+      "album": "Birds In The Trap Sing McKnight",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738752a7355996e64709247c53",
+      "releaseDate": "2016-09-16",
+      "durationMs": 191622,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/4gh0ZnHzaTMT1sDga7Ek0N"
+    },
+    {
+      "id": "2HSmyk2qMN8WQjuGhaQgCk",
+      "name": "Champagne Poetry",
+      "artists": [
+        "Drake"
+      ],
+      "album": "Certified Lover Boy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cd945b4e3de57edd28481a3f",
+      "releaseDate": "2021-09-03",
+      "durationMs": 336511,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/2HSmyk2qMN8WQjuGhaQgCk"
+    },
+    {
+      "id": "11pEKMLmavDu8fxOB5QjbQ",
+      "name": "Pipe Down",
+      "artists": [
+        "Drake"
+      ],
+      "album": "Certified Lover Boy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cd945b4e3de57edd28481a3f",
+      "releaseDate": "2021-09-03",
+      "durationMs": 205721,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/11pEKMLmavDu8fxOB5QjbQ"
+    },
+    {
+      "id": "4s7QLoImIwmPi9L6dq1nVW",
+      "name": "TSU",
+      "artists": [
+        "Drake"
+      ],
+      "album": "Certified Lover Boy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cd945b4e3de57edd28481a3f",
+      "releaseDate": "2021-09-03",
+      "durationMs": 308755,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/4s7QLoImIwmPi9L6dq1nVW"
+    },
+    {
+      "id": "40iJIUlhi6renaREYGeIDS",
+      "name": "Fair Trade (with Travis Scott)",
+      "artists": [
+        "Drake",
+        "Travis Scott"
+      ],
+      "album": "Certified Lover Boy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cd945b4e3de57edd28481a3f",
+      "releaseDate": "2021-09-03",
+      "durationMs": 291175,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/40iJIUlhi6renaREYGeIDS"
+    },
+    {
+      "id": "6jy9yJfgCsMHdu2Oz4BGKX",
+      "name": "Papi’s Home",
+      "artists": [
+        "Drake"
+      ],
+      "album": "Certified Lover Boy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cd945b4e3de57edd28481a3f",
+      "releaseDate": "2021-09-03",
+      "durationMs": 178623,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/6jy9yJfgCsMHdu2Oz4BGKX"
+    },
+    {
+      "id": "7eQyTHRRxYkyUh8JRNOw09",
+      "name": "Love Won't Let Me Wait",
+      "artists": [
+        "Major Harris"
+      ],
+      "album": "My Way",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e1756b260751cb473e80c974",
+      "releaseDate": "1975",
+      "durationMs": 333093,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/7eQyTHRRxYkyUh8JRNOw09"
+    },
+    {
+      "id": "2GPTiPR5db727wu1tFvFt4",
+      "name": "New Again",
+      "artists": [
+        "Kanye West"
+      ],
+      "album": "Donda",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736ba1cffc9b2c5469503430b3",
+      "releaseDate": "2021-08-29",
+      "durationMs": 183296,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/2GPTiPR5db727wu1tFvFt4"
+    },
+    {
+      "id": "4QbVWCAkh9Z1G041cQAiZ9",
+      "name": "Game Ova",
+      "artists": [
+        "tobi lou"
+      ],
+      "album": "Game Ova",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27372dbe7417a912b2c9d17f90e",
+      "releaseDate": "2017-06-16",
+      "durationMs": 240000,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/4QbVWCAkh9Z1G041cQAiZ9"
+    },
+    {
+      "id": "4bMo9lJmh3jNTzfmfQ1YcL",
+      "name": "ODDTAXI",
+      "artists": [
+        "スカートとPUNPEE",
+        "スカート",
+        "PUNPEE"
+      ],
+      "album": "ODDTAXI",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273581a1034d2269329e1d11be8",
+      "releaseDate": "2021-04-07",
+      "durationMs": 203364,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/4bMo9lJmh3jNTzfmfQ1YcL"
+    },
+    {
+      "id": "5SxlUF7J8tyFIEF22EomeP",
+      "name": "Pothole (feat. Jaden Smith)",
+      "artists": [
+        "Tyler, The Creator",
+        "Alexander Brettin",
+        "Jaden"
+      ],
+      "album": "Flower Boy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738940ac99f49e44f59e6f7fb3",
+      "releaseDate": "2017-07-21",
+      "durationMs": 237000,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/5SxlUF7J8tyFIEF22EomeP"
+    },
+    {
+      "id": "3KQh7ppbDxVjdJBtjvP5BU",
+      "name": "Raid (feat. MED)",
+      "artists": [
+        "Madvillain",
+        "Madlib",
+        "MF DOOM",
+        "MED"
+      ],
+      "album": "Madvillainy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733e3bb917af94bd82074c5d47",
+      "releaseDate": "2004-03-24",
+      "durationMs": 150520,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/3KQh7ppbDxVjdJBtjvP5BU"
+    },
+    {
+      "id": "0V3nTTKA24XKCayp8igU4l",
+      "name": "Curls",
+      "artists": [
+        "Madvillain",
+        "Madlib",
+        "MF DOOM"
+      ],
+      "album": "Madvillainy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733e3bb917af94bd82074c5d47",
+      "releaseDate": "2004-03-24",
+      "durationMs": 95506,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/0V3nTTKA24XKCayp8igU4l"
+    },
+    {
+      "id": "63qqAXlMFDKO9gkIMiq3KH",
+      "name": "Rainbows",
+      "artists": [
+        "Madvillain",
+        "Madlib",
+        "MF DOOM"
+      ],
+      "album": "Madvillainy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733e3bb917af94bd82074c5d47",
+      "releaseDate": "2004-03-24",
+      "durationMs": 171840,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/63qqAXlMFDKO9gkIMiq3KH"
+    },
+    {
+      "id": "16Ah4QqH4mgYVXqfC4mdSd",
+      "name": "LUV",
+      "artists": [
+        "Tory Lanez"
+      ],
+      "album": "I Told You",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739f7ce2227875fd3d645fb5d6",
+      "releaseDate": "2016-08-19",
+      "durationMs": 228640,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/16Ah4QqH4mgYVXqfC4mdSd"
+    },
+    {
+      "id": "4wshBvO4qMrxJnPlfkeUWi",
+      "name": "Bitch, Don’t Kill My Vibe - Remix",
+      "artists": [
+        "Kendrick Lamar",
+        "JAŸ-Z"
+      ],
+      "album": "good kid, m.A.A.d city (Deluxe)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27378de8b28de36a74afc0348b5",
+      "releaseDate": "2012-10-22",
+      "durationMs": 278586,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/4wshBvO4qMrxJnPlfkeUWi"
+    },
+    {
+      "id": "6kk47BIRgA2MrQSVtZynwU",
+      "name": "Get 'Em Up",
+      "artists": [
+        "Anderson .Paak"
+      ],
+      "album": "Venice",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273575d35bb37c74b64c7308ed5",
+      "releaseDate": "2014-10-28",
+      "durationMs": 248659,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/6kk47BIRgA2MrQSVtZynwU"
+    },
+    {
+      "id": "66YJddDOMyb9oj7vqI9CqU",
+      "name": "Reality Check",
+      "artists": [
+        "Binary Star",
+        "Senim",
+        "Onemanarmy",
+        "One Be Lo"
+      ],
+      "album": "Masters of the Universe",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273615eafbb6863a9774da87100",
+      "releaseDate": "2017-06-02",
+      "durationMs": 241394,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/66YJddDOMyb9oj7vqI9CqU"
+    },
+    {
+      "id": "5YOlr46EwaH34hfN6r4vXR",
+      "name": "Trap Anthem",
+      "artists": [
+        "MC Virgins",
+        "Yun Head"
+      ],
+      "album": "Trap Anthem",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733065f92e067a18d3a4e2ff3d",
+      "releaseDate": "2020-02-25",
+      "durationMs": 133017,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/5YOlr46EwaH34hfN6r4vXR"
+    },
+    {
+      "id": "3FYDqY5BRtx3IVSaiQZSze",
+      "name": "悲しみがとまらない　I CAN'T STOP THE LONELINESS",
+      "artists": [
+        "Anri"
+      ],
+      "album": "Timely!!",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cfd93d36fe2365f9436587d1",
+      "releaseDate": "1983-12-05",
+      "durationMs": 263706,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/3FYDqY5BRtx3IVSaiQZSze"
+    },
+    {
+      "id": "6rqj2zeKhLy3exkuFi6mSz",
+      "name": "Answer",
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "album": "Wolf",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273913f492347e1585748450855",
+      "releaseDate": "2013-04-01",
+      "durationMs": 230090,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/6rqj2zeKhLy3exkuFi6mSz"
+    },
+    {
+      "id": "6gpZSI0xEMTzleBc5ykOVA",
+      "name": "Heart Of The City (Ain't No Love)",
+      "artists": [
+        "JAŸ-Z"
+      ],
+      "album": "The Blueprint (Explicit Version)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731b3f6f34954118500ed3e7a7",
+      "releaseDate": "2001-09-11",
+      "durationMs": 223240,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/6gpZSI0xEMTzleBc5ykOVA"
+    },
+    {
+      "id": "5g6GlkNDtJLnRo17t8gDIx",
+      "name": "ラストチャプター",
+      "artists": [
+        "nano.RIPE"
+      ],
+      "album": "ラストチャプター",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732d12967d3ad1ac5a600e27fa",
+      "releaseDate": "2020-04-22",
+      "durationMs": 266085,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/5g6GlkNDtJLnRo17t8gDIx"
+    },
+    {
+      "id": "5orAKrVdrk1kPtTa7zNvYL",
+      "name": "unravel",
+      "artists": [
+        "TK from Ling tosite sigure"
+      ],
+      "album": "Fantastic Magic",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273af2209a332eac6dbce830e59",
+      "releaseDate": "2014-08-27",
+      "durationMs": 238360,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/5orAKrVdrk1kPtTa7zNvYL"
+    },
+    {
+      "id": "7HAkrW8JUYoVR9dXwb6Uku",
+      "name": "ホタルノヒカリ",
+      "artists": [
+        "Ikimonogakari"
+      ],
+      "album": "Hajimarinouta",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f8f3f41a0c628304e797698c",
+      "releaseDate": "2009-12-23",
+      "durationMs": 242293,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/7HAkrW8JUYoVR9dXwb6Uku"
+    },
+    {
+      "id": "3qdGPi6cpcOSAc1QzKFPmC",
+      "name": "Will You Love Me Tomorrow?",
+      "artists": [
+        "Smokey Robinson"
+      ],
+      "album": "Smokey",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f0a8ebd1ec34e09ba1885f2c",
+      "releaseDate": "1973-06-19",
+      "durationMs": 280306,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/3qdGPi6cpcOSAc1QzKFPmC"
+    },
+    {
+      "id": "7q2cOMu2tKxclf9iXDateo",
+      "name": "O Pato - El Pato",
+      "artists": [
+        "Natalia Lafourcade"
+      ],
+      "album": "Casa",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a7024cecd0318047350768c7",
+      "releaseDate": "2005",
+      "durationMs": 129440,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/7q2cOMu2tKxclf9iXDateo"
+    },
+    {
+      "id": "2O7heTmxheKOe1T0jNBPd1",
+      "name": "Last Train Home",
+      "artists": [
+        "Pat Metheny Group"
+      ],
+      "album": "Still Life (Talking)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27346251d7f407e96e34407f16a",
+      "releaseDate": "1987",
+      "durationMs": 338186,
+      "addedAt": "2026-04-29T17:58:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/2O7heTmxheKOe1T0jNBPd1"
+    }
+  ]
+}

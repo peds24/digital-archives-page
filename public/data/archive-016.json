@@ -1,0 +1,410 @@
+{
+  "id": "archive-016",
+  "number": 16,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2024-06-10T03:13:47Z",
+    "latest": "2024-06-10T03:13:47Z"
+  },
+  "tracks": [
+    {
+      "id": "3a3IVG5G7EH6w2mAyxNIOV",
+      "name": "Nourish a Thug",
+      "artists": [
+        "Action Bronson"
+      ],
+      "album": "Nourish a Thug",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a1eb8915bd51f50f38cd9906",
+      "releaseDate": "2024-05-30",
+      "durationMs": 165225,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/3a3IVG5G7EH6w2mAyxNIOV"
+    },
+    {
+      "id": "3E0ulIRg5neojZkEgVM2B7",
+      "name": "Junebug (feat. JPEGMAFIA)",
+      "artists": [
+        "Raveena",
+        "JPEGMAFIA"
+      ],
+      "album": "Junebug (feat. JPEGMAFIA)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273df558f38e2668a310013e8f5",
+      "releaseDate": "2024-06-05",
+      "durationMs": 225384,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/3E0ulIRg5neojZkEgVM2B7"
+    },
+    {
+      "id": "3bZXzHX8CkbMytaM3VGY3e",
+      "name": "PACKAPUNCH (feat. Danny Brown)",
+      "artists": [
+        "Joey Valence & Brae",
+        "Danny Brown"
+      ],
+      "album": "PACKAPUNCH (feat. Danny Brown)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27366ec84247347b858bb475f9d",
+      "releaseDate": "2024-06-03",
+      "durationMs": 180580,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/3bZXzHX8CkbMytaM3VGY3e"
+    },
+    {
+      "id": "5J75NvHDMTbJtLqym6CXuI",
+      "name": "Do 2 Me (feat. Anderson .Paak & SiR)",
+      "artists": [
+        "KAYTRANADA",
+        "Anderson .Paak",
+        "SiR"
+      ],
+      "album": "TIMELESS",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b31eed6a2a5bbb6a88ed14e2",
+      "releaseDate": "2024-06-07",
+      "durationMs": 230823,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/5J75NvHDMTbJtLqym6CXuI"
+    },
+    {
+      "id": "48X4D1FYOShPz2VF3YdfCF",
+      "name": "House Of Cards",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "In Rainbows",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273de3c04b5fc750b68899b20a9",
+      "releaseDate": "2007-12-28",
+      "durationMs": 328293,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/48X4D1FYOShPz2VF3YdfCF"
+    },
+    {
+      "id": "02ppMPbg1OtEdHgoPqoqju",
+      "name": "Reckoner",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "In Rainbows",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273de3c04b5fc750b68899b20a9",
+      "releaseDate": "2007-12-28",
+      "durationMs": 290213,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/02ppMPbg1OtEdHgoPqoqju"
+    },
+    {
+      "id": "35YyxFpE0ZTOoqFx5bADW8",
+      "name": "Nude",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "In Rainbows",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273de3c04b5fc750b68899b20a9",
+      "releaseDate": "2007-12-28",
+      "durationMs": 255386,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/35YyxFpE0ZTOoqFx5bADW8"
+    },
+    {
+      "id": "2rtGaCAeYtmcIvuZsvgTf6",
+      "name": "How to Disappear Completely",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "Kid A",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736c7112082b63beefffe40151",
+      "releaseDate": "2000-10-02",
+      "durationMs": 356333,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/2rtGaCAeYtmcIvuZsvgTf6"
+    },
+    {
+      "id": "0wyDarPFfhOFRpaI5GRcNz",
+      "name": "Muchacha Ojos de Papel (En Vivo Estadio Vélez Sarsfield) (with Almendra)",
+      "artists": [
+        "Luis Alberto Spinetta",
+        "Almendra"
+      ],
+      "album": "Spinetta y Las Bandas Eternas",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273db8504f569e554a2453e3136",
+      "releaseDate": "2010-12-02",
+      "durationMs": 224320,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/0wyDarPFfhOFRpaI5GRcNz"
+    },
+    {
+      "id": "6qm7EdeXCXaH94oecn6FZZ",
+      "name": "Carrusel",
+      "artists": [
+        "NIA",
+        "Daniel, Me Estás Matando"
+      ],
+      "album": "PaloSanto",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27352913df70678eeeabaaef72d",
+      "releaseDate": "2023-10-06",
+      "durationMs": 174255,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/6qm7EdeXCXaH94oecn6FZZ"
+    },
+    {
+      "id": "6IDYKjOBK8zMyMqv2NQ9VL",
+      "name": "Si Tú Me Quisieras",
+      "artists": [
+        "Adrián Bello",
+        "Nia Vanie"
+      ],
+      "album": "Bailemos en la Sala",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735ee8db9c89ff2abc022b9517",
+      "releaseDate": "2022-06-23",
+      "durationMs": 261958,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/6IDYKjOBK8zMyMqv2NQ9VL"
+    },
+    {
+      "id": "6qoKAjU70Zn8qDF3NJ7mv5",
+      "name": "VIVA ESPAÑA !!!",
+      "artists": [
+        "Bb trickz"
+      ],
+      "album": "VIVA ESPAÑA !!!",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730affa8e755080c29e74db6b7",
+      "releaseDate": "2023-11-01",
+      "durationMs": 79022,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/6qoKAjU70Zn8qDF3NJ7mv5"
+    },
+    {
+      "id": "2fuYa3Lx06QQJAm0MjztKr",
+      "name": "Let Down",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "OK Computer",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+      "releaseDate": "1997-05-28",
+      "durationMs": 299560,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/2fuYa3Lx06QQJAm0MjztKr"
+    },
+    {
+      "id": "2CVV8PtUYYsux8XOzWkCP0",
+      "name": "Subterranean Homesick Alien",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "OK Computer",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+      "releaseDate": "1997-05-28",
+      "durationMs": 267693,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/2CVV8PtUYYsux8XOzWkCP0"
+    },
+    {
+      "id": "7c378mlmubSu7NGkLFa4sN",
+      "name": "Airbag",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "OK Computer",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+      "releaseDate": "1997-05-28",
+      "durationMs": 287880,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/7c378mlmubSu7NGkLFa4sN"
+    },
+    {
+      "id": "5XuU9htN358NTMCcqRvfDV",
+      "name": "Bullet Proof ... I Wish I Was",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "The Bends",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
+      "releaseDate": "1995-03-13",
+      "durationMs": 208733,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/5XuU9htN358NTMCcqRvfDV"
+    },
+    {
+      "id": "4pWIwnnqx8k01fuF95UMIg",
+      "name": "Bodysnatchers",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "In Rainbows",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273de3c04b5fc750b68899b20a9",
+      "releaseDate": "2007-12-28",
+      "durationMs": 242293,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/4pWIwnnqx8k01fuF95UMIg"
+    },
+    {
+      "id": "4wajJ1o7jWIg62YqpkHC7S",
+      "name": "Weird Fishes / Arpeggi",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "In Rainbows",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273de3c04b5fc750b68899b20a9",
+      "releaseDate": "2007-12-28",
+      "durationMs": 318186,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/4wajJ1o7jWIg62YqpkHC7S"
+    },
+    {
+      "id": "10nyNJ6zNy2YVYLrcwLccB",
+      "name": "No Surprises",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "OK Computer",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+      "releaseDate": "1997-05-28",
+      "durationMs": 229120,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/10nyNJ6zNy2YVYLrcwLccB"
+    },
+    {
+      "id": "0z1o5L7HJx562xZSATcIpY",
+      "name": "Exit Music (For A Film)",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "OK Computer",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+      "releaseDate": "1997-05-28",
+      "durationMs": 267186,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/0z1o5L7HJx562xZSATcIpY"
+    },
+    {
+      "id": "6LgJvl0Xdtc73RJ1mmpotq",
+      "name": "Paranoid Android",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "OK Computer",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+      "releaseDate": "1997-05-28",
+      "durationMs": 387213,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/6LgJvl0Xdtc73RJ1mmpotq"
+    },
+    {
+      "id": "7y63srdgJgD6JrnBgvi9A2",
+      "name": "1st samurai",
+      "artists": [
+        "Nujabes"
+      ],
+      "album": "samurai champloo music record departure",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27359ef99ed996b4e537ed2e6a3",
+      "releaseDate": "2004-06-23",
+      "durationMs": 193000,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/7y63srdgJgD6JrnBgvi9A2"
+    },
+    {
+      "id": "6AI3ezQ4o3HUoP6Dhudph3",
+      "name": "Not Like Us",
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "album": "Not Like Us",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731ea0c62b2339cbf493a999ad",
+      "releaseDate": "2024-05-04",
+      "durationMs": 274192,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/6AI3ezQ4o3HUoP6Dhudph3"
+    },
+    {
+      "id": "0YJ9FWWHn9EfnN0lHwbzvV",
+      "name": "Jigsaw Falling Into Place",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "In Rainbows",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273de3c04b5fc750b68899b20a9",
+      "releaseDate": "2007-12-28",
+      "durationMs": 248893,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/0YJ9FWWHn9EfnN0lHwbzvV"
+    },
+    {
+      "id": "0sKWwXb8wWh8J0x9KehDoV",
+      "name": "Danza Marilù (feat. Fabiana Martone)",
+      "artists": [
+        "L'Impératrice",
+        "Fabiana Martone"
+      ],
+      "album": "Love from the Other Side",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a116310abc520be54dc9d73b",
+      "releaseDate": "2024-05-02",
+      "durationMs": 244075,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/0sKWwXb8wWh8J0x9KehDoV"
+    },
+    {
+      "id": "3oemuYBDjVOwHOHfPfqRHr",
+      "name": "Bubulina",
+      "artists": [
+        "La Maquina De Hacer Pájaros"
+      ],
+      "album": "La Máquina de Hacer Pájaros",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732bafb74d62346afeaf462553",
+      "releaseDate": "1976-04-29",
+      "durationMs": 335853,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/3oemuYBDjVOwHOHfPfqRHr"
+    },
+    {
+      "id": "5WJU527RQNyMLuKecjsL8V",
+      "name": "Maggot Brain",
+      "artists": [
+        "Funkadelic"
+      ],
+      "album": "Maggot Brain",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27352573463beeda67fe242cab5",
+      "releaseDate": "1971-07-12",
+      "durationMs": 619263,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/5WJU527RQNyMLuKecjsL8V"
+    },
+    {
+      "id": "3UdquFlgsSBKueNRHgjOiG",
+      "name": "MAN ON THE MOON",
+      "artists": [
+        "BROCKHAMPTON"
+      ],
+      "album": "TM",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731e816be3575d007cc77bac94",
+      "releaseDate": "2022-11-18",
+      "durationMs": 240600,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/3UdquFlgsSBKueNRHgjOiG"
+    },
+    {
+      "id": "03ABlDwyR6tsFcfEovWGAG",
+      "name": "El Mundo Entre las Manos",
+      "artists": [
+        "Almendra"
+      ],
+      "album": "Obras Cumbres",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730dad1037dec8ea0076a4f45b",
+      "releaseDate": "2021-01-21",
+      "durationMs": 138706,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/03ABlDwyR6tsFcfEovWGAG"
+    },
+    {
+      "id": "4GRVvJlbg799iTqMeqjmM6",
+      "name": "Plegaria para un Niño Dormido",
+      "artists": [
+        "Almendra"
+      ],
+      "album": "Obras Cumbres",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730dad1037dec8ea0076a4f45b",
+      "releaseDate": "2021-01-21",
+      "durationMs": 241066,
+      "addedAt": "2024-06-10T03:13:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/4GRVvJlbg799iTqMeqjmM6"
+    }
+  ]
+}

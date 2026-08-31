@@ -1,0 +1,417 @@
+{
+  "id": "archive-012",
+  "number": 12,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2023-12-08T00:17:48Z",
+    "latest": "2023-12-08T00:17:48Z"
+  },
+  "tracks": [
+    {
+      "id": "5Fse8BFC410yZ4kpVqBCHt",
+      "name": "Morning Sunrise",
+      "artists": [
+        "Weldon Irvine"
+      ],
+      "album": "The Sisters",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27394453d2b896d741646a1f70e",
+      "releaseDate": "2016-12-09",
+      "durationMs": 199320,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/5Fse8BFC410yZ4kpVqBCHt"
+    },
+    {
+      "id": "5NbdN6rPwkntsk9rdHO4vl",
+      "name": "The List",
+      "artists": [
+        "Moonchild"
+      ],
+      "album": "Voyager",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273049b235339f477a3553201df",
+      "releaseDate": "2017-05-26",
+      "durationMs": 305760,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/5NbdN6rPwkntsk9rdHO4vl"
+    },
+    {
+      "id": "0gZcAOhjbDoLGzCQ0VW2J6",
+      "name": "No Hands",
+      "artists": [
+        "Joy Crookes"
+      ],
+      "album": "Perception EP",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738f5b10774f455be8c7b930c6",
+      "releaseDate": "2019-05-31",
+      "durationMs": 131097,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/0gZcAOhjbDoLGzCQ0VW2J6"
+    },
+    {
+      "id": "1RI9Qpt8QbYtwfCW8npcO1",
+      "name": "I Didn't Know",
+      "artists": [
+        "Skinshape"
+      ],
+      "album": "Filoxiny",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ebb12775bd97e47639693287",
+      "releaseDate": "2018-11-23",
+      "durationMs": 218626,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/1RI9Qpt8QbYtwfCW8npcO1"
+    },
+    {
+      "id": "6vB49BJ70zBpDrrAPwdaB8",
+      "name": "Drive Slow",
+      "artists": [
+        "Kanye West",
+        "Paul Wall",
+        "GLC"
+      ],
+      "album": "Late Registration",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273428d2255141c2119409a31b2",
+      "releaseDate": "2005-08-30",
+      "durationMs": 272226,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/6vB49BJ70zBpDrrAPwdaB8"
+    },
+    {
+      "id": "1KOqY0QTSadQFRgbNw1sLh",
+      "name": "Never Catch Me",
+      "artists": [
+        "Flying Lotus",
+        "Kendrick Lamar"
+      ],
+      "album": "You're Dead!",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d7c4a4148cdd06da03368ae5",
+      "releaseDate": "2014-10-06",
+      "durationMs": 234486,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/1KOqY0QTSadQFRgbNw1sLh"
+    },
+    {
+      "id": "23D6FgVV4VygFfJxAtk72J",
+      "name": "Nakamarra",
+      "artists": [
+        "Hiatus Kaiyote",
+        "Q-Tip"
+      ],
+      "album": "Tawk Tomahawk",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27384426b19844492cccbe23876",
+      "releaseDate": "2013-07-08",
+      "durationMs": 275320,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/23D6FgVV4VygFfJxAtk72J"
+    },
+    {
+      "id": "72yPZHE9wpPREKJShWn8Z9",
+      "name": "White Christmas",
+      "artists": [
+        "The Philly Specials",
+        "Jason Kelce",
+        "Lane Johnson",
+        "Jordan Mailata"
+      ],
+      "album": "A Philly Special Christmas",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c10a977709f9c1c3d44f2c04",
+      "releaseDate": "2022-12-23",
+      "durationMs": 188299,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/72yPZHE9wpPREKJShWn8Z9"
+    },
+    {
+      "id": "0E8q2Fx2XuzXCO2NSAppkR",
+      "name": "In A Sentimental Mood",
+      "artists": [
+        "Duke Ellington",
+        "John Coltrane"
+      ],
+      "album": "Duke Ellington & John Coltrane",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732def9ef3f6a82c8d6fd8c143",
+      "releaseDate": "1963-02",
+      "durationMs": 255226,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/0E8q2Fx2XuzXCO2NSAppkR"
+    },
+    {
+      "id": "70LcF31zb1H0PyJoS1Sx1r",
+      "name": "Creep",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "Pablo Honey",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d",
+      "releaseDate": "1993-02-22",
+      "durationMs": 238640,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/70LcF31zb1H0PyJoS1Sx1r"
+    },
+    {
+      "id": "6lKZ5I0yW3IpUFHEKJCWlx",
+      "name": "DELIRIO DE GRANDEZA",
+      "artists": [
+        "ROSALÍA"
+      ],
+      "album": "MOTOMAMI",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ac8367a27c0eb7195dc3a58d",
+      "releaseDate": "2022-03-18",
+      "durationMs": 155436,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/6lKZ5I0yW3IpUFHEKJCWlx"
+    },
+    {
+      "id": "7DOqLMSxTh1s3WPTyqJ2pw",
+      "name": "Amor Mio",
+      "artists": [
+        "Frank Sark"
+      ],
+      "album": "Latin Crooners",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27349bce3cd18deb6f0ef08e3ef",
+      "releaseDate": "2008-04-19",
+      "durationMs": 102253,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/7DOqLMSxTh1s3WPTyqJ2pw"
+    },
+    {
+      "id": "69HiFk8AtzXKkdxQ6CxKir",
+      "name": "Te Lo Juro",
+      "artists": [
+        "Daniel, Me Estás Matando",
+        "Diego Franco"
+      ],
+      "album": "COMO ARRUINARTE LA VIDA",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e041cbc0a7e12fcd28632706",
+      "releaseDate": "2023-11-03",
+      "durationMs": 331321,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/69HiFk8AtzXKkdxQ6CxKir"
+    },
+    {
+      "id": "7n3su34LEGipUMze5suKps",
+      "name": "No Respondo Pt. 2",
+      "artists": [
+        "Daniel, Me Estás Matando"
+      ],
+      "album": "COMO ARRUINARTE LA VIDA",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e041cbc0a7e12fcd28632706",
+      "releaseDate": "2023-11-03",
+      "durationMs": 248347,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/7n3su34LEGipUMze5suKps"
+    },
+    {
+      "id": "4TGoKhppWzVrUTTfGMwQUs",
+      "name": "Sólo Tú",
+      "artists": [
+        "Daniel, Me Estás Matando"
+      ],
+      "album": "COMO ARRUINARTE LA VIDA",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e041cbc0a7e12fcd28632706",
+      "releaseDate": "2023-11-03",
+      "durationMs": 187754,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/4TGoKhppWzVrUTTfGMwQUs"
+    },
+    {
+      "id": "5PVFZ8ZcmkeoOscmrkZMpH",
+      "name": "No Creas Que Ha Sido Fácil",
+      "artists": [
+        "Daniel, Me Estás Matando"
+      ],
+      "album": "COMO ARRUINARTE LA VIDA",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e041cbc0a7e12fcd28632706",
+      "releaseDate": "2023-11-03",
+      "durationMs": 195382,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/5PVFZ8ZcmkeoOscmrkZMpH"
+    },
+    {
+      "id": "70BRAydkshH9imEVakoX3L",
+      "name": "Otra Vez",
+      "artists": [
+        "Daniel, Me Estás Matando"
+      ],
+      "album": "COMO ARRUINARTE LA VIDA",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e041cbc0a7e12fcd28632706",
+      "releaseDate": "2023-11-03",
+      "durationMs": 159914,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/70BRAydkshH9imEVakoX3L"
+    },
+    {
+      "id": "3WxATUIaUWiMkcpil3OQYS",
+      "name": "STAY BY ME",
+      "artists": [
+        "Anri"
+      ],
+      "album": "Timely!!",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cfd93d36fe2365f9436587d1",
+      "releaseDate": "1983-12-05",
+      "durationMs": 217360,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/3WxATUIaUWiMkcpil3OQYS"
+    },
+    {
+      "id": "7fgmo2cHGzWLexkRhBeECj",
+      "name": "WINDY SUMMER",
+      "artists": [
+        "Anri"
+      ],
+      "album": "Timely!!",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cfd93d36fe2365f9436587d1",
+      "releaseDate": "1983-12-05",
+      "durationMs": 246693,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/7fgmo2cHGzWLexkRhBeECj"
+    },
+    {
+      "id": "6AshXllQhobwSXsdpgp41w",
+      "name": "Johnny P's Caddy",
+      "artists": [
+        "Benny The Butcher",
+        "J. Cole"
+      ],
+      "album": "Johnny P's Caddy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f18e14251caccbf310cbe281",
+      "releaseDate": "2022-01-28",
+      "durationMs": 225000,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/6AshXllQhobwSXsdpgp41w"
+    },
+    {
+      "id": "1ckhUtD8nBH2ShPlU8w2nU",
+      "name": "ALL MY FELLAS",
+      "artists": [
+        "Frizk"
+      ],
+      "album": "ALL MY FELLAS",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e7d07d31dcb5dc2d285af428",
+      "releaseDate": "2023-09-19",
+      "durationMs": 141334,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/1ckhUtD8nBH2ShPlU8w2nU"
+    },
+    {
+      "id": "22PTmk4mzAVi92WiQPAcFp",
+      "name": "New To You (with Normani, Tinashe, & Offset)",
+      "artists": [
+        "Calvin Harris",
+        "Normani",
+        "Tinashe",
+        "Offset"
+      ],
+      "album": "New To You (with Normani, Tinashe, & Offset)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734e8cedc977059a8fec9b9162",
+      "releaseDate": "2022-07-29",
+      "durationMs": 302952,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/22PTmk4mzAVi92WiQPAcFp"
+    },
+    {
+      "id": "63OQupATfueTdZMWTxW03A",
+      "name": "Karma Police",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "OK Computer",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c8b444df094279e70d0ed856",
+      "releaseDate": "1997-05-28",
+      "durationMs": 264066,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/63OQupATfueTdZMWTxW03A"
+    },
+    {
+      "id": "3qrEG6rQ9Qm72MNWeUKKiU",
+      "name": "Wham Bam Shang-A-Lang",
+      "artists": [
+        "Silver"
+      ],
+      "album": "Silver",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27351d98ff76da5ca1f82c8cbc8",
+      "releaseDate": "1976",
+      "durationMs": 212840,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/3qrEG6rQ9Qm72MNWeUKKiU"
+    },
+    {
+      "id": "3nYRRPC3un32wq7bbHDitX",
+      "name": "Jack Harlow Combo Meal",
+      "artists": [
+        "JPEGMAFIA",
+        "Danny Brown"
+      ],
+      "album": "SCARING THE HOES",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27361b7b7e6fd3cf161dc45c88b",
+      "releaseDate": "2023-03-24",
+      "durationMs": 138305,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/3nYRRPC3un32wq7bbHDitX"
+    },
+    {
+      "id": "5IZpEuLMO5lEmN1Rr008p8",
+      "name": "Burfict!",
+      "artists": [
+        "JPEGMAFIA",
+        "Danny Brown"
+      ],
+      "album": "SCARING THE HOES",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27361b7b7e6fd3cf161dc45c88b",
+      "releaseDate": "2023-03-24",
+      "durationMs": 141089,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/5IZpEuLMO5lEmN1Rr008p8"
+    },
+    {
+      "id": "5kjXJAtTIaDc2C3PET8oju",
+      "name": "Superchería",
+      "artists": [
+        "Pescado Rabioso"
+      ],
+      "album": "Artaud",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
+      "releaseDate": "1973-05-07",
+      "durationMs": 255986,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/5kjXJAtTIaDc2C3PET8oju"
+    },
+    {
+      "id": "5K6fJf9l8WTsscngGert0b",
+      "name": "Las Habladurias del Mundo",
+      "artists": [
+        "Pescado Rabioso"
+      ],
+      "album": "Artaud",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
+      "releaseDate": "1973-05-07",
+      "durationMs": 243266,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/5K6fJf9l8WTsscngGert0b"
+    },
+    {
+      "id": "3d9DChrdc6BOeFsbrZ3Is0",
+      "name": "Under the Bridge",
+      "artists": [
+        "Red Hot Chili Peppers"
+      ],
+      "album": "Blood Sugar Sex Magik (Deluxe Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273153d79816d853f2694b2cc70",
+      "releaseDate": "1991-09-24",
+      "durationMs": 264306,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/3d9DChrdc6BOeFsbrZ3Is0"
+    },
+    {
+      "id": "6hmYi0E6EBEmDeztQHaH0C",
+      "name": "Bajan",
+      "artists": [
+        "Pescado Rabioso"
+      ],
+      "album": "Artaud",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
+      "releaseDate": "1973-05-07",
+      "durationMs": 204466,
+      "addedAt": "2023-12-08T00:17:48Z",
+      "spotifyUrl": "https://open.spotify.com/track/6hmYi0E6EBEmDeztQHaH0C"
+    }
+  ]
+}

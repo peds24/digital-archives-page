@@ -1,0 +1,411 @@
+{
+  "id": "archive-013",
+  "number": 13,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2024-01-29T21:42:24Z",
+    "latest": "2024-01-29T21:42:24Z"
+  },
+  "tracks": [
+    {
+      "id": "5tshjY3qyEIvCZDgWMH8rh",
+      "name": "Amor",
+      "artists": [
+        "Daniel Orpi"
+      ],
+      "album": "Amor",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d71aad0736f1775844c081ce",
+      "releaseDate": "2022-06-17",
+      "durationMs": 241757,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/5tshjY3qyEIvCZDgWMH8rh"
+    },
+    {
+      "id": "0kJ4GK8E5eDy7WYUQ5fUT5",
+      "name": "Chasing the Drum - A COLORS SHOW",
+      "artists": [
+        "Yussef Dayes"
+      ],
+      "album": "Chasing the Drum - A COLORS SHOW",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731ef688ee16997156a5c655f5",
+      "releaseDate": "2023-12-18",
+      "durationMs": 221986,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/0kJ4GK8E5eDy7WYUQ5fUT5"
+    },
+    {
+      "id": "7aKrysuyZvDnU3JwnlO3dd",
+      "name": "Natural High",
+      "artists": [
+        "Bloodstone"
+      ],
+      "album": "Natural High",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273809e8b9431e1cb62c66e270a",
+      "releaseDate": "1972-09-15",
+      "durationMs": 240466,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/7aKrysuyZvDnU3JwnlO3dd"
+    },
+    {
+      "id": "3jlUCkN8Sb93M0HhZuhO6P",
+      "name": "Sober",
+      "artists": [
+        "KiLLOWEN"
+      ],
+      "album": "Sober (NOTION Remix)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f09b7009013d17f4c42e2cfc",
+      "releaseDate": "2023-04-28",
+      "durationMs": 107524,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/3jlUCkN8Sb93M0HhZuhO6P"
+    },
+    {
+      "id": "1lhakluflmCQiaL4sjPMQA",
+      "name": "Love & Attention",
+      "artists": [
+        "SamRecks"
+      ],
+      "album": "Love & Attention",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732c766496fd90ada9720763cb",
+      "releaseDate": "2022-05-08",
+      "durationMs": 157808,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/1lhakluflmCQiaL4sjPMQA"
+    },
+    {
+      "id": "0vNKuD2WdRqoOmpn3Ho4i1",
+      "name": "Nicole",
+      "artists": [
+        "Enrico Intra"
+      ],
+      "album": "Momento Intra",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739ea61fcb5851539bdf88f6d9",
+      "releaseDate": "1978",
+      "durationMs": 259506,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/0vNKuD2WdRqoOmpn3Ho4i1"
+    },
+    {
+      "id": "70AuzLF7TskSZWXk2LCZeL",
+      "name": "Caminando",
+      "artists": [
+        "Isadora"
+      ],
+      "album": "Isadora",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e6b8889f8db17f78f3cd0a56",
+      "releaseDate": "1976-07-20",
+      "durationMs": 168133,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/70AuzLF7TskSZWXk2LCZeL"
+    },
+    {
+      "id": "6VnpKLtfNH4Dk09YSGPSyR",
+      "name": "It Ain't Over 'Til It's Over",
+      "artists": [
+        "Lenny Kravitz"
+      ],
+      "album": "Mama Said",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bfc19627a4a3a604c0a195e5",
+      "releaseDate": "1991-04-02",
+      "durationMs": 242640,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/6VnpKLtfNH4Dk09YSGPSyR"
+    },
+    {
+      "id": "6HBOof7fEhyy4NUsHXsBQM",
+      "name": "She Roll Up",
+      "artists": [
+        "Yung Senju",
+        "Tavi"
+      ],
+      "album": "Blackman Wunderlan",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fd42e535191e4a9bf87b0db3",
+      "releaseDate": "2023-04-28",
+      "durationMs": 185838,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/6HBOof7fEhyy4NUsHXsBQM"
+    },
+    {
+      "id": "2wkwWJ1T2GbDHsttXzrItJ",
+      "name": "Montara",
+      "artists": [
+        "Madlib",
+        "DJ Lord Such"
+      ],
+      "album": "Shades Of Blue: Madlib Invades Blue Note",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735b5fd439a9153812a169877e",
+      "releaseDate": "2003-06-24",
+      "durationMs": 351866,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/2wkwWJ1T2GbDHsttXzrItJ"
+    },
+    {
+      "id": "1SNiieXNyv5bRBbY9YAYVM",
+      "name": "Stepping Into Tomorrow",
+      "artists": [
+        "Madlib"
+      ],
+      "album": "Shades Of Blue: Madlib Invades Blue Note",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735b5fd439a9153812a169877e",
+      "releaseDate": "2003-06-24",
+      "durationMs": 456693,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/1SNiieXNyv5bRBbY9YAYVM"
+    },
+    {
+      "id": "2B4Y9u4ERAFiMo13XPJyGP",
+      "name": "Here, There And Everywhere - Remastered 2009",
+      "artists": [
+        "The Beatles"
+      ],
+      "album": "Revolver (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27328b8b9b46428896e6491e97a",
+      "releaseDate": "1966-08-05",
+      "durationMs": 144880,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/2B4Y9u4ERAFiMo13XPJyGP"
+    },
+    {
+      "id": "0e1wfTwFaEyEqUB8adkgza",
+      "name": "When The Wind Is Blowing",
+      "artists": [
+        "Paul McCartney"
+      ],
+      "album": "Wild Life (Archive Collection)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cece783cf146a042ed284913",
+      "releaseDate": "1971-12-07",
+      "durationMs": 231653,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/0e1wfTwFaEyEqUB8adkgza"
+    },
+    {
+      "id": "6KuQbKp9oklizWKY0Rg0Ih",
+      "name": "Love & Death, Pt. 2",
+      "artists": [
+        "Azekel",
+        "Ebo Taylor"
+      ],
+      "album": "Analyze Love",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d29283917bf70429cce8ad0c",
+      "releaseDate": "2023-03-17",
+      "durationMs": 243502,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/6KuQbKp9oklizWKY0Rg0Ih"
+    },
+    {
+      "id": "57FYmXLG6tuXkBuYDSB74C",
+      "name": "Love Me Not",
+      "artists": [
+        "Skepta",
+        "Cheb Rabi",
+        "B Live"
+      ],
+      "album": "Ignorance is Bliss",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27348f2487a18a735f457404eb9",
+      "releaseDate": "2019-05-31",
+      "durationMs": 203760,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/57FYmXLG6tuXkBuYDSB74C"
+    },
+    {
+      "id": "4lW95zmUEL1jBqsRjdxYGs",
+      "name": "White Silk",
+      "artists": [
+        "Action Bronson",
+        "Statik Selektah"
+      ],
+      "album": "Well Done",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ba2d03946c00132ab79caa44",
+      "releaseDate": "2011-11-22",
+      "durationMs": 174186,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/4lW95zmUEL1jBqsRjdxYGs"
+    },
+    {
+      "id": "4KGGeE7RJsgLNZmnxGFlOj",
+      "name": "Falling Behind",
+      "artists": [
+        "Laufey"
+      ],
+      "album": "Everything I Know About Love",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27348341e864d4b4881f56f01b4",
+      "releaseDate": "2022-08-26",
+      "durationMs": 173640,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/4KGGeE7RJsgLNZmnxGFlOj"
+    },
+    {
+      "id": "3u9NgKj0mhqYMyt7JvIIKT",
+      "name": "À Cabo",
+      "artists": [
+        "Pomplamoose",
+        "Larry Goldings"
+      ],
+      "album": "À Cabo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273be636d41b95d28d0aba18885",
+      "releaseDate": "2023-07-20",
+      "durationMs": 227027,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/3u9NgKj0mhqYMyt7JvIIKT"
+    },
+    {
+      "id": "4RP1czjLoErBuEQui5hCrC",
+      "name": "I Don't Want To See Tomorrow - As Heard on “Fallout” (Series)",
+      "artists": [
+        "Nat King Cole"
+      ],
+      "album": "I Don't Want To Be Hurt Anymore",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bcbda339c96c925f602a2249",
+      "releaseDate": "1964-01-01",
+      "durationMs": 156906,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/4RP1czjLoErBuEQui5hCrC"
+    },
+    {
+      "id": "3mPJHVpCvzykoxmWnYdnFq",
+      "name": "Frontier Psychiatrist",
+      "artists": [
+        "The Avalanches"
+      ],
+      "album": "Since I Left You (20th Anniversary Deluxe Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734cc65c5ce55234c548a79d9d",
+      "releaseDate": "2000-11-27",
+      "durationMs": 287693,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/3mPJHVpCvzykoxmWnYdnFq"
+    },
+    {
+      "id": "1dyTcli07c77mtQK3ahUZR",
+      "name": "Just",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "The Bends",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739293c743fa542094336c5e12",
+      "releaseDate": "1995-03-13",
+      "durationMs": 234800,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/1dyTcli07c77mtQK3ahUZR"
+    },
+    {
+      "id": "1mvDFqbbmgmMmU6U4dIq5m",
+      "name": "Forbidden Fruit (feat. Kendrick Lamar)",
+      "artists": [
+        "J. Cole",
+        "Kendrick Lamar"
+      ],
+      "album": "Born Sinner (Deluxe Version)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c1bb124f993488cf21b269fc",
+      "releaseDate": "2013-06-18",
+      "durationMs": 268666,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/1mvDFqbbmgmMmU6U4dIq5m"
+    },
+    {
+      "id": "3f9qppQBWeFQrIJ5mrtOH2",
+      "name": "Everything Counts",
+      "artists": [
+        "David Axelrod"
+      ],
+      "album": "Heavy Axe",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e26b134c6d01c96fd165fbf6",
+      "releaseDate": "1974-01-01",
+      "durationMs": 414816,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/3f9qppQBWeFQrIJ5mrtOH2"
+    },
+    {
+      "id": "0eEXcw3JLVXcRxYrVYMy68",
+      "name": "Electric Relaxation",
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "album": "The Anthology",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b1ddb9f5f519e0d37bc94a53",
+      "releaseDate": "1999-10-26",
+      "durationMs": 226133,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/0eEXcw3JLVXcRxYrVYMy68"
+    },
+    {
+      "id": "1xC8Fu0Y1bgMnW7pIan7UF",
+      "name": "クリスタル・ドリーム",
+      "artists": [
+        "Lisa Ono"
+      ],
+      "album": "Romance Latino vol.1 -Los Boleros Al Estilo De Bossanova-",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f6cfde879fa8cf169b358757",
+      "releaseDate": "2005-06-29",
+      "durationMs": 206173,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/1xC8Fu0Y1bgMnW7pIan7UF"
+    },
+    {
+      "id": "3jACZwiZc7RooAddt9mBbF",
+      "name": "ピエル・カネラ",
+      "artists": [
+        "Lisa Ono"
+      ],
+      "album": "Romance Latino vol.1 -Los Boleros Al Estilo De Bossanova-",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f6cfde879fa8cf169b358757",
+      "releaseDate": "2005-06-29",
+      "durationMs": 154026,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/3jACZwiZc7RooAddt9mBbF"
+    },
+    {
+      "id": "5Zxl1Bn5HaVg2aeQnFxRgs",
+      "name": "Impressions",
+      "artists": [
+        "John Coltrane"
+      ],
+      "album": "On Impulse: John Coltrane",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734a16ea797c7b53a82f7ca3c8",
+      "releaseDate": "2021-02-12",
+      "durationMs": 275426,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/5Zxl1Bn5HaVg2aeQnFxRgs"
+    },
+    {
+      "id": "1YmLbryGwdP25VbPqzizbC",
+      "name": "CAN'T STOP NOW",
+      "artists": [
+        "Joey Valence & Brae"
+      ],
+      "album": "CAN'T STOP NOW",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27375f03a7a5a506da0775e35a7",
+      "releaseDate": "2023-12-01",
+      "durationMs": 170076,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/1YmLbryGwdP25VbPqzizbC"
+    },
+    {
+      "id": "6AshXllQhobwSXsdpgp41w",
+      "name": "Johnny P's Caddy",
+      "artists": [
+        "Benny The Butcher",
+        "J. Cole"
+      ],
+      "album": "Johnny P's Caddy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f18e14251caccbf310cbe281",
+      "releaseDate": "2022-01-28",
+      "durationMs": 225000,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/6AshXllQhobwSXsdpgp41w"
+    },
+    {
+      "id": "26nkboSGZauLZQJo2Ni1vA",
+      "name": "ベサメ・ムーチョ",
+      "artists": [
+        "Lisa Ono"
+      ],
+      "album": "Romance Latino vol.3 -Cuba Caliente Y Su Ritmo Sabroso-",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27364d94d72548b885f14ea96c9",
+      "releaseDate": "2005-08-19",
+      "durationMs": 199973,
+      "addedAt": "2024-01-29T21:42:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/26nkboSGZauLZQJo2Ni1vA"
+    }
+  ]
+}

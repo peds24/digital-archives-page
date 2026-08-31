@@ -1,0 +1,408 @@
+{
+  "id": "archive-023",
+  "number": 23,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2025-04-29T01:16:32Z",
+    "latest": "2025-04-29T01:16:32Z"
+  },
+  "tracks": [
+    {
+      "id": "4EZ2C0321dYtzKD0zEfsUy",
+      "name": "Necessary Evil",
+      "artists": [
+        "Unknown Mortal Orchestra"
+      ],
+      "album": "Multi-Love",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dad8074eb0c60a82d1d8973c",
+      "releaseDate": "2015-05-26",
+      "durationMs": 317800,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/4EZ2C0321dYtzKD0zEfsUy"
+    },
+    {
+      "id": "0gSgUkFCEkXXFHOnpDnHeO",
+      "name": "So Nice (Summer Samba)",
+      "artists": [
+        "Astrud Gilberto",
+        "Walter Wanderley"
+      ],
+      "album": "A Certain Smile, A Certain Sadness (Expanded Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27318e57f9df873e08b993a4ea8",
+      "releaseDate": "1967-01-01",
+      "durationMs": 161533,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/0gSgUkFCEkXXFHOnpDnHeO"
+    },
+    {
+      "id": "6vV1NDCjh2afFgQ9Vb7i86",
+      "name": "She Lives in My Lap (feat. Rosario Dawson)",
+      "artists": [
+        "Outkast",
+        "Rosario Dawson"
+      ],
+      "album": "Speakerboxxx/The Love Below",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736e88eb6508fd94cd1b745ce2",
+      "releaseDate": "2003",
+      "durationMs": 267266,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/6vV1NDCjh2afFgQ9Vb7i86"
+    },
+    {
+      "id": "4gyVO49rTCm0JsSbKMqSxX",
+      "name": "Sucio y Desprolijo",
+      "artists": [
+        "Pappo's Blues"
+      ],
+      "album": "Pappo's Blues, Vol. 3",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b0bad878d09332d8ef4bb87f",
+      "releaseDate": "1972-12-01",
+      "durationMs": 275386,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/4gyVO49rTCm0JsSbKMqSxX"
+    },
+    {
+      "id": "0dpusM1gM6ULx0QvjJctbT",
+      "name": "Pictures of You",
+      "artists": [
+        "Drugdealer",
+        "Kate Bollinger"
+      ],
+      "album": "Hiding in Plain Sight",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e206a794a9ec45516eb6de6d",
+      "releaseDate": "2022-10-28",
+      "durationMs": 189466,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/0dpusM1gM6ULx0QvjJctbT"
+    },
+    {
+      "id": "5qspeKX1xBacLJMm2t3Yc0",
+      "name": "A Lot's Gonna Change",
+      "artists": [
+        "Weyes Blood"
+      ],
+      "album": "Titanic Rising",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730c64e752dec4c08362cc4a88",
+      "releaseDate": "2019-04-05",
+      "durationMs": 261946,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/5qspeKX1xBacLJMm2t3Yc0"
+    },
+    {
+      "id": "4UQDZlZhGUDoYMohwrY28v",
+      "name": "Virtual Insanity - Remastered 2006",
+      "artists": [
+        "Jamiroquai"
+      ],
+      "album": "Driving Songs",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27343a58a3269fa18d1e4f8b5ca",
+      "releaseDate": "2005-01-01",
+      "durationMs": 229360,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/4UQDZlZhGUDoYMohwrY28v"
+    },
+    {
+      "id": "47oS7xB31QQUyPCgHpM3VZ",
+      "name": "Canned Heat",
+      "artists": [
+        "Jamiroquai"
+      ],
+      "album": "Synkronized",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734ccb64f022a53d3e8ec84a20",
+      "releaseDate": "1999-06-08",
+      "durationMs": 331760,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/47oS7xB31QQUyPCgHpM3VZ"
+    },
+    {
+      "id": "0JSinz03ZGQxKtCH3yBg6W",
+      "name": "Picture of My Life",
+      "artists": [
+        "Jamiroquai"
+      ],
+      "album": "A Funk Odyssey",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273909ebb0c355f14d0ee7f9974",
+      "releaseDate": "2001-08-29",
+      "durationMs": 224186,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/0JSinz03ZGQxKtCH3yBg6W"
+    },
+    {
+      "id": "0yAc7tMrxA3KwdVpVDe402",
+      "name": "La Complicidad",
+      "artists": [
+        "Cultura Profética"
+      ],
+      "album": "La Dulzura",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736c4218db039fb7b08a16be1e",
+      "releaseDate": "2010-08-22",
+      "durationMs": 364959,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/0yAc7tMrxA3KwdVpVDe402"
+    },
+    {
+      "id": "7j87GqxCRCFC8xX1gB8t6B",
+      "name": "Los Libros de la Buena Memoria",
+      "artists": [
+        "Lito Vitale",
+        "Gustavo Cerati"
+      ],
+      "album": "Escúchame Entre el Ruido Vol.2",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333b3a417ced31e3b560fb101",
+      "releaseDate": "2006-05-05",
+      "durationMs": 314013,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/7j87GqxCRCFC8xX1gB8t6B"
+    },
+    {
+      "id": "0tVzXGFyNPusa1VkHmYDLd",
+      "name": "Help Me",
+      "artists": [
+        "Joni Mitchell"
+      ],
+      "album": "Court and Spark",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739569f3e5cca8dce07cc7e5a7",
+      "releaseDate": "1974-01-17",
+      "durationMs": 204186,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/0tVzXGFyNPusa1VkHmYDLd"
+    },
+    {
+      "id": "1qUo7d5lAOclNVbTUY0A2R",
+      "name": "Remember Summer Days",
+      "artists": [
+        "Anri"
+      ],
+      "album": "Timely!!",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cfd93d36fe2365f9436587d1",
+      "releaseDate": "1983-12-05",
+      "durationMs": 295666,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/1qUo7d5lAOclNVbTUY0A2R"
+    },
+    {
+      "id": "0rsOBojBPw0z26JRd8tNLh",
+      "name": "Loving This Good",
+      "artists": [
+        "Bpm Music Collective",
+        "Without Red"
+      ],
+      "album": "Loving This Good",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738746a324a5b2e49f1d7619d2",
+      "releaseDate": "2025-04-09",
+      "durationMs": 158494,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/0rsOBojBPw0z26JRd8tNLh"
+    },
+    {
+      "id": "1AAMvNSNgtXAC4qgazAHkN",
+      "name": "Galaxia",
+      "artists": [
+        "Illya Kuryaki & The Valderramas"
+      ],
+      "album": "Versus",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a9843802100f02d14ef42abc",
+      "releaseDate": "1997-01-01",
+      "durationMs": 317600,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/1AAMvNSNgtXAC4qgazAHkN"
+    },
+    {
+      "id": "0upgxxew2mVAEctrz08jnf",
+      "name": "Love Foolosophy - Radio Edit",
+      "artists": [
+        "Jamiroquai"
+      ],
+      "album": "A Funk Odyssey",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273909ebb0c355f14d0ee7f9974",
+      "releaseDate": "2001-08-29",
+      "durationMs": 224493,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/0upgxxew2mVAEctrz08jnf"
+    },
+    {
+      "id": "64BvrMFmtPSFSVK5aiJ1b6",
+      "name": "Manifest Destiny",
+      "artists": [
+        "Jamiroquai"
+      ],
+      "album": "The Return of the Space Cowboy (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27315b3727c6abdcfe4826f91ff",
+      "releaseDate": "1994-10-17",
+      "durationMs": 382000,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/64BvrMFmtPSFSVK5aiJ1b6"
+    },
+    {
+      "id": "704D4dPfn1ubgJ1UHXwg3Q",
+      "name": "Stillness in Time",
+      "artists": [
+        "Jamiroquai"
+      ],
+      "album": "The Return of the Space Cowboy (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27315b3727c6abdcfe4826f91ff",
+      "releaseDate": "1994-10-17",
+      "durationMs": 256640,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/704D4dPfn1ubgJ1UHXwg3Q"
+    },
+    {
+      "id": "5CQ30WqJwcep0pYcV4AMNc",
+      "name": "Stairway to Heaven - Remaster",
+      "artists": [
+        "Led Zeppelin"
+      ],
+      "album": "Led Zeppelin IV (Deluxe Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c8a11e48c91a982d086afc69",
+      "releaseDate": "1971-11-08",
+      "durationMs": 482830,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/5CQ30WqJwcep0pYcV4AMNc"
+    },
+    {
+      "id": "7K8GcdnDHcGKa5pYmhg5k6",
+      "name": "Falling",
+      "artists": [
+        "Jamiroquai"
+      ],
+      "album": "Synkronized",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734ccb64f022a53d3e8ec84a20",
+      "releaseDate": "1999-06-08",
+      "durationMs": 225173,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/7K8GcdnDHcGKa5pYmhg5k6"
+    },
+    {
+      "id": "2pYCyEwJ0xKnWbuQkqNHgp",
+      "name": "Love and Happiness",
+      "artists": [
+        "Al Green"
+      ],
+      "album": "Greatest Hits",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273400cef779a4cd24ebe742e9c",
+      "releaseDate": "1975-05-29",
+      "durationMs": 303533,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/2pYCyEwJ0xKnWbuQkqNHgp"
+    },
+    {
+      "id": "6yntDRxeKQo8eB5cLY9tkm",
+      "name": "Marejada Feliz",
+      "artists": [
+        "Roberto Roena Y Su Apollo Sound"
+      ],
+      "album": "Apollo Sound 9",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27385cb0674e6f7ec11241054f4",
+      "releaseDate": "1969-12-31",
+      "durationMs": 442622,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/6yntDRxeKQo8eB5cLY9tkm"
+    },
+    {
+      "id": "199B05lG6hBgawhiiY12Ct",
+      "name": "The Landkeeper",
+      "artists": [
+        "Men I Trust"
+      ],
+      "album": "Equus Asinus",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27343e6d3518b1880f8eaa76cf9",
+      "releaseDate": "2025-03-19",
+      "durationMs": 224708,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/199B05lG6hBgawhiiY12Ct"
+    },
+    {
+      "id": "11HRSkKS5nDZB0921Kwne1",
+      "name": "All My Candles",
+      "artists": [
+        "Men I Trust"
+      ],
+      "album": "Equus Asinus",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27343e6d3518b1880f8eaa76cf9",
+      "releaseDate": "2025-03-19",
+      "durationMs": 169225,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/11HRSkKS5nDZB0921Kwne1"
+    },
+    {
+      "id": "0kjrG36QkUzHmJHJ5Db6M9",
+      "name": "Genio del Abasto",
+      "artists": [
+        "Camionero"
+      ],
+      "album": "Club Camionero",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273acadcdf13e3389ab3876a938",
+      "releaseDate": "2021-10-22",
+      "durationMs": 308552,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/0kjrG36QkUzHmJHJ5Db6M9"
+    },
+    {
+      "id": "5JtgrxeDRTTcBsYwKoYb8v",
+      "name": "Late Nights & Heartbreak",
+      "artists": [
+        "Hannah Williams",
+        "The Affirmations"
+      ],
+      "album": "Late Nights & Heartbreak",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a8fca447cf1fccd5cccc49f2",
+      "releaseDate": "2016-11-11",
+      "durationMs": 255066,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/5JtgrxeDRTTcBsYwKoYb8v"
+    },
+    {
+      "id": "6K53GM9W6Vle5KBwGFVnZM",
+      "name": "Space Cowboy",
+      "artists": [
+        "Jamiroquai"
+      ],
+      "album": "The Return of the Space Cowboy (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27315b3727c6abdcfe4826f91ff",
+      "releaseDate": "1994-10-17",
+      "durationMs": 386973,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/6K53GM9W6Vle5KBwGFVnZM"
+    },
+    {
+      "id": "6NyHSkZgwfkllu5ua5URkL",
+      "name": "Murder By Numbers - Remastered 2023",
+      "artists": [
+        "The Police"
+      ],
+      "album": "Synchronicity (Super Deluxe Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e5da34031897ccecbfb9e1b1",
+      "releaseDate": "2024-07-26",
+      "durationMs": 275680,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/6NyHSkZgwfkllu5ua5URkL"
+    },
+    {
+      "id": "3gIBSlXYIN1mru35l4LWPB",
+      "name": "Still Crazy After All These Years",
+      "artists": [
+        "Paul Simon"
+      ],
+      "album": "Still Crazy After All These Years",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f081c7a1a21fb8f983a9d3cb",
+      "releaseDate": "1975-10-25",
+      "durationMs": 206041,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/3gIBSlXYIN1mru35l4LWPB"
+    },
+    {
+      "id": "5FWVOu2zEDLkQXWW8XhvCS",
+      "name": "Soul Intro / The Chicken - Live Version",
+      "artists": [
+        "Jaco Pastorius"
+      ],
+      "album": "Invitation [Live]",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27317c10d357d634b7484efe9f1",
+      "releaseDate": "1983",
+      "durationMs": 481333,
+      "addedAt": "2025-04-29T01:16:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/5FWVOu2zEDLkQXWW8XhvCS"
+    }
+  ]
+}

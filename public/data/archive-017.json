@@ -1,0 +1,415 @@
+{
+  "id": "archive-017",
+  "number": 17,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2024-08-10T02:02:04Z",
+    "latest": "2024-08-10T02:02:04Z"
+  },
+  "tracks": [
+    {
+      "id": "5YBxGJYKJ7Se2Uq7S0pVOL",
+      "name": "Art House",
+      "artists": [
+        "Malcolm Todd"
+      ],
+      "album": "Sweet Boy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732c1f34ecc1929fb59908aad1",
+      "releaseDate": "2024-04-05",
+      "durationMs": 177142,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/5YBxGJYKJ7Se2Uq7S0pVOL"
+    },
+    {
+      "id": "1PHPODXYdkxmU9nkrqLd8y",
+      "name": "What More Can I Say",
+      "artists": [
+        "The Notations"
+      ],
+      "album": "Still Here: 1967-1973",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27384aa41ae4889e16ad3c3bff7",
+      "releaseDate": "2015-03-17",
+      "durationMs": 200506,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/1PHPODXYdkxmU9nkrqLd8y"
+    },
+    {
+      "id": "6kpNsMaTHS55hHPKJAagsT",
+      "name": "スカイレストラン",
+      "artists": [
+        "Yuri Tanaka"
+      ],
+      "album": "CITY LIGHTS 2nd Season",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732d27d2b294977175c1d9746f",
+      "releaseDate": "2019-01-23",
+      "durationMs": 202760,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/6kpNsMaTHS55hHPKJAagsT"
+    },
+    {
+      "id": "4RsL2ZlU4P0CIKDrOwQkzz",
+      "name": "Romance",
+      "artists": [
+        "Hiroshi Suzuki"
+      ],
+      "album": "WaJazz: Japanese Jazz Spectacle Vol.I - Deep, Heavy and Beautiful Jazz from Japan 1968-1984 - The Nippon Columbia masters - Selected by Yusuke Ogawa (Universounds)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731e7f5b843cd5b31dc75ddf3d",
+      "releaseDate": "2022-04-08",
+      "durationMs": 356352,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/4RsL2ZlU4P0CIKDrOwQkzz"
+    },
+    {
+      "id": "7zoaxmDEONxkI2lMOhxJYN",
+      "name": "French Waltz",
+      "artists": [
+        "Leon Ware"
+      ],
+      "album": "Musical Massage (Expanded Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fc139e704fb9315e47bc8d35",
+      "releaseDate": "1976-09-01",
+      "durationMs": 111506,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/7zoaxmDEONxkI2lMOhxJYN"
+    },
+    {
+      "id": "3EWaU5exMayFzQMkIfTX7w",
+      "name": "either on or off the drugs",
+      "artists": [
+        "JPEGMAFIA"
+      ],
+      "album": "I LAY DOWN MY LIFE FOR YOU",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27314ed6f5625ea349c7bda4181",
+      "releaseDate": "2024-08-01",
+      "durationMs": 140593,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/3EWaU5exMayFzQMkIfTX7w"
+    },
+    {
+      "id": "0NMC6aezcf1GItgscoiQCO",
+      "name": "JPEGULTRA! (feat. Denzel Curry)",
+      "artists": [
+        "JPEGMAFIA",
+        "Denzel Curry"
+      ],
+      "album": "I LAY DOWN MY LIFE FOR YOU",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27314ed6f5625ea349c7bda4181",
+      "releaseDate": "2024-08-01",
+      "durationMs": 291800,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/0NMC6aezcf1GItgscoiQCO"
+    },
+    {
+      "id": "13V42foSPRVccg7Ksh9Pnx",
+      "name": "Misty - Live At Deutschlandhalle, Berlin, 1960",
+      "artists": [
+        "Ella Fitzgerald",
+        "The Paul Smith Quartet"
+      ],
+      "album": "Mack The Knife: Ella In Berlin (Live)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733e651db33f36c595313b7d6f",
+      "releaseDate": "1960-07-01",
+      "durationMs": 164000,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/13V42foSPRVccg7Ksh9Pnx"
+    },
+    {
+      "id": "1SKtsG3EsJw75hNMRrCgLm",
+      "name": "No. 1 Headband",
+      "artists": [
+        "Lupe Fiasco"
+      ],
+      "album": "Samurai",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273afd65b04748aff25b77071f4",
+      "releaseDate": "2024-06-28",
+      "durationMs": 263666,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/1SKtsG3EsJw75hNMRrCgLm"
+    },
+    {
+      "id": "00rDcOb5oBm6tUvhDnDhdJ",
+      "name": "San Franciscan Nights",
+      "artists": [
+        "Gábor Szabó",
+        "The California Dreamers"
+      ],
+      "album": "Wind, Sky And Diamonds",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27328c21fe0b05400c0053b4110",
+      "releaseDate": "1967-09-14",
+      "durationMs": 203040,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/00rDcOb5oBm6tUvhDnDhdJ"
+    },
+    {
+      "id": "2mWfVxEo4xZYDaz0v7hYrN",
+      "name": "Juna",
+      "artists": [
+        "Clairo"
+      ],
+      "album": "Charm",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273193c2fafdce8f116b5ca0a78",
+      "releaseDate": "2024-07-12",
+      "durationMs": 195109,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/2mWfVxEo4xZYDaz0v7hYrN"
+    },
+    {
+      "id": "30WYlOTUkGayw4Qo4Y9sYX",
+      "name": "Ebb Tide",
+      "artists": [
+        "Ben Flocks"
+      ],
+      "album": "Mask of the Muse",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27376b8f285df5be75a1de94a4a",
+      "releaseDate": "2019-08-16",
+      "durationMs": 186080,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/30WYlOTUkGayw4Qo4Y9sYX"
+    },
+    {
+      "id": "3yLTnHrBvc8EiPBv56ekfr",
+      "name": "Mira Ya Te Dije",
+      "artists": [
+        "Adonai Melodías",
+        "BRI"
+      ],
+      "album": "Mira Ya Te Dije",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738bfeda571192a9f096ab5c0d",
+      "releaseDate": "2022-02-14",
+      "durationMs": 177971,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/3yLTnHrBvc8EiPBv56ekfr"
+    },
+    {
+      "id": "4PvR0sNCLMTzKHzVOAVNbO",
+      "name": "KOMPRESSOR",
+      "artists": [
+        "Action Bronson",
+        "Larry June"
+      ],
+      "album": "JOHANN SEBASTIAN BACHLAVA THE DOCTOR",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731fa931efbed00048477f868d",
+      "releaseDate": "2024-07-11",
+      "durationMs": 173106,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/4PvR0sNCLMTzKHzVOAVNbO"
+    },
+    {
+      "id": "0zViuvCvyMnIkqtMC5hOAE",
+      "name": "Space Oddity",
+      "artists": [
+        "David Bowie",
+        "David Matthews"
+      ],
+      "album": "Dune",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736e58de3b1a792e0c323007d9",
+      "releaseDate": "1977",
+      "durationMs": 367133,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/0zViuvCvyMnIkqtMC5hOAE"
+    },
+    {
+      "id": "4c2ZCkr6k0xsfHp7VfWzhg",
+      "name": "Didn't Want To Have To Do It (Ver. 1)",
+      "artists": [
+        "Cass Elliot"
+      ],
+      "album": "Here's A Song (You Might Have Missed): Great Record Finds",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737dcb59b704a6aa99cddd69b0",
+      "releaseDate": "2006-07-01",
+      "durationMs": 217640,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/4c2ZCkr6k0xsfHp7VfWzhg"
+    },
+    {
+      "id": "5mGZw3iGsAhtJTFwY6Xm9V",
+      "name": "Almost blue",
+      "artists": [
+        "Ionn Blignault"
+      ],
+      "album": "Almost blue",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734af7c1b32294f90038928f80",
+      "releaseDate": "2020-12-09",
+      "durationMs": 453773,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/5mGZw3iGsAhtJTFwY6Xm9V"
+    },
+    {
+      "id": "4zkVFDUVmZpib8E1z4c4Sa",
+      "name": "Junk - Remastered 2011",
+      "artists": [
+        "Paul McCartney"
+      ],
+      "album": "McCartney",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c511c6b8a8568aee99ddf18b",
+      "releaseDate": "1970-04-17",
+      "durationMs": 115293,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/4zkVFDUVmZpib8E1z4c4Sa"
+    },
+    {
+      "id": "07tOsOR7E9zW89v2FqzsdG",
+      "name": "Busy Earnin'",
+      "artists": [
+        "Jungle"
+      ],
+      "album": "Jungle",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737b42ab7e1ec95c4ca991a06f",
+      "releaseDate": "2014-07-15",
+      "durationMs": 181772,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/07tOsOR7E9zW89v2FqzsdG"
+    },
+    {
+      "id": "3BWbj5NXUgr0hK7PmFSI9D",
+      "name": "16 Years",
+      "artists": [
+        "The Griswolds"
+      ],
+      "album": "Be Impressive",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b0f285d0b15b98a1f17b9516",
+      "releaseDate": "2014-08-25",
+      "durationMs": 225720,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/3BWbj5NXUgr0hK7PmFSI9D"
+    },
+    {
+      "id": "1quput6F30wXk7Ym6XMPvS",
+      "name": "Mexican Dream",
+      "artists": [
+        "Piero Piccioni"
+      ],
+      "album": "Colpo Rovente - Red Hot Shot (Original Motion Picture Soundtrack)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739a7f12bc0a296c71fdc876b5",
+      "releaseDate": "1992",
+      "durationMs": 121200,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/1quput6F30wXk7Ym6XMPvS"
+    },
+    {
+      "id": "1QazdjM4mhiBAW2TegKdEb",
+      "name": "NO HANDS (feat. Z-Trip)",
+      "artists": [
+        "Joey Valence & Brae",
+        "Z-Trip"
+      ],
+      "album": "NO HANDS",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27309463748243490d780f62b2b",
+      "releaseDate": "2024-06-07",
+      "durationMs": 167174,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/1QazdjM4mhiBAW2TegKdEb"
+    },
+    {
+      "id": "6JuEshIRliNXRU1LXctRjZ",
+      "name": "Halah",
+      "artists": [
+        "Mazzy Star"
+      ],
+      "album": "She Hangs Brightly",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273afce4c9cd3313302c0a16ed1",
+      "releaseDate": "1990-05-21",
+      "durationMs": 196226,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/6JuEshIRliNXRU1LXctRjZ"
+    },
+    {
+      "id": "5Xjh7Ew2mqrajmvTTZN231",
+      "name": "Cinema",
+      "artists": [
+        "Kero Kero Bonito"
+      ],
+      "album": "TOTEP",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273db75f4bf209e984173262f8f",
+      "releaseDate": "2018-02-20",
+      "durationMs": 126306,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/5Xjh7Ew2mqrajmvTTZN231"
+    },
+    {
+      "id": "0gNpXNiopu6nXKRPnfQ89E",
+      "name": "まほうのじゅうたん",
+      "artists": [
+        "百景"
+      ],
+      "album": "おくりもの",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e1da0d386f7e72bcef0b9800",
+      "releaseDate": "2009-04-29",
+      "durationMs": 244186,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/0gNpXNiopu6nXKRPnfQ89E"
+    },
+    {
+      "id": "3HMuJG1y7pyjg7Rrk17Rsb",
+      "name": "Algo contigo",
+      "artists": [
+        "Rita Payés",
+        "Elisabeth Roma"
+      ],
+      "album": "Imagina",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273020b12f9c3d8a6390977a045",
+      "releaseDate": "2019-05-17",
+      "durationMs": 297664,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/3HMuJG1y7pyjg7Rrk17Rsb"
+    },
+    {
+      "id": "5lfMxPRG2mzQ1FanRrkUZx",
+      "name": "No se me Olvidó - Extendida (feat. Alvaro Paiva-Bimbo)",
+      "artists": [
+        "Los Amigos Invisibles",
+        "Alvaro Paiva Bimbo"
+      ],
+      "album": "No se me Olvidó EP",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273296be01bc21ceae7199c1389",
+      "releaseDate": "2024-05-10",
+      "durationMs": 297560,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/5lfMxPRG2mzQ1FanRrkUZx"
+    },
+    {
+      "id": "00LGJRRqN4AtSpHrvjIyiJ",
+      "name": "Samurai",
+      "artists": [
+        "Lupe Fiasco"
+      ],
+      "album": "Samurai",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cdc33cbdd1cce2e66e7405c8",
+      "releaseDate": "2024-05-17",
+      "durationMs": 194786,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/00LGJRRqN4AtSpHrvjIyiJ"
+    },
+    {
+      "id": "0KFXE2mLTFdOKkTZEDgJPv",
+      "name": "ATTITUDE (FEAT. CHARLIE WILSON & CASH COBAIN)",
+      "artists": [
+        "Don Toliver",
+        "Charlie Wilson",
+        "Cash Cobain"
+      ],
+      "album": "Attitude (feat. Charlie Wilson & Cash Cobain)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273959e5f60fbb24005f3956fcb",
+      "releaseDate": "2024-05-22",
+      "durationMs": 161053,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/0KFXE2mLTFdOKkTZEDgJPv"
+    },
+    {
+      "id": "561pBFcFL2Pwb9HPO9tU8J",
+      "name": "places to be",
+      "artists": [
+        "Fred again..",
+        "Anderson .Paak",
+        "CHIKA"
+      ],
+      "album": "places to be",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735471ed900dd21834e5fc90c8",
+      "releaseDate": "2024-05-31",
+      "durationMs": 226677,
+      "addedAt": "2024-08-10T02:02:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/561pBFcFL2Pwb9HPO9tU8J"
+    }
+  ]
+}

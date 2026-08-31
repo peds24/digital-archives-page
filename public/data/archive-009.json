@@ -1,0 +1,418 @@
+{
+  "id": "archive-009",
+  "number": 9,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2023-06-24T05:42:14Z",
+    "latest": "2023-06-24T05:42:14Z"
+  },
+  "tracks": [
+    {
+      "id": "350eqKjPcUnQ5XAGEs0gi8",
+      "name": "deep in it",
+      "artists": [
+        "berlioz",
+        "Ted Jasper"
+      ],
+      "album": "jazz is for ordinary people",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738bde4da6b36de54eb970fc40",
+      "releaseDate": "2023-06-23",
+      "durationMs": 154862,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/350eqKjPcUnQ5XAGEs0gi8"
+    },
+    {
+      "id": "7mPgkn14P7Ts2hB62XmgtT",
+      "name": "Viviré para Ti (feat. Natalia Lafourcade) - Versión Acústica",
+      "artists": [
+        "Los Amigos Invisibles",
+        "Natalia Lafourcade"
+      ],
+      "album": "Los Amigos Invisibles, Acústico",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733f80ba30f122d8b3e89e086f",
+      "releaseDate": "2015-06-30",
+      "durationMs": 236480,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/7mPgkn14P7Ts2hB62XmgtT"
+    },
+    {
+      "id": "11xC6P3iKYpFThT6Ce1KdG",
+      "name": "Attention",
+      "artists": [
+        "Doja Cat"
+      ],
+      "album": "Attention",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731386f7ddd02de8b8583d5758",
+      "releaseDate": "2023-06-16",
+      "durationMs": 277043,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/11xC6P3iKYpFThT6Ce1KdG"
+    },
+    {
+      "id": "1CIuTzWLQ3sxScgFJzUhWT",
+      "name": "Mi Tierra Veracruzana (feat. Los Macorinos)",
+      "artists": [
+        "Natalia Lafourcade",
+        "Los Macorinos"
+      ],
+      "album": "Musas (Un Homenaje al Folclore Latinoamericano en Manos de Los Macorinos, Vol. 1)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311f5f38824cdfb0a69c7fa07",
+      "releaseDate": "2017-05-05",
+      "durationMs": 225573,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/1CIuTzWLQ3sxScgFJzUhWT"
+    },
+    {
+      "id": "10HQmG706HZtAhXRypWw01",
+      "name": "Son Amores (That's Amore) (feat. Los Macorinos)",
+      "artists": [
+        "Natalia Lafourcade",
+        "Los Macorinos"
+      ],
+      "album": "Musas (Un Homenaje al Folclore Latinoamericano en Manos de Los Macorinos, Vol. 1)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311f5f38824cdfb0a69c7fa07",
+      "releaseDate": "2017-05-05",
+      "durationMs": 224533,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/10HQmG706HZtAhXRypWw01"
+    },
+    {
+      "id": "6QlEtyGqmX4dXASVeEEEDH",
+      "name": "Veracruz",
+      "artists": [
+        "Natalia Lafourcade"
+      ],
+      "album": "Un Canto por México, Vol. 1",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736b949365b6d447dc8ee21ce0",
+      "releaseDate": "2020-05-08",
+      "durationMs": 243253,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/6QlEtyGqmX4dXASVeEEEDH"
+    },
+    {
+      "id": "2jHnuEYl7x1EtG4NGDDkdN",
+      "name": "Mexicana Hermosa",
+      "artists": [
+        "Natalia Lafourcade",
+        "Carlos Rivera"
+      ],
+      "album": "Un Canto por México, Vol. 1",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736b949365b6d447dc8ee21ce0",
+      "releaseDate": "2020-05-08",
+      "durationMs": 252080,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/2jHnuEYl7x1EtG4NGDDkdN"
+    },
+    {
+      "id": "3SMC28iSAEzyKge9TuQM6O",
+      "name": "GMO",
+      "artists": [
+        "JJ DOOM",
+        "MF DOOM",
+        "Jneiro Jarel",
+        "Beth Gibbons"
+      ],
+      "album": "Key to the Kuffs",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27301a16ebdeb383059af0784b8",
+      "releaseDate": "2012-08-20",
+      "durationMs": 261432,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/3SMC28iSAEzyKge9TuQM6O"
+    },
+    {
+      "id": "4mWTAI8wYE4HpYIgPAASpV",
+      "name": "MOVIN'",
+      "artists": [
+        "Bluestaeb",
+        "Mick Jenkins",
+        "Aréna"
+      ],
+      "album": "MOVIN'",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27345b4d79c5e8833919c7f99c5",
+      "releaseDate": "2021-07-07",
+      "durationMs": 153028,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/4mWTAI8wYE4HpYIgPAASpV"
+    },
+    {
+      "id": "1OxL1FWSEd7QmJoWLRP2NO",
+      "name": "On My Mind (Jorja Smith X Preditah)",
+      "artists": [
+        "Jorja Smith",
+        "Preditah"
+      ],
+      "album": "On My Mind (Jorja Smith X Preditah)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27390903f4da3ed84c57701ca13",
+      "releaseDate": "2017-08-25",
+      "durationMs": 181509,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/1OxL1FWSEd7QmJoWLRP2NO"
+    },
+    {
+      "id": "4GgMZ3WSDLO5KHqkfL1vq1",
+      "name": "Liquor Store In The Sky (feat. Freddie Gibbs)",
+      "artists": [
+        "BJ The Chicago Kid",
+        "Freddie Gibbs"
+      ],
+      "album": "Liquor Store In The Sky (feat. Freddie Gibbs)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bad0158afa5d6b12480a2931",
+      "releaseDate": "2023-06-08",
+      "durationMs": 200252,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/4GgMZ3WSDLO5KHqkfL1vq1"
+    },
+    {
+      "id": "6bM3GKo47KVgvj3gHdWS0U",
+      "name": "Like Woah",
+      "artists": [
+        "Logic"
+      ],
+      "album": "The Incredible True Story",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f0f7649257d4b99460929ced",
+      "releaseDate": "2015-11-13",
+      "durationMs": 232693,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/6bM3GKo47KVgvj3gHdWS0U"
+    },
+    {
+      "id": "1li7Wh7pzMhBwMRjCUXlXV",
+      "name": "Nails",
+      "artists": [
+        "Saint Levant"
+      ],
+      "album": "Nails",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fe9111add83c80cf81201aa5",
+      "releaseDate": "2023-05-25",
+      "durationMs": 175375,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/1li7Wh7pzMhBwMRjCUXlXV"
+    },
+    {
+      "id": "12BaQt9aYdTlEtKreqB5V4",
+      "name": "jazz is for ordinary people",
+      "artists": [
+        "berlioz"
+      ],
+      "album": "jazz is for ordinary people",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c9a8853d7b582a01bda44093",
+      "releaseDate": "2023-04-07",
+      "durationMs": 164000,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/12BaQt9aYdTlEtKreqB5V4"
+    },
+    {
+      "id": "6bPDBreoqj6uRqbfejuURe",
+      "name": "South Side feat. Shing02",
+      "artists": [
+        "Uyama Hiroto",
+        "Shing02"
+      ],
+      "album": "freeform jazz",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273aec4131766da74c016f2199d",
+      "releaseDate": "2017-02-01",
+      "durationMs": 284880,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/6bPDBreoqj6uRqbfejuURe"
+    },
+    {
+      "id": "6LBpGdlukUARutol7VgWIS",
+      "name": "January 28th",
+      "artists": [
+        "J. Cole"
+      ],
+      "album": "2014 Forest Hills Drive",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c6e0948bbb0681ff29cdbae8",
+      "releaseDate": "2014-12-09",
+      "durationMs": 242697,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/6LBpGdlukUARutol7VgWIS"
+    },
+    {
+      "id": "7rrPANmUDxWbA9e6rtenLa",
+      "name": "Everybody",
+      "artists": [
+        "Bentley"
+      ],
+      "album": "Everybody",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27328680db547e9c3e20e3af5d5",
+      "releaseDate": "2008-01-01",
+      "durationMs": 199175,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/7rrPANmUDxWbA9e6rtenLa"
+    },
+    {
+      "id": "6hezGXLMcnIRxzXoA7cYiP",
+      "name": "Kon Karne",
+      "artists": [
+        "MF DOOM"
+      ],
+      "album": "MM..FOOD",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27352f194d02c39909d1b284799",
+      "releaseDate": "2004-11-16",
+      "durationMs": 171600,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/6hezGXLMcnIRxzXoA7cYiP"
+    },
+    {
+      "id": "13AzkgqOT4PHx5aXxihF0n",
+      "name": "Kon Queso",
+      "artists": [
+        "MF DOOM"
+      ],
+      "album": "MM..FOOD",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27352f194d02c39909d1b284799",
+      "releaseDate": "2004-11-16",
+      "durationMs": 240266,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/13AzkgqOT4PHx5aXxihF0n"
+    },
+    {
+      "id": "10fbCavbRqZcQmZNIgK5Ti",
+      "name": "Give Life Back to Music",
+      "artists": [
+        "Daft Punk"
+      ],
+      "album": "GLBTM (Studio Outtakes)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730aefda3a92b9c84e47d3f808",
+      "releaseDate": "2023-04-20",
+      "durationMs": 274407,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/10fbCavbRqZcQmZNIgK5Ti"
+    },
+    {
+      "id": "2mpoNBkngUEwnaKoBhZ0vl",
+      "name": "PRC",
+      "artists": [
+        "Peso Pluma",
+        "Natanael Cano"
+      ],
+      "album": "PRC",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737be314e2f66a9f7ee732395e",
+      "releaseDate": "2023-01-23",
+      "durationMs": 184066,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/2mpoNBkngUEwnaKoBhZ0vl"
+    },
+    {
+      "id": "41P6Tnd8KIHqON0QIydx6a",
+      "name": "the perfect pair",
+      "artists": [
+        "beabadoobee"
+      ],
+      "album": "Beatopia",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273384d10f967c2b914de7e2713",
+      "releaseDate": "2022-07-15",
+      "durationMs": 177533,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/41P6Tnd8KIHqON0QIydx6a"
+    },
+    {
+      "id": "1haJsMtoBhHfvuM7XWuT3W",
+      "name": "El Azul",
+      "artists": [
+        "Junior H",
+        "Peso Pluma"
+      ],
+      "album": "El Azul",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27374ef16d333bdafe5adae1e7b",
+      "releaseDate": "2023-02-10",
+      "durationMs": 187225,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/1haJsMtoBhHfvuM7XWuT3W"
+    },
+    {
+      "id": "0WGlJKVRSgX1KkFFozCHHU",
+      "name": "wash my sins away",
+      "artists": [
+        "berlioz"
+      ],
+      "album": "wash my sins away",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c969d76899504b76123fcb3f",
+      "releaseDate": "2023-05-12",
+      "durationMs": 232500,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/0WGlJKVRSgX1KkFFozCHHU"
+    },
+    {
+      "id": "0CrcwVLUe8wzLUIXgjXVZJ",
+      "name": "Kill Bill (feat. Doja Cat)",
+      "artists": [
+        "SZA",
+        "Doja Cat"
+      ],
+      "album": "Kill Bill (feat. Doja Cat)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273da137b20a10303e6f551313b",
+      "releaseDate": "2023-04-14",
+      "durationMs": 175836,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/0CrcwVLUe8wzLUIXgjXVZJ"
+    },
+    {
+      "id": "204t5SErksNRHRhU52g5JF",
+      "name": "Oncle Jazz",
+      "artists": [
+        "Men I Trust"
+      ],
+      "album": "Oncle Jazz",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273080a103172ab636cd50df7f0",
+      "releaseDate": "2019-09-13",
+      "durationMs": 57876,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/204t5SErksNRHRhU52g5JF"
+    },
+    {
+      "id": "2EWpa5XnAuSn0sIkSSIhYk",
+      "name": "Wish I Knew You",
+      "artists": [
+        "The Revivalists"
+      ],
+      "album": "Men Amongst Mountains",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c5214ee5d4300598a8a95264",
+      "releaseDate": "2015-07-15",
+      "durationMs": 274093,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/2EWpa5XnAuSn0sIkSSIhYk"
+    },
+    {
+      "id": "1QpybTT7CadO6tsUBnoukv",
+      "name": "スカイレストラン",
+      "artists": [
+        "Hi-Fi Set"
+      ],
+      "album": "Hi-Fi Blend Pt. 1",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a253261644189c4edb94498e",
+      "releaseDate": "2009-07-15",
+      "durationMs": 193666,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/1QpybTT7CadO6tsUBnoukv"
+    },
+    {
+      "id": "5HT7sdhkOCFVegIoMOL7yj",
+      "name": "Lo Hice, Te Dejé",
+      "artists": [
+        "Daniel, Me Estás Matando"
+      ],
+      "album": "Lo Hice, Te Dejé",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737d785ca47dc0739832d82028",
+      "releaseDate": "2021-04-16",
+      "durationMs": 186730,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/5HT7sdhkOCFVegIoMOL7yj"
+    },
+    {
+      "id": "2aaOJJd2fBkd4es7vI2h2a",
+      "name": "Love Was Really Gone - 2018 Remaster",
+      "artists": [
+        "Makoto Matsushita"
+      ],
+      "album": "FIRST LIGHT (+1; 2018 Remaster)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e3999c2a5bcf80a80742d8ea",
+      "releaseDate": "1982-04-21",
+      "durationMs": 347366,
+      "addedAt": "2023-06-24T05:42:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/2aaOJJd2fBkd4es7vI2h2a"
+    }
+  ]
+}

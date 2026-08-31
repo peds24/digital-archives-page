@@ -1,0 +1,426 @@
+{
+  "id": "archive-002",
+  "number": 2,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2022-06-01T06:35:28Z",
+    "latest": "2022-06-01T06:37:24Z"
+  },
+  "tracks": [
+    {
+      "id": "1Bxy3XwU6CgdDZsKQMxpMs",
+      "name": "IT'S OURS",
+      "artists": [
+        "MESSIAH!"
+      ],
+      "album": "PERFECT 7",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d94a623f71e49585d3df4ed2",
+      "releaseDate": "2022-03-24",
+      "durationMs": 192884,
+      "addedAt": "2022-06-01T06:35:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/1Bxy3XwU6CgdDZsKQMxpMs"
+    },
+    {
+      "id": "4zhVsvE3yh2x0Quy1VPZbZ",
+      "name": "SO MUCH HATE",
+      "artists": [
+        "MESSIAH!",
+        "MAVI"
+      ],
+      "album": "PERFECT 7",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d94a623f71e49585d3df4ed2",
+      "releaseDate": "2022-03-24",
+      "durationMs": 264961,
+      "addedAt": "2022-06-01T06:35:33Z",
+      "spotifyUrl": "https://open.spotify.com/track/4zhVsvE3yh2x0Quy1VPZbZ"
+    },
+    {
+      "id": "6w9lmWBgqzPQHNQo5KaORN",
+      "name": "Bonjour",
+      "artists": [
+        "Nas",
+        "The WRLDFMS Tony Williams"
+      ],
+      "album": "NASIR",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734c2ab67f7da8208998f35d51",
+      "releaseDate": "2018-06-15",
+      "durationMs": 201560,
+      "addedAt": "2022-06-01T06:35:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/6w9lmWBgqzPQHNQo5KaORN"
+    },
+    {
+      "id": "7jzcoWGOQXGufcXbs7TFVN",
+      "name": "Simple Things",
+      "artists": [
+        "Nas"
+      ],
+      "album": "NASIR",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734c2ab67f7da8208998f35d51",
+      "releaseDate": "2018-06-15",
+      "durationMs": 139718,
+      "addedAt": "2022-06-01T06:35:38Z",
+      "spotifyUrl": "https://open.spotify.com/track/7jzcoWGOQXGufcXbs7TFVN"
+    },
+    {
+      "id": "5lZ6f9AO0OrwsdFyQAfKqV",
+      "name": "Self Love",
+      "artists": [
+        "MAVI"
+      ],
+      "album": "Let the Sun Talk",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273655aaf07642a3042adb4ae89",
+      "releaseDate": "2019-10-18",
+      "durationMs": 307687,
+      "addedAt": "2022-06-01T06:35:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/5lZ6f9AO0OrwsdFyQAfKqV"
+    },
+    {
+      "id": "6f44p3Kc4ayD9VtbC9Clkr",
+      "name": "Come On, Let's Go (with Nigo)",
+      "artists": [
+        "Tyler, The Creator",
+        "Nigo"
+      ],
+      "album": "I Know NIGO!",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733c5fdcf8a1ea2d226e277460",
+      "releaseDate": "2022-03-25",
+      "durationMs": 199500,
+      "addedAt": "2022-06-01T06:35:52Z",
+      "spotifyUrl": "https://open.spotify.com/track/6f44p3Kc4ayD9VtbC9Clkr"
+    },
+    {
+      "id": "6jjQHv8A394Dz1HjYrr2jv",
+      "name": "Luh You",
+      "artists": [
+        "Anderson .Paak"
+      ],
+      "album": "Venice",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273575d35bb37c74b64c7308ed5",
+      "releaseDate": "2014-10-28",
+      "durationMs": 210720,
+      "addedAt": "2022-06-01T06:35:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/6jjQHv8A394Dz1HjYrr2jv"
+    },
+    {
+      "id": "3A4cpTBPaIQdtPFb5JxtaX",
+      "name": "Slow Jamz",
+      "artists": [
+        "Twista",
+        "Kanye West",
+        "Jamie Foxx"
+      ],
+      "album": "The College Dropout",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27325b055377757b3cdd6f26b78",
+      "releaseDate": "2004-02-10",
+      "durationMs": 316053,
+      "addedAt": "2022-06-01T06:36:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/3A4cpTBPaIQdtPFb5JxtaX"
+    },
+    {
+      "id": "4BnrGx9tWNF8aiXl1UhDBa",
+      "name": "One Beer",
+      "artists": [
+        "MF DOOM"
+      ],
+      "album": "MM..FOOD",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27352f194d02c39909d1b284799",
+      "releaseDate": "2004-11-16",
+      "durationMs": 258586,
+      "addedAt": "2022-06-01T06:36:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/4BnrGx9tWNF8aiXl1UhDBa"
+    },
+    {
+      "id": "43pWChQ7AOab9wlSGy0dN6",
+      "name": "F.I.L.O. (feat. Shing02)",
+      "artists": [
+        "Nujabes",
+        "Shing02"
+      ],
+      "album": "Metaphorical Music",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a1a897ee5e642da6d945bcd7",
+      "releaseDate": "2003-08-21",
+      "durationMs": 211226,
+      "addedAt": "2022-06-01T06:36:07Z",
+      "spotifyUrl": "https://open.spotify.com/track/43pWChQ7AOab9wlSGy0dN6"
+    },
+    {
+      "id": "2csdd679hni5tQsW8lkEV1",
+      "name": "Next view (feat. Uyama Hiroto)",
+      "artists": [
+        "Nujabes",
+        "Uyama Hiroto"
+      ],
+      "album": "Metaphorical Music",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a1a897ee5e642da6d945bcd7",
+      "releaseDate": "2003-08-21",
+      "durationMs": 275693,
+      "addedAt": "2022-06-01T06:36:09Z",
+      "spotifyUrl": "https://open.spotify.com/track/2csdd679hni5tQsW8lkEV1"
+    },
+    {
+      "id": "4UQMOPSUVJVicIQzjAcRRZ",
+      "name": "Champion",
+      "artists": [
+        "Kanye West"
+      ],
+      "album": "Graduation",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
+      "releaseDate": "2007-09-11",
+      "durationMs": 167600,
+      "addedAt": "2022-06-01T06:36:12Z",
+      "spotifyUrl": "https://open.spotify.com/track/4UQMOPSUVJVicIQzjAcRRZ"
+    },
+    {
+      "id": "5OkRsZsJBBFIOWbCyJq6eL",
+      "name": "Stun Gun",
+      "artists": [
+        "CZARFACE",
+        "MF DOOM"
+      ],
+      "album": "Czarface Meets Metal Face",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736bc240551be44f15bb2bf596",
+      "releaseDate": "2018-03-30",
+      "durationMs": 123867,
+      "addedAt": "2022-06-01T06:36:15Z",
+      "spotifyUrl": "https://open.spotify.com/track/5OkRsZsJBBFIOWbCyJq6eL"
+    },
+    {
+      "id": "7bhqleAlNaLpXj2wEbXZQo",
+      "name": "Astral Traveling",
+      "artists": [
+        "CZARFACE",
+        "MF DOOM",
+        "Vinnie Paz"
+      ],
+      "album": "Czarface Meets Metal Face",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736bc240551be44f15bb2bf596",
+      "releaseDate": "2018-03-30",
+      "durationMs": 230294,
+      "addedAt": "2022-06-01T06:36:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/7bhqleAlNaLpXj2wEbXZQo"
+    },
+    {
+      "id": "2EMWP3NJeivpl0Seic7Oqz",
+      "name": "HAZARD DUTY PAY!",
+      "artists": [
+        "JPEGMAFIA"
+      ],
+      "album": "HAZARD DUTY PAY!",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27367af98b42c7915ac9064b2e2",
+      "releaseDate": "2022-02-23",
+      "durationMs": 157169,
+      "addedAt": "2022-06-01T06:36:22Z",
+      "spotifyUrl": "https://open.spotify.com/track/2EMWP3NJeivpl0Seic7Oqz"
+    },
+    {
+      "id": "4jsnWqovI6medzH395WPPf",
+      "name": "Breastmilk",
+      "artists": [
+        "The Koreatown Oddity"
+      ],
+      "album": "Breastmilk",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ef573976a4c28a60b9d565a3",
+      "releaseDate": "2021-01-26",
+      "durationMs": 140754,
+      "addedAt": "2022-06-01T06:36:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/4jsnWqovI6medzH395WPPf"
+    },
+    {
+      "id": "4qiBDlMzW2vTK8dJKw7xD3",
+      "name": "Who's Gonna Save My Soul - Original Mix",
+      "artists": [
+        "Gnarls Barkley",
+        "CeeLo Green",
+        "Danger Mouse"
+      ],
+      "album": "The Odd Couple",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733af06068b2ab5e134c4c7067",
+      "releaseDate": "2008-03-18",
+      "durationMs": 195466,
+      "addedAt": "2022-06-01T06:36:28Z",
+      "spotifyUrl": "https://open.spotify.com/track/4qiBDlMzW2vTK8dJKw7xD3"
+    },
+    {
+      "id": "4yE4q67dJfxAHoWaf95k4E",
+      "name": "Luv (sic) pt5 Instrumentals",
+      "artists": [
+        "Nujabes"
+      ],
+      "album": "Luv(sic) Hexalogy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731a1ba7785a4b91c8aee7a79c",
+      "releaseDate": "2015-12-09",
+      "durationMs": 349800,
+      "addedAt": "2022-06-01T06:36:31Z",
+      "spotifyUrl": "https://open.spotify.com/track/4yE4q67dJfxAHoWaf95k4E"
+    },
+    {
+      "id": "1pxdPSITU316wZ68CUbLaY",
+      "name": "Luv (sic) pt4 Instrumentals",
+      "artists": [
+        "Nujabes"
+      ],
+      "album": "Luv(sic) Hexalogy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731a1ba7785a4b91c8aee7a79c",
+      "releaseDate": "2015-12-09",
+      "durationMs": 310733,
+      "addedAt": "2022-06-01T06:36:35Z",
+      "spotifyUrl": "https://open.spotify.com/track/1pxdPSITU316wZ68CUbLaY"
+    },
+    {
+      "id": "37kW9eEI0EJFM0ip2mf1Wy",
+      "name": "C Carter",
+      "artists": [
+        "Cordae"
+      ],
+      "album": "From a Birds Eye View",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733a0cc16f61347ee44280bf2e",
+      "releaseDate": "2022-01-14",
+      "durationMs": 193168,
+      "addedAt": "2022-06-01T06:36:37Z",
+      "spotifyUrl": "https://open.spotify.com/track/37kW9eEI0EJFM0ip2mf1Wy"
+    },
+    {
+      "id": "0B0jhczWfIdjY0p4KY1ArL",
+      "name": "Another You (feat. Kanye West)",
+      "artists": [
+        "The WRLDFMS Tony Williams",
+        "Kanye West"
+      ],
+      "album": "The 7th Day",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ca0517e383b4533f835a235a",
+      "releaseDate": "2017-07-14",
+      "durationMs": 262986,
+      "addedAt": "2022-06-01T06:36:39Z",
+      "spotifyUrl": "https://open.spotify.com/track/0B0jhczWfIdjY0p4KY1ArL"
+    },
+    {
+      "id": "5zJVbdh45knPKEM21Q7Odd",
+      "name": "Fuji",
+      "artists": [
+        "Vanilla"
+      ],
+      "album": "Origin",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736fa3da33a574843e86988d98",
+      "releaseDate": "2015-09-20",
+      "durationMs": 334456,
+      "addedAt": "2022-06-01T06:36:42Z",
+      "spotifyUrl": "https://open.spotify.com/track/5zJVbdh45knPKEM21Q7Odd"
+    },
+    {
+      "id": "58MeeOMk6PMQxXWY9YCNPD",
+      "name": "Next Levels",
+      "artists": [
+        "King Geedorah",
+        "John Robinson",
+        "Stahhr",
+        "Stacy Epps",
+        "Invizible Handz"
+      ],
+      "album": "Take Me To Your Leader",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c54028b0ef2f2f569fb3df42",
+      "releaseDate": "2003-06-17",
+      "durationMs": 229320,
+      "addedAt": "2022-06-01T06:36:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/58MeeOMk6PMQxXWY9YCNPD"
+    },
+    {
+      "id": "4huBDGP4I3S0pYI0EaRN1c",
+      "name": "City of Gods",
+      "artists": [
+        "Fivio Foreign",
+        "Kanye West",
+        "Alicia Keys"
+      ],
+      "album": "City of Gods",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273473b5e9adbcd291b3abd566f",
+      "releaseDate": "2022-02-11",
+      "durationMs": 256000,
+      "addedAt": "2022-06-01T06:36:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/4huBDGP4I3S0pYI0EaRN1c"
+    },
+    {
+      "id": "7nRlXvxkVz7pNzUgNXVAl9",
+      "name": "Fragile",
+      "artists": [
+        "Tatsuro Y"
+      ],
+      "album": "Fragile",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fbb2919904b91a8af0221b51",
+      "releaseDate": "2021-11-01",
+      "durationMs": 328150,
+      "addedAt": "2022-06-01T06:36:52Z",
+      "spotifyUrl": "https://open.spotify.com/track/7nRlXvxkVz7pNzUgNXVAl9"
+    },
+    {
+      "id": "4rhZsHUXcu3Me3ENLxXPoc",
+      "name": "Hot Tub",
+      "artists": [
+        "Yung Gravy",
+        "Dillon Francis",
+        "T-Pain"
+      ],
+      "album": "Cake and Cognac",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737cb482b389f8ad47d2391668",
+      "releaseDate": "2022-02-04",
+      "durationMs": 159226,
+      "addedAt": "2022-06-01T06:36:54Z",
+      "spotifyUrl": "https://open.spotify.com/track/4rhZsHUXcu3Me3ENLxXPoc"
+    },
+    {
+      "id": "7L4AtavGZEEDkVw1E0mDYn",
+      "name": "Three Man Weave",
+      "artists": [
+        "Injury Reserve"
+      ],
+      "album": "Injury Reserve",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bbb8e75cc391ddeba931b3eb",
+      "releaseDate": "2019-05-17",
+      "durationMs": 206693,
+      "addedAt": "2022-06-01T06:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/7L4AtavGZEEDkVw1E0mDYn"
+    },
+    {
+      "id": "6vegnfDS8DAEaCqWaPYGPy",
+      "name": "Otis",
+      "artists": [
+        "JAŸ-Z",
+        "Kanye West",
+        "Otis Redding"
+      ],
+      "album": "Watch The Throne (Deluxe)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735c837cc621c1ec82bf3c81ac",
+      "releaseDate": "2011-08-08",
+      "durationMs": 178213,
+      "addedAt": "2022-06-01T06:37:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/6vegnfDS8DAEaCqWaPYGPy"
+    },
+    {
+      "id": "0GPbZGsejbwe1Ot6VS2G5h",
+      "name": "Bumps and Bruises",
+      "artists": [
+        "Boldy James",
+        "The Alchemist"
+      ],
+      "album": "Super Tecmo Bo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a671697e72456d41a848175f",
+      "releaseDate": "2021-12-17",
+      "durationMs": 217920,
+      "addedAt": "2022-06-01T06:37:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/0GPbZGsejbwe1Ot6VS2G5h"
+    },
+    {
+      "id": "2R711v6UpsgYvDuzCJ1iSl",
+      "name": "fafo",
+      "artists": [
+        "Zack Fox"
+      ],
+      "album": "fafo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e093898f61b6e21a3a6ccec9",
+      "releaseDate": "2021-10-01",
+      "durationMs": 159451,
+      "addedAt": "2022-06-01T06:37:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/2R711v6UpsgYvDuzCJ1iSl"
+    }
+  ]
+}

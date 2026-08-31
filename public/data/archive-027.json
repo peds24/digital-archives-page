@@ -1,0 +1,413 @@
+{
+  "id": "archive-027",
+  "number": 27,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2026-04-27T21:20:46Z",
+    "latest": "2026-04-28T21:13:06Z"
+  },
+  "tracks": [
+    {
+      "id": "3poJZBl2yoeWbMMxX63YcE",
+      "name": "Maggot Brain",
+      "artists": [
+        "Flea"
+      ],
+      "album": "Honora",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273017eb062be58097ec134eeb6",
+      "releaseDate": "2026-03-27",
+      "durationMs": 292493,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/3poJZBl2yoeWbMMxX63YcE"
+    },
+    {
+      "id": "19CmuECYssqkPWANF4nLWM",
+      "name": "Para No Verte Más",
+      "artists": [
+        "La Mosca"
+      ],
+      "album": "Visperas De Carnaval",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27360fc79eea7acba5248619f82",
+      "releaseDate": "2000",
+      "durationMs": 191560,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/19CmuECYssqkPWANF4nLWM"
+    },
+    {
+      "id": "4PBou1i63krEp3jKCPhxVD",
+      "name": "Nada Personal - Remasterizado 2007",
+      "artists": [
+        "Soda Stereo"
+      ],
+      "album": "Nada Personal (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e28947f6ad2f100af9c1965a",
+      "releaseDate": "1985-10-09",
+      "durationMs": 292573,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/4PBou1i63krEp3jKCPhxVD"
+    },
+    {
+      "id": "65krtHkaYLPr0mEbjL61UP",
+      "name": "Kiss of Life",
+      "artists": [
+        "Sade"
+      ],
+      "album": "The Best of Sade",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735e25e034e25258b356774c79",
+      "releaseDate": "1994-10-31",
+      "durationMs": 251333,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/65krtHkaYLPr0mEbjL61UP"
+    },
+    {
+      "id": "5CMjjywI0eZMixPeqNd75R",
+      "name": "Lose Yourself to Dance (feat. Pharrell Williams)",
+      "artists": [
+        "Daft Punk",
+        "Pharrell Williams"
+      ],
+      "album": "Random Access Memories",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739b9b36b0e22870b9f542d937",
+      "releaseDate": "2013-05-20",
+      "durationMs": 353893,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/5CMjjywI0eZMixPeqNd75R"
+    },
+    {
+      "id": "2cGxRwrMyEAp8dEbuZaVv6",
+      "name": "Instant Crush (feat. Julian Casablancas)",
+      "artists": [
+        "Daft Punk",
+        "Julian Casablancas"
+      ],
+      "album": "Random Access Memories",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739b9b36b0e22870b9f542d937",
+      "releaseDate": "2013-05-20",
+      "durationMs": 337560,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/2cGxRwrMyEAp8dEbuZaVv6"
+    },
+    {
+      "id": "7Bxv0WL7UC6WwQpk9TzdMJ",
+      "name": "Within",
+      "artists": [
+        "Daft Punk"
+      ],
+      "album": "Random Access Memories",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739b9b36b0e22870b9f542d937",
+      "releaseDate": "2013-05-20",
+      "durationMs": 228506,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/7Bxv0WL7UC6WwQpk9TzdMJ"
+    },
+    {
+      "id": "7sZCAHP2duHwr5M5K7lHsb",
+      "name": "Selfish",
+      "artists": [
+        "Slum Village",
+        "John Legend",
+        "Kanye West"
+      ],
+      "album": "Detroit Deli (A Taste Of Detroit)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731f97d8b1eb559b99c1c12db6",
+      "releaseDate": "2004-01-01",
+      "durationMs": 225400,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/7sZCAHP2duHwr5M5K7lHsb"
+    },
+    {
+      "id": "3hN5cipCofNVspWVkToiQD",
+      "name": "Actually",
+      "artists": [
+        "Dan Kye"
+      ],
+      "album": "Small Moments",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273249a9780ec02ab17e91236b5",
+      "releaseDate": "2020-11-13",
+      "durationMs": 227486,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/3hN5cipCofNVspWVkToiQD"
+    },
+    {
+      "id": "3g5q1ATzZGGYOh7fDKjn8q",
+      "name": "Tant d'amour perdu",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "Tako Tsubo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273389ffd99d51037a6f0a256f5",
+      "releaseDate": "2021-03-26",
+      "durationMs": 189730,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/3g5q1ATzZGGYOh7fDKjn8q"
+    },
+    {
+      "id": "4YPhn26bIFm2KUkL1VLzQG",
+      "name": "Say It Ain't So",
+      "artists": [
+        "Weezer"
+      ],
+      "album": "Weezer (Deluxe Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273252c0cdd739400c558a753b2",
+      "releaseDate": "1994-05-10",
+      "durationMs": 256880,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/4YPhn26bIFm2KUkL1VLzQG"
+    },
+    {
+      "id": "0udVW76Es96emCsJ834ZJr",
+      "name": "Água de Beber",
+      "artists": [
+        "Lisa Ono"
+      ],
+      "album": "Água de Beber",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736125e69e31ba9584447b05ad",
+      "releaseDate": "2026-02-25",
+      "durationMs": 251459,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/0udVW76Es96emCsJ834ZJr"
+    },
+    {
+      "id": "758mQT4zzlvBhy9PvNePwC",
+      "name": "Butter",
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "album": "The Low End Theory",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f38c6b37a21334e22005b1f7",
+      "releaseDate": "1991-09-24",
+      "durationMs": 218773,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/758mQT4zzlvBhy9PvNePwC"
+    },
+    {
+      "id": "608xszaAxVh4m7NcKJiAbF",
+      "name": "One of These Nights - 2013 Remaster",
+      "artists": [
+        "Eagles"
+      ],
+      "album": "One of These Nights (2013 Remaster)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735d0a8e54aba5181c79593b94",
+      "releaseDate": "1975-06-10",
+      "durationMs": 291685,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/608xszaAxVh4m7NcKJiAbF"
+    },
+    {
+      "id": "6LczLqZocZkGfF094IfkeQ",
+      "name": "修羅の花(東宝映画「修羅雪姫」より)",
+      "artists": [
+        "Meiko Kaji"
+      ],
+      "album": "女をやめたい そして…",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273173846704f100a3da19b85f1",
+      "releaseDate": "2010-03-24",
+      "durationMs": 229960,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/6LczLqZocZkGfF094IfkeQ"
+    },
+    {
+      "id": "4QkvD53COA5qLA7rQ1Pa7D",
+      "name": "Nobody But Me",
+      "artists": [
+        "The Human Beinz"
+      ],
+      "album": "Nobody But Me",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739703c57642398ca531316d3e",
+      "releaseDate": "1968-01-01",
+      "durationMs": 140440,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/4QkvD53COA5qLA7rQ1Pa7D"
+    },
+    {
+      "id": "4jEnqVCUvDxiXbD7mW8cns",
+      "name": "Kaoru & Sentaro Duo in BUNKASAI (Medley \"My Favorite Things〜いつか王子様が〜Moanin'\"）",
+      "artists": [
+        "Yoko Kanno"
+      ],
+      "album": "アニメ「坂道のアポロン」オリジナル・サウンドトラック",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d6d57120945ac0c1bd22193a",
+      "releaseDate": "2012-04-25",
+      "durationMs": 219413,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/4jEnqVCUvDxiXbD7mW8cns"
+    },
+    {
+      "id": "60GM1mA58L7SYD1bLQXBho",
+      "name": "Woman",
+      "artists": [
+        "Little Simz",
+        "Cleo Sol"
+      ],
+      "album": "Sometimes I Might Be Introvert",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273aede85ed28c2237a33b63dba",
+      "releaseDate": "2021-09-03",
+      "durationMs": 269413,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/60GM1mA58L7SYD1bLQXBho"
+    },
+    {
+      "id": "1rqB1haVWhMK87IV3DN4jC",
+      "name": "LiFE 4 A LiFE",
+      "artists": [
+        "IDK",
+        "Pusha T"
+      ],
+      "album": "e.t.d.s. A Mixtape by .idk.",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27366894be10fc124c61c16819a",
+      "releaseDate": "2026-01-23",
+      "durationMs": 179588,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/1rqB1haVWhMK87IV3DN4jC"
+    },
+    {
+      "id": "16FG85bdBWTIb0KahMLEl6",
+      "name": "MiSOGYNISTICAL [Prd. by .idk.]",
+      "artists": [
+        "IDK"
+      ],
+      "album": "e.t.d.s. A Mixtape by .idk.",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27366894be10fc124c61c16819a",
+      "releaseDate": "2026-01-23",
+      "durationMs": 173758,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/16FG85bdBWTIb0KahMLEl6"
+    },
+    {
+      "id": "5Llanvs8zPL8f6HMY9WWf8",
+      "name": "DEViL [Prd. by .idk.]",
+      "artists": [
+        "IDK"
+      ],
+      "album": "e.t.d.s. A Mixtape by .idk.",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27366894be10fc124c61c16819a",
+      "releaseDate": "2026-01-23",
+      "durationMs": 133560,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/5Llanvs8zPL8f6HMY9WWf8"
+    },
+    {
+      "id": "2EFHXO4zJRitZLpE1ztsWO",
+      "name": "Dracula's Wedding (feat. Kelis)",
+      "artists": [
+        "Outkast",
+        "Kelis"
+      ],
+      "album": "Speakerboxxx/The Love Below",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736e88eb6508fd94cd1b745ce2",
+      "releaseDate": "2003",
+      "durationMs": 152413,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/2EFHXO4zJRitZLpE1ztsWO"
+    },
+    {
+      "id": "6usyQ5fFzISwVu4Hk5QgG7",
+      "name": "Spread",
+      "artists": [
+        "Outkast"
+      ],
+      "album": "Speakerboxxx/The Love Below",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736e88eb6508fd94cd1b745ce2",
+      "releaseDate": "2003",
+      "durationMs": 231373,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/6usyQ5fFzISwVu4Hk5QgG7"
+    },
+    {
+      "id": "5z7mYFfhw6N6f23VwrokJD",
+      "name": "The Way You Move (feat. Sleepy Brown)",
+      "artists": [
+        "Outkast",
+        "Sleepy Brown"
+      ],
+      "album": "Speakerboxxx/The Love Below",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736e88eb6508fd94cd1b745ce2",
+      "releaseDate": "2003",
+      "durationMs": 234000,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/5z7mYFfhw6N6f23VwrokJD"
+    },
+    {
+      "id": "6kIwGkZQksciLIjIbM0NFo",
+      "name": "So Far Ahead",
+      "artists": [
+        "Clipse",
+        "Pharrell Williams",
+        "Pusha T",
+        "Malice"
+      ],
+      "album": "Let God Sort Em Out",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ef854fe1d04279372a96f3d6",
+      "releaseDate": "2025-07-11",
+      "durationMs": 202066,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/6kIwGkZQksciLIjIbM0NFo"
+    },
+    {
+      "id": "4dkoqJrP0L8FXftrMZongF",
+      "name": "Across The Universe - Remastered 2009",
+      "artists": [
+        "The Beatles"
+      ],
+      "album": "Let It Be (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27384243a01af3c77b56fe01ab1",
+      "releaseDate": "1970-05-08",
+      "durationMs": 228133,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/4dkoqJrP0L8FXftrMZongF"
+    },
+    {
+      "id": "3mlMpmY8oZIBFc39D9zLbh",
+      "name": "The Long And Winding Road - Remastered 2009",
+      "artists": [
+        "The Beatles"
+      ],
+      "album": "Let It Be (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27384243a01af3c77b56fe01ab1",
+      "releaseDate": "1970-05-08",
+      "durationMs": 218186,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/3mlMpmY8oZIBFc39D9zLbh"
+    },
+    {
+      "id": "3D9iV6cYkYJRAPFO6DRKIE",
+      "name": "Jealous Guy - Remastered 2010",
+      "artists": [
+        "John Lennon"
+      ],
+      "album": "Imagine",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27399581550ef9746ca582bb3cc",
+      "releaseDate": "1971-09-09",
+      "durationMs": 257786,
+      "addedAt": "2026-04-27T21:20:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/3D9iV6cYkYJRAPFO6DRKIE"
+    },
+    {
+      "id": "3MODES4TNtygekLl146Dxd",
+      "name": "Ramble On - 1990 Remaster",
+      "artists": [
+        "Led Zeppelin"
+      ],
+      "album": "Led Zeppelin II (1994 Remaster)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fc4f17340773c6c3579fea0d",
+      "releaseDate": "1969-10-22",
+      "durationMs": 263333,
+      "addedAt": "2026-04-28T21:13:06Z",
+      "spotifyUrl": "https://open.spotify.com/track/3MODES4TNtygekLl146Dxd"
+    },
+    {
+      "id": "78MXICbE7bD4cuPKFh1EFO",
+      "name": "Celebration Day - Remaster",
+      "artists": [
+        "Led Zeppelin"
+      ],
+      "album": "Led Zeppelin III (Remaster)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27390a50cfe99a4c19ff3cbfbdb",
+      "releaseDate": "1970",
+      "durationMs": 210227,
+      "addedAt": "2026-04-28T21:13:06Z",
+      "spotifyUrl": "https://open.spotify.com/track/78MXICbE7bD4cuPKFh1EFO"
+    }
+  ]
+}

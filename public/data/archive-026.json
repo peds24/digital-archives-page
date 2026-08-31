@@ -1,0 +1,404 @@
+{
+  "id": "archive-026",
+  "number": 26,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2026-02-02T19:13:00Z",
+    "latest": "2026-02-02T19:13:00Z"
+  },
+  "tracks": [
+    {
+      "id": "3y8ulAvBmeTiNTKmjrXrCd",
+      "name": "Willowcrest",
+      "artists": [
+        "Buddy Rich"
+      ],
+      "album": "The Lost Tapes",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27302377cdefe239194efcbfc8b",
+      "releaseDate": "2017-09-15",
+      "durationMs": 265560,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/3y8ulAvBmeTiNTKmjrXrCd"
+    },
+    {
+      "id": "6hu1f1cXSw7OAqhpSQ2zDy",
+      "name": "Dazed and Confused - 1990 Remaster",
+      "artists": [
+        "Led Zeppelin"
+      ],
+      "album": "Led Zeppelin",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736f2f499c1df1f210c9b34b32",
+      "releaseDate": "1969-01-12",
+      "durationMs": 386373,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/6hu1f1cXSw7OAqhpSQ2zDy"
+    },
+    {
+      "id": "0QwZfbw26QeUoIy82Z2jYp",
+      "name": "Good Times Bad Times - 1993 Remaster",
+      "artists": [
+        "Led Zeppelin"
+      ],
+      "album": "Led Zeppelin",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736f2f499c1df1f210c9b34b32",
+      "releaseDate": "1969-01-12",
+      "durationMs": 166266,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/0QwZfbw26QeUoIy82Z2jYp"
+    },
+    {
+      "id": "5p3JunprHCxClJjOmcLV8G",
+      "name": "Walk On the Wild Side",
+      "artists": [
+        "Lou Reed"
+      ],
+      "album": "Transformer",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fe5213edd4f8550a8030efcf",
+      "releaseDate": "1972-12-01",
+      "durationMs": 255875,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/5p3JunprHCxClJjOmcLV8G"
+    },
+    {
+      "id": "0VCfjcHCbo5IlAF2vZuH75",
+      "name": "The Blue",
+      "artists": [
+        "David Gilmour"
+      ],
+      "album": "On An Island",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c57732e7c1b7657b1896b58b",
+      "releaseDate": "2006-03-06",
+      "durationMs": 326693,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/0VCfjcHCbo5IlAF2vZuH75"
+    },
+    {
+      "id": "1nFtiJxYdhtFfFtfXBv06s",
+      "name": "Something In The Way",
+      "artists": [
+        "Nirvana"
+      ],
+      "album": "Nevermind (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e175a19e530c898d167d39bf",
+      "releaseDate": "1991-09-26",
+      "durationMs": 232146,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/1nFtiJxYdhtFfFtfXBv06s"
+    },
+    {
+      "id": "5Ddlk6C2JVxb1SReZ6O1wk",
+      "name": "Drain You",
+      "artists": [
+        "Nirvana"
+      ],
+      "album": "Nevermind (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e175a19e530c898d167d39bf",
+      "releaseDate": "1991-09-26",
+      "durationMs": 223880,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/5Ddlk6C2JVxb1SReZ6O1wk"
+    },
+    {
+      "id": "2YodwKJnbPyNKe8XXSE9V7",
+      "name": "Lithium",
+      "artists": [
+        "Nirvana"
+      ],
+      "album": "Nevermind (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e175a19e530c898d167d39bf",
+      "releaseDate": "1991-09-26",
+      "durationMs": 257053,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/2YodwKJnbPyNKe8XXSE9V7"
+    },
+    {
+      "id": "4P5KoWXOxwuobLmHXLMobV",
+      "name": "Come As You Are",
+      "artists": [
+        "Nirvana"
+      ],
+      "album": "Nevermind (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e175a19e530c898d167d39bf",
+      "releaseDate": "1991-09-26",
+      "durationMs": 218920,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/4P5KoWXOxwuobLmHXLMobV"
+    },
+    {
+      "id": "30HCB1FoE77IfGRyNv4eFq",
+      "name": "In Bloom",
+      "artists": [
+        "Nirvana"
+      ],
+      "album": "Nevermind (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e175a19e530c898d167d39bf",
+      "releaseDate": "1991-09-26",
+      "durationMs": 255080,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/30HCB1FoE77IfGRyNv4eFq"
+    },
+    {
+      "id": "2EoOZnxNgtmZaD8uUmz2nD",
+      "name": "Black Hole Sun",
+      "artists": [
+        "Soundgarden"
+      ],
+      "album": "Superunknown (Deluxe Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ae6d8e36136353d550b2587d",
+      "releaseDate": "1994-03-09",
+      "durationMs": 318586,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/2EoOZnxNgtmZaD8uUmz2nD"
+    },
+    {
+      "id": "0Sxq0LWeaTFraveN6P8Vne",
+      "name": "Kurayami",
+      "artists": [
+        "Mei Semones"
+      ],
+      "album": "Kurayami/Get used to it",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27350f8884b36f908d7e4c4a298",
+      "releaseDate": "2025-10-22",
+      "durationMs": 218933,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/0Sxq0LWeaTFraveN6P8Vne"
+    },
+    {
+      "id": "7f6AAixCrVar1ZY7RPHDfM",
+      "name": "Cry Me A River",
+      "artists": [
+        "Julie London"
+      ],
+      "album": "Julie Is Her Name",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273320b023f0b74149959eb8069",
+      "releaseDate": "1955-12-01",
+      "durationMs": 178573,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/7f6AAixCrVar1ZY7RPHDfM"
+    },
+    {
+      "id": "6pxWv6GV35VGmcPf5dh6CH",
+      "name": "Proud Mary",
+      "artists": [
+        "Creedence Clearwater Revival"
+      ],
+      "album": "Bayou Country (Expanded Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731afccd261170f1d8f3cadb3d",
+      "releaseDate": "1969-01-05",
+      "durationMs": 187213,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/6pxWv6GV35VGmcPf5dh6CH"
+    },
+    {
+      "id": "2LawezPeJhN4AWuSB0GtAU",
+      "name": "Have You Ever Seen The Rain",
+      "artists": [
+        "Creedence Clearwater Revival"
+      ],
+      "album": "Pendulum (Expanded Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27351f311c2fb06ad2789e3ff91",
+      "releaseDate": "1970-12-07",
+      "durationMs": 160133,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/2LawezPeJhN4AWuSB0GtAU"
+    },
+    {
+      "id": "6kZqCqD1r08sJAQ1TjuEpM",
+      "name": "Never Meant",
+      "artists": [
+        "American Football"
+      ],
+      "album": "American Football",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731e734783a00588087331a0b4",
+      "releaseDate": "1999-09-14",
+      "durationMs": 268333,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/6kZqCqD1r08sJAQ1TjuEpM"
+    },
+    {
+      "id": "3rTH8lu2R8204mz4a4PA11",
+      "name": "Lament",
+      "artists": [
+        "Luca Prodan"
+      ],
+      "album": "Time Fate Love (Remastered 2019)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734cc14812660c966b21a1ee58",
+      "releaseDate": "1996-10-01",
+      "durationMs": 257694,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/3rTH8lu2R8204mz4a4PA11"
+    },
+    {
+      "id": "3HGwI9qwq5XqBDeZBV3zti",
+      "name": "World Hold On (Children of the Sky) - Radio Edit",
+      "artists": [
+        "Bob Sinclar",
+        "Steve Edwards"
+      ],
+      "album": "World Hold On (Children of the Sky) [Radio Edit]",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b65ae9724ee6b6c05c3337ad",
+      "releaseDate": "2006-06-06",
+      "durationMs": 199194,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/3HGwI9qwq5XqBDeZBV3zti"
+    },
+    {
+      "id": "6BJHsLiE47Sk0wQkuppqhr",
+      "name": "From the Start",
+      "artists": [
+        "Good Kid"
+      ],
+      "album": "From the Start",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27395c2ad7e627a60387b294184",
+      "releaseDate": "2023-11-10",
+      "durationMs": 150047,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/6BJHsLiE47Sk0wQkuppqhr"
+    },
+    {
+      "id": "0wAWE8JP9UvXAh2LIZtQWX",
+      "name": "he runs through mist.",
+      "artists": [
+        "SELAS"
+      ],
+      "album": "he runs through mist.",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b00c218135701f6182ed47b9",
+      "releaseDate": "2025-11-12",
+      "durationMs": 257438,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/0wAWE8JP9UvXAh2LIZtQWX"
+    },
+    {
+      "id": "0A6sco3O6DJFd4i7hsODW5",
+      "name": "Later Than You Think",
+      "artists": [
+        "Zagnutt"
+      ],
+      "album": "Later Than You Think",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ac51387039b79d9629a47316",
+      "releaseDate": "2025-10-31",
+      "durationMs": 308053,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/0A6sco3O6DJFd4i7hsODW5"
+    },
+    {
+      "id": "4YetZqZqyaXMQ7FzKk9Krt",
+      "name": "Cállame",
+      "artists": [
+        "Bandalos Chinos"
+      ],
+      "album": "El Big Blue",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737c2bf000d3e0bb0bd7cdea7c",
+      "releaseDate": "2022-05-06",
+      "durationMs": 187266,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/4YetZqZqyaXMQ7FzKk9Krt"
+    },
+    {
+      "id": "11NkxJtowfjaJksJbjYAS0",
+      "name": "Outro Lugar",
+      "artists": [
+        "Toco"
+      ],
+      "album": "Outro Lugar",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273487cf157c88f06f786b263f3",
+      "releaseDate": "2007-06-19",
+      "durationMs": 201375,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/11NkxJtowfjaJksJbjYAS0"
+    },
+    {
+      "id": "7kIscz1L13DAvoDg0hFgWf",
+      "name": "La Tirana",
+      "artists": [
+        "Mon Laferte",
+        "NATHY PELUSO"
+      ],
+      "album": "FEMME FATALE",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730b4c75d5dde5ed7ca003e27d",
+      "releaseDate": "2025-10-24",
+      "durationMs": 244059,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/7kIscz1L13DAvoDg0hFgWf"
+    },
+    {
+      "id": "4oP6sZWbkC3fJghTsyOgkZ",
+      "name": "Otra Noche de Llorar",
+      "artists": [
+        "Mon Laferte"
+      ],
+      "album": "FEMME FATALE",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730b4c75d5dde5ed7ca003e27d",
+      "releaseDate": "2025-10-24",
+      "durationMs": 219949,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/4oP6sZWbkC3fJghTsyOgkZ"
+    },
+    {
+      "id": "2T5ELHiRW8pGcWyJaurFgJ",
+      "name": "Femme Fatale",
+      "artists": [
+        "Mon Laferte"
+      ],
+      "album": "FEMME FATALE",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730b4c75d5dde5ed7ca003e27d",
+      "releaseDate": "2025-10-24",
+      "durationMs": 250162,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/2T5ELHiRW8pGcWyJaurFgJ"
+    },
+    {
+      "id": "1oFqKeepmT5S8BCGqJl7Ar",
+      "name": "革命道中 - On The Way",
+      "artists": [
+        "AiNA THE END"
+      ],
+      "album": "革命道中 - On The Way",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739df9218f742e792bcbd711d3",
+      "releaseDate": "2025-07-02",
+      "durationMs": 197668,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/1oFqKeepmT5S8BCGqJl7Ar"
+    },
+    {
+      "id": "3t6xRbqpzoMBICHGnZ305s",
+      "name": "Ready Or Not (Here I Come)",
+      "artists": [
+        "The Jackson 5"
+      ],
+      "album": "Third Album",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27320112a0321d2efc7384db456",
+      "releaseDate": "1970-09-08",
+      "durationMs": 152626,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/3t6xRbqpzoMBICHGnZ305s"
+    },
+    {
+      "id": "7E4qUlNYocWix5FKBdw5CN",
+      "name": "OH! TENGO SUERTE",
+      "artists": [
+        "Masayoshi Takanaka"
+      ],
+      "album": "SEYCHELLES",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733174a9f789d91a20d3ef14aa",
+      "releaseDate": "1976",
+      "durationMs": 252666,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/7E4qUlNYocWix5FKBdw5CN"
+    },
+    {
+      "id": "2K2M0TcglCRLLpFOzKeFZA",
+      "name": "Sunshine Of Your Love",
+      "artists": [
+        "Cream"
+      ],
+      "album": "Disraeli Gears (Deluxe Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273db1fb2dede292908e86d94d7",
+      "releaseDate": "1967-11",
+      "durationMs": 250400,
+      "addedAt": "2026-02-02T19:13:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/2K2M0TcglCRLLpFOzKeFZA"
+    }
+  ]
+}

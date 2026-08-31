@@ -1,0 +1,425 @@
+{
+  "id": "archive-011",
+  "number": 11,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2023-10-12T16:33:15Z",
+    "latest": "2023-10-12T16:41:04Z"
+  },
+  "tracks": [
+    {
+      "id": "0VA5FzFlysCcSG1IdOkhUb",
+      "name": "Kingdom Hearts Key (ft. redveil)",
+      "artists": [
+        "JPEGMAFIA",
+        "Danny Brown",
+        "redveil"
+      ],
+      "album": "SCARING THE HOES",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27361b7b7e6fd3cf161dc45c88b",
+      "releaseDate": "2023-03-24",
+      "durationMs": 205320,
+      "addedAt": "2023-10-12T16:33:15Z",
+      "spotifyUrl": "https://open.spotify.com/track/0VA5FzFlysCcSG1IdOkhUb"
+    },
+    {
+      "id": "6kRjMNfcKqzZIM46JiIEgZ",
+      "name": "Orange Juice Jones",
+      "artists": [
+        "JPEGMAFIA",
+        "Danny Brown"
+      ],
+      "album": "SCARING THE HOES",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27361b7b7e6fd3cf161dc45c88b",
+      "releaseDate": "2023-03-24",
+      "durationMs": 141589,
+      "addedAt": "2023-10-12T16:33:21Z",
+      "spotifyUrl": "https://open.spotify.com/track/6kRjMNfcKqzZIM46JiIEgZ"
+    },
+    {
+      "id": "4pfhCrRk6P2tMU2D0Mb2z5",
+      "name": "Fentanyl Tester",
+      "artists": [
+        "JPEGMAFIA",
+        "Danny Brown"
+      ],
+      "album": "SCARING THE HOES",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27361b7b7e6fd3cf161dc45c88b",
+      "releaseDate": "2023-03-24",
+      "durationMs": 157642,
+      "addedAt": "2023-10-12T16:33:30Z",
+      "spotifyUrl": "https://open.spotify.com/track/4pfhCrRk6P2tMU2D0Mb2z5"
+    },
+    {
+      "id": "3Wx98ijEDnsxyMYePCuFNI",
+      "name": "Dreamin Of The Past (feat. Kanye West)",
+      "artists": [
+        "Pusha T",
+        "Kanye West"
+      ],
+      "album": "It's Almost Dry",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e27dfef438562f2ecb98a642",
+      "releaseDate": "2022-04-22",
+      "durationMs": 173633,
+      "addedAt": "2023-10-12T16:33:38Z",
+      "spotifyUrl": "https://open.spotify.com/track/3Wx98ijEDnsxyMYePCuFNI"
+    },
+    {
+      "id": "6prWQW8NVawRNIeULPimTz",
+      "name": "Virginia Beach",
+      "artists": [
+        "Drake"
+      ],
+      "album": "For All The Dogs",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730ebdbd881e232d18445ace27",
+      "releaseDate": "2023-10-05",
+      "durationMs": 251094,
+      "addedAt": "2023-10-12T16:34:05Z",
+      "spotifyUrl": "https://open.spotify.com/track/6prWQW8NVawRNIeULPimTz"
+    },
+    {
+      "id": "2fVEFl68eW9GE4tGInNISw",
+      "name": "RN",
+      "artists": [
+        "Joey Valence & Brae"
+      ],
+      "album": "PUNK TACTICS",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27320f08caabcf7658d36c98637",
+      "releaseDate": "2023-09-08",
+      "durationMs": 139506,
+      "addedAt": "2023-10-12T16:34:12Z",
+      "spotifyUrl": "https://open.spotify.com/track/2fVEFl68eW9GE4tGInNISw"
+    },
+    {
+      "id": "4u4GAhqcaxnASRkv7Bc5mn",
+      "name": "No Sabía",
+      "artists": [
+        "Daniel, Me Estás Matando",
+        "Niño de Elche"
+      ],
+      "album": "Grandes Éxitos del Boleroglam, Vol. 2",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e066e62a6357150e872e273e",
+      "releaseDate": "2021-11-19",
+      "durationMs": 185040,
+      "addedAt": "2023-10-12T16:34:22Z",
+      "spotifyUrl": "https://open.spotify.com/track/4u4GAhqcaxnASRkv7Bc5mn"
+    },
+    {
+      "id": "1XjNPAN416vHsO8CczAZpT",
+      "name": "Te Dejo La Ciudad Sin Mi",
+      "artists": [
+        "Los Angeles Negros"
+      ],
+      "album": "Clásicos Latinos",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273410185ae806a6289b2ff500c",
+      "releaseDate": "1994-08-02",
+      "durationMs": 202293,
+      "addedAt": "2023-10-12T16:34:33Z",
+      "spotifyUrl": "https://open.spotify.com/track/1XjNPAN416vHsO8CczAZpT"
+    },
+    {
+      "id": "1skQgtTyuxpGsKgWUEhz7s",
+      "name": "Y Volveré - Remastered 1994",
+      "artists": [
+        "Los Angeles Negros"
+      ],
+      "album": "Clásicos Latinos",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273410185ae806a6289b2ff500c",
+      "releaseDate": "1994-08-02",
+      "durationMs": 243573,
+      "addedAt": "2023-10-12T16:34:40Z",
+      "spotifyUrl": "https://open.spotify.com/track/1skQgtTyuxpGsKgWUEhz7s"
+    },
+    {
+      "id": "3pS0gJIIvazN8MMtE4xgb0",
+      "name": "Waiting",
+      "artists": [
+        "Brandon Nembhard"
+      ],
+      "album": "Waiting",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27361894793678a76cd47529278",
+      "releaseDate": "2023-05-05",
+      "durationMs": 132396,
+      "addedAt": "2023-10-12T16:34:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/3pS0gJIIvazN8MMtE4xgb0"
+    },
+    {
+      "id": "4QNfRNPbkcAcUjnfqEMWSe",
+      "name": "Horario",
+      "artists": [
+        "Jaeden Camstra"
+      ],
+      "album": "Kids' Menu",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cda5c8bec4d88e33f0d0ea72",
+      "releaseDate": "2017-06-01",
+      "durationMs": 74675,
+      "addedAt": "2023-10-12T16:34:55Z",
+      "spotifyUrl": "https://open.spotify.com/track/4QNfRNPbkcAcUjnfqEMWSe"
+    },
+    {
+      "id": "2kQ5NSgZ9RSqoFe1DhTz2o",
+      "name": "Red Sun",
+      "artists": [
+        "SERAPHINE NOIR",
+        "Ash Lee"
+      ],
+      "album": "Red Sun",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f6af1c6dd000e68d60a4d78a",
+      "releaseDate": "2023-06-25",
+      "durationMs": 166397,
+      "addedAt": "2023-10-12T16:35:05Z",
+      "spotifyUrl": "https://open.spotify.com/track/2kQ5NSgZ9RSqoFe1DhTz2o"
+    },
+    {
+      "id": "2CNz3RMSyPMb9OWaPLU6CS",
+      "name": "Casa de Noca",
+      "artists": [
+        "Maria Rita"
+      ],
+      "album": "Samba Meu",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c3922c9100e06659e9a0ca8d",
+      "releaseDate": "2007-09-04",
+      "durationMs": 190653,
+      "addedAt": "2023-10-12T16:35:13Z",
+      "spotifyUrl": "https://open.spotify.com/track/2CNz3RMSyPMb9OWaPLU6CS"
+    },
+    {
+      "id": "2K7kTDEVKPS0K751yrNYbi",
+      "name": "Lágrimas y Lluvia",
+      "artists": [
+        "Daniel, Me Estás Matando",
+        "Ramona"
+      ],
+      "album": "Grandes Éxitos del Boleroglam, Vol. 2",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e066e62a6357150e872e273e",
+      "releaseDate": "2021-11-19",
+      "durationMs": 216211,
+      "addedAt": "2023-10-12T16:35:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/2K7kTDEVKPS0K751yrNYbi"
+    },
+    {
+      "id": "0pJO1tc1GpnxFyQp6Zp82r",
+      "name": "Gorilla",
+      "artists": [
+        "Little Simz"
+      ],
+      "album": "NO THANK YOU",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27372f48f1e2e04cc76d06ee708",
+      "releaseDate": "2022-12-12",
+      "durationMs": 245819,
+      "addedAt": "2023-10-12T16:35:32Z",
+      "spotifyUrl": "https://open.spotify.com/track/0pJO1tc1GpnxFyQp6Zp82r"
+    },
+    {
+      "id": "0LpEr3qpmDQ1gEabnsQlGC",
+      "name": "La Distancia",
+      "artists": [
+        "Manuel Medrano"
+      ],
+      "album": "Eterno",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731e5c2f4aa1c785cfa6def787",
+      "releaseDate": "2021-10-01",
+      "durationMs": 197186,
+      "addedAt": "2023-10-12T16:35:41Z",
+      "spotifyUrl": "https://open.spotify.com/track/0LpEr3qpmDQ1gEabnsQlGC"
+    },
+    {
+      "id": "0g2spETkJiflONR7kQjdU5",
+      "name": "Es Verdad",
+      "artists": [
+        "Daniel, Me Estás Matando"
+      ],
+      "album": "Grandes Éxitos del Boleroglam Vol. 1",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27336f3c9cc3f70a74dc22c8576",
+      "releaseDate": "2020-10-16",
+      "durationMs": 161813,
+      "addedAt": "2023-10-12T16:35:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/0g2spETkJiflONR7kQjdU5"
+    },
+    {
+      "id": "6OquGsVTLqZHyxqG0PLwFz",
+      "name": "PiLOT (feat. Snoop Dogg, Busta Rhymes, Anderson .Paak)",
+      "artists": [
+        "DOMi & JD BECK",
+        "Anderson .Paak",
+        "Busta Rhymes",
+        "Snoop Dogg"
+      ],
+      "album": "NOT TiGHT",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738569040f689c3249eeb04345",
+      "releaseDate": "2022-07-29",
+      "durationMs": 202451,
+      "addedAt": "2023-10-12T16:35:55Z",
+      "spotifyUrl": "https://open.spotify.com/track/6OquGsVTLqZHyxqG0PLwFz"
+    },
+    {
+      "id": "3O48lwYbFRsDAyOFyvyp8m",
+      "name": "Lisa Leslie",
+      "artists": [
+        "DijahSB",
+        "veggi"
+      ],
+      "album": "Lisa Leslie",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732667c3d800f1bb0cc01d6002",
+      "releaseDate": "2023-05-12",
+      "durationMs": 133205,
+      "addedAt": "2023-10-12T16:36:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/3O48lwYbFRsDAyOFyvyp8m"
+    },
+    {
+      "id": "2IUJBpKPp9jW3p2d4EbkmB",
+      "name": "RIP Tracy (feat. Earl Sweatshirt & billy woods)",
+      "artists": [
+        "The Alchemist",
+        "Earl Sweatshirt",
+        "billy woods"
+      ],
+      "album": "Flying High",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ff9cecb41b4930e557491cc4",
+      "releaseDate": "2023-06-30",
+      "durationMs": 218600,
+      "addedAt": "2023-10-12T16:36:12Z",
+      "spotifyUrl": "https://open.spotify.com/track/2IUJBpKPp9jW3p2d4EbkmB"
+    },
+    {
+      "id": "2iPfam65gH9PWFplrBXwDW",
+      "name": "Bless (feat. MIKE & Sideshow)",
+      "artists": [
+        "The Alchemist",
+        "MIKE",
+        "Sideshow"
+      ],
+      "album": "Flying High",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ff9cecb41b4930e557491cc4",
+      "releaseDate": "2023-06-30",
+      "durationMs": 179200,
+      "addedAt": "2023-10-12T16:36:20Z",
+      "spotifyUrl": "https://open.spotify.com/track/2iPfam65gH9PWFplrBXwDW"
+    },
+    {
+      "id": "3RyLrayd9un9ClTah57JI0",
+      "name": "Babies & Fools (feat. Conway the Machine)",
+      "artists": [
+        "Freddie Gibbs",
+        "The Alchemist",
+        "Conway the Machine"
+      ],
+      "album": "Alfredo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27352c24049a16d59e98a638651",
+      "releaseDate": "2020-05-29",
+      "durationMs": 206026,
+      "addedAt": "2023-10-12T16:37:02Z",
+      "spotifyUrl": "https://open.spotify.com/track/3RyLrayd9un9ClTah57JI0"
+    },
+    {
+      "id": "5HQEmiV2lKnSO6qa2fsR7x",
+      "name": "I'm Not In Love",
+      "artists": [
+        "10cc"
+      ],
+      "album": "The Original Soundtrack",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d3e47e52f8f218c9ba12b8eb",
+      "releaseDate": "1975",
+      "durationMs": 366640,
+      "addedAt": "2023-10-12T16:37:13Z",
+      "spotifyUrl": "https://open.spotify.com/track/5HQEmiV2lKnSO6qa2fsR7x"
+    },
+    {
+      "id": "3OSKVxLC75MLGExFcAY51D",
+      "name": "Tu peux pas savoir",
+      "artists": [
+        "Pomplamoose",
+        "Larry Goldings"
+      ],
+      "album": "Tu peux pas savoir",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735bfa13ec09d99ef86b92dd78",
+      "releaseDate": "2023-08-24",
+      "durationMs": 195320,
+      "addedAt": "2023-10-12T16:39:02Z",
+      "spotifyUrl": "https://open.spotify.com/track/3OSKVxLC75MLGExFcAY51D"
+    },
+    {
+      "id": "68ZsoKr6vGLabtPChwRj3U",
+      "name": "Cruel Dilemme III (From \"Evangelion: 1.0 You Are (Not) Alone\" Soundtrack)",
+      "artists": [
+        "Shiro SAGISU"
+      ],
+      "album": "Evangelion: 1.0 You Are (Not) Alone (Original Soundtrack Album)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27343fd757ae08d4dd4ce338b56",
+      "releaseDate": "2016-11-04",
+      "durationMs": 147906,
+      "addedAt": "2023-10-12T16:39:11Z",
+      "spotifyUrl": "https://open.spotify.com/track/68ZsoKr6vGLabtPChwRj3U"
+    },
+    {
+      "id": "2sUImfbz5cpAW50SiQla4h",
+      "name": "4EVA",
+      "artists": [
+        "KAYTRAMINÉ",
+        "Aminé",
+        "KAYTRANADA",
+        "Pharrell Williams"
+      ],
+      "album": "KAYTRAMINÉ",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d62081338362c43d9b2451ed",
+      "releaseDate": "2023-05-19",
+      "durationMs": 190373,
+      "addedAt": "2023-10-12T16:39:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/2sUImfbz5cpAW50SiQla4h"
+    },
+    {
+      "id": "0AiCAbg6Xb4uGk9bB5L1jw",
+      "name": "Esperar pra Ver",
+      "artists": [
+        "Evinha"
+      ],
+      "album": "Mr Bongo Record Club, Vol. 1",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273565ae3f48872f5bf74ddac24",
+      "releaseDate": "2016-09-16",
+      "durationMs": 127773,
+      "addedAt": "2023-10-12T16:39:27Z",
+      "spotifyUrl": "https://open.spotify.com/track/0AiCAbg6Xb4uGk9bB5L1jw"
+    },
+    {
+      "id": "54KsfVVnN4YWI2mMrnyUcC",
+      "name": "Diez Pasos Hacia Ti",
+      "artists": [
+        "Daniel, Me Estás Matando",
+        "Alex Ferreira"
+      ],
+      "album": "Suspiros",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf3012e999e2810045f886e4",
+      "releaseDate": "2019-05-09",
+      "durationMs": 209652,
+      "addedAt": "2023-10-12T16:39:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/54KsfVVnN4YWI2mMrnyUcC"
+    },
+    {
+      "id": "3AVyKOmMgvRjsC576xWw78",
+      "name": "Toi Et Moi",
+      "artists": [
+        "Paradis"
+      ],
+      "album": "Recto Verso",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731c8a8c45fe4eeb0b21f461a1",
+      "releaseDate": "2016-09-23",
+      "durationMs": 220853,
+      "addedAt": "2023-10-12T16:39:47Z",
+      "spotifyUrl": "https://open.spotify.com/track/3AVyKOmMgvRjsC576xWw78"
+    },
+    {
+      "id": "0oks4FnzhNp5QPTZtoet7c",
+      "name": "Giorgio by Moroder",
+      "artists": [
+        "Daft Punk"
+      ],
+      "album": "Random Access Memories",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739b9b36b0e22870b9f542d937",
+      "releaseDate": "2013-05-20",
+      "durationMs": 544626,
+      "addedAt": "2023-10-12T16:41:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/0oks4FnzhNp5QPTZtoet7c"
+    }
+  ]
+}

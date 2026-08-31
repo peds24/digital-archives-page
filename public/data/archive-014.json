@@ -1,0 +1,410 @@
+{
+  "id": "archive-014",
+  "number": 14,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2024-02-24T19:28:49Z",
+    "latest": "2024-02-24T19:28:49Z"
+  },
+  "tracks": [
+    {
+      "id": "4r4fX4NZIqVIhGyDvERp0l",
+      "name": "Infinity Repeating (2013 Demo) [feat. Julian Casablancas+The Voidz]",
+      "artists": [
+        "Daft Punk",
+        "Julian Casablancas",
+        "The Voidz"
+      ],
+      "album": "Random Access Memories (10th Anniversary Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737a311579a8814f7683f25a17",
+      "releaseDate": "2023-05-12",
+      "durationMs": 239213,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/4r4fX4NZIqVIhGyDvERp0l"
+    },
+    {
+      "id": "7LU5RzKeWQTnEGeHnzkBnV",
+      "name": "Count My Blessings",
+      "artists": [
+        "Anna Wise",
+        "Denzel Curry"
+      ],
+      "album": "As If It Were Forever",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733e1d6dfff806732218184aa0",
+      "releaseDate": "2019-10-18",
+      "durationMs": 185620,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/7LU5RzKeWQTnEGeHnzkBnV"
+    },
+    {
+      "id": "0JUWF44gfMszGNhjCF7Ufs",
+      "name": "Midnight Pretenders",
+      "artists": [
+        "Tomoko Aran"
+      ],
+      "album": "浮遊空間",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737d2d24d8a6bf7578a140db55",
+      "releaseDate": "1983",
+      "durationMs": 345266,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/0JUWF44gfMszGNhjCF7Ufs"
+    },
+    {
+      "id": "3TIbBfQEDiM3nZiyIf4wFy",
+      "name": "Ojos de Girasol",
+      "artists": [
+        "Darviin"
+      ],
+      "album": "Ojos de Girasol",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737222a8f2a4512cc6ef0465a7",
+      "releaseDate": "2022-11-14",
+      "durationMs": 269373,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/3TIbBfQEDiM3nZiyIf4wFy"
+    },
+    {
+      "id": "3H3cOQ6LBLSvmcaV7QkZEu",
+      "name": "Aerodynamic",
+      "artists": [
+        "Daft Punk"
+      ],
+      "album": "Discovery",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
+      "releaseDate": "2001-03-12",
+      "durationMs": 212546,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/3H3cOQ6LBLSvmcaV7QkZEu"
+    },
+    {
+      "id": "7oaEjLP2dTJLJsITbAxTOz",
+      "name": "Touch (feat. Paul Williams)",
+      "artists": [
+        "Daft Punk",
+        "Paul Williams"
+      ],
+      "album": "Random Access Memories",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739b9b36b0e22870b9f542d937",
+      "releaseDate": "2013-05-20",
+      "durationMs": 498960,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/7oaEjLP2dTJLJsITbAxTOz"
+    },
+    {
+      "id": "0O9BqfU1Cdm7YqmD0TrT9i",
+      "name": "Cementerio Club",
+      "artists": [
+        "Pescado Rabioso"
+      ],
+      "album": "Artaud",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
+      "releaseDate": "1973-05-07",
+      "durationMs": 295826,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/0O9BqfU1Cdm7YqmD0TrT9i"
+    },
+    {
+      "id": "2lD6AoA8qf2t4Dkf2TcmNK",
+      "name": "Rigamortus",
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "album": "Section.80",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273eddb2639b74ac6c202032ebe",
+      "releaseDate": "2011-07-02",
+      "durationMs": 168591,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/2lD6AoA8qf2t4Dkf2TcmNK"
+    },
+    {
+      "id": "7grgNctk9nq7MHc1hmCPEN",
+      "name": "Cementerio Club (En Vivo Estadio Vélez Sarsfield)",
+      "artists": [
+        "Luis Alberto Spinetta"
+      ],
+      "album": "Spinetta y Las Bandas Eternas",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273db8504f569e554a2453e3136",
+      "releaseDate": "2010-12-02",
+      "durationMs": 324480,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/7grgNctk9nq7MHc1hmCPEN"
+    },
+    {
+      "id": "3APSDGqipGJsTJ2qQojfS0",
+      "name": "Asilo en Tu Corazón (En Vivo Estadio Vélez Sarsfield) (feat. Fito Paez)",
+      "artists": [
+        "Luis Alberto Spinetta",
+        "Fito Paez"
+      ],
+      "album": "Spinetta y Las Bandas Eternas",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273db8504f569e554a2453e3136",
+      "releaseDate": "2010-12-02",
+      "durationMs": 342386,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/3APSDGqipGJsTJ2qQojfS0"
+    },
+    {
+      "id": "535rcofAUexzCqS9xHkVkv",
+      "name": "Ya No Mires Atrás",
+      "artists": [
+        "Luis Alberto Spinetta"
+      ],
+      "album": "Ya No Mires Atrás",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273936084984e4193f88aaf4cf6",
+      "releaseDate": "2020-01-23",
+      "durationMs": 223532,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/535rcofAUexzCqS9xHkVkv"
+    },
+    {
+      "id": "6hFvPLfbASRL6DsRGCercA",
+      "name": "Té para Tres (En Vivo Estadio Vélez Sarsfield) (feat. Gustavo Cerati)",
+      "artists": [
+        "Luis Alberto Spinetta",
+        "Gustavo Cerati"
+      ],
+      "album": "Spinetta y Las Bandas Eternas",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273db8504f569e554a2453e3136",
+      "releaseDate": "2010-12-02",
+      "durationMs": 196453,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/6hFvPLfbASRL6DsRGCercA"
+    },
+    {
+      "id": "5M4Kx9qHgdTQlKovj4hK9O",
+      "name": "Té para Tres",
+      "artists": [
+        "Soda Stereo"
+      ],
+      "album": "Obras Cumbres",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273df54506fd365623237335f21",
+      "releaseDate": "2001-01-29",
+      "durationMs": 144306,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/5M4Kx9qHgdTQlKovj4hK9O"
+    },
+    {
+      "id": "1TdaQqgKRbiFdO15q1kv6e",
+      "name": "La Que Me Gusta",
+      "artists": [
+        "Los Amigos Invisibles"
+      ],
+      "album": "Repeat After Me",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d753b3a08b26d456253eb581",
+      "releaseDate": "2013-09-24",
+      "durationMs": 239626,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/1TdaQqgKRbiFdO15q1kv6e"
+    },
+    {
+      "id": "7LjEZ54M9mss22VC0JdaPW",
+      "name": "Calaveras y Diablitos",
+      "artists": [
+        "Los Fabulosos Cadillacs"
+      ],
+      "album": "Fabulosos Calavera",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273964c30a5752530e6f69e1d25",
+      "releaseDate": "1997-01-04",
+      "durationMs": 262680,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/7LjEZ54M9mss22VC0JdaPW"
+    },
+    {
+      "id": "1Po5Jxjh5gHCFiKIt6AQZR",
+      "name": "Sigo Caminando",
+      "artists": [
+        "Los Cafres"
+      ],
+      "album": "Alas Canciones",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733a952f768e5e8ca6f1cd3289",
+      "releaseDate": "2016-09-09",
+      "durationMs": 302280,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/1Po5Jxjh5gHCFiKIt6AQZR"
+    },
+    {
+      "id": "6KVK1XO1Xzy7KGfoOockqA",
+      "name": "Vámonos De Viaje",
+      "artists": [
+        "Bandalos Chinos"
+      ],
+      "album": "BACH",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273417b6279d638e88fab11dfe6",
+      "releaseDate": "2018",
+      "durationMs": 236000,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/6KVK1XO1Xzy7KGfoOockqA"
+    },
+    {
+      "id": "3IYPLyQDgCJsyRgJ1NWWGv",
+      "name": "Shiki no Uta",
+      "artists": [
+        "MINMI"
+      ],
+      "album": "samurai champloo music record departure",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27359ef99ed996b4e537ed2e6a3",
+      "releaseDate": "2004-06-23",
+      "durationMs": 300033,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/3IYPLyQDgCJsyRgJ1NWWGv"
+    },
+    {
+      "id": "6yyrsrci6u2nreFlhXSy3J",
+      "name": "Tus Ojos",
+      "artists": [
+        "Los Cafres"
+      ],
+      "album": "Suena la Alarma",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27346a888765544d2f977c5dc21",
+      "releaseDate": "1997-09-01",
+      "durationMs": 254865,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/6yyrsrci6u2nreFlhXSy3J"
+    },
+    {
+      "id": "6GPkBUXMrGSkwK3TrrHHXN",
+      "name": "Muchacha (Ojos de Papel)",
+      "artists": [
+        "Almendra"
+      ],
+      "album": "Almendra (50 Años)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ccf6d7a68e129185513921e8",
+      "releaseDate": "1970",
+      "durationMs": 184480,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/6GPkBUXMrGSkwK3TrrHHXN"
+    },
+    {
+      "id": "4yFh5okeS2u5iO5vAsBsHc",
+      "name": "Bossa & People",
+      "artists": [
+        "El Kuelgue"
+      ],
+      "album": "Beatriz",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273723dc9548f1c49e05b63ecde",
+      "releaseDate": "2012-07-07",
+      "durationMs": 302613,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/4yFh5okeS2u5iO5vAsBsHc"
+    },
+    {
+      "id": "08smZJCMrfuOQpRTaRmtF2",
+      "name": "Roommates",
+      "artists": [
+        "Malcolm Todd"
+      ],
+      "album": "Roommates",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e479042cd116b4f61b7a423a",
+      "releaseDate": "2023-06-22",
+      "durationMs": 214504,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/08smZJCMrfuOQpRTaRmtF2"
+    },
+    {
+      "id": "1H9RGVK5hw404lHcKCSA67",
+      "name": "サンセット・ロード",
+      "artists": [
+        "高橋玲子"
+      ],
+      "album": "TOKYO 1980s Victor Edition (The Compilation) Boogie, Funk & Modern Soul from Japan",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739435433ea249b8284eae5182",
+      "releaseDate": "2018-12-05",
+      "durationMs": 258000,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/1H9RGVK5hw404lHcKCSA67"
+    },
+    {
+      "id": "0NELwHhQu4EVcmGmu8D7vV",
+      "name": "Toco Y Me Voy",
+      "artists": [
+        "Bersuit Vergarabat"
+      ],
+      "album": "Hijos Del Culo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273062f7fb870c9412e7b7c7ccd",
+      "releaseDate": "2000-01-01",
+      "durationMs": 249933,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/0NELwHhQu4EVcmGmu8D7vV"
+    },
+    {
+      "id": "4sUTagdmyuyAxd7RvbygpQ",
+      "name": "aruarian dance",
+      "artists": [
+        "Nujabes"
+      ],
+      "album": "samurai champloo music record departure",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27359ef99ed996b4e537ed2e6a3",
+      "releaseDate": "2004-06-23",
+      "durationMs": 250433,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/4sUTagdmyuyAxd7RvbygpQ"
+    },
+    {
+      "id": "6h1jJrMiUkWgAVRRWuGBRg",
+      "name": "WHERE U FROM",
+      "artists": [
+        "Joey Valence & Brae"
+      ],
+      "album": "WHERE U FROM",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273142949a4109ed6dafac22cc3",
+      "releaseDate": "2024-01-19",
+      "durationMs": 166328,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/6h1jJrMiUkWgAVRRWuGBRg"
+    },
+    {
+      "id": "2VYnlKxB8jpbCeLUjQsebc",
+      "name": "In A Good Way",
+      "artists": [
+        "Faye Webster"
+      ],
+      "album": "I Know I'm Funny haha",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c699d66824a938624c44c2b7",
+      "releaseDate": "2021-06-25",
+      "durationMs": 224680,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/2VYnlKxB8jpbCeLUjQsebc"
+    },
+    {
+      "id": "3bhyo2ED5Yd4RLydQBDtD6",
+      "name": "Good Night",
+      "artists": [
+        "Kanye West",
+        "Mos Def",
+        "Albe Back"
+      ],
+      "album": "Graduation",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
+      "releaseDate": "2007-09-11",
+      "durationMs": 185973,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/3bhyo2ED5Yd4RLydQBDtD6"
+    },
+    {
+      "id": "6IAuH3hgTRpUUdmOGubXGS",
+      "name": "Can I Call You Rose?",
+      "artists": [
+        "Thee Sacred Souls"
+      ],
+      "album": "Thee Sacred Souls",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734bc05e5b1e506a6acea17148",
+      "releaseDate": "2022-08-26",
+      "durationMs": 190546,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/6IAuH3hgTRpUUdmOGubXGS"
+    },
+    {
+      "id": "2zyTP97uGsIc1C4KNNEkyn",
+      "name": "Across 110th Street",
+      "artists": [
+        "Bobby Womack"
+      ],
+      "album": "Midnight Mover: The Bobby Womack Story",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a70b89929f67316f0fa4426b",
+      "releaseDate": "1993-01-01",
+      "durationMs": 230506,
+      "addedAt": "2024-02-24T19:28:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/2zyTP97uGsIc1C4KNNEkyn"
+    }
+  ]
+}

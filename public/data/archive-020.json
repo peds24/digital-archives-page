@@ -1,0 +1,406 @@
+{
+  "id": "archive-020",
+  "number": 20,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2025-01-18T06:37:45Z",
+    "latest": "2025-01-18T06:37:45Z"
+  },
+  "tracks": [
+    {
+      "id": "2MXqrO1RBfek6RoijghYYp",
+      "name": "Promesas Sobre El Bidet",
+      "artists": [
+        "Charly García"
+      ],
+      "album": "Piano Bar",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a89f53c13537b933a43d2600",
+      "releaseDate": "1984-01-01",
+      "durationMs": 164360,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/2MXqrO1RBfek6RoijghYYp"
+    },
+    {
+      "id": "448TDbd8RNN1tn8zGPNutD",
+      "name": "Bibo No Aozora - Version for Piano Trio",
+      "artists": [
+        "Ryuichi Sakamoto",
+        "Jaques Morelenbaum",
+        "Everton Nelson"
+      ],
+      "album": "1996",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273746838c9fe49bb45e59cf6c2",
+      "releaseDate": "1996-06-04",
+      "durationMs": 396933,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/448TDbd8RNN1tn8zGPNutD"
+    },
+    {
+      "id": "6mae1kByzDpjP8UMP0u7oy",
+      "name": "Ode To Nujabes",
+      "artists": [
+        "Funky DL"
+      ],
+      "album": "Blackcurrent Jazz 2",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738b331935596d34f16d4ccf72",
+      "releaseDate": "2011-07-20",
+      "durationMs": 220653,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/6mae1kByzDpjP8UMP0u7oy"
+    },
+    {
+      "id": "2Xmngyu2TzYsxnleGTHq1D",
+      "name": "Los Libros de la Buena Memoria",
+      "artists": [
+        "Invisible"
+      ],
+      "album": "El Jardin de los Presentes",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734d52291a3146f5aea6013a69",
+      "releaseDate": "1976-05-27",
+      "durationMs": 308733,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/2Xmngyu2TzYsxnleGTHq1D"
+    },
+    {
+      "id": "6PzV5vEnJSng3LmZ23Y7DB",
+      "name": "Cinnamon Temple",
+      "artists": [
+        "Hiatus Kaiyote"
+      ],
+      "album": "Love Heart Cheat Code",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b18b607a4383974563d44024",
+      "releaseDate": "2024-06-28",
+      "durationMs": 200664,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/6PzV5vEnJSng3LmZ23Y7DB"
+    },
+    {
+      "id": "4Y5fyQ5fBysC32Na5sZT3J",
+      "name": "Everything Happens to Me",
+      "artists": [
+        "Chet Baker"
+      ],
+      "album": "Chet Baker Sings: It Could Happen To You [Original Jazz Classics Remasters] (OJC Remaster)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731200e79c84a8d967d5f727e9",
+      "releaseDate": "2010-01-01",
+      "durationMs": 305186,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/4Y5fyQ5fBysC32Na5sZT3J"
+    },
+    {
+      "id": "0FNNxqowtJDjiMWfkyOqUn",
+      "name": "Plano Verde Paisaje",
+      "artists": [
+        "Cisne Elocuente"
+      ],
+      "album": "Letárgico",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733be5a41592619305d0463d30",
+      "releaseDate": "2015-09-07",
+      "durationMs": 127454,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/0FNNxqowtJDjiMWfkyOqUn"
+    },
+    {
+      "id": "1R3mCl9ya7FanRNWTeiQUE",
+      "name": "Beautiful",
+      "artists": [
+        "Gustavo Cerati"
+      ],
+      "album": "Bocanada",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731152471596980e1bba03b6ab",
+      "releaseDate": "1999-06-01",
+      "durationMs": 446538,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/1R3mCl9ya7FanRNWTeiQUE"
+    },
+    {
+      "id": "2BPmAFsiy6vwDceybqIAjw",
+      "name": "Frances Limon",
+      "artists": [
+        "Los Enanitos Verdes"
+      ],
+      "album": "Amores Lejanos",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27346b6026ecb5e2c1df32e10e9",
+      "releaseDate": "2002-01-01",
+      "durationMs": 317320,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/2BPmAFsiy6vwDceybqIAjw"
+    },
+    {
+      "id": "6rhVKeUhQTGLIRmQOfc9Wo",
+      "name": "Don't Let Me Be Misunderstood",
+      "artists": [
+        "Santa Esmeralda"
+      ],
+      "album": "Kill Bill Vol. 1 Original Soundtrack (PA Version)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fecfac11994325a39cd03dec",
+      "releaseDate": "2003-09-23",
+      "durationMs": 628546,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/6rhVKeUhQTGLIRmQOfc9Wo"
+    },
+    {
+      "id": "3EYOJ48Et32uATr9ZmLnAo",
+      "name": "Roxanne",
+      "artists": [
+        "The Police"
+      ],
+      "album": "Outlandos D'Amour (Remastered 2003)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732043dd3544a339547d04b436",
+      "releaseDate": "1978-11-02",
+      "durationMs": 191946,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/3EYOJ48Et32uATr9ZmLnAo"
+    },
+    {
+      "id": "39shmbIHICJ2Wxnk1fPSdz",
+      "name": "Should I Stay or Should I Go - Remastered",
+      "artists": [
+        "The Clash"
+      ],
+      "album": "Combat Rock (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273280b72ca76b4734debfc190e",
+      "releaseDate": "1982",
+      "durationMs": 188987,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/39shmbIHICJ2Wxnk1fPSdz"
+    },
+    {
+      "id": "0hDQV9X1Da5JrwhK8gu86p",
+      "name": "Maps",
+      "artists": [
+        "Yeah Yeah Yeahs"
+      ],
+      "album": "Fever To Tell (Deluxe Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731b1cb4ef0f096f9d66fc3dc6",
+      "releaseDate": "2003-04-29",
+      "durationMs": 219986,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/0hDQV9X1Da5JrwhK8gu86p"
+    },
+    {
+      "id": "4ilmJpXqydjXGpQEhiU3Cd",
+      "name": "Potop",
+      "artists": [
+        "September"
+      ],
+      "album": "Zadnja avantura",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ad50e9d8e21f89e3a3f7621d",
+      "releaseDate": "1976-05-12",
+      "durationMs": 260372,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/4ilmJpXqydjXGpQEhiU3Cd"
+    },
+    {
+      "id": "1SGvjfc85yzqKXsfKcCxn2",
+      "name": "heart pt. 6",
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "album": "GNX",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e2a0a166493a2bde5480a420",
+      "releaseDate": "2024-11-22",
+      "durationMs": 292461,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/1SGvjfc85yzqKXsfKcCxn2"
+    },
+    {
+      "id": "0aB0v4027ukVziUGwVGYpG",
+      "name": "tv off (feat. lefty gunplay)",
+      "artists": [
+        "Kendrick Lamar",
+        "Lefty Gunplay"
+      ],
+      "album": "GNX",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e2a0a166493a2bde5480a420",
+      "releaseDate": "2024-11-22",
+      "durationMs": 220690,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/0aB0v4027ukVziUGwVGYpG"
+    },
+    {
+      "id": "0RgjEkSbeuStKfT2Pa4Zai",
+      "name": "reincarnated",
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "album": "GNX",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e2a0a166493a2bde5480a420",
+      "releaseDate": "2024-11-22",
+      "durationMs": 275740,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/0RgjEkSbeuStKfT2Pa4Zai"
+    },
+    {
+      "id": "1qlcWoHG7rPqTQ0ezmi9uh",
+      "name": "Through a War",
+      "artists": [
+        "Geordie Greep"
+      ],
+      "album": "The New Sound",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735d59daf2d1c0baa6bd7c60ac",
+      "releaseDate": "2024-10-04",
+      "durationMs": 344000,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/1qlcWoHG7rPqTQ0ezmi9uh"
+    },
+    {
+      "id": "70zqspCXLvLHsBh1Pl7Izc",
+      "name": "Terra",
+      "artists": [
+        "Geordie Greep"
+      ],
+      "album": "The New Sound",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735d59daf2d1c0baa6bd7c60ac",
+      "releaseDate": "2024-10-04",
+      "durationMs": 258463,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/70zqspCXLvLHsBh1Pl7Izc"
+    },
+    {
+      "id": "5y8d8RHvxb0KiTa9Nq0xWp",
+      "name": "Morning Has Broken - Remastered 2021",
+      "artists": [
+        "Yusuf / Cat Stevens"
+      ],
+      "album": "Teaser And The Firecat (Remastered 2021)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730f284f5845974aa71ebc395d",
+      "releaseDate": "1971-10-01",
+      "durationMs": 199453,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/5y8d8RHvxb0KiTa9Nq0xWp"
+    },
+    {
+      "id": "5gSHlT2SI0dtjeHrjj96A1",
+      "name": "Here's Where the Story Ends",
+      "artists": [
+        "The Sundays"
+      ],
+      "album": "Reading Writing And Arithmetic",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273136341bc093dca22dbd11143",
+      "releaseDate": "1990",
+      "durationMs": 230040,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/5gSHlT2SI0dtjeHrjj96A1"
+    },
+    {
+      "id": "26trS5IUeIbXrKAuFMdzWT",
+      "name": "･－･･ ･ － ･･ － －－･ －－－",
+      "artists": [
+        "･ ･－･ ･－ ･･･ ･ －･･"
+      ],
+      "album": "･－･･ ･ － ･･ － －－･ －－－",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273781e3bc85ef064adf7cc5c25",
+      "releaseDate": "2020-07-22",
+      "durationMs": 438129,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/26trS5IUeIbXrKAuFMdzWT"
+    },
+    {
+      "id": "7a2ecCwcyHGFozUiEQspho",
+      "name": "La Luna en tu Mirada",
+      "artists": [
+        "Los Zafiros"
+      ],
+      "album": "Bossa Cubana",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e01f0719092d310f70701823",
+      "releaseDate": "1999",
+      "durationMs": 154973,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/7a2ecCwcyHGFozUiEQspho"
+    },
+    {
+      "id": "7o9jfkVRQ7BVYyHJpB7gVU",
+      "name": "Tony",
+      "artists": [
+        "Larry Nozero",
+        "Dennis Tini"
+      ],
+      "album": "Time",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739fd535adf93a226b26d0830d",
+      "releaseDate": "2013",
+      "durationMs": 278280,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/7o9jfkVRQ7BVYyHJpB7gVU"
+    },
+    {
+      "id": "26wdJawEPMlPypYII7qR7f",
+      "name": "Dawn in LA.",
+      "artists": [
+        "Bolden."
+      ],
+      "album": "Dawn in LA.",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730a0611abcfa4de4a1a367c5e",
+      "releaseDate": "2024-01-12",
+      "durationMs": 163333,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/26wdJawEPMlPypYII7qR7f"
+    },
+    {
+      "id": "1zzhZAlwmdoJYhMqfL7EIj",
+      "name": "Plateado Sobre Plateado (Huellas En El Mar)",
+      "artists": [
+        "Charly García"
+      ],
+      "album": "Clics Modernos",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b14842a87b833bc0a9339f60",
+      "releaseDate": "1983-11-05",
+      "durationMs": 298306,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/1zzhZAlwmdoJYhMqfL7EIj"
+    },
+    {
+      "id": "5SoJgMbosyJLHLk7ThuFmr",
+      "name": "Bancate Ese Defecto",
+      "artists": [
+        "Charly García"
+      ],
+      "album": "Clics Modernos",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b14842a87b833bc0a9339f60",
+      "releaseDate": "1983-11-05",
+      "durationMs": 294986,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/5SoJgMbosyJLHLk7ThuFmr"
+    },
+    {
+      "id": "48oX55j4gqDw0G80KxzpaQ",
+      "name": "Venus As A Boy",
+      "artists": [
+        "Björk"
+      ],
+      "album": "Debut",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730e4537529239acaa1ef86cae",
+      "releaseDate": "1993-07-05",
+      "durationMs": 282560,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/48oX55j4gqDw0G80KxzpaQ"
+    },
+    {
+      "id": "5vfoqFiW6wXwhwa7r523Iq",
+      "name": "Long Distance Runaround - 2003 Remaster",
+      "artists": [
+        "Yes"
+      ],
+      "album": "Fragile (Deluxe Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f4174f51268699ef79fbe3da",
+      "releaseDate": "1971-11-26",
+      "durationMs": 210266,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/5vfoqFiW6wXwhwa7r523Iq"
+    },
+    {
+      "id": "1Bey85529sRbLZHMLsrhAd",
+      "name": "South Side of the Sky - 2003 Remaster",
+      "artists": [
+        "Yes"
+      ],
+      "album": "Fragile (Deluxe Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f4174f51268699ef79fbe3da",
+      "releaseDate": "1971-11-26",
+      "durationMs": 478066,
+      "addedAt": "2025-01-18T06:37:45Z",
+      "spotifyUrl": "https://open.spotify.com/track/1Bey85529sRbLZHMLsrhAd"
+    }
+  ]
+}

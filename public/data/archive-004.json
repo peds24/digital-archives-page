@@ -1,0 +1,420 @@
+{
+  "id": "archive-004",
+  "number": 4,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2022-07-26T15:00:04Z",
+    "latest": "2022-07-26T15:01:57Z"
+  },
+  "tracks": [
+    {
+      "id": "5wWxUdgn2OugIOvLJOdreH",
+      "name": "Lo Que Construimos",
+      "artists": [
+        "Natalia Lafourcade"
+      ],
+      "album": "Hasta la Raíz (Edición Especial)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bd4c237c04735257dd64c510",
+      "releaseDate": "2015-11-13",
+      "durationMs": 279213,
+      "addedAt": "2022-07-26T15:00:04Z",
+      "spotifyUrl": "https://open.spotify.com/track/5wWxUdgn2OugIOvLJOdreH"
+    },
+    {
+      "id": "4WKwqrYOcAbUlmmVQjZo2U",
+      "name": "Mi Corazón",
+      "artists": [
+        "Paté de Fuá",
+        "Natalia Lafourcade"
+      ],
+      "album": "Película Muda, Pt. 1",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27345640315c88ea8a9702efcd3",
+      "releaseDate": "2014-04-01",
+      "durationMs": 264880,
+      "addedAt": "2022-07-26T15:00:10Z",
+      "spotifyUrl": "https://open.spotify.com/track/4WKwqrYOcAbUlmmVQjZo2U"
+    },
+    {
+      "id": "4SDPTQRh2WvydrhBTAmdt1",
+      "name": "Que la Vida Vale",
+      "artists": [
+        "Natalia Lafourcade"
+      ],
+      "album": "Que la Vida Vale",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733fea5d45a469d7d6995eefc1",
+      "releaseDate": "2018-10-12",
+      "durationMs": 190820,
+      "addedAt": "2022-07-26T15:00:13Z",
+      "spotifyUrl": "https://open.spotify.com/track/4SDPTQRh2WvydrhBTAmdt1"
+    },
+    {
+      "id": "0SzvtL65Itcs1wZrQI7hf6",
+      "name": "The Fine Print",
+      "artists": [
+        "King Geedorah"
+      ],
+      "album": "Take Me To Your Leader",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c54028b0ef2f2f569fb3df42",
+      "releaseDate": "2003-06-17",
+      "durationMs": 269360,
+      "addedAt": "2022-07-26T15:00:18Z",
+      "spotifyUrl": "https://open.spotify.com/track/0SzvtL65Itcs1wZrQI7hf6"
+    },
+    {
+      "id": "4GP5iTBe9vFezR7ZCNGQ3N",
+      "name": "I Wonder",
+      "artists": [
+        "King Geedorah",
+        "Hassan Chop"
+      ],
+      "album": "Take Me To Your Leader",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c54028b0ef2f2f569fb3df42",
+      "releaseDate": "2003-06-17",
+      "durationMs": 218773,
+      "addedAt": "2022-07-26T15:00:22Z",
+      "spotifyUrl": "https://open.spotify.com/track/4GP5iTBe9vFezR7ZCNGQ3N"
+    },
+    {
+      "id": "1HGyhNaRUFEDBiVLbvtbL6",
+      "name": "Murder She Wrote",
+      "artists": [
+        "Chaka Demus & Pliers"
+      ],
+      "album": "Tease Me",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736ede9997b1c47f6891a25671",
+      "releaseDate": "1993-01-01",
+      "durationMs": 245000,
+      "addedAt": "2022-07-26T15:00:26Z",
+      "spotifyUrl": "https://open.spotify.com/track/1HGyhNaRUFEDBiVLbvtbL6"
+    },
+    {
+      "id": "3zakx7RAwdkUQlOoQ7SJRt",
+      "name": "GRAVITY (FEAT. TYLER, THE CREATOR)",
+      "artists": [
+        "Brent Faiyaz",
+        "Dahi",
+        "Tyler, The Creator"
+      ],
+      "album": "WASTELAND",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27369f63a842ea91ca7c522593a",
+      "releaseDate": "2022-07-08",
+      "durationMs": 214692,
+      "addedAt": "2022-07-26T15:00:29Z",
+      "spotifyUrl": "https://open.spotify.com/track/3zakx7RAwdkUQlOoQ7SJRt"
+    },
+    {
+      "id": "58MeeOMk6PMQxXWY9YCNPD",
+      "name": "Next Levels",
+      "artists": [
+        "King Geedorah",
+        "John Robinson",
+        "Stahhr",
+        "Stacy Epps",
+        "Invizible Handz"
+      ],
+      "album": "Take Me To Your Leader",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c54028b0ef2f2f569fb3df42",
+      "releaseDate": "2003-06-17",
+      "durationMs": 229320,
+      "addedAt": "2022-07-26T15:00:42Z",
+      "spotifyUrl": "https://open.spotify.com/track/58MeeOMk6PMQxXWY9YCNPD"
+    },
+    {
+      "id": "3dX0c7tK7bnaUMhZlr6sIC",
+      "name": "Fastlane",
+      "artists": [
+        "King Geedorah"
+      ],
+      "album": "Take Me To Your Leader",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c54028b0ef2f2f569fb3df42",
+      "releaseDate": "2003-06-17",
+      "durationMs": 188813,
+      "addedAt": "2022-07-26T15:00:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/3dX0c7tK7bnaUMhZlr6sIC"
+    },
+    {
+      "id": "1R28m5eWk1EV9FQ3puWrUp",
+      "name": "Fazers",
+      "artists": [
+        "King Geedorah"
+      ],
+      "album": "Take Me To Your Leader",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c54028b0ef2f2f569fb3df42",
+      "releaseDate": "2003-06-17",
+      "durationMs": 197133,
+      "addedAt": "2022-07-26T15:00:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/1R28m5eWk1EV9FQ3puWrUp"
+    },
+    {
+      "id": "7A3ETuOrieyx9KSF0sn0Zf",
+      "name": "You Ain't Gotta Lie (Momma Said)",
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "album": "To Pimp A Butterfly",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cdb645498cd3d8a2db4d05e1",
+      "releaseDate": "2015-03-16",
+      "durationMs": 241680,
+      "addedAt": "2022-07-26T15:00:53Z",
+      "spotifyUrl": "https://open.spotify.com/track/7A3ETuOrieyx9KSF0sn0Zf"
+    },
+    {
+      "id": "1EQCyLy5aXQx59gRAF1YCt",
+      "name": "Seven Days",
+      "artists": [
+        "Mary J. Blige",
+        "George Benson"
+      ],
+      "album": "Share My World",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27396fce33ce14c90aee61017a0",
+      "releaseDate": "1997-01-01",
+      "durationMs": 309893,
+      "addedAt": "2022-07-26T15:00:56Z",
+      "spotifyUrl": "https://open.spotify.com/track/1EQCyLy5aXQx59gRAF1YCt"
+    },
+    {
+      "id": "1m3BAsNsQAaSNMD2M6vlKY",
+      "name": "Breezin'",
+      "artists": [
+        "George Benson"
+      ],
+      "album": "Breezin' (Expanded)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735a5a012f4063c464eab6aec3",
+      "releaseDate": "1976",
+      "durationMs": 341733,
+      "addedAt": "2022-07-26T15:01:00Z",
+      "spotifyUrl": "https://open.spotify.com/track/1m3BAsNsQAaSNMD2M6vlKY"
+    },
+    {
+      "id": "300DUx4tdtCdGEUXR032jA",
+      "name": "Palace/Curse (feat. Tyler, The Creator & Steve Lacy)",
+      "artists": [
+        "The Internet",
+        "Tyler, The Creator",
+        "Steve Lacy"
+      ],
+      "album": "Ego Death",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27385270a0d79648e867c206379",
+      "releaseDate": "2015-06-26",
+      "durationMs": 440003,
+      "addedAt": "2022-07-26T15:01:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/300DUx4tdtCdGEUXR032jA"
+    },
+    {
+      "id": "79tTcoeAq2Dt2qlH3CHm3m",
+      "name": "sangria",
+      "artists": [
+        "hard life",
+        "Arlo Parks"
+      ],
+      "album": "sangria",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273933c843e4b90dbf322af42ad",
+      "releaseDate": "2019-11-07",
+      "durationMs": 190023,
+      "addedAt": "2022-07-26T15:01:06Z",
+      "spotifyUrl": "https://open.spotify.com/track/79tTcoeAq2Dt2qlH3CHm3m"
+    },
+    {
+      "id": "0oiv4E896TUTTeQU0cmIui",
+      "name": "Massive",
+      "artists": [
+        "Drake"
+      ],
+      "album": "Honestly, Nevermind",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27322dfcfcc0742f339986d20cb",
+      "releaseDate": "2022-06-16",
+      "durationMs": 336924,
+      "addedAt": "2022-07-26T15:01:10Z",
+      "spotifyUrl": "https://open.spotify.com/track/0oiv4E896TUTTeQU0cmIui"
+    },
+    {
+      "id": "2VU7JmgBMjfGEdeppoYVEe",
+      "name": "Piel Canela",
+      "artists": [
+        "Natalia y La Forquetina"
+      ],
+      "album": "Casa",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a7024cecd0318047350768c7",
+      "releaseDate": "2005",
+      "durationMs": 232760,
+      "addedAt": "2022-07-26T15:01:13Z",
+      "spotifyUrl": "https://open.spotify.com/track/2VU7JmgBMjfGEdeppoYVEe"
+    },
+    {
+      "id": "2vzbsLzYwD9St0phYhR0Lt",
+      "name": "Drive",
+      "artists": [
+        "See You Next Year",
+        "Fana Hues",
+        "Mike Dean"
+      ],
+      "album": "Drive",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a9fc583be88852034b5eafcf",
+      "releaseDate": "2022-06-10",
+      "durationMs": 145945,
+      "addedAt": "2022-07-26T15:01:17Z",
+      "spotifyUrl": "https://open.spotify.com/track/2vzbsLzYwD9St0phYhR0Lt"
+    },
+    {
+      "id": "2urjF7QhprjmNRK2aqLnxE",
+      "name": "Viviré para Ti",
+      "artists": [
+        "Los Amigos Invisibles"
+      ],
+      "album": "Commercial",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273de6cc983fbaa668cb81735f7",
+      "releaseDate": "2009-05-26",
+      "durationMs": 207213,
+      "addedAt": "2022-07-26T15:01:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/2urjF7QhprjmNRK2aqLnxE"
+    },
+    {
+      "id": "3S68RFe1lsdCdTMPIMJM3X",
+      "name": "Cash In Cash Out",
+      "artists": [
+        "Pharrell Williams",
+        "21 Savage",
+        "Tyler, The Creator"
+      ],
+      "album": "Cash In Cash Out",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738f0df54fd6043164d7c07ae3",
+      "releaseDate": "2022-06-10",
+      "durationMs": 216135,
+      "addedAt": "2022-07-26T15:01:24Z",
+      "spotifyUrl": "https://open.spotify.com/track/3S68RFe1lsdCdTMPIMJM3X"
+    },
+    {
+      "id": "4cacyP5c3PMlfnyjpg13xW",
+      "name": "Betty (Get Money)",
+      "artists": [
+        "Yung Gravy"
+      ],
+      "album": "Betty (Get Money)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273633674a4e5072dabf5173069",
+      "releaseDate": "2022-06-10",
+      "durationMs": 146470,
+      "addedAt": "2022-07-26T15:01:27Z",
+      "spotifyUrl": "https://open.spotify.com/track/4cacyP5c3PMlfnyjpg13xW"
+    },
+    {
+      "id": "7aIPqkQLLGTh0ugniupbLp",
+      "name": "Laboratory",
+      "artists": [
+        "Dville Santa"
+      ],
+      "album": "Meeboo <3",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730186eed46e68b3e10cc13a2a",
+      "releaseDate": "2022-03-09",
+      "durationMs": 150099,
+      "addedAt": "2022-07-26T15:01:30Z",
+      "spotifyUrl": "https://open.spotify.com/track/7aIPqkQLLGTh0ugniupbLp"
+    },
+    {
+      "id": "21O0XXPEWPtePt5RMY93Ob",
+      "name": "All Caps",
+      "artists": [
+        "Madvillain",
+        "Madlib",
+        "MF DOOM"
+      ],
+      "album": "Madvillainy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733e3bb917af94bd82074c5d47",
+      "releaseDate": "2004-03-24",
+      "durationMs": 130479,
+      "addedAt": "2022-07-26T15:01:33Z",
+      "spotifyUrl": "https://open.spotify.com/track/21O0XXPEWPtePt5RMY93Ob"
+    },
+    {
+      "id": "3ven4ZKSspshBwiLMMibEa",
+      "name": "Early Summer",
+      "artists": [
+        "Ryo Fukui"
+      ],
+      "album": "シーナリィ",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b752bbaa0dd7578b736f7cc1",
+      "releaseDate": "1976",
+      "durationMs": 644466,
+      "addedAt": "2022-07-26T15:01:37Z",
+      "spotifyUrl": "https://open.spotify.com/track/3ven4ZKSspshBwiLMMibEa"
+    },
+    {
+      "id": "51SEkcIzdhHMwJkPkMmRzd",
+      "name": "I Want To Talk About You",
+      "artists": [
+        "Ryo Fukui"
+      ],
+      "album": "シーナリィ",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b752bbaa0dd7578b736f7cc1",
+      "releaseDate": "1976",
+      "durationMs": 392626,
+      "addedAt": "2022-07-26T15:01:40Z",
+      "spotifyUrl": "https://open.spotify.com/track/51SEkcIzdhHMwJkPkMmRzd"
+    },
+    {
+      "id": "2fktrJuECcaRCgJuqwChL8",
+      "name": "It Could Happen To You",
+      "artists": [
+        "Ryo Fukui"
+      ],
+      "album": "シーナリィ",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b752bbaa0dd7578b736f7cc1",
+      "releaseDate": "1976",
+      "durationMs": 256933,
+      "addedAt": "2022-07-26T15:01:43Z",
+      "spotifyUrl": "https://open.spotify.com/track/2fktrJuECcaRCgJuqwChL8"
+    },
+    {
+      "id": "6DxjcerSgdQFFBiZR7hnQw",
+      "name": "クロとシロ",
+      "artists": [
+        "鈴木 弘"
+      ],
+      "album": "キャット",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fcdf7d0b11c9131ff6a74244",
+      "releaseDate": "1976",
+      "durationMs": 702760,
+      "addedAt": "2022-07-26T15:01:46Z",
+      "spotifyUrl": "https://open.spotify.com/track/6DxjcerSgdQFFBiZR7hnQw"
+    },
+    {
+      "id": "3bMc9oRaUWnojCrYTUXXcQ",
+      "name": "BRASILIAN SKIES",
+      "artists": [
+        "Masayoshi Takanaka"
+      ],
+      "album": "BRASILIAN SKIES",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c718e0f746b0f671fd92421e",
+      "releaseDate": "1978",
+      "durationMs": 353013,
+      "addedAt": "2022-07-26T15:01:49Z",
+      "spotifyUrl": "https://open.spotify.com/track/3bMc9oRaUWnojCrYTUXXcQ"
+    },
+    {
+      "id": "63dLm0BUpepXeFIfZ0OKEL",
+      "name": "BELEZA PULA",
+      "artists": [
+        "Masayoshi Takanaka"
+      ],
+      "album": "BRASILIAN SKIES",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c718e0f746b0f671fd92421e",
+      "releaseDate": "1978",
+      "durationMs": 473013,
+      "addedAt": "2022-07-26T15:01:53Z",
+      "spotifyUrl": "https://open.spotify.com/track/63dLm0BUpepXeFIfZ0OKEL"
+    },
+    {
+      "id": "7rbECVPkY5UODxoOUVKZnA",
+      "name": "I Wonder",
+      "artists": [
+        "Kanye West"
+      ],
+      "album": "Graduation",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27326f7f19c7f0381e56156c94a",
+      "releaseDate": "2007-09-11",
+      "durationMs": 243440,
+      "addedAt": "2022-07-26T15:01:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/7rbECVPkY5UODxoOUVKZnA"
+    }
+  ]
+}

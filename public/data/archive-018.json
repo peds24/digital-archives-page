@@ -1,0 +1,413 @@
+{
+  "id": "archive-018",
+  "number": 18,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2024-09-26T05:36:57Z",
+    "latest": "2024-09-26T05:36:57Z"
+  },
+  "tracks": [
+    {
+      "id": "4M2t7bP4Mq87mGMn0PObUX",
+      "name": "untitled 06 | 06.30.2014.",
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "album": "untitled unmastered.",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738c697f553a46006a5d8886b2",
+      "releaseDate": "2016-03-04",
+      "durationMs": 208013,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/4M2t7bP4Mq87mGMn0PObUX"
+    },
+    {
+      "id": "5bBUDJUfGcG7eFy3Bf4fXv",
+      "name": "untitled 08 | 09.06.2014.",
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "album": "untitled unmastered.",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738c697f553a46006a5d8886b2",
+      "releaseDate": "2016-03-04",
+      "durationMs": 235506,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/5bBUDJUfGcG7eFy3Bf4fXv"
+    },
+    {
+      "id": "1gT5TGwbkkkUliNzHRIGi1",
+      "name": "4:44",
+      "artists": [
+        "JAŸ-Z"
+      ],
+      "album": "4:44",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737513c4956ea5552caf02eab6",
+      "releaseDate": "2017-07-07",
+      "durationMs": 284493,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/1gT5TGwbkkkUliNzHRIGi1"
+    },
+    {
+      "id": "7er0EUMY653mxZ1NVD9mwQ",
+      "name": "FIND YOUR WINGS (feat. Roy Ayers, Sydney Bennett & Kali Uchis)",
+      "artists": [
+        "Tyler, The Creator",
+        "Roy Ayers",
+        "Syd",
+        "Kali Uchis"
+      ],
+      "album": "Cherry Bomb",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e4bf0d3d9e0224a30ca5f665",
+      "releaseDate": "2015-04-13",
+      "durationMs": 179042,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/7er0EUMY653mxZ1NVD9mwQ"
+    },
+    {
+      "id": "4dyx5SzxPPaD8xQIid5Wjj",
+      "name": "Young Folks",
+      "artists": [
+        "Peter Bjorn and John"
+      ],
+      "album": "Writer's Block",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739cf4ac84b224a02f34d2e4f6",
+      "releaseDate": "2006-01-01",
+      "durationMs": 276693,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/4dyx5SzxPPaD8xQIid5Wjj"
+    },
+    {
+      "id": "5E6AoOwwAIbVqx9J6i7ccj",
+      "name": "Valley in the Ocean",
+      "artists": [
+        "Bruno Pernadas"
+      ],
+      "album": "Those Who Throw Objects at the Crocodiles Will Be Asked to Retrieve Them",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734c73ab17499ac768a8a0952f",
+      "releaseDate": "2016-09-23",
+      "durationMs": 405351,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/5E6AoOwwAIbVqx9J6i7ccj"
+    },
+    {
+      "id": "6gI8gTacAsGPEy70QK4a3i",
+      "name": "SPARKLE",
+      "artists": [
+        "ビクター・ファンタスティック・オーケストラ"
+      ],
+      "album": "山下　達郎／竹内　まりや　作品集",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b410256f0c9158425ee88463",
+      "releaseDate": "1990-06-06",
+      "durationMs": 257932,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/6gI8gTacAsGPEy70QK4a3i"
+    },
+    {
+      "id": "4S0NYVAQdIb81uLoZoQmgq",
+      "name": "Kiss of Life",
+      "artists": [
+        "Sade"
+      ],
+      "album": "Love Deluxe",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ee65bbd54f993b5f01d5c511",
+      "releaseDate": "1992-10-26",
+      "durationMs": 350000,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/4S0NYVAQdIb81uLoZoQmgq"
+    },
+    {
+      "id": "4PEGwWH4tL6H7dGl4uVSPg",
+      "name": "Like a Tattoo",
+      "artists": [
+        "Sade"
+      ],
+      "album": "Love Deluxe",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ee65bbd54f993b5f01d5c511",
+      "releaseDate": "1992-10-26",
+      "durationMs": 218000,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/4PEGwWH4tL6H7dGl4uVSPg"
+    },
+    {
+      "id": "6FtGDFcQDKiU7UVoa0DK22",
+      "name": "Karappo no Isu",
+      "artists": [
+        "Taeko Onuki"
+      ],
+      "album": "SUNSHOWER",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273867f9c4d0391216d4e3d132b",
+      "releaseDate": "1977-07-25",
+      "durationMs": 334200,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/6FtGDFcQDKiU7UVoa0DK22"
+    },
+    {
+      "id": "3xcZ5tTH1PBHzb1miiApl0",
+      "name": "Nani mo Iranai",
+      "artists": [
+        "Taeko Onuki"
+      ],
+      "album": "SUNSHOWER",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273867f9c4d0391216d4e3d132b",
+      "releaseDate": "1977-07-25",
+      "durationMs": 242666,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/3xcZ5tTH1PBHzb1miiApl0"
+    },
+    {
+      "id": "4ns1XFP3W5JPyzvnAjMdHD",
+      "name": "Int'l Players Anthem (I Choose You) (feat. Outkast)",
+      "artists": [
+        "UGK",
+        "Outkast"
+      ],
+      "album": "UGK (Underground Kingz)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730ecd0dec7edf87dab40d19b7",
+      "releaseDate": "2007-08-07",
+      "durationMs": 259040,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/4ns1XFP3W5JPyzvnAjMdHD"
+    },
+    {
+      "id": "0RD3NWnHlyBCRwgNZy8QAn",
+      "name": "Asleep Among Endives",
+      "artists": [
+        "Ichiko Aoba"
+      ],
+      "album": "Asleep Among Endives",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27398b1c6c0d05f8841f08a9eca",
+      "releaseDate": "2021-02-03",
+      "durationMs": 306271,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/0RD3NWnHlyBCRwgNZy8QAn"
+    },
+    {
+      "id": "47FkzJm1bUaIc0OaGZvslL",
+      "name": "Great Adventures",
+      "artists": [
+        "Boldy James",
+        "The Alchemist"
+      ],
+      "album": "Super Tecmo Bo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a671697e72456d41a848175f",
+      "releaseDate": "2021-12-17",
+      "durationMs": 107253,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/47FkzJm1bUaIc0OaGZvslL"
+    },
+    {
+      "id": "50q2aUjWoTn6CJIfSPRJQA",
+      "name": "(They Long To Be) Close To You",
+      "artists": [
+        "Carpenters"
+      ],
+      "album": "Close To You",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273242cec3f8fc8c7fee302aac2",
+      "releaseDate": "1970",
+      "durationMs": 276000,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/50q2aUjWoTn6CJIfSPRJQA"
+    },
+    {
+      "id": "7gfgEYOu87JZ6OORivWShX",
+      "name": "BLUE AND MOODY MUSIC",
+      "artists": [
+        "Hiroshi Sato"
+      ],
+      "album": "Awakening",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733d14cca401825c95432eb327",
+      "releaseDate": "1982",
+      "durationMs": 277226,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/7gfgEYOu87JZ6OORivWShX"
+    },
+    {
+      "id": "39sdlCugrGBsoC4Flos0HO",
+      "name": "Love's In Need Of Love Today",
+      "artists": [
+        "Stevie Wonder"
+      ],
+      "album": "Songs In The Key Of Life",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732fee61bfec596bb6f5447c50",
+      "releaseDate": "1976-09-28",
+      "durationMs": 425826,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/39sdlCugrGBsoC4Flos0HO"
+    },
+    {
+      "id": "13toFl1UwJPsRxDiD9jgtn",
+      "name": "As",
+      "artists": [
+        "Stevie Wonder"
+      ],
+      "album": "Songs In The Key Of Life",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732fee61bfec596bb6f5447c50",
+      "releaseDate": "1976-09-28",
+      "durationMs": 428222,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/13toFl1UwJPsRxDiD9jgtn"
+    },
+    {
+      "id": "1ShyiEm2kD0XMA7fNhMIVk",
+      "name": "Vivo",
+      "artists": [
+        "Gustavo Cerati"
+      ],
+      "album": "Siempre Es Hoy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27392441ecd34874c2bc4f19144",
+      "releaseDate": "2002-11-11",
+      "durationMs": 260573,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/1ShyiEm2kD0XMA7fNhMIVk"
+    },
+    {
+      "id": "37NPLfEZQQ0rZTa9SRqWBL",
+      "name": "midnight cruisin'",
+      "artists": [
+        "Kingo Hamada"
+      ],
+      "album": "midnight cruisin'",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d175d8963d44efb4cce117ae",
+      "releaseDate": "1982-10-21",
+      "durationMs": 283000,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/37NPLfEZQQ0rZTa9SRqWBL"
+    },
+    {
+      "id": "5w6EvyvomUSWsF430iixmc",
+      "name": "街のドルフィン",
+      "artists": [
+        "Kingo Hamada"
+      ],
+      "album": "midnight cruisin'",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d175d8963d44efb4cce117ae",
+      "releaseDate": "1982-10-21",
+      "durationMs": 232893,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/5w6EvyvomUSWsF430iixmc"
+    },
+    {
+      "id": "3rEV55xgPvHCegchp8qTUD",
+      "name": "NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO! NO!",
+      "artists": [
+        "JPEGMAFIA",
+        "Danny Brown"
+      ],
+      "album": "SCARING THE HOES: DLC PACK",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735d9b72b88e2dddfa3b6211bb",
+      "releaseDate": "2023-07-11",
+      "durationMs": 305783,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/3rEV55xgPvHCegchp8qTUD"
+    },
+    {
+      "id": "7uF9nK3u0OB1dWW5ee9qxC",
+      "name": "Guess What Bitch, We Back Hoe!",
+      "artists": [
+        "JPEGMAFIA",
+        "Danny Brown"
+      ],
+      "album": "SCARING THE HOES: DLC PACK",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735d9b72b88e2dddfa3b6211bb",
+      "releaseDate": "2023-07-11",
+      "durationMs": 178286,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/7uF9nK3u0OB1dWW5ee9qxC"
+    },
+    {
+      "id": "28rYYAT4AF7aeUV5rzCOBB",
+      "name": "Tell Me Where To Go",
+      "artists": [
+        "JPEGMAFIA",
+        "Danny Brown"
+      ],
+      "album": "SCARING THE HOES: DLC PACK",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735d9b72b88e2dddfa3b6211bb",
+      "releaseDate": "2023-07-11",
+      "durationMs": 173849,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/28rYYAT4AF7aeUV5rzCOBB"
+    },
+    {
+      "id": "2SQ9RmQAOxGICUSt9T5dIX",
+      "name": "No More What Ifs",
+      "artists": [
+        "Lyn"
+      ],
+      "album": "Persona 5 Royal: Original Soundtrack",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27359a6022f671f929b9979011d",
+      "releaseDate": "2022-02-22",
+      "durationMs": 240666,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/2SQ9RmQAOxGICUSt9T5dIX"
+    },
+    {
+      "id": "2koS4fD3kzizdnzWzyrxyT",
+      "name": "Estrelar",
+      "artists": [
+        "Marcos Valle"
+      ],
+      "album": "Marcos Valle",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273580d01637ff3bb5f27206d41",
+      "releaseDate": "1983-01-01",
+      "durationMs": 313493,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/2koS4fD3kzizdnzWzyrxyT"
+    },
+    {
+      "id": "7KHn6MgAIRPozclZCvJ3e2",
+      "name": "Crimson & Clover",
+      "artists": [
+        "The Shacks"
+      ],
+      "album": "Big Crown Vaults Vol. 2",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b0434a045ff436996b95c115",
+      "releaseDate": "2024-06-21",
+      "durationMs": 222670,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/7KHn6MgAIRPozclZCvJ3e2"
+    },
+    {
+      "id": "1p2IlA7UbxNYenX9uE72V9",
+      "name": "Coco Mango Diced (Boy Scout Mix)",
+      "artists": [
+        "Damu The Fudgemunk",
+        "MF DOOM"
+      ],
+      "album": "Coco Mango Diced",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273276fefe441b869ca65fa5c32",
+      "releaseDate": "2019-04-12",
+      "durationMs": 109412,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/1p2IlA7UbxNYenX9uE72V9"
+    },
+    {
+      "id": "5jyj2XKWILHQxDoz59ddCT",
+      "name": "Billie Toppy",
+      "artists": [
+        "Men I Trust"
+      ],
+      "album": "Billie Toppy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27314d335149b7f388c94fe3c9e",
+      "releaseDate": "2022-09-28",
+      "durationMs": 195289,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/5jyj2XKWILHQxDoz59ddCT"
+    },
+    {
+      "id": "1S7O1gj876LSrgGqvuYhv3",
+      "name": "Wait On You",
+      "artists": [
+        "Jay Worthy",
+        "Leven Kali",
+        "Na-Kel Smith"
+      ],
+      "album": "Two4Two",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273eb91e5d35ff495f7600d8869",
+      "releaseDate": "2021-10-23",
+      "durationMs": 112495,
+      "addedAt": "2024-09-26T05:36:57Z",
+      "spotifyUrl": "https://open.spotify.com/track/1S7O1gj876LSrgGqvuYhv3"
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "id": "archive-010",
+  "number": 10,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2023-08-25T01:56:51Z",
+    "latest": "2023-08-25T01:56:51Z"
+  },
+  "tracks": [
+    {
+      "id": "75wVq4apQLxpOM6R58lMhy",
+      "name": "Vem Morena Vem",
+      "artists": [
+        "Jorge Ben Jor"
+      ],
+      "album": "Samba Esquema Novo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732daa87c238a78a680511da3c",
+      "releaseDate": "1963-01-01",
+      "durationMs": 117133,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/75wVq4apQLxpOM6R58lMhy"
+    },
+    {
+      "id": "3XR9YNF0r5MVSRhAVdQWIC",
+      "name": "Ah!",
+      "artists": [
+        "Bb trickz"
+      ],
+      "album": "Trickstar",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bd82dec671db5a1d5efd5e81",
+      "releaseDate": "2023-04-24",
+      "durationMs": 80603,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/3XR9YNF0r5MVSRhAVdQWIC"
+    },
+    {
+      "id": "6bj42Hzr3RErxhfgSTdSx6",
+      "name": "Terry",
+      "artists": [
+        "Action Bronson"
+      ],
+      "album": "Mr. Wonderful",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730949c5a5ad8bec4bebacc47d",
+      "releaseDate": "2015-03-23",
+      "durationMs": 289492,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/6bj42Hzr3RErxhfgSTdSx6"
+    },
+    {
+      "id": "7JPNvoMjoIXkTDAMx9Aajj",
+      "name": "Tezeta",
+      "artists": [
+        "Mulatu Astatke"
+      ],
+      "album": "New York - Addis - London: The Story of Ethio Jazz 1965-1975",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27305ae534a661e44f25951e41b",
+      "releaseDate": "1969",
+      "durationMs": 368539,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/7JPNvoMjoIXkTDAMx9Aajj"
+    },
+    {
+      "id": "2xC3aQCmwgsW7ChDlJxLca",
+      "name": "Back On 74",
+      "artists": [
+        "Jungle"
+      ],
+      "album": "Back On 74",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c64bc180ee7894328ce4be88",
+      "releaseDate": "2023-07-27",
+      "durationMs": 209482,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/2xC3aQCmwgsW7ChDlJxLca"
+    },
+    {
+      "id": "4oXg7xT4ksBxHTx8PcmSXw",
+      "name": "15 Step",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "In Rainbows",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273de3c04b5fc750b68899b20a9",
+      "releaseDate": "2007-12-28",
+      "durationMs": 237293,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/4oXg7xT4ksBxHTx8PcmSXw"
+    },
+    {
+      "id": "1L0OmJV0LnPDWuHCIGmBV6",
+      "name": "On The Radar Freestyle",
+      "artists": [
+        "Drake",
+        "Central Cee"
+      ],
+      "album": "On The Radar Freestyle",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736605b442f8e937b3a901d0b7",
+      "releaseDate": "2023-07-26",
+      "durationMs": 275280,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/1L0OmJV0LnPDWuHCIGmBV6"
+    },
+    {
+      "id": "0a4SMs889NwP8oWI7Vemle",
+      "name": "LOOOVE (feat. Kid Cudi)",
+      "artists": [
+        "Travis Scott",
+        "Kid Cudi"
+      ],
+      "album": "UTOPIA",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27304481c826dd292e5e4983b3f",
+      "releaseDate": "2023-07-28",
+      "durationMs": 226715,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/0a4SMs889NwP8oWI7Vemle"
+    },
+    {
+      "id": "4GL9GMX9t7Qkprvf1YighZ",
+      "name": "CIRCUS MAXIMUS (feat. The Weeknd & Swae Lee)",
+      "artists": [
+        "Travis Scott",
+        "The Weeknd",
+        "Swae Lee"
+      ],
+      "album": "UTOPIA",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27304481c826dd292e5e4983b3f",
+      "releaseDate": "2023-07-28",
+      "durationMs": 258842,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/4GL9GMX9t7Qkprvf1YighZ"
+    },
+    {
+      "id": "7LSpFCvRZZot2AlmkUzy9k",
+      "name": "SIRENS",
+      "artists": [
+        "Travis Scott"
+      ],
+      "album": "UTOPIA",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27304481c826dd292e5e4983b3f",
+      "releaseDate": "2023-07-28",
+      "durationMs": 204447,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/7LSpFCvRZZot2AlmkUzy9k"
+    },
+    {
+      "id": "0hL9gOw6XBWsygEUcVjxEc",
+      "name": "HYAENA",
+      "artists": [
+        "Travis Scott"
+      ],
+      "album": "UTOPIA",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27304481c826dd292e5e4983b3f",
+      "releaseDate": "2023-07-28",
+      "durationMs": 222085,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/0hL9gOw6XBWsygEUcVjxEc"
+    },
+    {
+      "id": "0AO2xrN18wJXehA76y8wAv",
+      "name": "タイムマシーン・ラヴ",
+      "artists": [
+        "RYUSENKEI"
+      ],
+      "album": "TOKYO SNIPER",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738872c759a9efc66624850732",
+      "releaseDate": "2006",
+      "durationMs": 266680,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/0AO2xrN18wJXehA76y8wAv"
+    },
+    {
+      "id": "2VXhwq2VuhVcLBsJa6A2wY",
+      "name": "Legendary",
+      "artists": [
+        "DJ Drama",
+        "Tyler, The Creator"
+      ],
+      "album": "I'M REALLY LIKE THAT",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737cc8717d6102a6a4bb9edca7",
+      "releaseDate": "2023-03-31",
+      "durationMs": 98308,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/2VXhwq2VuhVcLBsJa6A2wY"
+    },
+    {
+      "id": "01TyFEZu6mHbffsVfxgrFn",
+      "name": "Show Me How",
+      "artists": [
+        "Men I Trust"
+      ],
+      "album": "Show Me How",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27340faefaf8ebe0e1564c60faa",
+      "releaseDate": "2018-02-28",
+      "durationMs": 215110,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/01TyFEZu6mHbffsVfxgrFn"
+    },
+    {
+      "id": "0R6sz2EUOMSM3qaZHEpG63",
+      "name": "2516",
+      "artists": [
+        "Luna Li"
+      ],
+      "album": "jams EP",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27314cb8532d5e5999b8aa5ebd6",
+      "releaseDate": "2021-02-05",
+      "durationMs": 68000,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/0R6sz2EUOMSM3qaZHEpG63"
+    },
+    {
+      "id": "1L4ELcOBZDTTY5rYzqRR50",
+      "name": "DANCE NOW",
+      "artists": [
+        "Joey Valence & Brae"
+      ],
+      "album": "DANCE NOW",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730d2feaa81b17513b7c533708",
+      "releaseDate": "2023-03-31",
+      "durationMs": 130343,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/1L4ELcOBZDTTY5rYzqRR50"
+    },
+    {
+      "id": "20cWhGpoXZh9u3UZq2V97X",
+      "name": "A Estos Hombres Tristes",
+      "artists": [
+        "Almendra"
+      ],
+      "album": "Almendra (50 Años)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ccf6d7a68e129185513921e8",
+      "releaseDate": "1970",
+      "durationMs": 356746,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/20cWhGpoXZh9u3UZq2V97X"
+    },
+    {
+      "id": "2Mb0UmjVuMQ1Pgcyko9dW3",
+      "name": "Almost Blue",
+      "artists": [
+        "Chet Baker"
+      ],
+      "album": "Chet Baker In Tokyo (The Complete Concert)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734a3ae19721856208210c1b33",
+      "releaseDate": "2019-02-22",
+      "durationMs": 475026,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/2Mb0UmjVuMQ1Pgcyko9dW3"
+    },
+    {
+      "id": "2LD2gT7gwAurzdQDQtILds",
+      "name": "Veridis Quo",
+      "artists": [
+        "Daft Punk"
+      ],
+      "album": "Discovery",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
+      "releaseDate": "2001-03-12",
+      "durationMs": 345186,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/2LD2gT7gwAurzdQDQtILds"
+    },
+    {
+      "id": "1NeLwFETswx8Fzxl2AFl91",
+      "name": "Something About Us",
+      "artists": [
+        "Daft Punk"
+      ],
+      "album": "Discovery",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731e81bff9807a9e629fce5ade",
+      "releaseDate": "2001-03-12",
+      "durationMs": 232666,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/1NeLwFETswx8Fzxl2AFl91"
+    },
+    {
+      "id": "4TPAEAfhLcGvOK6iNzgOZm",
+      "name": "Allegria",
+      "artists": [
+        "Gipsy Kings"
+      ],
+      "album": "Allegria",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b2aa66f8414cd4512830d2e7",
+      "releaseDate": "2013-02-24",
+      "durationMs": 167000,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/4TPAEAfhLcGvOK6iNzgOZm"
+    },
+    {
+      "id": "6EZXO2zjC6KlLbNwc2HDMc",
+      "name": "Let's Get Lost",
+      "artists": [
+        "Chet Baker"
+      ],
+      "album": "Let's Get Lost: The Best Of Chet Baker Sings",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a93c280683c39b449e2b2a40",
+      "releaseDate": "1989-01-01",
+      "durationMs": 225306,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/6EZXO2zjC6KlLbNwc2HDMc"
+    },
+    {
+      "id": "42WyjBKzrzFP8YBG2jVUF7",
+      "name": "Nuages",
+      "artists": [
+        "Pomplamoose",
+        "John Tegmeyer"
+      ],
+      "album": "En Français",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273aad467674d8abb9f20720fb4",
+      "releaseDate": "2020-04-17",
+      "durationMs": 235957,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/42WyjBKzrzFP8YBG2jVUF7"
+    },
+    {
+      "id": "6p84lwJmaSzu7U7BL1TWlM",
+      "name": "Sympathique",
+      "artists": [
+        "Pomplamoose",
+        "John Schroeder"
+      ],
+      "album": "En Français",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273aad467674d8abb9f20720fb4",
+      "releaseDate": "2020-04-17",
+      "durationMs": 179689,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/6p84lwJmaSzu7U7BL1TWlM"
+    },
+    {
+      "id": "5tO3pr49SdxO05TNlYHfHT",
+      "name": "Beat laments the world",
+      "artists": [
+        "Nujabes"
+      ],
+      "album": "Metaphorical Music",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a1a897ee5e642da6d945bcd7",
+      "releaseDate": "2003-08-21",
+      "durationMs": 263373,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/5tO3pr49SdxO05TNlYHfHT"
+    },
+    {
+      "id": "6vcC7pldyTPKjZJFvY3v7Q",
+      "name": "Heartquake",
+      "artists": [
+        "L'Impératrice",
+        "Cuco"
+      ],
+      "album": "Heartquake",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273171e5db8be81b162afeb6b6e",
+      "releaseDate": "2023-06-29",
+      "durationMs": 218373,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/6vcC7pldyTPKjZJFvY3v7Q"
+    },
+    {
+      "id": "6KzI6EM1QYyOq5oudPlcWT",
+      "name": "Alive!",
+      "artists": [
+        "Bakar"
+      ],
+      "album": "Alive!",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f1f2db7f971aeef91c5d767e",
+      "releaseDate": "2023-06-21",
+      "durationMs": 232120,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/6KzI6EM1QYyOq5oudPlcWT"
+    },
+    {
+      "id": "16D5bGymrzpi9ZlnYXB5ql",
+      "name": "Gimme Chocolate!!",
+      "artists": [
+        "BABYMETAL"
+      ],
+      "album": "BABYMETAL",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d01512173f11eec708e1768f",
+      "releaseDate": "2015-05-11",
+      "durationMs": 230613,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/16D5bGymrzpi9ZlnYXB5ql"
+    },
+    {
+      "id": "4daEMLSZCgZ2Mt7gNm2SRa",
+      "name": "Flooded The Face",
+      "artists": [
+        "Lil Uzi Vert"
+      ],
+      "album": "Pink Tape",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d7f97f84ffeaf2077813ef24",
+      "releaseDate": "2023-06-30",
+      "durationMs": 192727,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/4daEMLSZCgZ2Mt7gNm2SRa"
+    },
+    {
+      "id": "6bBN2bbxAnCXWTwXaOkF0X",
+      "name": "Loverini (feat. L'Impératrice)",
+      "artists": [
+        "Myd",
+        "L'Impératrice"
+      ],
+      "album": "Loverini (feat. L'Impératrice)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a789ac4bd02b1a6db98ef683",
+      "releaseDate": "2021-06-18",
+      "durationMs": 202546,
+      "addedAt": "2023-08-25T01:56:51Z",
+      "spotifyUrl": "https://open.spotify.com/track/6bBN2bbxAnCXWTwXaOkF0X"
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "id": "archive-021",
+  "number": 21,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2025-02-20T23:47:03Z",
+    "latest": "2025-02-20T23:47:03Z"
+  },
+  "tracks": [
+    {
+      "id": "1RawgF2MjsJpR7cRxvIaal",
+      "name": "Moizefala",
+      "artists": [
+        "Los Tres"
+      ],
+      "album": "La Espada & la Pared",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27378310de37af0875569acc411",
+      "releaseDate": "1995",
+      "durationMs": 276293,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/1RawgF2MjsJpR7cRxvIaal"
+    },
+    {
+      "id": "7be5IEj6GYti0jauRKODoG",
+      "name": "Cosas Imposibles",
+      "artists": [
+        "Gustavo Cerati"
+      ],
+      "album": "Siempre Es Hoy",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27392441ecd34874c2bc4f19144",
+      "releaseDate": "2002-11-11",
+      "durationMs": 305573,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/7be5IEj6GYti0jauRKODoG"
+    },
+    {
+      "id": "4pHdHimCLvD4nx8lh6uQyx",
+      "name": "Mil Horas - 1994 Remastered Version",
+      "artists": [
+        "Los Abuelos De La Nada"
+      ],
+      "album": "Los Abuelos De La Nada 1 (1994 Remastered Version)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c980aa1225aa4e8828c532cd",
+      "releaseDate": "1994-01-01",
+      "durationMs": 167213,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/4pHdHimCLvD4nx8lh6uQyx"
+    },
+    {
+      "id": "6Pur3hWy6Nzc27ilmsp5HA",
+      "name": "Lamento Boliviano",
+      "artists": [
+        "Los Enanitos Verdes"
+      ],
+      "album": "Big Bang",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335bf8a2179962114b8ec7585",
+      "releaseDate": "1994-01-01",
+      "durationMs": 222226,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/6Pur3hWy6Nzc27ilmsp5HA"
+    },
+    {
+      "id": "00kIWJu9IHiQ6i0qJAU0Z9",
+      "name": "Amor Completo",
+      "artists": [
+        "Mon Laferte"
+      ],
+      "album": "Mon Laferte (Vol. 1)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735eebf3f8ec6e9807105f3151",
+      "releaseDate": "2015-08-21",
+      "durationMs": 241880,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/00kIWJu9IHiQ6i0qJAU0Z9"
+    },
+    {
+      "id": "2kMVxFh1y5gow2hBtqGO4m",
+      "name": "Te Para 3 - MTV Unplugged",
+      "artists": [
+        "Soda Stereo"
+      ],
+      "album": "Comfort Y Musica Para Volar",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733875f29a2a8234ac7ef2706a",
+      "releaseDate": "1996-09-01",
+      "durationMs": 247000,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/2kMVxFh1y5gow2hBtqGO4m"
+    },
+    {
+      "id": "0SRddBTphQwQcfqw4Br1uX",
+      "name": "Brillas",
+      "artists": [
+        "León Larregui"
+      ],
+      "album": "Solstis - De León Larregui",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735be353af3e7d01599fbbda14",
+      "releaseDate": "2012-01-01",
+      "durationMs": 226186,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/0SRddBTphQwQcfqw4Br1uX"
+    },
+    {
+      "id": "1nr801KoqMxJeKMmIIWkWN",
+      "name": "Come & Get Me",
+      "artists": [
+        "JPEGMAFIA"
+      ],
+      "album": "I LAY DOWN MY LIFE FOR YOU (DIRECTORS CUT)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dadf703d00e5de83ee8432dd",
+      "releaseDate": "2025-02-03",
+      "durationMs": 165933,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/1nr801KoqMxJeKMmIIWkWN"
+    },
+    {
+      "id": "0pNeVovbiZHkulpGeOx1Gj",
+      "name": "Something - Remastered 2009",
+      "artists": [
+        "The Beatles"
+      ],
+      "album": "Abbey Road (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25",
+      "releaseDate": "1969-09-26",
+      "durationMs": 182293,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/0pNeVovbiZHkulpGeOx1Gj"
+    },
+    {
+      "id": "0DkazfLyVRaMvSkwycyyfT",
+      "name": "Sugar/Tzu",
+      "artists": [
+        "black midi"
+      ],
+      "album": "Hellfire",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273079bc2bd9ea16956274efc24",
+      "releaseDate": "2022-07-15",
+      "durationMs": 230687,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/0DkazfLyVRaMvSkwycyyfT"
+    },
+    {
+      "id": "016hIMO8ka3IlFfNo6diie",
+      "name": "Acting - 2021 Remaster",
+      "artists": [
+        "Sweet Trip"
+      ],
+      "album": "You Will Never Know Why (2021 Remaster)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732eea6e2f09819773091ec649",
+      "releaseDate": "2009",
+      "durationMs": 425376,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/016hIMO8ka3IlFfNo6diie"
+    },
+    {
+      "id": "5HtNvKihacAXt34DDYYxBC",
+      "name": "Man of War",
+      "artists": [
+        "Radiohead"
+      ],
+      "album": "OK Computer OKNOTOK 1997 2017",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ee58b8ce747da91d69a862cc",
+      "releaseDate": "2017-06-23",
+      "durationMs": 269093,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/5HtNvKihacAXt34DDYYxBC"
+    },
+    {
+      "id": "5TbDM1PBTyODDCTGEoDCxL",
+      "name": "Carnival",
+      "artists": [
+        "The Cardigans"
+      ],
+      "album": "Life (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e74005e7698f202f71a9fabc",
+      "releaseDate": "1995-01-01",
+      "durationMs": 216880,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/5TbDM1PBTyODDCTGEoDCxL"
+    },
+    {
+      "id": "3Am0IbOxmvlSXro7N5iSfZ",
+      "name": "Strawberry Fields Forever - Remastered 2009",
+      "artists": [
+        "The Beatles"
+      ],
+      "album": "Magical Mystery Tour (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273692d9189b2bd75525893f0c1",
+      "releaseDate": "1967-11-27",
+      "durationMs": 247320,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/3Am0IbOxmvlSXro7N5iSfZ"
+    },
+    {
+      "id": "0y9uTzK9cNKSAEHnpeRG8C",
+      "name": "DUCKWORTH.",
+      "artists": [
+        "Kendrick Lamar"
+      ],
+      "album": "DAMN.",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738b52c6b9bc4e43d873869699",
+      "releaseDate": "2017-04-14",
+      "durationMs": 248613,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/0y9uTzK9cNKSAEHnpeRG8C"
+    },
+    {
+      "id": "6zMQAgnWYRvzNIQGfjmXad",
+      "name": "Ostavi trag",
+      "artists": [
+        "September"
+      ],
+      "album": "Zadnja avantura",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27350070834637b25a766b58e8a",
+      "releaseDate": "1975",
+      "durationMs": 243709,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/6zMQAgnWYRvzNIQGfjmXad"
+    },
+    {
+      "id": "7wL26ndX4EkF3SAwnLlCOM",
+      "name": "Lo que tú me das",
+      "artists": [
+        "Juanpalitoschinos"
+      ],
+      "album": "Lo que tú me das",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273448dc8cfb857711be7a21ffe",
+      "releaseDate": "2020-10-22",
+      "durationMs": 235098,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/7wL26ndX4EkF3SAwnLlCOM"
+    },
+    {
+      "id": "6F3VxUPgfcvDDpk2UxsJ5a",
+      "name": "Alma de Diamante",
+      "artists": [
+        "Spinetta Jade"
+      ],
+      "album": "Alma de Diamante",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273290f02e58c17fe12c3797b85",
+      "releaseDate": "1980-04-08",
+      "durationMs": 257573,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/6F3VxUPgfcvDDpk2UxsJ5a"
+    },
+    {
+      "id": "3R3dCLLjNrtLAUEs8CU6g0",
+      "name": "PURO VENENO",
+      "artists": [
+        "NATHY PELUSO"
+      ],
+      "album": "Calambre",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735fe40d1f6a15d36aa6182955",
+      "releaseDate": "2020-10-02",
+      "durationMs": 247652,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/3R3dCLLjNrtLAUEs8CU6g0"
+    },
+    {
+      "id": "3YB0DVr8wWLyZmGvnvkUdA",
+      "name": "Young Man's Blues",
+      "artists": [
+        "Mose Allison"
+      ],
+      "album": "Mose Allison Sings",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cb5eda628caf4eb34f5aa675",
+      "releaseDate": "1963",
+      "durationMs": 83613,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/3YB0DVr8wWLyZmGvnvkUdA"
+    },
+    {
+      "id": "2GFExyKXf9383tSRSrEHEt",
+      "name": "Can't Take My Eyes Off of You - (I Love You Baby)",
+      "artists": [
+        "Ms. Lauryn Hill"
+      ],
+      "album": "The Miseducation of Lauryn Hill",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e08b1250db5f75643f1508c9",
+      "releaseDate": "1998-08-25",
+      "durationMs": 221466,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/2GFExyKXf9383tSRSrEHEt"
+    },
+    {
+      "id": "0zoGVO4bQXG8U6ChKwNgeg",
+      "name": "4:00A.M.",
+      "artists": [
+        "Taeko Onuki"
+      ],
+      "album": "MIGNONNE (Mastered by Bernie Grundman)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273af12a920f8a4256f4fe32d35",
+      "releaseDate": "1978-09-21",
+      "durationMs": 336960,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/0zoGVO4bQXG8U6ChKwNgeg"
+    },
+    {
+      "id": "4sIFi8LpJWPvI5xviWFyA6",
+      "name": "D>E>A>T>H>M>E>T>A>L",
+      "artists": [
+        "Panchiko"
+      ],
+      "album": "D>E>A>T>H>M>E>T>A>L",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e045aa197ada995407bf92fc",
+      "releaseDate": "2000-12-05",
+      "durationMs": 261849,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/4sIFi8LpJWPvI5xviWFyA6"
+    },
+    {
+      "id": "2my7K20Fv5OtE27cjG9sfu",
+      "name": "BUENOS AIRES",
+      "artists": [
+        "NATHY PELUSO"
+      ],
+      "album": "Calambre",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735fe40d1f6a15d36aa6182955",
+      "releaseDate": "2020-10-02",
+      "durationMs": 240315,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/2my7K20Fv5OtE27cjG9sfu"
+    },
+    {
+      "id": "6gJlhoxLX6YGf2PsmIGdWl",
+      "name": "Llorando En El Espejo",
+      "artists": [
+        "Serú Girán"
+      ],
+      "album": "Peperina",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735e73b5c3235f1dae08842ed4",
+      "releaseDate": "1981-08-01",
+      "durationMs": 242760,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/6gJlhoxLX6YGf2PsmIGdWl"
+    },
+    {
+      "id": "6Pc5YpUReYYToXJ23TmkLS",
+      "name": "Cinema Verité",
+      "artists": [
+        "Serú Girán"
+      ],
+      "album": "Peperina",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735e73b5c3235f1dae08842ed4",
+      "releaseDate": "1981-08-01",
+      "durationMs": 293213,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/6Pc5YpUReYYToXJ23TmkLS"
+    },
+    {
+      "id": "4T9Elo8e4WcZzWm6PF3WgW",
+      "name": "Salir De La Melancolía",
+      "artists": [
+        "Serú Girán"
+      ],
+      "album": "Peperina",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735e73b5c3235f1dae08842ed4",
+      "releaseDate": "1981-08-01",
+      "durationMs": 125733,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/4T9Elo8e4WcZzWm6PF3WgW"
+    },
+    {
+      "id": "2H8upfbsuPJS7YfPVi4Wys",
+      "name": "Ciudad de la Paz",
+      "artists": [
+        "Dillom"
+      ],
+      "album": "Por cesárea",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27378d066acf66eb772239cca78",
+      "releaseDate": "2024-04-26",
+      "durationMs": 227145,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/2H8upfbsuPJS7YfPVi4Wys"
+    },
+    {
+      "id": "689lBKIELtWGHfsPWpR6rv",
+      "name": "Todas las Hojas Son del Viento",
+      "artists": [
+        "Pescado Rabioso"
+      ],
+      "album": "Artaud",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27350db5a166ea23d5d6c4cd387",
+      "releaseDate": "1973-05-07",
+      "durationMs": 130080,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/689lBKIELtWGHfsPWpR6rv"
+    },
+    {
+      "id": "2596ZHpYbPUfdgUChpDC4Q",
+      "name": "Amidama",
+      "artists": [
+        "Almendra"
+      ],
+      "album": "El Valle Interior",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fa8e338d1ed6a30df11c5dfd",
+      "releaseDate": "1995-01-01",
+      "durationMs": 204493,
+      "addedAt": "2025-02-20T23:47:03Z",
+      "spotifyUrl": "https://open.spotify.com/track/2596ZHpYbPUfdgUChpDC4Q"
+    }
+  ]
+}

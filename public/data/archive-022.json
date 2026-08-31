@@ -1,0 +1,405 @@
+{
+  "id": "archive-022",
+  "number": 22,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2025-04-06T22:45:34Z",
+    "latest": "2025-04-06T22:45:34Z"
+  },
+  "tracks": [
+    {
+      "id": "6AESP7mEOCz3igOerC9QJ9",
+      "name": "Lágrima",
+      "artists": [
+        "PANTERA BLUE"
+      ],
+      "album": "Lágrima",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273aa0927a5f01196b851fb8e52",
+      "releaseDate": "2025-01-24",
+      "durationMs": 149737,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/6AESP7mEOCz3igOerC9QJ9"
+    },
+    {
+      "id": "4qwaQvUrRwK2t1G6Q5pwbY",
+      "name": "No Quiere Decir",
+      "artists": [
+        "Luis Alberto Spinetta"
+      ],
+      "album": "Un Mañana",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27395438ab4fe59348017c8686c",
+      "releaseDate": "2008-01-01",
+      "durationMs": 239120,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/4qwaQvUrRwK2t1G6Q5pwbY"
+    },
+    {
+      "id": "1F1OWM6IeFXhJjnkLxJUur",
+      "name": "Sonho do Brasil",
+      "artists": [
+        "Slowdown"
+      ],
+      "album": "Retrospectives",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734f0f7a6ceb66b27e8f4d7808",
+      "releaseDate": "2009-06-23",
+      "durationMs": 204093,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/1F1OWM6IeFXhJjnkLxJUur"
+    },
+    {
+      "id": "2eDdFHgqNJltzlvlZFVDWd",
+      "name": "Over the Hills and Far Away - Remaster",
+      "artists": [
+        "Led Zeppelin"
+      ],
+      "album": "Houses of the Holy (Remaster)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731aa47e71c4edfeaddb65cd54",
+      "releaseDate": "1973-03-28",
+      "durationMs": 290933,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/2eDdFHgqNJltzlvlZFVDWd"
+    },
+    {
+      "id": "3JLrri1xSCui3bzITDJbkk",
+      "name": "The Rain Song - Remaster",
+      "artists": [
+        "Led Zeppelin"
+      ],
+      "album": "Houses of the Holy (Remaster)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731aa47e71c4edfeaddb65cd54",
+      "releaseDate": "1973-03-28",
+      "durationMs": 459093,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/3JLrri1xSCui3bzITDJbkk"
+    },
+    {
+      "id": "2QB8lLT8XbmiW0kcnscdf2",
+      "name": "Desconfío",
+      "artists": [
+        "Pappo's Blues"
+      ],
+      "album": "Pappo's Blues, Vol. 2",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ae03fcf0c8b2071c997b1b3a",
+      "releaseDate": "1972-11-25",
+      "durationMs": 160946,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/2QB8lLT8XbmiW0kcnscdf2"
+    },
+    {
+      "id": "5HsE5278DMflp1gtGOGVPU",
+      "name": "Instant-Taneas",
+      "artists": [
+        "Fito Paez",
+        "Luis Alberto Spinetta"
+      ],
+      "album": "La La La",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737d3031e56aa2c334432f2c70",
+      "releaseDate": "1986-01-01",
+      "durationMs": 337200,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/5HsE5278DMflp1gtGOGVPU"
+    },
+    {
+      "id": "1nXEpsr2TFTIfOT2YkoPIb",
+      "name": "Toda la Vida Tiene Música Hoy",
+      "artists": [
+        "Luis Alberto Spinetta"
+      ],
+      "album": "A 18' Del Sol",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737dc0c6b05888e538fd53489c",
+      "releaseDate": "1977-12-16",
+      "durationMs": 281920,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/1nXEpsr2TFTIfOT2YkoPIb"
+    },
+    {
+      "id": "7BbpLe12HpkoZJcJs1A3SP",
+      "name": "Como Mata el Viento Norte",
+      "artists": [
+        "La Maquina De Hacer Pájaros"
+      ],
+      "album": "La Máquina de Hacer Pájaros",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732bafb74d62346afeaf462553",
+      "releaseDate": "1976-04-29",
+      "durationMs": 164440,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/7BbpLe12HpkoZJcJs1A3SP"
+    },
+    {
+      "id": "3lzYx9dpCNw6CkttQe6SlE",
+      "name": "Soulshine",
+      "artists": [
+        "Gov't Mule"
+      ],
+      "album": "The Deep End Vol. 1",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e068e76ee270e307dc6225e3",
+      "releaseDate": "2001-10-23",
+      "durationMs": 467800,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/3lzYx9dpCNw6CkttQe6SlE"
+    },
+    {
+      "id": "7qXsSruTL4u0X30bHMmaAT",
+      "name": "Pájaros de fuego",
+      "artists": [
+        "Los Tres"
+      ],
+      "album": "Los Tres",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c90c7ca59a3055ba78ae5d89",
+      "releaseDate": "1991",
+      "durationMs": 270320,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/7qXsSruTL4u0X30bHMmaAT"
+    },
+    {
+      "id": "5aHHf6jrqDRb1fcBmue2kn",
+      "name": "The End - Remastered 2009",
+      "artists": [
+        "The Beatles"
+      ],
+      "album": "Abbey Road (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25",
+      "releaseDate": "1969-09-26",
+      "durationMs": 141613,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/5aHHf6jrqDRb1fcBmue2kn"
+    },
+    {
+      "id": "6dGnYIeXmHdcikdzNNDMm2",
+      "name": "Here Comes The Sun - Remastered 2009",
+      "artists": [
+        "The Beatles"
+      ],
+      "album": "Abbey Road (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25",
+      "releaseDate": "1969-09-26",
+      "durationMs": 185733,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/6dGnYIeXmHdcikdzNNDMm2"
+    },
+    {
+      "id": "0suLngfo7rJoetk7Ub6N8l",
+      "name": "Octopus's Garden - Remastered 2009",
+      "artists": [
+        "The Beatles"
+      ],
+      "album": "Abbey Road (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25",
+      "releaseDate": "1969-09-26",
+      "durationMs": 170720,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/0suLngfo7rJoetk7Ub6N8l"
+    },
+    {
+      "id": "6NKdgzbc4saTTaO0DkPAkJ",
+      "name": "Don't Take the Night Away",
+      "artists": [
+        "Chris Rainbow"
+      ],
+      "album": "White Trails (Expanded)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f96aee01fdb9a8d00db869c5",
+      "releaseDate": "1979-01-01",
+      "durationMs": 288466,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/6NKdgzbc4saTTaO0DkPAkJ"
+    },
+    {
+      "id": "5iPzax2duOrsYLZ6yED9vW",
+      "name": "Patos",
+      "artists": [
+        "ASTOR"
+      ],
+      "album": "Vacaciones Todo el Año",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737005b51236c4293c3a03d757",
+      "releaseDate": "2017-01-01",
+      "durationMs": 281500,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/5iPzax2duOrsYLZ6yED9vW"
+    },
+    {
+      "id": "01SfTM5nfCou5gQL70r6gs",
+      "name": "Golden Slumbers - Remastered 2009",
+      "artists": [
+        "The Beatles"
+      ],
+      "album": "Abbey Road (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25",
+      "releaseDate": "1969-09-26",
+      "durationMs": 91760,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/01SfTM5nfCou5gQL70r6gs"
+    },
+    {
+      "id": "6N0b6jlahlvHsV5MyZd0f8",
+      "name": "Valentine's Day Freestyle '25",
+      "artists": [
+        "JPEGMAFIA"
+      ],
+      "album": "Valentine's Day Freestyle '25",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333195cfa797c61c968ae82dd",
+      "releaseDate": "2025-02-15",
+      "durationMs": 209732,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/6N0b6jlahlvHsV5MyZd0f8"
+    },
+    {
+      "id": "7AgMX97ljLm9BzszyyXEYZ",
+      "name": "Jazz (We've Got)",
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "album": "The Low End Theory",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f38c6b37a21334e22005b1f7",
+      "releaseDate": "1991-09-24",
+      "durationMs": 250240,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/7AgMX97ljLm9BzszyyXEYZ"
+    },
+    {
+      "id": "3hJLKtTpgct9Y9wKww0BiR",
+      "name": "Miss You - Remastered",
+      "artists": [
+        "The Rolling Stones"
+      ],
+      "album": "Some Girls",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27305c7aec05eabf142cc33b936",
+      "releaseDate": "1978-06-09",
+      "durationMs": 288666,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/3hJLKtTpgct9Y9wKww0BiR"
+    },
+    {
+      "id": "5jYYumalS1qELrcChOCZrK",
+      "name": "Year of the Cat - 2001 Remaster",
+      "artists": [
+        "Al Stewart"
+      ],
+      "album": "Year of the Cat",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734d1556d406a19cf829e6e0b8",
+      "releaseDate": "1976-10-22",
+      "durationMs": 401400,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/5jYYumalS1qELrcChOCZrK"
+    },
+    {
+      "id": "37N37WJQvXqplFdCwkNgX3",
+      "name": "Lujon",
+      "artists": [
+        "Henry Mancini"
+      ],
+      "album": "Mr. Lucky Goes Latin",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273187cb5d9f8c6e9bb29652cb3",
+      "releaseDate": "1961-01-01",
+      "durationMs": 158360,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/37N37WJQvXqplFdCwkNgX3"
+    },
+    {
+      "id": "7lp5evZr7qEDwlv5PS8b6i",
+      "name": "Summer Breeze",
+      "artists": [
+        "PIPER"
+      ],
+      "album": "Summer Breeze",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27305052405c3b95719b490c71a",
+      "releaseDate": "1983-05-01",
+      "durationMs": 203386,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/7lp5evZr7qEDwlv5PS8b6i"
+    },
+    {
+      "id": "62zFcDLa1CjCY9yp6VO4ga",
+      "name": "Lauren",
+      "artists": [
+        "Men I Trust"
+      ],
+      "album": "Lauren",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738c2b42ae9e6d13b5719a79ed",
+      "releaseDate": "2016-06-13",
+      "durationMs": 222680,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/62zFcDLa1CjCY9yp6VO4ga"
+    },
+    {
+      "id": "2G6XFgIRMn0ZdIBao0ggoM",
+      "name": "Que Ves el Cielo",
+      "artists": [
+        "Invisible"
+      ],
+      "album": "El Jardin de los Presentes",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734d52291a3146f5aea6013a69",
+      "releaseDate": "1976-05-27",
+      "durationMs": 124293,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/2G6XFgIRMn0ZdIBao0ggoM"
+    },
+    {
+      "id": "3T5SksrlFxunlotQ0lmSwv",
+      "name": "Cancion para los Días de la Vida",
+      "artists": [
+        "Luis Alberto Spinetta"
+      ],
+      "album": "A 18' Del Sol",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737dc0c6b05888e538fd53489c",
+      "releaseDate": "1977-12-16",
+      "durationMs": 347960,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/3T5SksrlFxunlotQ0lmSwv"
+    },
+    {
+      "id": "4kVxStqN7DeoZje5aidAn3",
+      "name": "Anti-Matter",
+      "artists": [
+        "King Geedorah",
+        "Mr Fantastik"
+      ],
+      "album": "Take Me To Your Leader",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c54028b0ef2f2f569fb3df42",
+      "releaseDate": "2003-06-17",
+      "durationMs": 206946,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/4kVxStqN7DeoZje5aidAn3"
+    },
+    {
+      "id": "1pXvZZ7Ubwt4rpDt3JEHdY",
+      "name": "Saliva",
+      "artists": [
+        "Viktor Vaughn",
+        "MF DOOM"
+      ],
+      "album": "Vaudeville Villain",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d97a55d6ace2bf9e8ccb8cb1",
+      "releaseDate": "2003",
+      "durationMs": 148826,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/1pXvZZ7Ubwt4rpDt3JEHdY"
+    },
+    {
+      "id": "1y96w7WDPlwByq9aISEi6G",
+      "name": "Barro Tal Vez",
+      "artists": [
+        "Luis Alberto Spinetta"
+      ],
+      "album": "Kamikaze",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a1433832dffafcb82ad46936",
+      "releaseDate": "1982-04-08",
+      "durationMs": 197746,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/1y96w7WDPlwByq9aISEi6G"
+    },
+    {
+      "id": "6ogBARwwlfsmmgyxWeEzQF",
+      "name": "Estoy Azulado - Remasterizado 2007",
+      "artists": [
+        "Soda Stereo"
+      ],
+      "album": "Nada Personal (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e28947f6ad2f100af9c1965a",
+      "releaseDate": "1985-10-09",
+      "durationMs": 317013,
+      "addedAt": "2025-04-06T22:45:34Z",
+      "spotifyUrl": "https://open.spotify.com/track/6ogBARwwlfsmmgyxWeEzQF"
+    }
+  ]
+}

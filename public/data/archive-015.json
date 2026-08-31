@@ -1,0 +1,413 @@
+{
+  "id": "archive-015",
+  "number": 15,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2024-04-21T05:31:25Z",
+    "latest": "2024-04-21T05:31:25Z"
+  },
+  "tracks": [
+    {
+      "id": "29IQpdkv1MaP6Hvr1IBsdv",
+      "name": "Lo Que Tú Quieras",
+      "artists": [
+        "Daniel, Me Estás Matando"
+      ],
+      "album": "Lo Que Tú Quieras",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27357313c2d9f737aef4cc44c71",
+      "releaseDate": "2024-04-19",
+      "durationMs": 198826,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/29IQpdkv1MaP6Hvr1IBsdv"
+    },
+    {
+      "id": "36y295sDjVO5kuLNxJeOJ6",
+      "name": "Femme du Crépuscule",
+      "artists": [
+        "LaBlue",
+        "Astrønne"
+      ],
+      "album": "Blue Phases (Deluxe)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739e2a892d76687c0eba34865b",
+      "releaseDate": "2022-04-01",
+      "durationMs": 216000,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/36y295sDjVO5kuLNxJeOJ6"
+    },
+    {
+      "id": "6zTl1HyJZfPGzc7jjgcpeq",
+      "name": "IMMORTAL",
+      "artists": [
+        "Ricki Monique",
+        "yourbeautifulruin"
+      ],
+      "album": "IMMORTAL",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273be0b80b447baf02497040c59",
+      "releaseDate": "2022-01-25",
+      "durationMs": 185298,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/6zTl1HyJZfPGzc7jjgcpeq"
+    },
+    {
+      "id": "1SsbAUqPSt20PhHAuVSDNu",
+      "name": "Stars (feat. Yasiin Bey)",
+      "artists": [
+        "JID",
+        "Yasiin Bey"
+      ],
+      "album": "The Forever Story (Extended Version)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cae6e44dcc84e2035c3ad092",
+      "releaseDate": "2022-10-31",
+      "durationMs": 258243,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/1SsbAUqPSt20PhHAuVSDNu"
+    },
+    {
+      "id": "2rDwETmcGw4ZqbuXvLQmDL",
+      "name": "Only You",
+      "artists": [
+        "Theophilus London",
+        "Tame Impala"
+      ],
+      "album": "Bebey",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27348f20d32e967e845946480af",
+      "releaseDate": "2020-01-17",
+      "durationMs": 215446,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/2rDwETmcGw4ZqbuXvLQmDL"
+    },
+    {
+      "id": "4abXKMf3IsIe3gQaCsiiHx",
+      "name": "Selva Negra",
+      "artists": [
+        "La Lá"
+      ],
+      "album": "Rosa",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cbde0fc2efe7a74305e411d6",
+      "releaseDate": "2014-02-21",
+      "durationMs": 181592,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/4abXKMf3IsIe3gQaCsiiHx"
+    },
+    {
+      "id": "42Bczh6IIyTYJduQnfS92p",
+      "name": "I See Now",
+      "artists": [
+        "Little Brother"
+      ],
+      "album": "The Chittlin' Circuit Circuit 1.5 (Deluxe Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27328faee2ae3de4a7a707a0808",
+      "releaseDate": "2005-06-21",
+      "durationMs": 259708,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/42Bczh6IIyTYJduQnfS92p"
+    },
+    {
+      "id": "4dnlbvqglDqyuGYjg8rBfc",
+      "name": "Nunca vas a comprender",
+      "artists": [
+        "Rita Payés",
+        "Elisabeth Roma"
+      ],
+      "album": "COMO LA PIEL",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730a7c7c51bff0514f6da3d846",
+      "releaseDate": "2021-04-16",
+      "durationMs": 244631,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/4dnlbvqglDqyuGYjg8rBfc"
+    },
+    {
+      "id": "5PG0KLm66uabwKFWSGNe5U",
+      "name": "Noche No Te Vayas",
+      "artists": [
+        "Los Tres Caballeros"
+      ],
+      "album": "Los Tres Caballeros",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ecd97a8656cb017faae72bc3",
+      "releaseDate": "2002-05-09",
+      "durationMs": 178677,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/5PG0KLm66uabwKFWSGNe5U"
+    },
+    {
+      "id": "2JUT8olmK1F89XnpKrklyu",
+      "name": "Sand Castles (feat. Benny the Butcher & Elcamino)",
+      "artists": [
+        "The Alchemist",
+        "Benny The Butcher",
+        "Elcamino"
+      ],
+      "album": "Yacht Rock 2",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f427d5bb249ff27546c7cc63",
+      "releaseDate": "2019-08-30",
+      "durationMs": 168906,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/2JUT8olmK1F89XnpKrklyu"
+    },
+    {
+      "id": "59OzzlZ0CaIp7BONONcWDr",
+      "name": "Tropical Storm Lenny (feat. Action Bronson)",
+      "artists": [
+        "The Alchemist",
+        "Action Bronson"
+      ],
+      "album": "Yacht Rock 2",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f427d5bb249ff27546c7cc63",
+      "releaseDate": "2019-08-30",
+      "durationMs": 85920,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/59OzzlZ0CaIp7BONONcWDr"
+    },
+    {
+      "id": "1VPrFor2HSi3I6wStnfoHq",
+      "name": "Amor Ferrari",
+      "artists": [
+        "Luca Bocci"
+      ],
+      "album": "No Pierdas la Simpleza",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273815817b846ce18637c720202",
+      "releaseDate": "2020-06-19",
+      "durationMs": 165824,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/1VPrFor2HSi3I6wStnfoHq"
+    },
+    {
+      "id": "34FhndFs4d8ltOVj8JqN4s",
+      "name": "Jammin",
+      "artists": [
+        "RUBII"
+      ],
+      "album": "Olive Green",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27386aaccc3412f0143c2ca70b0",
+      "releaseDate": "2023-03-10",
+      "durationMs": 169846,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/34FhndFs4d8ltOVj8JqN4s"
+    },
+    {
+      "id": "65ECX9IpEdilzLDWmQCGOH",
+      "name": "Necedad",
+      "artists": [
+        "Disco Bahía"
+      ],
+      "album": "Necedad",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a60f6ace2b281e106e6b92dc",
+      "releaseDate": "2020-08-28",
+      "durationMs": 164750,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/65ECX9IpEdilzLDWmQCGOH"
+    },
+    {
+      "id": "1fVVT89PhHDh9COdU5DB9B",
+      "name": "Malas Amistades",
+      "artists": [
+        "Vanessa Zamora",
+        "DAMALEONA"
+      ],
+      "album": "Tornaluna",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b3157b71271d64f4f0c23523",
+      "releaseDate": "2018-10-05",
+      "durationMs": 250073,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/1fVVT89PhHDh9COdU5DB9B"
+    },
+    {
+      "id": "1YxQxV5sKZN1TgVpXl5MLA",
+      "name": "Dreamer",
+      "artists": [
+        "Laufey"
+      ],
+      "album": "Bewitched",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27374c732f8aa0e0ccbb3d17d96",
+      "releaseDate": "2023-09-08",
+      "durationMs": 210826,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/1YxQxV5sKZN1TgVpXl5MLA"
+    },
+    {
+      "id": "06pjQCIybMiGrgtHODGa2m",
+      "name": "Bajan (En Vivo Estadio Vélez Sarsfield) (feat. Gustavo Cerati)",
+      "artists": [
+        "Luis Alberto Spinetta",
+        "Gustavo Cerati"
+      ],
+      "album": "Spinetta y Las Bandas Eternas",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273db8504f569e554a2453e3136",
+      "releaseDate": "2010-12-02",
+      "durationMs": 225906,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/06pjQCIybMiGrgtHODGa2m"
+    },
+    {
+      "id": "2cmRpmO04TLaKPzmAzySYZ",
+      "name": "Dance Yrself Clean",
+      "artists": [
+        "LCD Soundsystem"
+      ],
+      "album": "This Is Happening",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ee0d0dce888c6c8a70db6e8b",
+      "releaseDate": "2010-05-17",
+      "durationMs": 536471,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/2cmRpmO04TLaKPzmAzySYZ"
+    },
+    {
+      "id": "6pjbkrGImw09Nv5Ji3emkr",
+      "name": "Durazno Sangrando",
+      "artists": [
+        "Invisible"
+      ],
+      "album": "Durazno Sangrando",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c6d56041712b68271dad1238",
+      "releaseDate": "1975-05-07",
+      "durationMs": 219186,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/6pjbkrGImw09Nv5Ji3emkr"
+    },
+    {
+      "id": "6iZRqJjpbOVEv4mFTpqg1d",
+      "name": "Horizon (Japan CD)",
+      "artists": [
+        "Daft Punk"
+      ],
+      "album": "Random Access Memories (10th Anniversary Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737a311579a8814f7683f25a17",
+      "releaseDate": "2023-05-12",
+      "durationMs": 262560,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/6iZRqJjpbOVEv4mFTpqg1d"
+    },
+    {
+      "id": "1AdS7651gcodF28Z6aUCno",
+      "name": "Amnesia",
+      "artists": [
+        "Control Machete"
+      ],
+      "album": "Un Tributo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27322d13aeea47b1616741c5721",
+      "releaseDate": "1998-07-06",
+      "durationMs": 295293,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/1AdS7651gcodF28Z6aUCno"
+    },
+    {
+      "id": "5s1fY2UeEGyxQMQfSkcd91",
+      "name": "Hard Knock Life",
+      "artists": [
+        "JAŸ-Z"
+      ],
+      "album": "The Hits Collection Volume One",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e8cabbbe05e243e53a3d700e",
+      "releaseDate": "2010-11-22",
+      "durationMs": 240586,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/5s1fY2UeEGyxQMQfSkcd91"
+    },
+    {
+      "id": "622DQPLumfjBW0sDd7XGFO",
+      "name": "Come Get To This",
+      "artists": [
+        "Marvin Gaye"
+      ],
+      "album": "Let's Get It On",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f8f0a26e4100c490bc384003",
+      "releaseDate": "1973-08-28",
+      "durationMs": 161000,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/622DQPLumfjBW0sDd7XGFO"
+    },
+    {
+      "id": "7r4MWTMMGCaCEjQHf5clz5",
+      "name": "Grooviest In The World",
+      "artists": [
+        "Dc2trill"
+      ],
+      "album": "Family Matters",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273852bb8a9c607bdf211fffbf7",
+      "releaseDate": "2023-07-25",
+      "durationMs": 139930,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/7r4MWTMMGCaCEjQHf5clz5"
+    },
+    {
+      "id": "5ZoDwIP1ntHwciLjydJ8X2",
+      "name": "My Cherie Amour",
+      "artists": [
+        "Stevie Wonder"
+      ],
+      "album": "My Cherie Amour",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a2b75ce3f397373fb135c1d4",
+      "releaseDate": "1969-08-01",
+      "durationMs": 173306,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/5ZoDwIP1ntHwciLjydJ8X2"
+    },
+    {
+      "id": "0NdKnpfDtqT4ejsW4H58x4",
+      "name": "Be Your Girl (Kaytranada Edition)",
+      "artists": [
+        "Teedra Moses",
+        "KAYTRANADA"
+      ],
+      "album": "Be Your Girl (Kaytranada Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730ba27c35e81e0b21029a03b6",
+      "releaseDate": "2018-05-04",
+      "durationMs": 268087,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "https://open.spotify.com/track/0NdKnpfDtqT4ejsW4H58x4"
+    },
+    {
+      "id": null,
+      "name": "Nahuel Pennisi - Toco y Me Voy (En Estado Acústico)",
+      "artists": [
+        ""
+      ],
+      "album": "",
+      "coverUrl": "",
+      "releaseDate": null,
+      "durationMs": 267000,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": ""
+    },
+    {
+      "id": null,
+      "name": "The Concrete Cypher_ Lil Yachty, Draft Day, DC2TRILL, Camo! & Karrahbooo",
+      "artists": [
+        ""
+      ],
+      "album": "",
+      "coverUrl": "",
+      "releaseDate": null,
+      "durationMs": 376000,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": ""
+    },
+    {
+      "id": null,
+      "name": "10 VIRGINIA Going Back To VA 20.0 LV 4.4.24",
+      "artists": [
+        ""
+      ],
+      "album": "",
+      "coverUrl": "",
+      "releaseDate": null,
+      "durationMs": 182000,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": ""
+    },
+    {
+      "id": null,
+      "name": "09 VIRGINIA Cheryl 17.0x LV 3.26.24",
+      "artists": [
+        ""
+      ],
+      "album": "",
+      "coverUrl": "",
+      "releaseDate": null,
+      "durationMs": 158000,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": ""
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "id": "archive-028",
+  "number": 28,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2026-07-06T17:26:58Z",
+    "latest": "2026-07-06T17:26:58Z"
+  },
+  "tracks": [
+    {
+      "id": "3AR1c3Dssq51WlGGkuYJNj",
+      "name": "El lado oscuro",
+      "artists": [
+        "Jarabe De Palo"
+      ],
+      "album": "La Flaca",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27348de952267002dbeffe048ad",
+      "releaseDate": "1996-02-28",
+      "durationMs": 288053,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/3AR1c3Dssq51WlGGkuYJNj"
+    },
+    {
+      "id": "6ZHKeoIOkvmYUIfxHLtE2Z",
+      "name": "Siesta Freestyle",
+      "artists": [
+        "Lewis OfMan",
+        "Alicia te quiero"
+      ],
+      "album": "Dancy Party",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730dfde54ca58fa9c1c5fa2d93",
+      "releaseDate": "2021-03-12",
+      "durationMs": 194160,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/6ZHKeoIOkvmYUIfxHLtE2Z"
+    },
+    {
+      "id": "5XSU59wtE5CRCAEyHmmGy4",
+      "name": "Stand By Me",
+      "artists": [
+        "Florence + The Machine"
+      ],
+      "album": "Songs From Final Fantasy XV",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734475765f52e5d459b0789155",
+      "releaseDate": "2016-08-12",
+      "durationMs": 245780,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/5XSU59wtE5CRCAEyHmmGy4"
+    },
+    {
+      "id": "3C542UknrX76XSRXTyQ1Qg",
+      "name": "Tighten Up",
+      "artists": [
+        "The Black Keys"
+      ],
+      "album": "Brothers (Deluxe Remastered Anniversary Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734e8a6ddb81ade2cf14effa8f",
+      "releaseDate": "2012-05-01",
+      "durationMs": 211336,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/3C542UknrX76XSRXTyQ1Qg"
+    },
+    {
+      "id": "4Egb5xP6cniUx0kgZd5zLB",
+      "name": "Soy Yo",
+      "artists": [
+        "Bomba Estéreo"
+      ],
+      "album": "Amanecer",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a5b1ec7837ccce7aed577c6e",
+      "releaseDate": "2015-06-02",
+      "durationMs": 159791,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/4Egb5xP6cniUx0kgZd5zLB"
+    },
+    {
+      "id": "0Cn4UhpHhgf88eWaS9nn5u",
+      "name": "Uncle ACE",
+      "artists": [
+        "Blood Orange"
+      ],
+      "album": "Cupid Deluxe",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739d6bd2afa2987a69b7b55f72",
+      "releaseDate": "2013-11-18",
+      "durationMs": 256693,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/0Cn4UhpHhgf88eWaS9nn5u"
+    },
+    {
+      "id": "4WrYLfuJg2wNLwvSRHZwxl",
+      "name": "Summertime",
+      "artists": [
+        "The Sundays"
+      ],
+      "album": "Static And Silence",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27350b615c47f70e69b6cab7113",
+      "releaseDate": "1997-09-22",
+      "durationMs": 214893,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/4WrYLfuJg2wNLwvSRHZwxl"
+    },
+    {
+      "id": "4vO9dmzNRqDhFY3jD1a3P7",
+      "name": "Mississippi Queen",
+      "artists": [
+        "Mountain"
+      ],
+      "album": "Climbing!",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273411cacfc3518a9f2c4a670f6",
+      "releaseDate": "1970",
+      "durationMs": 151293,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/4vO9dmzNRqDhFY3jD1a3P7"
+    },
+    {
+      "id": "50DMG6AvtNzbrxMc62w6ph",
+      "name": "Bold as Love",
+      "artists": [
+        "John Mayer"
+      ],
+      "album": "Continuum",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ac9fea717d5b78e73cbd89f6",
+      "releaseDate": "2006-09-11",
+      "durationMs": 258146,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/50DMG6AvtNzbrxMc62w6ph"
+    },
+    {
+      "id": "0U1uQvYa0FTXSadLoBe4tE",
+      "name": "Pop this Heat",
+      "artists": [
+        "JPEGMAFIA"
+      ],
+      "album": "EXPERIMENTAL RAP",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27373fe8f78133608dee4f3a5bd",
+      "releaseDate": "2026-05-21",
+      "durationMs": 116089,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/0U1uQvYa0FTXSadLoBe4tE"
+    },
+    {
+      "id": "0DhucSM6rVc74TKVckCFQg",
+      "name": "MUTATIONS",
+      "artists": [
+        "Action Bronson"
+      ],
+      "album": "PLANET FROG",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27339565aaf5cee7e098bc25666",
+      "releaseDate": "2026-05-08",
+      "durationMs": 131946,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/0DhucSM6rVc74TKVckCFQg"
+    },
+    {
+      "id": "5tId5XgNGmTQjNu6S54imc",
+      "name": "MY BLUE HEAVEN",
+      "artists": [
+        "Action Bronson"
+      ],
+      "album": "PLANET FROG",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27339565aaf5cee7e098bc25666",
+      "releaseDate": "2026-05-08",
+      "durationMs": 90013,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/5tId5XgNGmTQjNu6S54imc"
+    },
+    {
+      "id": "4z6S07pYjpakUlmlCjsVnM",
+      "name": "CONDOR",
+      "artists": [
+        "Action Bronson"
+      ],
+      "album": "PLANET FROG",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27339565aaf5cee7e098bc25666",
+      "releaseDate": "2026-05-08",
+      "durationMs": 118626,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/4z6S07pYjpakUlmlCjsVnM"
+    },
+    {
+      "id": "2IeKMw0A9wc6zNZGitIipv",
+      "name": "LEBRON HENNESSY",
+      "artists": [
+        "Action Bronson"
+      ],
+      "album": "PLANET FROG",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27339565aaf5cee7e098bc25666",
+      "releaseDate": "2026-05-08",
+      "durationMs": 189440,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/2IeKMw0A9wc6zNZGitIipv"
+    },
+    {
+      "id": "3GcJCfVdwakBXr7UPrx2uA",
+      "name": "Bang Bang",
+      "artists": [
+        "K'NAAN",
+        "Adam Levine"
+      ],
+      "album": "Troubadour (Champion Edition - Español)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c0887733f8c2a1672e653fa1",
+      "releaseDate": "2010-01-01",
+      "durationMs": 186533,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/3GcJCfVdwakBXr7UPrx2uA"
+    },
+    {
+      "id": "5cPcd6pLrpDVmKnonjd3EQ",
+      "name": "I Think I Like It",
+      "artists": [
+        "Fake Blood"
+      ],
+      "album": "Fix Your Accent",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273564b140043e21d94f0f79c09",
+      "releaseDate": "2018-10-27",
+      "durationMs": 335800,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/5cPcd6pLrpDVmKnonjd3EQ"
+    },
+    {
+      "id": "4cgjA7B4fJBHyB9Ya2bu0t",
+      "name": "Human Nature",
+      "artists": [
+        "Michael Jackson"
+      ],
+      "album": "Thriller",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27332a7d87248d1b75463483df5",
+      "releaseDate": "1982-11-30",
+      "durationMs": 245837,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/4cgjA7B4fJBHyB9Ya2bu0t"
+    },
+    {
+      "id": "37pKTyMwalomKCZjxTc2QZ",
+      "name": "Cherry-coloured Funk",
+      "artists": [
+        "Cocteau Twins"
+      ],
+      "album": "Heaven or Las Vegas",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fe6211303e796f3d5b7a0e02",
+      "releaseDate": "1990-09-17",
+      "durationMs": 192466,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/37pKTyMwalomKCZjxTc2QZ"
+    },
+    {
+      "id": "0Fe5xvfosC9A1jtVtYCoEI",
+      "name": "Homeward",
+      "artists": [
+        "The Sundays"
+      ],
+      "album": "Static And Silence",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27350b615c47f70e69b6cab7113",
+      "releaseDate": "1997-09-22",
+      "durationMs": 228826,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/0Fe5xvfosC9A1jtVtYCoEI"
+    },
+    {
+      "id": "0L6O9bdlvHNLErEy2hzir2",
+      "name": "When I'm Thinking About You",
+      "artists": [
+        "The Sundays"
+      ],
+      "album": "Static And Silence",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27350b615c47f70e69b6cab7113",
+      "releaseDate": "1997-09-22",
+      "durationMs": 257506,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/0L6O9bdlvHNLErEy2hzir2"
+    },
+    {
+      "id": "1AYgMuI3cgL5EjnfhnZVoq",
+      "name": "Pijamas",
+      "artists": [
+        "Babasonicos"
+      ],
+      "album": "Mucho",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273894cafe63e54743a07ece9d3",
+      "releaseDate": "2008-01-01",
+      "durationMs": 209920,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/1AYgMuI3cgL5EjnfhnZVoq"
+    },
+    {
+      "id": "1jJci4qxiYcOHhQR247rEU",
+      "name": "Kids",
+      "artists": [
+        "MGMT"
+      ],
+      "album": "Oracular Spectacular",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273abdf7749aeb5229dbf305f03",
+      "releaseDate": "2007-12-14",
+      "durationMs": 302840,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/1jJci4qxiYcOHhQR247rEU"
+    },
+    {
+      "id": "1x6jPyUfLuTNQ3o5zykG2x",
+      "name": "You Give Me Something",
+      "artists": [
+        "Jamiroquai"
+      ],
+      "album": "A Funk Odyssey",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273909ebb0c355f14d0ee7f9974",
+      "releaseDate": "2001-08-29",
+      "durationMs": 199600,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/1x6jPyUfLuTNQ3o5zykG2x"
+    },
+    {
+      "id": "2cX2coZS1PYBfPs8wgbdWE",
+      "name": "More Than A Woman - From \"Saturday Night Fever\" Soundtrack",
+      "artists": [
+        "Bee Gees"
+      ],
+      "album": "How Can You Mend A Broken Heart",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bdcea025a483b9642f17a9f8",
+      "releaseDate": "2020-12-11",
+      "durationMs": 196213,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/2cX2coZS1PYBfPs8wgbdWE"
+    },
+    {
+      "id": "4lXjz5k4Rij3LTj6O0mgOO",
+      "name": "Thinkin Bout You",
+      "artists": [
+        "Flea"
+      ],
+      "album": "Honora",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273017eb062be58097ec134eeb6",
+      "releaseDate": "2026-03-27",
+      "durationMs": 250493,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/4lXjz5k4Rij3LTj6O0mgOO"
+    },
+    {
+      "id": "56prPhOQ8YcVNLK9UXn7Py",
+      "name": "ミッドナイト・ランデブー",
+      "artists": [
+        "CASIOPEA"
+      ],
+      "album": "CASIOPEA",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273648478cb25e3e302454e40e1",
+      "releaseDate": "1979",
+      "durationMs": 323160,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/56prPhOQ8YcVNLK9UXn7Py"
+    },
+    {
+      "id": "5Ctzx0mMiUPAu9JqbAOY9n",
+      "name": "Be Like a Woman",
+      "artists": [
+        "Chris Rainbow"
+      ],
+      "album": "White Trails (Expanded)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f96aee01fdb9a8d00db869c5",
+      "releaseDate": "1979-01-01",
+      "durationMs": 255946,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/5Ctzx0mMiUPAu9JqbAOY9n"
+    },
+    {
+      "id": "5dTHtzHFPyi8TlTtzoz1J9",
+      "name": "Helena",
+      "artists": [
+        "My Chemical Romance"
+      ],
+      "album": "Three Cheers for Sweet Revenge",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cab7ae4868e9f9ce6bdfdf43",
+      "releaseDate": "2004-06-08",
+      "durationMs": 204733,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/5dTHtzHFPyi8TlTtzoz1J9"
+    },
+    {
+      "id": "5wQnmLuC1W7ATsArWACrgW",
+      "name": "Welcome to the Black Parade",
+      "artists": [
+        "My Chemical Romance"
+      ],
+      "album": "The Black Parade",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273663b6ce496144fa5c3670ac0",
+      "releaseDate": "2006-10-20",
+      "durationMs": 311106,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/5wQnmLuC1W7ATsArWACrgW"
+    },
+    {
+      "id": "6etwirSInfuJrSOlogS6Sh",
+      "name": "American Boy",
+      "artists": [
+        "Estelle",
+        "Kanye West"
+      ],
+      "album": "Shine",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27398dc3e242a818007dd67b7c5",
+      "releaseDate": "2008-03-28",
+      "durationMs": 284733,
+      "addedAt": "2026-07-06T17:26:58Z",
+      "spotifyUrl": "https://open.spotify.com/track/6etwirSInfuJrSOlogS6Sh"
+    }
+  ]
+}

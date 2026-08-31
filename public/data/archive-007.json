@@ -1,0 +1,429 @@
+{
+  "id": "archive-007",
+  "number": 7,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2023-01-27T08:25:19Z",
+    "latest": "2023-01-27T08:25:19Z"
+  },
+  "tracks": [
+    {
+      "id": "5nU7dvOfzYs9QVVL7YVNPE",
+      "name": "Corcovado (Quiet Nights Of Quiet Stars) - Single Version",
+      "artists": [
+        "Stan Getz",
+        "João Gilberto",
+        "Astrud Gilberto",
+        "Antônio Carlos Jobim"
+      ],
+      "album": "Getz/Gilberto (Expanded Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273417cc363d7286a88489dee3c",
+      "releaseDate": "1964-03-01",
+      "durationMs": 139986,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/5nU7dvOfzYs9QVVL7YVNPE"
+    },
+    {
+      "id": "3QxAadrRx8aSEVd6Qzr8KF",
+      "name": "Saudade Vem Correndo",
+      "artists": [
+        "Stan Getz",
+        "Luiz Bonfá",
+        "Maria Toledo"
+      ],
+      "album": "Jazz Samba Encore!",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273efece5a77521bdc11757a423",
+      "releaseDate": "1963",
+      "durationMs": 219093,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/3QxAadrRx8aSEVd6Qzr8KF"
+    },
+    {
+      "id": "5cYmCxFGza4zrc9vfs9PMV",
+      "name": "Subzero",
+      "artists": [
+        "Action Bronson"
+      ],
+      "album": "Cocodrillo Turbo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732a3e3c2cfad3f1f4e3ee0004",
+      "releaseDate": "2022-04-29",
+      "durationMs": 180360,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/5cYmCxFGza4zrc9vfs9PMV"
+    },
+    {
+      "id": "5hyauOmPY8USNexuMuo3nC",
+      "name": "Samba de uma nota so",
+      "artists": [
+        "Caterina Valente"
+      ],
+      "album": "Caterina Valente",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273be110591fe7cb0926a5bfbd1",
+      "releaseDate": "2011-09-15",
+      "durationMs": 160306,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/5hyauOmPY8USNexuMuo3nC"
+    },
+    {
+      "id": "03yMZBtC3QxyK7ttlBLeme",
+      "name": "A.T.H.F. (Aqua Teen Hunger Force)",
+      "artists": [
+        "DANGERDOOM",
+        "MF DOOM",
+        "Danger Mouse"
+      ],
+      "album": "THE MOUSE & THE MASK",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736c3fb85147fcf2972923cf2d",
+      "releaseDate": "2005-10-17",
+      "durationMs": 183413,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/03yMZBtC3QxyK7ttlBLeme"
+    },
+    {
+      "id": "10LzsI1oHVeNpplXBE1RY7",
+      "name": "Sunray Junonia",
+      "artists": [
+        "Telemakus",
+        "Kosie",
+        "Chino Corvalán",
+        "Paul Grant",
+        "Tamuz"
+      ],
+      "album": "Sunray Junonia",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739e0bd3861158fe8f9a0b32b8",
+      "releaseDate": "2021-02-03",
+      "durationMs": 300000,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/10LzsI1oHVeNpplXBE1RY7"
+    },
+    {
+      "id": "2fmXnPfzguSp3zKDibCBgv",
+      "name": "Mister Magic",
+      "artists": [
+        "Grover Washington, Jr."
+      ],
+      "album": "Mister Magic",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dd15e56df5c95b6bb1c8e1d5",
+      "releaseDate": "1974",
+      "durationMs": 541826,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/2fmXnPfzguSp3zKDibCBgv"
+    },
+    {
+      "id": "57ghOGz7Iv81Dh6AnMIDTi",
+      "name": "Distant Thunder",
+      "artists": [
+        "Mabumi Yamaguchi Quartet"
+      ],
+      "album": "Leeward",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273700dac360280145ab7ec4ba1",
+      "releaseDate": "2020-11-27",
+      "durationMs": 633811,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/57ghOGz7Iv81Dh6AnMIDTi"
+    },
+    {
+      "id": "25Yz1cgjkmlXGvdlHNyhim",
+      "name": "Sofa King - Danger Mouse Remix",
+      "artists": [
+        "DANGERDOOM",
+        "MF DOOM",
+        "Danger Mouse"
+      ],
+      "album": "THE MOUSE & THE MASK",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736c3fb85147fcf2972923cf2d",
+      "releaseDate": "2005-10-17",
+      "durationMs": 169066,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/25Yz1cgjkmlXGvdlHNyhim"
+    },
+    {
+      "id": "6bmJYo1KS2X2nzQrCGzdOe",
+      "name": "Benzi Box",
+      "artists": [
+        "DANGERDOOM",
+        "MF DOOM",
+        "Danger Mouse",
+        "CeeLo Green"
+      ],
+      "album": "THE MOUSE & THE MASK",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736c3fb85147fcf2972923cf2d",
+      "releaseDate": "2005-10-17",
+      "durationMs": 180093,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/6bmJYo1KS2X2nzQrCGzdOe"
+    },
+    {
+      "id": "6rkV9hz91Rr5iHnMRPZdEQ",
+      "name": "Vaudeville Villain",
+      "artists": [
+        "Viktor Vaughn",
+        "MF DOOM"
+      ],
+      "album": "Vaudeville Villain",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d97a55d6ace2bf9e8ccb8cb1",
+      "releaseDate": "2003",
+      "durationMs": 151773,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/6rkV9hz91Rr5iHnMRPZdEQ"
+    },
+    {
+      "id": "0fbnqrpTlUdy0PUwMdU8Pl",
+      "name": "City Lights (feat. Pase Rock & Substantial)",
+      "artists": [
+        "Nujabes",
+        "Pase Rock",
+        "Substantial"
+      ],
+      "album": "Spiritual State",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739bad5ebfe556fa260f31bedd",
+      "releaseDate": "2011-12-03",
+      "durationMs": 194293,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/0fbnqrpTlUdy0PUwMdU8Pl"
+    },
+    {
+      "id": "7f1UEGMBMuXfLBP5XANfrW",
+      "name": "The Hop",
+      "artists": [
+        "A Tribe Called Quest"
+      ],
+      "album": "Beats, Rhymes & Life",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e3b93c08d98f92dc3ab0146a",
+      "releaseDate": "1996-07-30",
+      "durationMs": 207466,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/7f1UEGMBMuXfLBP5XANfrW"
+    },
+    {
+      "id": "3GLa0YFGyR9vL33Bw2kjHs",
+      "name": "Ella es Bonita",
+      "artists": [
+        "Natalia Lafourcade"
+      ],
+      "album": "HU HU HU",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734a69a43d8d856a216c6e328b",
+      "releaseDate": "2009",
+      "durationMs": 194786,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/3GLa0YFGyR9vL33Bw2kjHs"
+    },
+    {
+      "id": "0tKl8ZVM6xJkhznvJAS3Nq",
+      "name": "Ella",
+      "artists": [
+        "Junior H"
+      ],
+      "album": "Corridos Tumbados",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738bdd97bcdc83463812277751",
+      "releaseDate": "2019-10-31",
+      "durationMs": 259402,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/0tKl8ZVM6xJkhznvJAS3Nq"
+    },
+    {
+      "id": "3OHfY25tqY28d16oZczHc8",
+      "name": "Kill Bill",
+      "artists": [
+        "SZA"
+      ],
+      "album": "SOS",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bc18bdade69ec5ef0bb25b17",
+      "releaseDate": "2022-12-09",
+      "durationMs": 153946,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/3OHfY25tqY28d16oZczHc8"
+    },
+    {
+      "id": "5zxWH9Vm0NZNKU6ky3DyUC",
+      "name": "Souffle au coeur",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "Tako Tsubo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273389ffd99d51037a6f0a256f5",
+      "releaseDate": "2021-03-26",
+      "durationMs": 226850,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/5zxWH9Vm0NZNKU6ky3DyUC"
+    },
+    {
+      "id": "6jrPDxHjE2qOKbvFj9u4YX",
+      "name": "Vacances",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "Matahari (French Version)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735a27a28ae29e671a7a967657",
+      "releaseDate": "2018-03-02",
+      "durationMs": 261493,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/6jrPDxHjE2qOKbvFj9u4YX"
+    },
+    {
+      "id": "5BegRQCcJu4trXT6PPdih9",
+      "name": "Dancing in the Rain",
+      "artists": [
+        "Blu",
+        "Exile"
+      ],
+      "album": "Below the Heavens",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a1e2527fab9bcd9826e06cd4",
+      "releaseDate": "2007-08-07",
+      "durationMs": 265826,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/5BegRQCcJu4trXT6PPdih9"
+    },
+    {
+      "id": "5fX3mqqrw7KMB0rXAd3b7h",
+      "name": "Tomorrow (feat. Freddie Gibbs)",
+      "artists": [
+        "LNDN DRGS",
+        "Jay Worthy",
+        "Freddie Gibbs"
+      ],
+      "album": "Aktive (Deluxe)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27303b5ed0f6053dab0eaff6728",
+      "releaseDate": "2018-07-27",
+      "durationMs": 147570,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/5fX3mqqrw7KMB0rXAd3b7h"
+    },
+    {
+      "id": "63dLm0BUpepXeFIfZ0OKEL",
+      "name": "BELEZA PULA",
+      "artists": [
+        "Masayoshi Takanaka"
+      ],
+      "album": "BRASILIAN SKIES",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c718e0f746b0f671fd92421e",
+      "releaseDate": "1978",
+      "durationMs": 473013,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/63dLm0BUpepXeFIfZ0OKEL"
+    },
+    {
+      "id": "7fN9urfapmy0ZtF1KLU8XQ",
+      "name": "Histoire d'un soir - Souvenirs d'été",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "Histoire d'un soir - Souvenirs d'été",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735089c2edd9427a97b2127336",
+      "releaseDate": "2018-06-20",
+      "durationMs": 253455,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/7fN9urfapmy0ZtF1KLU8XQ"
+    },
+    {
+      "id": "21F9uUJrUBDiDQS7SClZ3Q",
+      "name": "Geisha",
+      "artists": [
+        "L'Impératrice",
+        "Charlotte Fever",
+        "Wugo",
+        "Molpé",
+        "Yann Le Tallec"
+      ],
+      "album": "Geisha",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734b9eb241ee68f206367f8d30",
+      "releaseDate": "2018-07-12",
+      "durationMs": 300000,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/21F9uUJrUBDiDQS7SClZ3Q"
+    },
+    {
+      "id": "0tBk2Cr2gyTHuuL54m0TEk",
+      "name": "The Kiss",
+      "artists": [
+        "L'Impératrice",
+        "Jamo"
+      ],
+      "album": "Matahari",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732e3819b2d823305c12455038",
+      "releaseDate": "2019-04-05",
+      "durationMs": 289126,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/0tBk2Cr2gyTHuuL54m0TEk"
+    },
+    {
+      "id": "3q0JxA3Bxfe8K2S8kcscdQ",
+      "name": "L'impératrice",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "L'impératrice",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b9ef2c8906fef7d69f11ab5f",
+      "releaseDate": "2012-10-22",
+      "durationMs": 305054,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/3q0JxA3Bxfe8K2S8kcscdQ"
+    },
+    {
+      "id": "2rdzxFb0MGJeZXO0ymVDD7",
+      "name": "Error 404",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "Matahari",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732e3819b2d823305c12455038",
+      "releaseDate": "2019-04-05",
+      "durationMs": 220493,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/2rdzxFb0MGJeZXO0ymVDD7"
+    },
+    {
+      "id": "6fX9YxRBOwiaHdFfwCi1K9",
+      "name": "I Wanna Dance with Somebody (Who Loves Me) - InVersions 80s",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "I Wanna Dance with Somebody (Who Loves Me) - InVersions 80s",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733838af16dcdc2f151f625644",
+      "releaseDate": "2021-05-25",
+      "durationMs": 206272,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/6fX9YxRBOwiaHdFfwCi1K9"
+    },
+    {
+      "id": "1xlBBF8plcM6vHQfOM9Fs7",
+      "name": "Erreur 404",
+      "artists": [
+        "L'Impératrice"
+      ],
+      "album": "Matahari (French Version)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735a27a28ae29e671a7a967657",
+      "releaseDate": "2018-03-02",
+      "durationMs": 220506,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/1xlBBF8plcM6vHQfOM9Fs7"
+    },
+    {
+      "id": "6hipqU5v9PM00zWVHscDUE",
+      "name": "AN INSATIABLE HIGH",
+      "artists": [
+        "Masayoshi Takanaka"
+      ],
+      "album": "AN INSATIABLE HIGH",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e45429960f838f817227516a",
+      "releaseDate": "1977",
+      "durationMs": 609013,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/6hipqU5v9PM00zWVHscDUE"
+    },
+    {
+      "id": "6R98zPyOZVEYdr6qvgH3X3",
+      "name": "Vinca Rosea",
+      "artists": [
+        "MF DOOM"
+      ],
+      "album": "Metal Fingers Presents: Special Herbs, The Box Set Vol. 0 - 9",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273db91f8bfdf550f682f6efeb1",
+      "releaseDate": "2006-01-24",
+      "durationMs": 121372,
+      "addedAt": "2023-01-27T08:25:19Z",
+      "spotifyUrl": "https://open.spotify.com/track/6R98zPyOZVEYdr6qvgH3X3"
+    }
+  ]
+}

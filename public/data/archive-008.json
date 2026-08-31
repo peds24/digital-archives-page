@@ -1,0 +1,417 @@
+{
+  "id": "archive-008",
+  "number": 8,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2023-04-14T03:08:14Z",
+    "latest": "2023-04-14T03:08:14Z"
+  },
+  "tracks": [
+    {
+      "id": "4ZMofBIe1948b23GZJriAd",
+      "name": "Jealous Guy",
+      "artists": [
+        "Donny Hathaway"
+      ],
+      "album": "Someday We'll All Be Free",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cd1c0c1656e51ef0c1fe08cd",
+      "releaseDate": "2010-03-22",
+      "durationMs": 188146,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/4ZMofBIe1948b23GZJriAd"
+    },
+    {
+      "id": "3nb2awsoNpohW96canbmAr",
+      "name": "Numb (Album V)",
+      "artists": [
+        "Men I Trust"
+      ],
+      "album": "Oncle Jazz",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273080a103172ab636cd50df7f0",
+      "releaseDate": "2019-09-13",
+      "durationMs": 219340,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/3nb2awsoNpohW96canbmAr"
+    },
+    {
+      "id": "0DltZY7z8YvuDBSAbsIgPc",
+      "name": "Norton Commander (Album V)",
+      "artists": [
+        "Men I Trust"
+      ],
+      "album": "Oncle Jazz",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273080a103172ab636cd50df7f0",
+      "releaseDate": "2019-09-13",
+      "durationMs": 206312,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/0DltZY7z8YvuDBSAbsIgPc"
+    },
+    {
+      "id": "6gJ2H930mAD1zRqmoFiE4W",
+      "name": "Hold It Together",
+      "artists": [
+        "The Marías"
+      ],
+      "album": "Hold It Together",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf9f8721c79c9f5c3cdadb3c",
+      "releaseDate": "2020-03-06",
+      "durationMs": 222021,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/6gJ2H930mAD1zRqmoFiE4W"
+    },
+    {
+      "id": "2dwvxOHnQjndZLowIR6PiS",
+      "name": "Seven",
+      "artists": [
+        "Men I Trust"
+      ],
+      "album": "Seven",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273591fa5bb8ab3ec41455d6279",
+      "releaseDate": "2018-09-06",
+      "durationMs": 225394,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/2dwvxOHnQjndZLowIR6PiS"
+    },
+    {
+      "id": "5E4mQ2mXblbeuI4tefnMZG",
+      "name": "Self Medication (feat. Seth MacFarlane, Redman, & Statik Selektah)",
+      "artists": [
+        "Logic",
+        "Seth MacFarlane",
+        "Redman",
+        "Statik Selektah"
+      ],
+      "album": "College Park",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d7b5784333dee221f45d75b6",
+      "releaseDate": "2023-02-24",
+      "durationMs": 315102,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/5E4mQ2mXblbeuI4tefnMZG"
+    },
+    {
+      "id": "0judK8TqYfvwUohBngUxrE",
+      "name": "DOGTOOTH",
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "album": "DOGTOOTH",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732ee031f2335d35b2e6c7bc40",
+      "releaseDate": "2023-03-27",
+      "durationMs": 161041,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/0judK8TqYfvwUohBngUxrE"
+    },
+    {
+      "id": "1QwLR9LauBPSIdhSCmwTqY",
+      "name": "Not A Beanie",
+      "artists": [
+        "Connor Price",
+        "bbno$"
+      ],
+      "album": "Not A Beanie",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739649e3843bf95abb4600b466",
+      "releaseDate": "2023-03-17",
+      "durationMs": 136784,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/1QwLR9LauBPSIdhSCmwTqY"
+    },
+    {
+      "id": "75KRlncgTKRWd9CjqPZgcx",
+      "name": "Misty",
+      "artists": [
+        "Erroll Garner"
+      ],
+      "album": "The Original Misty",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737848871b11c831e866c1cee1",
+      "releaseDate": "1988-08-15",
+      "durationMs": 169373,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/75KRlncgTKRWd9CjqPZgcx"
+    },
+    {
+      "id": "6fGmNs09PPcQ3NGIFLeXAB",
+      "name": "Dreaming of You",
+      "artists": [
+        "L'Impératrice",
+        "Isaac Delusion"
+      ],
+      "album": "Matahari (French Version)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735a27a28ae29e671a7a967657",
+      "releaseDate": "2018-03-02",
+      "durationMs": 263506,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/6fGmNs09PPcQ3NGIFLeXAB"
+    },
+    {
+      "id": "1wQixSSWydeLgkebOzu3yt",
+      "name": "Lickupon",
+      "artists": [
+        "Viktor Vaughn",
+        "MF DOOM"
+      ],
+      "album": "Vaudeville Villain",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d97a55d6ace2bf9e8ccb8cb1",
+      "releaseDate": "2003",
+      "durationMs": 164426,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/1wQixSSWydeLgkebOzu3yt"
+    },
+    {
+      "id": "01bYtqWZsIdGMr0p0GF94n",
+      "name": "Daddy G",
+      "artists": [
+        "Fearnley Fitzroy"
+      ],
+      "album": "Bloodporne Episode One",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d985820aba12668f0383c2f5",
+      "releaseDate": "2023-02-14",
+      "durationMs": 202772,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/01bYtqWZsIdGMr0p0GF94n"
+    },
+    {
+      "id": "50zGxqKfBHTRSzJdi54I4f",
+      "name": "Dreaming",
+      "artists": [
+        "Fearnley Fitzroy"
+      ],
+      "album": "Bloodporne Episode One",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d985820aba12668f0383c2f5",
+      "releaseDate": "2023-02-14",
+      "durationMs": 160000,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/50zGxqKfBHTRSzJdi54I4f"
+    },
+    {
+      "id": "4PZ94g3BolR38F4kOzKvkp",
+      "name": "The Night Unfurls",
+      "artists": [
+        "Fearnley Fitzroy"
+      ],
+      "album": "Bloodporne Episode One",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d985820aba12668f0383c2f5",
+      "releaseDate": "2023-02-14",
+      "durationMs": 132173,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/4PZ94g3BolR38F4kOzKvkp"
+    },
+    {
+      "id": "7BBZGDSZbsb4Esi8YB94HT",
+      "name": "World's end Rhapsody",
+      "artists": [
+        "Nujabes"
+      ],
+      "album": "Modal Soul",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273912cc8fe2e9a53d328757a41",
+      "releaseDate": "2005-11-11",
+      "durationMs": 341200,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/7BBZGDSZbsb4Esi8YB94HT"
+    },
+    {
+      "id": "76iLrxwkfFZfxG4vrCYNAs",
+      "name": "Aruarian Dance",
+      "artists": [
+        "Ginchy"
+      ],
+      "album": "Aruarian Dance",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27303dbc90b634105cc003fa91b",
+      "releaseDate": "2020-09-04",
+      "durationMs": 169991,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/76iLrxwkfFZfxG4vrCYNAs"
+    },
+    {
+      "id": "3bBmpVl9rQKJsFFGLFilIS",
+      "name": "Charcoal Baby",
+      "artists": [
+        "Blood Orange"
+      ],
+      "album": "Negro Swan",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27347dd2ca47ec9bf14559e17c6",
+      "releaseDate": "2018-08-24",
+      "durationMs": 242341,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/3bBmpVl9rQKJsFFGLFilIS"
+    },
+    {
+      "id": "7GeTsDIc5ykNB6lORO6Cee",
+      "name": "Circo Loco",
+      "artists": [
+        "Drake",
+        "21 Savage"
+      ],
+      "album": "Her Loss",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27302854a7060fccc1a66a4b5ad",
+      "releaseDate": "2022-11-04",
+      "durationMs": 236795,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/7GeTsDIc5ykNB6lORO6Cee"
+    },
+    {
+      "id": "2xuaGUZwr4lr0HhFx3JybI",
+      "name": "So They Say",
+      "artists": [
+        "Kenny Beats"
+      ],
+      "album": "LOUIE",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273419c45440b96b77a96827db1",
+      "releaseDate": "2022-08-31",
+      "durationMs": 85106,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/2xuaGUZwr4lr0HhFx3JybI"
+    },
+    {
+      "id": "1rOKAsJZJDIikOKDeUfPRV",
+      "name": "Last Words",
+      "artists": [
+        "Kenny Beats"
+      ],
+      "album": "LOUIE",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273419c45440b96b77a96827db1",
+      "releaseDate": "2022-08-31",
+      "durationMs": 109586,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/1rOKAsJZJDIikOKDeUfPRV"
+    },
+    {
+      "id": "2rbSlNYTYboHHWelF0xSAQ",
+      "name": "Still",
+      "artists": [
+        "Kenny Beats"
+      ],
+      "album": "LOUIE",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273419c45440b96b77a96827db1",
+      "releaseDate": "2022-08-31",
+      "durationMs": 162240,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/2rbSlNYTYboHHWelF0xSAQ"
+    },
+    {
+      "id": "4rmCI9VWrwrJTJ8XQ80BMN",
+      "name": "My Little Brown Book",
+      "artists": [
+        "Duke Ellington",
+        "John Coltrane"
+      ],
+      "album": "Duke Ellington & John Coltrane",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732def9ef3f6a82c8d6fd8c143",
+      "releaseDate": "1963-02",
+      "durationMs": 319733,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/4rmCI9VWrwrJTJ8XQ80BMN"
+    },
+    {
+      "id": "1Zfs685ci0kxKAym9WMuxi",
+      "name": "Vivo Sonhando",
+      "artists": [
+        "Stan Getz",
+        "João Gilberto",
+        "Antônio Carlos Jobim"
+      ],
+      "album": "The Girl From Ipanema - The Bossa Nova Years",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c21e95926400939bba3c8730",
+      "releaseDate": "1989-01-01",
+      "durationMs": 173506,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/1Zfs685ci0kxKAym9WMuxi"
+    },
+    {
+      "id": "2e3g8go386Zn6EyIz60Ci9",
+      "name": "Snake Eater",
+      "artists": [
+        "Cynthia Harrell"
+      ],
+      "album": "METAL GEAR 20th ANNIVERSARY METAL GEAR MUSIC COLLECTION",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273692200d20ace9f3500171527",
+      "releaseDate": "2007-07-18",
+      "durationMs": 177080,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/2e3g8go386Zn6EyIz60Ci9"
+    },
+    {
+      "id": "0aywJ1yyg6OzgFCxrrUd7R",
+      "name": "She’s A 10 But… (Remix) (feat. Yung Gravy)",
+      "artists": [
+        "ARTAN",
+        "Yung Gravy"
+      ],
+      "album": "She’s A 10 But… (Remix) (feat. Yung Gravy)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273262f6b11f932c7c949b2b4ee",
+      "releaseDate": "2023-02-15",
+      "durationMs": 169005,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/0aywJ1yyg6OzgFCxrrUd7R"
+    },
+    {
+      "id": "3HGHE9hGPEdN1955eoC2hL",
+      "name": "Great Things",
+      "artists": [
+        "Nehruviandoom",
+        "MF DOOM"
+      ],
+      "album": "NEHRUVIANDOOM",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ba687e9e56a759e7f79bd108",
+      "releaseDate": "2014-09-22",
+      "durationMs": 230059,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/3HGHE9hGPEdN1955eoC2hL"
+    },
+    {
+      "id": "17vv44Grd1z9E78FkUoSsG",
+      "name": "Caskets",
+      "artists": [
+        "Nehruviandoom",
+        "MF DOOM"
+      ],
+      "album": "NEHRUVIANDOOM",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ba687e9e56a759e7f79bd108",
+      "releaseDate": "2014-09-22",
+      "durationMs": 291147,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/17vv44Grd1z9E78FkUoSsG"
+    },
+    {
+      "id": "4ZaBKLdtb8wqq0c3dtCiSy",
+      "name": "Mean the Most",
+      "artists": [
+        "Nehruviandoom",
+        "Bishop Nehru"
+      ],
+      "album": "NEHRUVIANDOOM",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ba687e9e56a759e7f79bd108",
+      "releaseDate": "2014-09-22",
+      "durationMs": 294843,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/4ZaBKLdtb8wqq0c3dtCiSy"
+    },
+    {
+      "id": "43TI5gnN5603Yi4GIzo41Y",
+      "name": "Somewhere in Italy",
+      "artists": [
+        "Jon Mcxro",
+        "Travis Garland"
+      ],
+      "album": "The Fifth Of Never - Gold Cup Edition",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273747f8edb8dd8361b5e66b522",
+      "releaseDate": "2012-05-29",
+      "durationMs": 227658,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/43TI5gnN5603Yi4GIzo41Y"
+    },
+    {
+      "id": "3c07yD1n2fRvcD9wY638hg",
+      "name": "Crepuscolo sul mare",
+      "artists": [
+        "Piero Umiliani"
+      ],
+      "album": "La legge dei gangsters",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d23f3cd05795137a95dc9db7",
+      "releaseDate": "1998-01-01",
+      "durationMs": 167314,
+      "addedAt": "2023-04-14T03:08:14Z",
+      "spotifyUrl": "https://open.spotify.com/track/3c07yD1n2fRvcD9wY638hg"
+    }
+  ]
+}

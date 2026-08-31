@@ -1,0 +1,408 @@
+{
+  "id": "archive-024",
+  "number": 24,
+  "trackCount": 30,
+  "inProgress": false,
+  "dateRange": {
+    "earliest": "2025-08-12T21:14:36Z",
+    "latest": "2025-08-12T21:14:36Z"
+  },
+  "tracks": [
+    {
+      "id": "3g3xDtGtU0asKw6iYCYiG5",
+      "name": "American Tune",
+      "artists": [
+        "Paul Simon"
+      ],
+      "album": "There Goes Rhymin' Simon",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27372a044ffa5c43440d77a8ee9",
+      "releaseDate": "1973-05-05",
+      "durationMs": 227133,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/3g3xDtGtU0asKw6iYCYiG5"
+    },
+    {
+      "id": "7GQz5rXS4ArE1LTMIYjbWc",
+      "name": "Early Morning Rain",
+      "artists": [
+        "Cleveland Francis"
+      ],
+      "album": "Beyond the Willow Tree",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732bd47f21d91171bced3f5583",
+      "releaseDate": "2022-06-15",
+      "durationMs": 227310,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/7GQz5rXS4ArE1LTMIYjbWc"
+    },
+    {
+      "id": "45Ok4AREEWfPIBZ4ylCXK7",
+      "name": "It's Oh So Quiet",
+      "artists": [
+        "Björk"
+      ],
+      "album": "Post",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27303b878ae26aeab059fd94bf0",
+      "releaseDate": "1995-06-13",
+      "durationMs": 220760,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/45Ok4AREEWfPIBZ4ylCXK7"
+    },
+    {
+      "id": "6b9NM7hNCwOM6gyL2hVrtd",
+      "name": "Contigo En La Distancia",
+      "artists": [
+        "Caetano Veloso"
+      ],
+      "album": "Fina Estampa",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273795193773593a1dae9bc0b12",
+      "releaseDate": "1994-01-01",
+      "durationMs": 196933,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/6b9NM7hNCwOM6gyL2hVrtd"
+    },
+    {
+      "id": "2BIX5zGsAnwAwiY3H6vP4v",
+      "name": "Raid",
+      "artists": [
+        "Abstract Orchestra"
+      ],
+      "album": "Madvillain, Vol. 1",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27360f07e6b39f0fb64ea79c6ef",
+      "releaseDate": "2018-11-02",
+      "durationMs": 217506,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/2BIX5zGsAnwAwiY3H6vP4v"
+    },
+    {
+      "id": "4QPoCJSGDSig70rrzt8ZLi",
+      "name": "Bis",
+      "artists": [
+        "Arthur Verocai",
+        "Azymuth"
+      ],
+      "album": "Encore",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bac7b66601c52c62624b6e97",
+      "releaseDate": "2012-02-17",
+      "durationMs": 238200,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/4QPoCJSGDSig70rrzt8ZLi"
+    },
+    {
+      "id": "4dM3MXdicOj6IL0xEIvmSq",
+      "name": "Do You Know Where You're Coming From? (feat. Jamiroquai)",
+      "artists": [
+        "M-Beat",
+        "Jamiroquai"
+      ],
+      "album": "Travelling Without Moving (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736407aa9a5e5215cf554ad5d1",
+      "releaseDate": "1996-09-09",
+      "durationMs": 294693,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/4dM3MXdicOj6IL0xEIvmSq"
+    },
+    {
+      "id": "6R8L42PFd2OGP32rpMZ1XN",
+      "name": "Seguir Viviendo Sin Tu Amor - Remasterizado 2025",
+      "artists": [
+        "Luis Alberto Spinetta"
+      ],
+      "album": "Pelusón Of Milk (Remasterizado 2025)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b106e43073dbf04202879816",
+      "releaseDate": "2025-05-30",
+      "durationMs": 155035,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/6R8L42PFd2OGP32rpMZ1XN"
+    },
+    {
+      "id": "7jUIcwevWK3TbvF0BS0Xky",
+      "name": "What She Feels Like",
+      "artists": [
+        "loopgarden"
+      ],
+      "album": "Noiris",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731124073a03dd33436ceb26a9",
+      "releaseDate": "2025-01-29",
+      "durationMs": 152447,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/7jUIcwevWK3TbvF0BS0Xky"
+    },
+    {
+      "id": "01bMpqmvH031R417l3AQTA",
+      "name": "Another Way to Die",
+      "artists": [
+        "Jack White",
+        "Alicia Keys"
+      ],
+      "album": "Quantum Of Solace: Original Motion Picture Soundtrack",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273652e3cd1fd84d1f70b9d15f1",
+      "releaseDate": "2008",
+      "durationMs": 263773,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/01bMpqmvH031R417l3AQTA"
+    },
+    {
+      "id": "4EKsSQyKyQUZunIOXgX9nz",
+      "name": "Avientame",
+      "artists": [
+        "Café Tacvba"
+      ],
+      "album": "Amores Perros (Soundtrack)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730a76e5e5bd2defb60bea0e29",
+      "releaseDate": "2000-01-01",
+      "durationMs": 164066,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/4EKsSQyKyQUZunIOXgX9nz"
+    },
+    {
+      "id": "67oyFnjJnn78fZP9KjeZx0",
+      "name": "Goodbye Stranger - Remastered 2010",
+      "artists": [
+        "Supertramp"
+      ],
+      "album": "Breakfast In America (Deluxe Edition)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735405ef9e393f5f1e53b4b42e",
+      "releaseDate": "1979-03-29",
+      "durationMs": 350573,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/67oyFnjJnn78fZP9KjeZx0"
+    },
+    {
+      "id": "0ZzElIB9iulNYwycFVPXdl",
+      "name": "Only When I",
+      "artists": [
+        "Alice Phoebe Lou"
+      ],
+      "album": "Glow",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732b5477a1f7b6ccb184b1cd3d",
+      "releaseDate": "2021-03-19",
+      "durationMs": 231786,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/0ZzElIB9iulNYwycFVPXdl"
+    },
+    {
+      "id": "5DHPYAsx56iSdDwm1iVsZH",
+      "name": "Puente",
+      "artists": [
+        "Crewrod"
+      ],
+      "album": "Combustion Espontánea",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736396f49c7b1b4df345028244",
+      "releaseDate": "2017-07-07",
+      "durationMs": 231161,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/5DHPYAsx56iSdDwm1iVsZH"
+    },
+    {
+      "id": "6zOf9uOKdUQOOBXyw4aB6E",
+      "name": "Spend a Lifetime - Remastered 2013",
+      "artists": [
+        "Jamiroquai"
+      ],
+      "album": "Travelling Without Moving (Remastered)",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736407aa9a5e5215cf554ad5d1",
+      "releaseDate": "1996-09-09",
+      "durationMs": 254066,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/6zOf9uOKdUQOOBXyw4aB6E"
+    },
+    {
+      "id": "0jAps9KlATGOwRzIWC1gHu",
+      "name": "Habla Disléxica",
+      "artists": [
+        "Cisne Elocuente"
+      ],
+      "album": "Letárgico",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733be5a41592619305d0463d30",
+      "releaseDate": "2015-09-07",
+      "durationMs": 407254,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/0jAps9KlATGOwRzIWC1gHu"
+    },
+    {
+      "id": "3erQDhmQPAjtmf7FsfZlQJ",
+      "name": "I'm Losin' the Feelin",
+      "artists": [
+        "Little Beaver"
+      ],
+      "album": "Joey",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ed3301d4e07ec13eca3df2b",
+      "releaseDate": "1972",
+      "durationMs": 198819,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/3erQDhmQPAjtmf7FsfZlQJ"
+    },
+    {
+      "id": "3VPBPBZKxQu3bqeuzz8gRm",
+      "name": "Last Train At 25 O'clock",
+      "artists": [
+        "Lamp"
+      ],
+      "album": "For Lovers",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27358ebd661a51fcf2968db3ea1",
+      "releaseDate": "2004-02-11",
+      "durationMs": 263840,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/3VPBPBZKxQu3bqeuzz8gRm"
+    },
+    {
+      "id": "5U3i59kbTLrxo46TU1FRnF",
+      "name": "People Get Up And Drive Your Funky Soul - Remix",
+      "artists": [
+        "James Brown",
+        "Fred Wesley",
+        "The J.B.'s"
+      ],
+      "album": "Motherlode",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730d4a451b9320ab4543339425",
+      "releaseDate": "2003-01-01",
+      "durationMs": 544640,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/5U3i59kbTLrxo46TU1FRnF"
+    },
+    {
+      "id": "6M5dKD84KOitpWLKmIqXjt",
+      "name": "En Dirección Contraria",
+      "artists": [
+        "Natalia y La Forquetina"
+      ],
+      "album": "Casa",
+      "coverUrl": "",
+      "releaseDate": "2004",
+      "durationMs": 257626,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/6M5dKD84KOitpWLKmIqXjt"
+    },
+    {
+      "id": "2wsW7FXHByxfP6Qzwf4iaj",
+      "name": "Black Lipstick",
+      "artists": [
+        "Chicano Batman"
+      ],
+      "album": "Black Lipstick",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a5aa41f5654fc059a66dbd3d",
+      "releaseDate": "2015-08-20",
+      "durationMs": 229381,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/2wsW7FXHByxfP6Qzwf4iaj"
+    },
+    {
+      "id": "2eRYuzlSOBk3HlMsCSOLPJ",
+      "name": "Baby Come Back",
+      "artists": [
+        "Player"
+      ],
+      "album": "Late Night Tales: Music For Pleasure",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ed4d6ca542f3ec02962c2330",
+      "releaseDate": "1980",
+      "durationMs": 214373,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/2eRYuzlSOBk3HlMsCSOLPJ"
+    },
+    {
+      "id": "1rEQc2B2VoGj91dmgebIb2",
+      "name": "Filo",
+      "artists": [
+        "Gamuza"
+      ],
+      "album": "Filo",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739ceb9377e1265c83ddeca6d1",
+      "releaseDate": "2022-09-02",
+      "durationMs": 257933,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/1rEQc2B2VoGj91dmgebIb2"
+    },
+    {
+      "id": "1YsHWGRvwLhJZ3wJgx9JrB",
+      "name": "99,99%",
+      "artists": [
+        "El Riqué"
+      ],
+      "album": "Scratch De Versos",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27390fa2cc70ac6507a0f5e48ae",
+      "releaseDate": "2023-11-16",
+      "durationMs": 259090,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/1YsHWGRvwLhJZ3wJgx9JrB"
+    },
+    {
+      "id": "0o0E3MKqgKBpYrjE3GxJhv",
+      "name": "En tu mirada",
+      "artists": [
+        "Mustafunk"
+      ],
+      "album": "Salpica",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b07d589ec071a19ee97f9d65",
+      "releaseDate": "2015",
+      "durationMs": 190460,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/0o0E3MKqgKBpYrjE3GxJhv"
+    },
+    {
+      "id": "3qI94hINNNeb4S7xQi18lS",
+      "name": "Blame It on the Boogie",
+      "artists": [
+        "The Jacksons"
+      ],
+      "album": "Destiny",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739daf7b461a827acbbb0e4971",
+      "releaseDate": "1978-12-17",
+      "durationMs": 215319,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/3qI94hINNNeb4S7xQi18lS"
+    },
+    {
+      "id": "3ZZYsIaMP7KOC9XDWAGTEz",
+      "name": "The Windmills Of Your Mind",
+      "artists": [
+        "Mel Tormé"
+      ],
+      "album": "A Time For Us",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a10884176b5db201bdd1279b",
+      "releaseDate": "1969-01-01",
+      "durationMs": 238072,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/3ZZYsIaMP7KOC9XDWAGTEz"
+    },
+    {
+      "id": "6BANB54bdYdgyFIh11mImt",
+      "name": "Te Ves Muy Bien",
+      "artists": [
+        "Caloncho",
+        "Daniel, Me Estás Matando"
+      ],
+      "album": "Te Ves Muy Bien",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733ac9767a927096cc5518a00f",
+      "releaseDate": "2025-04-25",
+      "durationMs": 172150,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/6BANB54bdYdgyFIh11mImt"
+    },
+    {
+      "id": "1nCCY0KmVlfn8WUmGYYwLf",
+      "name": "Tu Locura",
+      "artists": [
+        "Gustavo Cerati"
+      ],
+      "album": "Canciones Elegidas 93-04",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f428c483e97af7de1800899b",
+      "releaseDate": "2005-01-24",
+      "durationMs": 149880,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/1nCCY0KmVlfn8WUmGYYwLf"
+    },
+    {
+      "id": "00gvX9sFwh19OH88f4v4jW",
+      "name": "Who Did You Think I Was - Live at the House of Blues, Chicago, Illinois, September 22, 2005",
+      "artists": [
+        "John Mayer"
+      ],
+      "album": "TRY! - Live In Concert",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732c044b0dec365f990af906ad",
+      "releaseDate": "2005-09-19",
+      "durationMs": 189160,
+      "addedAt": "2025-08-12T21:14:36Z",
+      "spotifyUrl": "https://open.spotify.com/track/00gvX9sFwh19OH88f4v4jW"
+    }
+  ]
+}
