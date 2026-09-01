@@ -1,4 +1,4 @@
-# Digital Archives
+# Digital Archives test
 
 A static site that browses "Digital Archive #NNN" playlists — batches of 30 liked
 songs, sealed off once full — pulled from Spotify. A build script fetches the
