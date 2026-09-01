@@ -8,7 +8,7 @@ import { HomeView } from './components/HomeView';
 import { ArchivesView } from './components/ArchivesView';
 import { DiscoverView } from './components/DiscoverView';
 
-const PERSONAL_SITE_URL = 'https://peds24.github.io/personal-website-reactTS/';
+const PERSONAL_SITE_URL = 'https://peds24.github.io/personal-website/';
 const OWNER_NAME = 'pedro serdio hank';
 const OWNER_EMAIL = 'serdiopedro@gmail.com';
 
