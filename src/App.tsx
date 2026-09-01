@@ -3,9 +3,14 @@ import { loadAllArchives, type ArchiveLibrary } from './lib/loadArchives';
 import { filterArchives } from './lib/filterArchives';
 import { type ProgressFilter } from './components/FilterBar';
 import { InfoTooltip } from './components/InfoTooltip';
+import { AsciiNote } from './components/AsciiNote';
 import { HomeView } from './components/HomeView';
 import { ArchivesView } from './components/ArchivesView';
 import { DiscoverView } from './components/DiscoverView';
+
+const PERSONAL_SITE_URL = 'https://peds24.github.io/personal-website-reactTS/';
+const OWNER_NAME = 'pedro serdio hank';
+const OWNER_EMAIL = 'serdiopedro@gmail.com';
 
 export function App() {
   const [library, setLibrary] = useState<ArchiveLibrary | null>(null);
@@ -33,32 +38,36 @@ export function App() {
 
   return (
     <main className="app">
-      <nav className="site-nav">
-        <button
-          className={view === 'home' ? 'active' : ''}
-          onClick={() => setView('home')}
-        >
-          home
-        </button>
-        <button
-          className={view === 'archives' ? 'active' : ''}
-          onClick={() => setView('archives')}
-        >
-          archives
-        </button>
-        <button
-          className={view === 'discover' ? 'active' : ''}
-          onClick={() => setView('discover')}
-        >
-          discover
-        </button>
-      </nav>
       <header className="app-header">
+        <AsciiNote className="app-hero" cols={44} rows={36} />
         <div className="app-header-title">
-          <h1>digital archives</h1>
+          <h1>
+            digital<span className="dot">.</span>archives
+          </h1>
           <InfoTooltip />
         </div>
         <p>every 30 liked songs, sealed off.</p>
+        <nav className="site-nav">
+          <button
+            className={view === 'home' ? 'active' : ''}
+            onClick={() => setView('home')}
+          >
+            home
+          </button>
+          <button
+            className={view === 'archives' ? 'active' : ''}
+            onClick={() => setView('archives')}
+          >
+            archives
+          </button>
+          <button
+            className={view === 'discover' ? 'active' : ''}
+            onClick={() => setView('discover')}
+          >
+            discover
+          </button>
+          <a href={PERSONAL_SITE_URL}>personal website</a>
+        </nav>
       </header>
       {view === 'home' && <HomeView archiveCount={library.archives.length} />}
       {view === 'archives' && (
@@ -82,6 +91,11 @@ export function App() {
         />
       )}
       {view === 'discover' && <DiscoverView trackPool={library.trackPool} />}
+      <footer className="app-footer">
+        <span>© {new Date().getFullYear()} {OWNER_NAME}</span>
+        <span aria-hidden="true">·</span>
+        <a href={`mailto:${OWNER_EMAIL}`}>{OWNER_EMAIL}</a>
+      </footer>
     </main>
   );
 }
