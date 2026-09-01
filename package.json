@@ -10,7 +10,9 @@
     "preview": "vite preview",
     "test": "vitest run",
     "build-archives": "node scripts/build-archives.mjs",
-    "authorize": "node scripts/authorize.mjs"
+    "authorize": "node scripts/authorize.mjs",
+    "archive-liked-songs": "node scripts/archive-liked-songs.mjs",
+    "archive-liked-songs:dry-run": "node scripts/archive-liked-songs.mjs --dry-run"
   },
   "dependencies": {
     "react": "^19.2.8",
