@@ -62,6 +62,15 @@ body {
   font-size: 13px;
 }
 .filter-bar label { font-size: 12px; color: var(--ink-dim); display: flex; align-items: center; gap: 6px; }
+.filter-bar-clear {
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--hairline);
+  padding: 8px 12px;
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
 
 .archive-carousel {
   position: relative;

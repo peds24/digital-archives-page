@@ -42,6 +42,11 @@ export function App() {
         onDateFromChange={setDateFrom}
         onDateToChange={setDateTo}
         onProgressFilterChange={setProgressFilter}
+        onClear={() => {
+          setDateFrom('');
+          setDateTo('');
+          setProgressFilter('all');
+        }}
       />
       <ArchiveGrid
         archives={filteredArchives}

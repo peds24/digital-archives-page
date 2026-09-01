@@ -7,6 +7,7 @@ interface FilterBarProps {
   onDateFromChange: (value: string) => void;
   onDateToChange: (value: string) => void;
   onProgressFilterChange: (value: ProgressFilter) => void;
+  onClear: () => void;
 }
 
 export function FilterBar({
@@ -16,6 +17,7 @@ export function FilterBar({
   onDateFromChange,
   onDateToChange,
   onProgressFilterChange,
+  onClear,
 }: FilterBarProps) {
   return (
     <div className="filter-bar">
@@ -35,6 +37,7 @@ export function FilterBar({
         <option value="inProgress">in progress only</option>
         <option value="complete">complete only</option>
       </select>
+      <button type="button" onClick={onClear} className="filter-bar-clear">clear filters</button>
     </div>
   );
 }
