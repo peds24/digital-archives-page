@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { fetchAllPlaylists, fetchPlaylistTracks, fetchLikedSongs } from './spotify-api.mjs';
+import { fetchAllPlaylists, fetchPlaylistTracks, fetchLikedSongs, createPlaylist, addTracksToPlaylist } from './spotify-api.mjs';
 
 describe('fetchAllPlaylists', () => {
   it('follows pagination via next and uses /me/playlists endpoint', async () => {
@@ -268,5 +268,38 @@ describe('fetchLikedSongs', () => {
     expect(tracks).toEqual([
       { id: 't1', name: 'Real Song', artists: ['Artist'], addedAt: '2026-02-01T00:00:00Z', uri: 'spotify:track:t1' },
     ]);
+  });
+});
+
+describe('createPlaylist', () => {
+  it('POSTs to /users/{id}/playlists with name, public:true, collaborative:false', async () => {
+    const fetchImpl = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ id: 'new-pl' }) });
+    const playlist = await createPlaylist('tok', 'u1', 'Digital Archive #30', fetchImpl);
+    expect(playlist).toEqual({ id: 'new-pl' });
+    const [url, init] = fetchImpl.mock.calls[0];
+    expect(url).toBe('https://api.spotify.com/v1/users/u1/playlists');
+    expect(init.method).toBe('POST');
+    expect(JSON.parse(init.body)).toEqual({ name: 'Digital Archive #30', public: true, collaborative: false });
+  });
+});
+
+describe('addTracksToPlaylist', () => {
+  it('POSTs all uris in one call when 100 or fewer', async () => {
+    const fetchImpl = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ snapshot_id: 's1' }) });
+    const uris = Array.from({ length: 30 }, (_, i) => `spotify:track:t${i}`);
+    await addTracksToPlaylist('tok', 'pl1', uris, fetchImpl);
+    expect(fetchImpl).toHaveBeenCalledTimes(1);
+    const [url, init] = fetchImpl.mock.calls[0];
+    expect(url).toBe('https://api.spotify.com/v1/playlists/pl1/tracks');
+    expect(JSON.parse(init.body).uris).toHaveLength(30);
+  });
+
+  it('chunks into multiple calls of at most 100 uris', async () => {
+    const fetchImpl = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ snapshot_id: 's1' }) });
+    const uris = Array.from({ length: 130 }, (_, i) => `spotify:track:t${i}`);
+    await addTracksToPlaylist('tok', 'pl1', uris, fetchImpl);
+    expect(fetchImpl).toHaveBeenCalledTimes(2);
+    expect(JSON.parse(fetchImpl.mock.calls[0][1].body).uris).toHaveLength(100);
+    expect(JSON.parse(fetchImpl.mock.calls[1][1].body).uris).toHaveLength(30);
   });
 });

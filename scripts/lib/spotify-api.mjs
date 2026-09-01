@@ -102,3 +102,20 @@ export async function fetchLikedSongs(token, knownIds = new Set(), fetchImpl) {
   }
   return tracks;
 }
+
+export async function createPlaylist(token, userId, name, fetchImpl) {
+  return spotifyFetch(token, `/users/${userId}/playlists`, fetchImpl, {
+    method: 'POST',
+    body: { name, public: true, collaborative: false },
+  });
+}
+
+export async function addTracksToPlaylist(token, playlistId, uris, fetchImpl) {
+  for (let i = 0; i < uris.length; i += 100) {
+    const chunk = uris.slice(i, i + 100);
+    await spotifyFetch(token, `/playlists/${playlistId}/tracks`, fetchImpl, {
+      method: 'POST',
+      body: { uris: chunk },
+    });
+  }
+}
