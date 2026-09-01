@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { fetchAllPlaylists, fetchPlaylistTracks } from './spotify-api.mjs';
+import { fetchAllPlaylists, fetchPlaylistTracks, fetchLikedSongs } from './spotify-api.mjs';
 
 describe('fetchAllPlaylists', () => {
   it('follows pagination via next and uses /me/playlists endpoint', async () => {
@@ -207,6 +207,66 @@ describe('fetchPlaylistTracks', () => {
         spotifyUrl: 'http://open.spotify.com/track/t2',
         unavailable: false,
       },
+    ]);
+  });
+});
+
+describe('fetchLikedSongs', () => {
+  it('maps saved-track items to the ledger shape', async () => {
+    const fetchImpl = vi.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      json: async () => ({
+        items: [
+          { added_at: '2026-02-02T00:00:00Z', track: { id: 't2', name: 'Song B', uri: 'spotify:track:t2', artists: [{ name: 'Artist B' }] } },
+          { added_at: '2026-02-01T00:00:00Z', track: { id: 't1', name: 'Song A', uri: 'spotify:track:t1', artists: [{ name: 'Artist A' }] } },
+        ],
+        next: null,
+      }),
+    });
+    const tracks = await fetchLikedSongs('tok', new Set(), fetchImpl);
+    expect(tracks).toEqual([
+      { id: 't2', name: 'Song B', artists: ['Artist B'], addedAt: '2026-02-02T00:00:00Z', uri: 'spotify:track:t2' },
+      { id: 't1', name: 'Song A', artists: ['Artist A'], addedAt: '2026-02-01T00:00:00Z', uri: 'spotify:track:t1' },
+    ]);
+    expect(fetchImpl.mock.calls[0][0]).toContain('/me/tracks');
+  });
+
+  it('stops paging once it reaches a track id already in knownIds', async () => {
+    const fetchImpl = vi.fn().mockResolvedValueOnce({
+      ok: true,
+      status: 200,
+      json: async () => ({
+        items: [
+          { added_at: '2026-02-03T00:00:00Z', track: { id: 'new1', name: 'New Song', uri: 'spotify:track:new1', artists: [{ name: 'Artist' }] } },
+          { added_at: '2026-02-02T00:00:00Z', track: { id: 'seen1', name: 'Seen Song', uri: 'spotify:track:seen1', artists: [{ name: 'Artist' }] } },
+        ],
+        next: 'https://api.spotify.com/v1/me/tracks?offset=50',
+      }),
+    });
+    const tracks = await fetchLikedSongs('tok', new Set(['seen1']), fetchImpl);
+    expect(tracks).toEqual([
+      { id: 'new1', name: 'New Song', artists: ['Artist'], addedAt: '2026-02-03T00:00:00Z', uri: 'spotify:track:new1' },
+    ]);
+    expect(fetchImpl).toHaveBeenCalledTimes(1);
+  });
+
+  it('skips local files (no catalog id) and null tracks', async () => {
+    const fetchImpl = vi.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      json: async () => ({
+        items: [
+          { added_at: '2026-02-01T00:00:00Z', track: null },
+          { added_at: '2026-02-01T00:00:00Z', track: { id: null, name: 'Local File', is_local: true, artists: [] } },
+          { added_at: '2026-02-01T00:00:00Z', track: { id: 't1', name: 'Real Song', uri: 'spotify:track:t1', artists: [{ name: 'Artist' }] } },
+        ],
+        next: null,
+      }),
+    });
+    const tracks = await fetchLikedSongs('tok', new Set(), fetchImpl);
+    expect(tracks).toEqual([
+      { id: 't1', name: 'Real Song', artists: ['Artist'], addedAt: '2026-02-01T00:00:00Z', uri: 'spotify:track:t1' },
     ]);
   });
 });
