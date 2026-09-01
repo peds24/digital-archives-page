@@ -1,8 +1,8 @@
 {
   "id": "archive-015",
   "number": 15,
-  "trackCount": 26,
-  "inProgress": true,
+  "trackCount": 30,
+  "inProgress": false,
   "dateRange": {
     "earliest": "2024-04-21T05:31:25Z",
     "latest": "2024-04-21T05:31:25Z"
@@ -19,7 +19,8 @@
       "releaseDate": "2024-04-19",
       "durationMs": 198826,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/29IQpdkv1MaP6Hvr1IBsdv"
+      "spotifyUrl": "https://open.spotify.com/track/29IQpdkv1MaP6Hvr1IBsdv",
+      "unavailable": false
     },
     {
       "id": "36y295sDjVO5kuLNxJeOJ6",
@@ -33,7 +34,8 @@
       "releaseDate": "2022-04-01",
       "durationMs": 216000,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/36y295sDjVO5kuLNxJeOJ6"
+      "spotifyUrl": "https://open.spotify.com/track/36y295sDjVO5kuLNxJeOJ6",
+      "unavailable": false
     },
     {
       "id": "6zTl1HyJZfPGzc7jjgcpeq",
@@ -47,7 +49,8 @@
       "releaseDate": "2022-01-25",
       "durationMs": 185298,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/6zTl1HyJZfPGzc7jjgcpeq"
+      "spotifyUrl": "https://open.spotify.com/track/6zTl1HyJZfPGzc7jjgcpeq",
+      "unavailable": false
     },
     {
       "id": "1SsbAUqPSt20PhHAuVSDNu",
@@ -61,7 +64,8 @@
       "releaseDate": "2022-10-31",
       "durationMs": 258243,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/1SsbAUqPSt20PhHAuVSDNu"
+      "spotifyUrl": "https://open.spotify.com/track/1SsbAUqPSt20PhHAuVSDNu",
+      "unavailable": false
     },
     {
       "id": "2rDwETmcGw4ZqbuXvLQmDL",
@@ -75,7 +79,8 @@
       "releaseDate": "2020-01-17",
       "durationMs": 215446,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/2rDwETmcGw4ZqbuXvLQmDL"
+      "spotifyUrl": "https://open.spotify.com/track/2rDwETmcGw4ZqbuXvLQmDL",
+      "unavailable": false
     },
     {
       "id": "4abXKMf3IsIe3gQaCsiiHx",
@@ -88,7 +93,8 @@
       "releaseDate": "2014-02-21",
       "durationMs": 181592,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/4abXKMf3IsIe3gQaCsiiHx"
+      "spotifyUrl": "https://open.spotify.com/track/4abXKMf3IsIe3gQaCsiiHx",
+      "unavailable": false
     },
     {
       "id": "42Bczh6IIyTYJduQnfS92p",
@@ -101,7 +107,8 @@
       "releaseDate": "2005-06-21",
       "durationMs": 259708,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/42Bczh6IIyTYJduQnfS92p"
+      "spotifyUrl": "https://open.spotify.com/track/42Bczh6IIyTYJduQnfS92p",
+      "unavailable": false
     },
     {
       "id": "4dnlbvqglDqyuGYjg8rBfc",
@@ -115,7 +122,8 @@
       "releaseDate": "2021-04-16",
       "durationMs": 244631,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/4dnlbvqglDqyuGYjg8rBfc"
+      "spotifyUrl": "https://open.spotify.com/track/4dnlbvqglDqyuGYjg8rBfc",
+      "unavailable": false
     },
     {
       "id": "5PG0KLm66uabwKFWSGNe5U",
@@ -128,7 +136,8 @@
       "releaseDate": "2002-05-09",
       "durationMs": 178677,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/5PG0KLm66uabwKFWSGNe5U"
+      "spotifyUrl": "https://open.spotify.com/track/5PG0KLm66uabwKFWSGNe5U",
+      "unavailable": false
     },
     {
       "id": "2JUT8olmK1F89XnpKrklyu",
@@ -143,7 +152,8 @@
       "releaseDate": "2019-08-30",
       "durationMs": 168906,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/2JUT8olmK1F89XnpKrklyu"
+      "spotifyUrl": "https://open.spotify.com/track/2JUT8olmK1F89XnpKrklyu",
+      "unavailable": false
     },
     {
       "id": "59OzzlZ0CaIp7BONONcWDr",
@@ -157,7 +167,8 @@
       "releaseDate": "2019-08-30",
       "durationMs": 85920,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/59OzzlZ0CaIp7BONONcWDr"
+      "spotifyUrl": "https://open.spotify.com/track/59OzzlZ0CaIp7BONONcWDr",
+      "unavailable": false
     },
     {
       "id": "1VPrFor2HSi3I6wStnfoHq",
@@ -170,7 +181,8 @@
       "releaseDate": "2020-06-19",
       "durationMs": 165824,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/1VPrFor2HSi3I6wStnfoHq"
+      "spotifyUrl": "https://open.spotify.com/track/1VPrFor2HSi3I6wStnfoHq",
+      "unavailable": false
     },
     {
       "id": "34FhndFs4d8ltOVj8JqN4s",
@@ -183,7 +195,8 @@
       "releaseDate": "2023-03-10",
       "durationMs": 169846,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/34FhndFs4d8ltOVj8JqN4s"
+      "spotifyUrl": "https://open.spotify.com/track/34FhndFs4d8ltOVj8JqN4s",
+      "unavailable": false
     },
     {
       "id": "65ECX9IpEdilzLDWmQCGOH",
@@ -196,7 +209,8 @@
       "releaseDate": "2020-08-28",
       "durationMs": 164750,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/65ECX9IpEdilzLDWmQCGOH"
+      "spotifyUrl": "https://open.spotify.com/track/65ECX9IpEdilzLDWmQCGOH",
+      "unavailable": false
     },
     {
       "id": "1fVVT89PhHDh9COdU5DB9B",
@@ -210,7 +224,8 @@
       "releaseDate": "2018-10-05",
       "durationMs": 250073,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/1fVVT89PhHDh9COdU5DB9B"
+      "spotifyUrl": "https://open.spotify.com/track/1fVVT89PhHDh9COdU5DB9B",
+      "unavailable": false
     },
     {
       "id": "1YxQxV5sKZN1TgVpXl5MLA",
@@ -223,7 +238,8 @@
       "releaseDate": "2023-09-08",
       "durationMs": 210826,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/1YxQxV5sKZN1TgVpXl5MLA"
+      "spotifyUrl": "https://open.spotify.com/track/1YxQxV5sKZN1TgVpXl5MLA",
+      "unavailable": false
     },
     {
       "id": "06pjQCIybMiGrgtHODGa2m",
@@ -237,7 +253,8 @@
       "releaseDate": "2010-12-02",
       "durationMs": 225906,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/06pjQCIybMiGrgtHODGa2m"
+      "spotifyUrl": "https://open.spotify.com/track/06pjQCIybMiGrgtHODGa2m",
+      "unavailable": false
     },
     {
       "id": "2cmRpmO04TLaKPzmAzySYZ",
@@ -250,7 +267,8 @@
       "releaseDate": "2010-05-17",
       "durationMs": 536471,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/2cmRpmO04TLaKPzmAzySYZ"
+      "spotifyUrl": "https://open.spotify.com/track/2cmRpmO04TLaKPzmAzySYZ",
+      "unavailable": false
     },
     {
       "id": "6pjbkrGImw09Nv5Ji3emkr",
@@ -263,7 +281,8 @@
       "releaseDate": "1975-05-07",
       "durationMs": 219186,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/6pjbkrGImw09Nv5Ji3emkr"
+      "spotifyUrl": "https://open.spotify.com/track/6pjbkrGImw09Nv5Ji3emkr",
+      "unavailable": false
     },
     {
       "id": "6iZRqJjpbOVEv4mFTpqg1d",
@@ -276,7 +295,8 @@
       "releaseDate": "2023-05-12",
       "durationMs": 262560,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/6iZRqJjpbOVEv4mFTpqg1d"
+      "spotifyUrl": "https://open.spotify.com/track/6iZRqJjpbOVEv4mFTpqg1d",
+      "unavailable": false
     },
     {
       "id": "1AdS7651gcodF28Z6aUCno",
@@ -289,7 +309,8 @@
       "releaseDate": "1998-07-06",
       "durationMs": 295293,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/1AdS7651gcodF28Z6aUCno"
+      "spotifyUrl": "https://open.spotify.com/track/1AdS7651gcodF28Z6aUCno",
+      "unavailable": false
     },
     {
       "id": "5s1fY2UeEGyxQMQfSkcd91",
@@ -302,7 +323,8 @@
       "releaseDate": "2010-11-22",
       "durationMs": 240586,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/5s1fY2UeEGyxQMQfSkcd91"
+      "spotifyUrl": "https://open.spotify.com/track/5s1fY2UeEGyxQMQfSkcd91",
+      "unavailable": false
     },
     {
       "id": "622DQPLumfjBW0sDd7XGFO",
@@ -315,7 +337,8 @@
       "releaseDate": "1973-08-28",
       "durationMs": 161000,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/622DQPLumfjBW0sDd7XGFO"
+      "spotifyUrl": "https://open.spotify.com/track/622DQPLumfjBW0sDd7XGFO",
+      "unavailable": false
     },
     {
       "id": "7r4MWTMMGCaCEjQHf5clz5",
@@ -328,7 +351,8 @@
       "releaseDate": "2023-07-25",
       "durationMs": 139930,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/7r4MWTMMGCaCEjQHf5clz5"
+      "spotifyUrl": "https://open.spotify.com/track/7r4MWTMMGCaCEjQHf5clz5",
+      "unavailable": false
     },
     {
       "id": "5ZoDwIP1ntHwciLjydJ8X2",
@@ -341,7 +365,8 @@
       "releaseDate": "1969-08-01",
       "durationMs": 173306,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/5ZoDwIP1ntHwciLjydJ8X2"
+      "spotifyUrl": "https://open.spotify.com/track/5ZoDwIP1ntHwciLjydJ8X2",
+      "unavailable": false
     },
     {
       "id": "0NdKnpfDtqT4ejsW4H58x4",
@@ -355,7 +380,56 @@
       "releaseDate": "2018-05-04",
       "durationMs": 268087,
       "addedAt": "2024-04-21T05:31:25Z",
-      "spotifyUrl": "https://open.spotify.com/track/0NdKnpfDtqT4ejsW4H58x4"
+      "spotifyUrl": "https://open.spotify.com/track/0NdKnpfDtqT4ejsW4H58x4",
+      "unavailable": false
+    },
+    {
+      "id": "42ReAeZytBg8S9Jvyg7WM7-unavailable-27",
+      "name": "Nahuel Pennisi - Toco y Me Voy (En Estado Acústico)",
+      "artists": [],
+      "album": "",
+      "coverUrl": "",
+      "releaseDate": null,
+      "durationMs": 267000,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "",
+      "unavailable": true
+    },
+    {
+      "id": "42ReAeZytBg8S9Jvyg7WM7-unavailable-28",
+      "name": "The Concrete Cypher_ Lil Yachty, Draft Day, DC2TRILL, Camo! & Karrahbooo",
+      "artists": [],
+      "album": "",
+      "coverUrl": "",
+      "releaseDate": null,
+      "durationMs": 376000,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "",
+      "unavailable": true
+    },
+    {
+      "id": "42ReAeZytBg8S9Jvyg7WM7-unavailable-29",
+      "name": "10 VIRGINIA Going Back To VA 20.0 LV 4.4.24",
+      "artists": [],
+      "album": "",
+      "coverUrl": "",
+      "releaseDate": null,
+      "durationMs": 182000,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "",
+      "unavailable": true
+    },
+    {
+      "id": "42ReAeZytBg8S9Jvyg7WM7-unavailable-30",
+      "name": "09 VIRGINIA Cheryl 17.0x LV 3.26.24",
+      "artists": [],
+      "album": "",
+      "coverUrl": "",
+      "releaseDate": null,
+      "durationMs": 158000,
+      "addedAt": "2024-04-21T05:31:25Z",
+      "spotifyUrl": "",
+      "unavailable": true
     }
   ]
 }

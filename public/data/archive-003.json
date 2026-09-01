@@ -20,7 +20,8 @@
       "releaseDate": "2021-05-07",
       "durationMs": 149613,
       "addedAt": "2022-06-01T06:31:41Z",
-      "spotifyUrl": "https://open.spotify.com/track/2SfE58UZe7Y3TVjozT1fPC"
+      "spotifyUrl": "https://open.spotify.com/track/2SfE58UZe7Y3TVjozT1fPC",
+      "unavailable": false
     },
     {
       "id": "3djWekEDgbhAtkXGdFNbFt",
@@ -33,7 +34,8 @@
       "releaseDate": "2020-11-06",
       "durationMs": 153932,
       "addedAt": "2022-06-01T06:31:56Z",
-      "spotifyUrl": "https://open.spotify.com/track/3djWekEDgbhAtkXGdFNbFt"
+      "spotifyUrl": "https://open.spotify.com/track/3djWekEDgbhAtkXGdFNbFt",
+      "unavailable": false
     },
     {
       "id": "7DOwjvuLCa6A4hIRzZ27kd",
@@ -49,7 +51,8 @@
       "releaseDate": "2015-10-30",
       "durationMs": 285093,
       "addedAt": "2022-06-01T06:31:58Z",
-      "spotifyUrl": "https://open.spotify.com/track/7DOwjvuLCa6A4hIRzZ27kd"
+      "spotifyUrl": "https://open.spotify.com/track/7DOwjvuLCa6A4hIRzZ27kd",
+      "unavailable": false
     },
     {
       "id": "6gdTVZdQcVN54ynCk38l5U",
@@ -62,7 +65,8 @@
       "releaseDate": "1999-02-23",
       "durationMs": 234200,
       "addedAt": "2022-06-01T06:32:02Z",
-      "spotifyUrl": "https://open.spotify.com/track/6gdTVZdQcVN54ynCk38l5U"
+      "spotifyUrl": "https://open.spotify.com/track/6gdTVZdQcVN54ynCk38l5U",
+      "unavailable": false
     },
     {
       "id": "3RatJCBICEQwTyOJtteB4I",
@@ -75,7 +79,8 @@
       "releaseDate": "1975-01-25",
       "durationMs": 291106,
       "addedAt": "2022-06-01T06:32:06Z",
-      "spotifyUrl": "https://open.spotify.com/track/3RatJCBICEQwTyOJtteB4I"
+      "spotifyUrl": "https://open.spotify.com/track/3RatJCBICEQwTyOJtteB4I",
+      "unavailable": false
     },
     {
       "id": "2llFlNkPX4hW1M3HLdEMBm",
@@ -88,7 +93,8 @@
       "releaseDate": "1975-01-25",
       "durationMs": 277160,
       "addedAt": "2022-06-01T06:32:08Z",
-      "spotifyUrl": "https://open.spotify.com/track/2llFlNkPX4hW1M3HLdEMBm"
+      "spotifyUrl": "https://open.spotify.com/track/2llFlNkPX4hW1M3HLdEMBm",
+      "unavailable": false
     },
     {
       "id": "6QrgxKiGjdJ5wOmZvGzWPu",
@@ -101,7 +107,8 @@
       "releaseDate": "2020-09-25",
       "durationMs": 169813,
       "addedAt": "2022-06-01T06:32:11Z",
-      "spotifyUrl": "https://open.spotify.com/track/6QrgxKiGjdJ5wOmZvGzWPu"
+      "spotifyUrl": "https://open.spotify.com/track/6QrgxKiGjdJ5wOmZvGzWPu",
+      "unavailable": false
     },
     {
       "id": "6vqdkwE7hm31vukxPK6pAC",
@@ -115,7 +122,8 @@
       "releaseDate": "2022-04-29",
       "durationMs": 200346,
       "addedAt": "2022-06-01T06:32:13Z",
-      "spotifyUrl": "https://open.spotify.com/track/6vqdkwE7hm31vukxPK6pAC"
+      "spotifyUrl": "https://open.spotify.com/track/6vqdkwE7hm31vukxPK6pAC",
+      "unavailable": false
     },
     {
       "id": "3gDRZkL8YfzpZg1N1YsW5x",
@@ -129,7 +137,8 @@
       "releaseDate": "2022-04-15",
       "durationMs": 207360,
       "addedAt": "2022-06-01T06:32:16Z",
-      "spotifyUrl": "https://open.spotify.com/track/3gDRZkL8YfzpZg1N1YsW5x"
+      "spotifyUrl": "https://open.spotify.com/track/3gDRZkL8YfzpZg1N1YsW5x",
+      "unavailable": false
     },
     {
       "id": "35592qATAP1u72mO9oelLc",
@@ -142,7 +151,8 @@
       "releaseDate": "2019-06-07",
       "durationMs": 313266,
       "addedAt": "2022-06-01T06:32:18Z",
-      "spotifyUrl": "https://open.spotify.com/track/35592qATAP1u72mO9oelLc"
+      "spotifyUrl": "https://open.spotify.com/track/35592qATAP1u72mO9oelLc",
+      "unavailable": false
     },
     {
       "id": "6snYsavG9vq3C7RGN98dst",
@@ -156,7 +166,8 @@
       "releaseDate": "2021-02-05",
       "durationMs": 166840,
       "addedAt": "2022-06-01T06:32:21Z",
-      "spotifyUrl": "https://open.spotify.com/track/6snYsavG9vq3C7RGN98dst"
+      "spotifyUrl": "https://open.spotify.com/track/6snYsavG9vq3C7RGN98dst",
+      "unavailable": false
     },
     {
       "id": "5LOiuvbH62YGtnwe6Ltt4T",
@@ -169,7 +180,8 @@
       "releaseDate": "2022-05-13",
       "durationMs": 256006,
       "addedAt": "2022-06-01T06:32:23Z",
-      "spotifyUrl": "https://open.spotify.com/track/5LOiuvbH62YGtnwe6Ltt4T"
+      "spotifyUrl": "https://open.spotify.com/track/5LOiuvbH62YGtnwe6Ltt4T",
+      "unavailable": false
     },
     {
       "id": "7zvfDihYiJ8RQ1nRcpKBF5",
@@ -183,7 +195,8 @@
       "releaseDate": "2022-05-13",
       "durationMs": 210841,
       "addedAt": "2022-06-01T06:32:27Z",
-      "spotifyUrl": "https://open.spotify.com/track/7zvfDihYiJ8RQ1nRcpKBF5"
+      "spotifyUrl": "https://open.spotify.com/track/7zvfDihYiJ8RQ1nRcpKBF5",
+      "unavailable": false
     },
     {
       "id": "19Fg3WrTfo35Ji3PtfZE6J",
@@ -196,7 +209,8 @@
       "releaseDate": "2022-05-13",
       "durationMs": 281069,
       "addedAt": "2022-06-01T06:32:29Z",
-      "spotifyUrl": "https://open.spotify.com/track/19Fg3WrTfo35Ji3PtfZE6J"
+      "spotifyUrl": "https://open.spotify.com/track/19Fg3WrTfo35Ji3PtfZE6J",
+      "unavailable": false
     },
     {
       "id": "0YeUVm23SAkUruwEx9LWnt",
@@ -211,7 +225,8 @@
       "releaseDate": "2022-05-13",
       "durationMs": 224466,
       "addedAt": "2022-06-01T06:32:31Z",
-      "spotifyUrl": "https://open.spotify.com/track/0YeUVm23SAkUruwEx9LWnt"
+      "spotifyUrl": "https://open.spotify.com/track/0YeUVm23SAkUruwEx9LWnt",
+      "unavailable": false
     },
     {
       "id": "401160izncPtca3CmX3dvM",
@@ -226,7 +241,8 @@
       "releaseDate": "2022-05-13",
       "durationMs": 329295,
       "addedAt": "2022-06-01T06:32:34Z",
-      "spotifyUrl": "https://open.spotify.com/track/401160izncPtca3CmX3dvM"
+      "spotifyUrl": "https://open.spotify.com/track/401160izncPtca3CmX3dvM",
+      "unavailable": false
     },
     {
       "id": "05zd5Nv0e02ZqrlC8A2cwx",
@@ -239,7 +255,8 @@
       "releaseDate": "2022-05-13",
       "durationMs": 255377,
       "addedAt": "2022-06-01T06:32:37Z",
-      "spotifyUrl": "https://open.spotify.com/track/05zd5Nv0e02ZqrlC8A2cwx"
+      "spotifyUrl": "https://open.spotify.com/track/05zd5Nv0e02ZqrlC8A2cwx",
+      "unavailable": false
     },
     {
       "id": "4xIhSUJantE6BMl3u8dtCJ",
@@ -253,7 +270,8 @@
       "releaseDate": "2022-05-13",
       "durationMs": 222497,
       "addedAt": "2022-06-01T06:32:40Z",
-      "spotifyUrl": "https://open.spotify.com/track/4xIhSUJantE6BMl3u8dtCJ"
+      "spotifyUrl": "https://open.spotify.com/track/4xIhSUJantE6BMl3u8dtCJ",
+      "unavailable": false
     },
     {
       "id": "6gI9b2VsoWhjhIuIeToDVs",
@@ -268,7 +286,8 @@
       "releaseDate": "2022-05-13",
       "durationMs": 239026,
       "addedAt": "2022-06-01T06:32:42Z",
-      "spotifyUrl": "https://open.spotify.com/track/6gI9b2VsoWhjhIuIeToDVs"
+      "spotifyUrl": "https://open.spotify.com/track/6gI9b2VsoWhjhIuIeToDVs",
+      "unavailable": false
     },
     {
       "id": "2GYHyAoLWpkxLVa4oYTVko",
@@ -281,7 +300,8 @@
       "releaseDate": "2010-01-01",
       "durationMs": 206066,
       "addedAt": "2022-06-01T06:32:48Z",
-      "spotifyUrl": "https://open.spotify.com/track/2GYHyAoLWpkxLVa4oYTVko"
+      "spotifyUrl": "https://open.spotify.com/track/2GYHyAoLWpkxLVa4oYTVko",
+      "unavailable": false
     },
     {
       "id": "2aQ8NyRJcsQFgb8jwUil90",
@@ -294,7 +314,8 @@
       "releaseDate": "1971-01-05",
       "durationMs": 149420,
       "addedAt": "2022-06-01T06:33:03Z",
-      "spotifyUrl": "https://open.spotify.com/track/2aQ8NyRJcsQFgb8jwUil90"
+      "spotifyUrl": "https://open.spotify.com/track/2aQ8NyRJcsQFgb8jwUil90",
+      "unavailable": false
     },
     {
       "id": "5MMW4CZsZiZt2iuqAXzzWC",
@@ -307,7 +328,8 @@
       "releaseDate": "2022-05-08",
       "durationMs": 332228,
       "addedAt": "2022-06-01T06:33:07Z",
-      "spotifyUrl": "https://open.spotify.com/track/5MMW4CZsZiZt2iuqAXzzWC"
+      "spotifyUrl": "https://open.spotify.com/track/5MMW4CZsZiZt2iuqAXzzWC",
+      "unavailable": false
     },
     {
       "id": "1Q1onoQM04M590VO7aLOyt",
@@ -321,7 +343,8 @@
       "releaseDate": "2022-04-22",
       "durationMs": 417506,
       "addedAt": "2022-06-01T06:33:11Z",
-      "spotifyUrl": "https://open.spotify.com/track/1Q1onoQM04M590VO7aLOyt"
+      "spotifyUrl": "https://open.spotify.com/track/1Q1onoQM04M590VO7aLOyt",
+      "unavailable": false
     },
     {
       "id": "26qaiAmkELbplFdT9jQu2h",
@@ -335,7 +358,8 @@
       "releaseDate": "2003-01-01",
       "durationMs": 214084,
       "addedAt": "2022-06-01T06:33:13Z",
-      "spotifyUrl": "https://open.spotify.com/track/26qaiAmkELbplFdT9jQu2h"
+      "spotifyUrl": "https://open.spotify.com/track/26qaiAmkELbplFdT9jQu2h",
+      "unavailable": false
     },
     {
       "id": "4rnj9LIIotxPIe9qih7tjb",
@@ -350,7 +374,8 @@
       "releaseDate": "2020-07-13",
       "durationMs": 259906,
       "addedAt": "2022-06-01T06:33:15Z",
-      "spotifyUrl": "https://open.spotify.com/track/4rnj9LIIotxPIe9qih7tjb"
+      "spotifyUrl": "https://open.spotify.com/track/4rnj9LIIotxPIe9qih7tjb",
+      "unavailable": false
     },
     {
       "id": "7050rrS8ipHBjWmNV7PpXs",
@@ -365,7 +390,8 @@
       "releaseDate": "2018-01-17",
       "durationMs": 256613,
       "addedAt": "2022-06-01T06:33:18Z",
-      "spotifyUrl": "https://open.spotify.com/track/7050rrS8ipHBjWmNV7PpXs"
+      "spotifyUrl": "https://open.spotify.com/track/7050rrS8ipHBjWmNV7PpXs",
+      "unavailable": false
     },
     {
       "id": "47v4uUtj5AukJmCbMq4Kry",
@@ -383,7 +409,8 @@
       "releaseDate": "2020-07-10",
       "durationMs": 191936,
       "addedAt": "2022-06-01T06:33:55Z",
-      "spotifyUrl": "https://open.spotify.com/track/47v4uUtj5AukJmCbMq4Kry"
+      "spotifyUrl": "https://open.spotify.com/track/47v4uUtj5AukJmCbMq4Kry",
+      "unavailable": false
     },
     {
       "id": "1kKLWkqyZEnrOd5tBYYCUn",
@@ -399,7 +426,8 @@
       "releaseDate": "2012-10-05",
       "durationMs": 307440,
       "addedAt": "2022-06-01T06:33:58Z",
-      "spotifyUrl": "https://open.spotify.com/track/1kKLWkqyZEnrOd5tBYYCUn"
+      "spotifyUrl": "https://open.spotify.com/track/1kKLWkqyZEnrOd5tBYYCUn",
+      "unavailable": false
     },
     {
       "id": "6gSalwEvVQfSFiqgwfyITp",
@@ -412,7 +440,8 @@
       "releaseDate": "2015-12-09",
       "durationMs": 273080,
       "addedAt": "2022-06-01T06:34:00Z",
-      "spotifyUrl": "https://open.spotify.com/track/6gSalwEvVQfSFiqgwfyITp"
+      "spotifyUrl": "https://open.spotify.com/track/6gSalwEvVQfSFiqgwfyITp",
+      "unavailable": false
     },
     {
       "id": "52uoswu0lLoyL4zV0ITuA6",
@@ -425,7 +454,8 @@
       "releaseDate": "2022-03-24",
       "durationMs": 155918,
       "addedAt": "2022-06-01T06:34:02Z",
-      "spotifyUrl": "https://open.spotify.com/track/52uoswu0lLoyL4zV0ITuA6"
+      "spotifyUrl": "https://open.spotify.com/track/52uoswu0lLoyL4zV0ITuA6",
+      "unavailable": false
     }
   ]
 }
