@@ -36,7 +36,7 @@ export async function run({
 
     const id = `archive-${String(playlist.number).padStart(3, '0')}`;
 
-    const summary = summarizeArchive(id, playlist.number, tracks);
+    const summary = { ...summarizeArchive(id, playlist.number, tracks), spotifyUrl: playlist.external_urls?.spotify ?? '' };
     const detail = { ...summary, tracks };
     writeFile(`${id}.json`, JSON.stringify(detail, null, 2));
     summaries.push(summary);

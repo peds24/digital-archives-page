@@ -22,6 +22,7 @@ export interface ArchiveSummary {
   trackCount: number;
   inProgress: boolean;
   dateRange: { earliest: string | null; latest: string | null };
+  spotifyUrl: string;
 }
 
 export interface ArchiveDetail extends ArchiveSummary {

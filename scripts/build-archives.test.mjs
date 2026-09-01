@@ -18,7 +18,7 @@ describe('run', () => {
     await run({
       token: 'tok',
       fetchAllPlaylists: async () => [
-        { id: 'p1', name: 'Digital Archive #014' },
+        { id: 'p1', name: 'Digital Archive #014', external_urls: { spotify: 'https://open.spotify.com/playlist/p1' } },
         { id: 'p2', name: 'Discover Weekly' },
       ],
       fetchPlaylistTracks: async () => [
@@ -48,6 +48,7 @@ describe('run', () => {
     expect(songA.mood).toBeUndefined();
     expect(songA.genres).toBeUndefined();
     expect(songA.audioFeatures).toBeUndefined();
+    expect(written.spotifyUrl).toBe('https://open.spotify.com/playlist/p1');
 
     const [indexCall] = writeFile.mock.calls.filter(([name]) => name === 'index.json');
     const index = JSON.parse(indexCall[1]);
@@ -56,6 +57,26 @@ describe('run', () => {
     expect(index.archives[0].dominantMood).toBeUndefined();
     expect(index.archives[0].topGenres).toBeUndefined();
     expect(index.archives[0].audioFeatureAverages).toBeUndefined();
+    expect(index.archives[0].spotifyUrl).toBe('https://open.spotify.com/playlist/p1');
+  });
+
+  it('defaults spotifyUrl to an empty string when the playlist has no external_urls', async () => {
+    const writeFile = vi.fn();
+
+    await run({
+      token: 'tok',
+      fetchAllPlaylists: async () => [{ id: 'p2', name: 'Digital Archive #002' }],
+      fetchPlaylistTracks: async () => [],
+      writeFile,
+    });
+
+    const [archiveCall] = writeFile.mock.calls.filter(([name]) => name === 'archive-002.json');
+    const written = JSON.parse(archiveCall[1]);
+    expect(written.spotifyUrl).toBe('');
+
+    const [indexCall] = writeFile.mock.calls.filter(([name]) => name === 'index.json');
+    const index = JSON.parse(indexCall[1]);
+    expect(index.archives[0].spotifyUrl).toBe('');
   });
 
   it('does not accept or call fetchArtistGenres or fetchAudioFeaturesBatch', async () => {

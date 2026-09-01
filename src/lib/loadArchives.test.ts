@@ -16,6 +16,7 @@ describe('loadAllArchives', () => {
           trackCount: 2,
           inProgress: false,
           dateRange: { earliest: '2026-04-29T17:58:28Z', latest: '2026-04-29T17:58:28Z' },
+          spotifyUrl: 'https://open.spotify.com/playlist/archive-001',
         },
         {
           id: 'archive-002',
@@ -23,6 +24,7 @@ describe('loadAllArchives', () => {
           trackCount: 1,
           inProgress: false,
           dateRange: { earliest: '2022-06-01T06:35:28Z', latest: '2022-06-01T06:37:24Z' },
+          spotifyUrl: 'https://open.spotify.com/playlist/archive-002',
         },
       ],
     };
@@ -33,6 +35,7 @@ describe('loadAllArchives', () => {
       trackCount: 2,
       inProgress: false,
       dateRange: { earliest: '2026-04-29T17:58:28Z', latest: '2026-04-29T17:58:28Z' },
+      spotifyUrl: 'https://open.spotify.com/playlist/archive-001',
       tracks: [
         {
           id: 'track-001',
@@ -67,6 +70,7 @@ describe('loadAllArchives', () => {
       trackCount: 1,
       inProgress: false,
       dateRange: { earliest: '2022-06-01T06:35:28Z', latest: '2022-06-01T06:37:24Z' },
+      spotifyUrl: 'https://open.spotify.com/playlist/archive-002',
       tracks: [
         {
           id: 'track-003',

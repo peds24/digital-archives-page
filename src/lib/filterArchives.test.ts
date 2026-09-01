@@ -9,6 +9,7 @@ function archive(overrides: Partial<ArchiveSummary> = {}): ArchiveSummary {
     trackCount: 30,
     inProgress: false,
     dateRange: { earliest: '2024-01-01T00:00:00Z', latest: '2024-01-10T00:00:00Z' },
+    spotifyUrl: 'https://open.spotify.com/playlist/archive-001',
     ...overrides,
   };
 }
