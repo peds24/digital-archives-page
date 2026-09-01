@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { TILE_ALGORITHMS } from './tileAlgorithms';
+import { TILE_ALGORITHMS, DARK_STOPS } from './tileAlgorithms';
 import { mulberry32 } from './rng';
 import type { DrawContext } from './tileAlgorithms';
 
@@ -94,11 +94,11 @@ describe('tileAlgorithms', () => {
 
         const { ctx: ctx1, calls: calls1 } = createMockContext();
         const rnd1 = mulberry32(seed);
-        drawFn(ctx1, size, rnd1);
+        drawFn(ctx1, size, rnd1, DARK_STOPS);
 
         const { ctx: ctx2, calls: calls2 } = createMockContext();
         const rnd2 = mulberry32(seed);
-        drawFn(ctx2, size, rnd2);
+        drawFn(ctx2, size, rnd2, DARK_STOPS);
 
         expect(calls1.length).toBeGreaterThan(0);
         expect(calls1).toEqual(calls2);
@@ -107,11 +107,11 @@ describe('tileAlgorithms', () => {
       it('produces different call sequences for different seeds', () => {
         const { ctx: ctx1, calls: calls1 } = createMockContext();
         const rnd1 = mulberry32(12345);
-        drawFn(ctx1, size, rnd1);
+        drawFn(ctx1, size, rnd1, DARK_STOPS);
 
         const { ctx: ctx2, calls: calls2 } = createMockContext();
         const rnd2 = mulberry32(67890);
-        drawFn(ctx2, size, rnd2);
+        drawFn(ctx2, size, rnd2, DARK_STOPS);
 
         expect(calls1.length).toBeGreaterThan(0);
         expect(calls2.length).toBeGreaterThan(0);

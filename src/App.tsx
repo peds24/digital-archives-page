@@ -3,6 +3,7 @@ import { loadAllArchives, type ArchiveLibrary } from './lib/loadArchives';
 import { filterArchives } from './lib/filterArchives';
 import { type ProgressFilter } from './components/FilterBar';
 import { InfoTooltip } from './components/InfoTooltip';
+import { ThemeToggle } from './components/ThemeToggle';
 import { AsciiNote } from './components/AsciiNote';
 import { HomeView } from './components/HomeView';
 import { ArchivesView } from './components/ArchivesView';
@@ -38,6 +39,7 @@ export function App() {
 
   return (
     <main className="app">
+      <ThemeToggle />
       <header className="app-header">
         <AsciiNote className="app-hero" cols={44} rows={36} />
         <div className="app-header-title">

@@ -9,6 +9,9 @@
   src: url('../assets/fonts/SpaceMono-Bold.woff2') format('woff2');
 }
 
+/* Dark is the default palette (unthemed :root). Light is an alternate,
+   applied via [data-theme="light"] — set on <html> by the inline script in
+   index.html (before first paint) and kept in sync by src/hooks/useTheme.ts. */
 :root {
   --ground: #030C06;
   --surface: #0A1F11;
@@ -21,6 +24,16 @@
   --font-mono: 'Archive Mono', ui-monospace, 'SF Mono', Menlo, monospace;
   /* The one soft face, used only for the wordmark — everything else stays mono. */
   --font-round: ui-rounded, 'SF Pro Rounded', 'Hiragino Maru Gothic ProN', system-ui, sans-serif;
+}
+
+:root[data-theme='light'] {
+  --ground: #F3EFE4;
+  --surface: #FAF7EE;
+  --surface-raised: #EDE6D3;
+  --ink: #1B2A1D;
+  --ink-dim: #4D5C4E;
+  --hairline: #D9D2BE;
+  --accent: #0E7A3D;
 }
 
 * { box-sizing: border-box; }
@@ -137,6 +150,31 @@ body {
 }
 
 .info-tooltip-trigger:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 0.7rem;
+  right: 1.25rem;
+  z-index: 20;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: var(--ink-dim);
+  border: 1px solid var(--hairline);
+  border-radius: 0;
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 1;
+  cursor: pointer;
+}
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
   border-color: var(--accent);
   color: var(--accent);
 }

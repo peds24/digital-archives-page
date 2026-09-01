@@ -18,25 +18,32 @@ export interface DrawContext {
   stroke(): void;
 }
 
-export type DrawFn = (ctx: DrawContext, size: number, rnd: () => number) => void;
+export type DrawFn = (ctx: DrawContext, size: number, rnd: () => number, stops: string[]) => void;
 
-// Single shared hue family for every tile: near-black terminal green up
-// through the theme accent (#1DB954) to a bright phosphor/mint highlight.
-// All six algorithms draw exclusively from this ramp so differentiation
-// between them comes from texture/structure, never color.
-const GREEN_STOPS = ['#050A06', '#0B2013', '#136B36', '#1DB954', '#63FFA6', '#D4FFEA'];
+// Single shared hue family per theme, ramped from empty/background to the
+// most intense mark. All six algorithms draw exclusively from the active
+// ramp so differentiation between them comes from texture/structure, never
+// color, and cover art restyles automatically when the theme changes.
+//
+// Dark: near-black terminal ground up through the accent (#1DB954) to a
+// bright phosphor/mint highlight — energy reads as "brighter."
+export const DARK_STOPS = ['#050A06', '#0B2013', '#136B36', '#1DB954', '#63FFA6', '#D4FFEA'];
+// Light: parchment ground down through the accent (#0E7A3D) to a deep
+// forest ink — energy reads as "darker/more saturated," the correct
+// contrast direction for a light background.
+export const LIGHT_STOPS = ['#F3EFE4', '#D7E6D2', '#7FBE86', '#0E7A3D', '#0B3D22', '#081F13'];
 
-function greenAt(t: number): string {
+function colorAt(stops: string[], t: number): string {
   const clamped = Math.min(Math.max(t, 0), 1);
-  const segCount = GREEN_STOPS.length - 1;
+  const segCount = stops.length - 1;
   const segT = clamped * segCount;
   const i = Math.min(Math.floor(segT), segCount - 1);
-  return mixColor(GREEN_STOPS[i], GREEN_STOPS[i + 1], segT - i);
+  return mixColor(stops[i], stops[i + 1], segT - i);
 }
 
 /** Matrix-style falling character rain: columns of glyph blocks with a bright head fading to the dark ground. */
-function drawCodeRain(ctx: DrawContext, s: number, rnd: () => number) {
-  ctx.fillStyle = GREEN_STOPS[0];
+function drawCodeRain(ctx: DrawContext, s: number, rnd: () => number, stops: string[]) {
+  ctx.fillStyle = stops[0];
   ctx.fillRect(0, 0, s, s);
   const cols = 14 + Math.floor(rnd() * 6);
   const colW = s / cols;
@@ -53,7 +60,7 @@ function drawCodeRain(ctx: DrawContext, s: number, rnd: () => number) {
       const fade = i / streakLen;
       const dim = rnd() < 0.12;
       ctx.globalAlpha = dim ? 0.25 : lerp(0.95, 0.18, fade);
-      ctx.fillStyle = greenAt(lerp(1, 0.15, fade));
+      ctx.fillStyle = colorAt(stops, lerp(1, 0.15, fade));
       ctx.fillRect(x, y, glyph, rowH * 0.7);
     }
   }
@@ -61,8 +68,8 @@ function drawCodeRain(ctx: DrawContext, s: number, rnd: () => number) {
 }
 
 /** Circuit-board traces: right-angle wires walking a grid between vias (pad circles). */
-function drawCircuitTraces(ctx: DrawContext, s: number, rnd: () => number) {
-  ctx.fillStyle = GREEN_STOPS[1];
+function drawCircuitTraces(ctx: DrawContext, s: number, rnd: () => number, stops: string[]) {
+  ctx.fillStyle = stops[1];
   ctx.fillRect(0, 0, s, s);
   const grid = 8 + Math.floor(rnd() * 4);
   const cell = s / grid;
@@ -73,7 +80,7 @@ function drawCircuitTraces(ctx: DrawContext, s: number, rnd: () => number) {
     let gx = Math.floor(rnd() * grid);
     let gy = Math.floor(rnd() * grid);
     const segs = 3 + Math.floor(rnd() * 5);
-    const shade = greenAt(lerp(0.35, 0.85, rnd()));
+    const shade = colorAt(stops, lerp(0.35, 0.85, rnd()));
     ctx.strokeStyle = shade;
     ctx.lineWidth = cell * 0.12;
     ctx.beginPath();
@@ -95,8 +102,8 @@ function drawCircuitTraces(ctx: DrawContext, s: number, rnd: () => number) {
 }
 
 /** Hex-dump / byte grid: a monospace grid of glyph cells at varying brightness, with one scanned highlight row. */
-function drawHexDump(ctx: DrawContext, s: number, rnd: () => number) {
-  ctx.fillStyle = GREEN_STOPS[0];
+function drawHexDump(ctx: DrawContext, s: number, rnd: () => number, stops: string[]) {
+  ctx.fillStyle = stops[0];
   ctx.fillRect(0, 0, s, s);
   const cols = 16;
   const rows = 16;
@@ -109,15 +116,15 @@ function drawHexDump(ctx: DrawContext, s: number, rnd: () => number) {
       const v = rnd();
       let brightness = 0.12 + v * 0.5;
       if (row === highlightRow) brightness = Math.min(1, brightness + 0.4);
-      ctx.fillStyle = greenAt(brightness);
+      ctx.fillStyle = colorAt(stops, brightness);
       ctx.fillRect(col * cellW + pad, row * cellH + pad, cellW - pad * 2, cellH - pad * 2);
     }
   }
 }
 
 /** Git-diff gutter: stacked code-line bars, some added (bright), some removed (dim), with a gutter tick per line. */
-function drawDiffGutter(ctx: DrawContext, s: number, rnd: () => number) {
-  ctx.fillStyle = GREEN_STOPS[1];
+function drawDiffGutter(ctx: DrawContext, s: number, rnd: () => number, stops: string[]) {
+  ctx.fillStyle = stops[1];
   ctx.fillRect(0, 0, s, s);
   const lines = 20;
   const lineH = s / lines;
@@ -139,19 +146,19 @@ function drawDiffGutter(ctx: DrawContext, s: number, rnd: () => number) {
       barAlpha = 0.6;
     }
     ctx.globalAlpha = barAlpha;
-    ctx.fillStyle = greenAt(barBrightness);
+    ctx.fillStyle = colorAt(stops, barBrightness);
     ctx.fillRect(gutter, y + lineH * 0.2, len, lineH * 0.58);
 
     ctx.globalAlpha = 1;
-    ctx.fillStyle = greenAt(Math.min(1, barBrightness + 0.15));
+    ctx.fillStyle = colorAt(stops, Math.min(1, barBrightness + 0.15));
     ctx.fillRect(gutter * 0.32, y + lineH * 0.28, gutter * 0.32, lineH * 0.42);
   }
   ctx.globalAlpha = 1;
 }
 
 /** Dependency/call graph: scattered nodes joined by directed edges, node size and glow scaled by "importance". */
-function drawNodeGraph(ctx: DrawContext, s: number, rnd: () => number) {
-  ctx.fillStyle = GREEN_STOPS[0];
+function drawNodeGraph(ctx: DrawContext, s: number, rnd: () => number, stops: string[]) {
+  ctx.fillStyle = stops[0];
   ctx.fillRect(0, 0, s, s);
   const count = 8 + Math.floor(rnd() * 6);
   const nodes: Array<[number, number]> = [];
@@ -163,7 +170,7 @@ function drawNodeGraph(ctx: DrawContext, s: number, rnd: () => number) {
     const edges = 1 + Math.floor(rnd() * 2);
     for (let e = 0; e < edges; e++) {
       const j = Math.floor(rnd() * count);
-      ctx.strokeStyle = greenAt(lerp(0.2, 0.5, rnd()));
+      ctx.strokeStyle = colorAt(stops, lerp(0.2, 0.5, rnd()));
       ctx.globalAlpha = 0.6;
       ctx.beginPath();
       ctx.moveTo(nodes[i][0], nodes[i][1]);
@@ -174,7 +181,7 @@ function drawNodeGraph(ctx: DrawContext, s: number, rnd: () => number) {
   ctx.globalAlpha = 1;
   for (let i = 0; i < count; i++) {
     const r = lerp(s * 0.02, s * 0.045, rnd());
-    ctx.fillStyle = greenAt(lerp(0.55, 1, rnd()));
+    ctx.fillStyle = colorAt(stops, lerp(0.55, 1, rnd()));
     ctx.beginPath();
     ctx.arc(nodes[i][0], nodes[i][1], r, 0, Math.PI * 2);
     ctx.fill();
@@ -182,15 +189,15 @@ function drawNodeGraph(ctx: DrawContext, s: number, rnd: () => number) {
 }
 
 /** CRT terminal phosphor: horizontal scanlines with flicker, overlaid with blinking cursor blocks. */
-function drawScanlinePhosphor(ctx: DrawContext, s: number, rnd: () => number) {
-  ctx.fillStyle = GREEN_STOPS[0];
+function drawScanlinePhosphor(ctx: DrawContext, s: number, rnd: () => number, stops: string[]) {
+  ctx.fillStyle = stops[0];
   ctx.fillRect(0, 0, s, s);
   const lineCount = 40;
   const lineH = s / lineCount;
   for (let i = 0; i < lineCount; i++) {
     const flicker = 0.25 + rnd() * 0.5;
     ctx.globalAlpha = flicker;
-    ctx.fillStyle = greenAt(lerp(0.2, 0.7, i / lineCount));
+    ctx.fillStyle = colorAt(stops, lerp(0.2, 0.7, i / lineCount));
     ctx.fillRect(0, i * lineH, s, lineH * 0.5);
   }
   ctx.globalAlpha = 1;
@@ -199,7 +206,7 @@ function drawScanlinePhosphor(ctx: DrawContext, s: number, rnd: () => number) {
   for (let i = 0; i < cursors; i++) {
     const cx = Math.floor(rnd() * 14) * cell;
     const cy = Math.floor(rnd() * 14) * cell;
-    ctx.fillStyle = greenAt(lerp(0.7, 1, rnd()));
+    ctx.fillStyle = colorAt(stops, lerp(0.7, 1, rnd()));
     ctx.fillRect(cx, cy, cell * 0.8, cell * 1.4);
   }
 }

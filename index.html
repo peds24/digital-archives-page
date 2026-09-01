@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Browse Digital Archive playlists — batches of 30 liked songs, sealed off once full." />
     <title>Digital Archives</title>
+    <!-- Sets data-theme before first paint so there's no flash of the wrong
+         theme. Mirrors the resolution in src/hooks/useTheme.ts: a stored
+         override wins, otherwise the OS preference decides. -->
+    <script>
+      (function () {
+        var stored = localStorage.getItem('theme');
+        var theme = stored === 'light' || stored === 'dark'
+          ? stored
+          : (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

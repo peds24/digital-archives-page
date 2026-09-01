@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { mulberry32 } from '../algorithms/rng';
-import { TILE_ALGORITHMS, type DrawContext } from '../algorithms/tileAlgorithms';
+import { TILE_ALGORITHMS, DARK_STOPS, LIGHT_STOPS, type DrawContext } from '../algorithms/tileAlgorithms';
+import { useTheme } from '../hooks/useTheme';
 import type { ArchiveSummary } from '../lib/types';
 
 interface ArchiveTileProps {
@@ -11,6 +12,7 @@ interface ArchiveTileProps {
 
 export function ArchiveTile({ archive, selected = false, onSelect }: ArchiveTileProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const { theme } = useTheme();
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -24,8 +26,9 @@ export function ArchiveTile({ archive, selected = false, onSelect }: ArchiveTile
     ctx.scale(dpr, dpr);
     const rnd = mulberry32(archive.number * 1000 + 7);
     const algorithm = TILE_ALGORITHMS[archive.number % TILE_ALGORITHMS.length];
-    algorithm(ctx as unknown as DrawContext, size, rnd);
-  }, [archive]);
+    const stops = theme === 'light' ? LIGHT_STOPS : DARK_STOPS;
+    algorithm(ctx as unknown as DrawContext, size, rnd, stops);
+  }, [archive, theme]);
 
   return (
     <button
