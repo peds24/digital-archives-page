@@ -5,11 +5,12 @@ import { type ProgressFilter } from './components/FilterBar';
 import { InfoTooltip } from './components/InfoTooltip';
 import { HomeView } from './components/HomeView';
 import { ArchivesView } from './components/ArchivesView';
+import { DiscoverView } from './components/DiscoverView';
 
 export function App() {
   const [library, setLibrary] = useState<ArchiveLibrary | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [view, setView] = useState<'home' | 'archives'>('home');
+  const [view, setView] = useState<'home' | 'archives' | 'discover'>('home');
   const [dateFrom, setDateFrom] = useState('');
   const [dateTo, setDateTo] = useState('');
   const [progressFilter, setProgressFilter] = useState<ProgressFilter>('all');
@@ -45,6 +46,12 @@ export function App() {
         >
           archives
         </button>
+        <button
+          className={view === 'discover' ? 'active' : ''}
+          onClick={() => setView('discover')}
+        >
+          discover
+        </button>
       </nav>
       <header className="app-header">
         <div className="app-header-title">
@@ -53,9 +60,8 @@ export function App() {
         </div>
         <p>every 30 liked songs, sealed off.</p>
       </header>
-      {view === 'home' ? (
-        <HomeView trackPool={library.trackPool} archiveCount={library.archives.length} />
-      ) : (
+      {view === 'home' && <HomeView archiveCount={library.archives.length} />}
+      {view === 'archives' && (
         <ArchivesView
           archives={filteredArchives}
           dateFrom={dateFrom}
@@ -75,6 +81,7 @@ export function App() {
           onCloseSelected={() => setSelectedArchiveId(null)}
         />
       )}
+      {view === 'discover' && <DiscoverView trackPool={library.trackPool} />}
     </main>
   );
 }
