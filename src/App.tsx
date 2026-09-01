@@ -5,6 +5,7 @@ import { FilterBar, type ProgressFilter } from './components/FilterBar';
 import { ArchiveGrid } from './components/ArchiveGrid';
 import { ArchivePanel } from './components/ArchivePanel';
 import { DiscoveryPanel } from './components/DiscoveryPanel';
+import { InfoTooltip } from './components/InfoTooltip';
 
 export function App() {
   const [library, setLibrary] = useState<ArchiveLibrary | null>(null);
@@ -32,7 +33,10 @@ export function App() {
   return (
     <main className="app">
       <header className="app-header">
-        <h1>digital archives</h1>
+        <div className="app-header-title">
+          <h1>digital archives</h1>
+          <InfoTooltip />
+        </div>
         <p>every 30 liked songs, sealed off.</p>
       </header>
       <FilterBar
