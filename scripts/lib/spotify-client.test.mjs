@@ -69,6 +69,29 @@ describe('spotifyFetch', () => {
     // setTimeout would treat as 0 — an immediate retry storm).
     expect(delays).toEqual([1000]);
   });
+
+  it('sends method and JSON body when options include them, and sets Content-Type', async () => {
+    const fakeFetch = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ id: 'new-playlist' }) });
+    const result = await spotifyFetch('tok', '/users/u1/playlists', fakeFetch, {
+      method: 'POST',
+      body: { name: 'Digital Archive #30', public: true },
+    });
+    expect(result).toEqual({ id: 'new-playlist' });
+    const [url, init] = fakeFetch.mock.calls[0];
+    expect(url).toBe('https://api.spotify.com/v1/users/u1/playlists');
+    expect(init.method).toBe('POST');
+    expect(init.headers['Content-Type']).toBe('application/json');
+    expect(JSON.parse(init.body)).toEqual({ name: 'Digital Archive #30', public: true });
+  });
+
+  it('still defaults to a GET with no body when no options are passed', async () => {
+    const fakeFetch = vi.fn().mockResolvedValue({ ok: true, status: 200, json: async () => ({ id: 'abc' }) });
+    await spotifyFetch('tok', '/me', fakeFetch);
+    const [, init] = fakeFetch.mock.calls[0];
+    expect(init.method).toBe('GET');
+    expect(init.body).toBeUndefined();
+    expect(init.headers['Content-Type']).toBeUndefined();
+  });
 });
 
 describe('buildAuthorizeUrl', () => {

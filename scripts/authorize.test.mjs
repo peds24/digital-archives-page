@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { upsertEnvLine } from './authorize.mjs';
+import { upsertEnvLine, SCOPES } from './authorize.mjs';
 
 describe('upsertEnvLine', () => {
   it('writes a fresh line when the file is empty/nonexistent (contents === "")', () => {
@@ -25,5 +25,18 @@ describe('upsertEnvLine', () => {
     expect(result).toBe('SPOTIFY_CLIENT_ID=id\nSPOTIFY_REFRESH_TOKEN=new-token\nSPOTIFY_CLIENT_SECRET=secret\n');
     // Only one line for the key, never duplicated
     expect(result.match(/SPOTIFY_REFRESH_TOKEN=/g)).toHaveLength(1);
+  });
+});
+
+describe('SCOPES', () => {
+  it('includes the scopes needed to read Liked Songs and create/edit playlists', () => {
+    expect(SCOPES).toEqual(
+      expect.arrayContaining([
+        'playlist-read-private',
+        'playlist-read-collaborative',
+        'user-library-read',
+        'playlist-modify-public',
+      ])
+    );
   });
 });
