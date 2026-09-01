@@ -18,6 +18,7 @@ export async function run({
   userId,
   queue,
   archivedTrackIds,
+  localMaxArchiveNumber = 0,
   fetchLikedSongs: fetchLikedSongsFn,
   fetchAllPlaylists: fetchAllPlaylistsFn,
   fetchPlaylistTracks: fetchPlaylistTracksFn,
@@ -34,26 +35,29 @@ export async function run({
   const archives = playlists
     .map((p) => ({ ...p, number: parseArchiveNumber(p.name) }))
     .filter((p) => p.number !== null)
-    .sort((a, b) => b.number - a.number);
+    .sort((a, b) => a.number - b.number);
 
-  const latest = archives[0] ?? null;
+  const latest = archives.length > 0 ? archives[archives.length - 1] : null;
+
+  // Reconcile every archive playlist Spotify actually has that isn't yet reflected in
+  // local public/data/*.json (numbered >= localMaxArchiveNumber), not just the single
+  // latest one — a rerun after a crash mid-way through a previous run (e.g. archive N
+  // was created and filled, then archive N+1 was created but its fill or the ledger
+  // persist step failed) must not re-add tracks already sitting in archive N just
+  // because archive N+1 now exists and is technically "the latest".
+  const unreconciled = archives.filter((a) => a.number >= localMaxArchiveNumber);
+
   let openArchive = null;
-  let latestTrackIds = [];
-  if (latest) {
-    const latestTracks = await fetchPlaylistTracksFn(token, latest.id);
-    // Freshly-fetched playlist contents are Spotify's live, authoritative state — a rerun
-    // after a crash mid-way through a previous run (e.g. a top-off succeeded but a later
-    // createPlaylist call then failed, so the ledger was never persisted) must not re-add
-    // tracks that are already sitting in this archive. Local public/data/*.json (the
-    // source of archivedTrackIds) can be stale until buildArchives regenerates it, so it
-    // can't be trusted alone here.
-    latestTrackIds = latestTracks.filter((t) => !t.unavailable).map((t) => t.id);
-    if (latestTracks.length < 30) {
-      openArchive = { id: latest.id, trackCount: latestTracks.length };
+  const liveExcludedIds = [];
+  for (const archive of unreconciled) {
+    const tracks = await fetchPlaylistTracksFn(token, archive.id);
+    for (const t of tracks) {
+      if (!t.unavailable) liveExcludedIds.push(t.id);
     }
+    openArchive = tracks.length < 30 ? { id: archive.id, trackCount: tracks.length } : null;
   }
 
-  const excludedIds = new Set([...archivedTrackIds, ...latestTrackIds]);
+  const excludedIds = new Set([...archivedTrackIds, ...liveExcludedIds]);
   updatedQueue = pruneArchived(updatedQueue, excludedIds);
 
   const plan = planFill(updatedQueue, openArchive);
@@ -109,14 +113,19 @@ async function main() {
     : [];
   const archiveSummaries = archiveFiles.map((f) => JSON.parse(readFileSync(new URL(f, dataDir), 'utf-8')));
   const archivedTrackIds = collectArchivedTrackIds(archiveSummaries);
+  const localMaxArchiveNumber = archiveFiles.reduce((max, f) => {
+    const match = /^archive-(\d+)\.json$/.exec(f);
+    return match ? Math.max(max, Number(match[1])) : max;
+  }, 0);
 
-  const queue = existsSync(statePath) ? JSON.parse(readFileSync(statePath, 'utf-8')).tracks : [];
+  const queue = existsSync(statePath) ? JSON.parse(readFileSync(statePath, 'utf-8')).tracks ?? [] : [];
 
   const result = await run({
     token,
     userId,
     queue,
     archivedTrackIds,
+    localMaxArchiveNumber,
     fetchLikedSongs,
     fetchAllPlaylists,
     fetchPlaylistTracks,
@@ -145,15 +154,13 @@ async function main() {
   mkdirSync(stateDir, { recursive: true });
   writeFileSync(statePath, JSON.stringify({ tracks: result.queue }, null, 2));
 
-  if (result.addedCount > 0) {
-    mkdirSync(dataDir, { recursive: true });
-    await buildArchives({
-      token,
-      fetchAllPlaylists,
-      fetchPlaylistTracks,
-      writeFile: (name, contents) => writeFileSync(new URL(name, dataDir), contents),
-    });
-  }
+  mkdirSync(dataDir, { recursive: true });
+  await buildArchives({
+    token,
+    fetchAllPlaylists,
+    fetchPlaylistTracks,
+    writeFile: (name, contents) => writeFileSync(new URL(name, dataDir), contents),
+  });
 }
 
 const isMain = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];

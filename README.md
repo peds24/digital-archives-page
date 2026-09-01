@@ -73,7 +73,9 @@ real.
 
 Requires the `user-library-read` and `playlist-modify-public` scopes — if
 `.env` was set up before this feature existed, re-run `npm run authorize`
-once to pick them up.
+once to pick them up. Also requires `SPOTIFY_USER_ID` in `.env` — your
+Spotify username, visible in `open.spotify.com/user/<id>` or via
+`https://api.spotify.com/v1/me`.
 
 Ordinarily this runs weekly via a scheduled Claude Code agent rather than
 by hand.

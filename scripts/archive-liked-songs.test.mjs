@@ -189,4 +189,45 @@ describe('run', () => {
     expect(addTracksToPlaylist).toHaveBeenCalledWith('tok', 'pl29', queue.map((t) => t.uri));
     expect(result).toEqual({ queue: [], addedCount: 5, createdCount: 0, pendingCount: 0 });
   });
+
+  it('reconciles every unreconciled archive (not just the latest) so a track already in an older new archive is not duplicated into a newer one', async () => {
+    const addTracksToPlaylist = vi.fn().mockResolvedValue(undefined);
+    const createPlaylist = vi.fn();
+    // 30 tracks already sitting in archive #30 (created and filled in a prior run that
+    // crashed before archive #31 was filled or the ledger/public-data were persisted),
+    // plus 3 genuinely new pending tracks.
+    const alreadyInArchive30 = Array.from({ length: 30 }, (_, i) => track(`dup${i}`, i));
+    const genuinelyNew = [track('new0', 30), track('new1', 31), track('new2', 32)];
+    const queue = [...alreadyInArchive30, ...genuinelyNew];
+
+    const fetchPlaylistTracks = vi.fn().mockImplementation(async (t, playlistId) => {
+      if (playlistId === 'pl30') return alreadyInArchive30.map((tr) => ({ id: tr.id, unavailable: false }));
+      if (playlistId === 'pl31') return [];
+      throw new Error(`unexpected playlist id: ${playlistId}`);
+    });
+
+    const result = await run({
+      token: 'tok',
+      userId: 'u1',
+      queue,
+      archivedTrackIds: new Set(), // local public/data is stale — doesn't know about #30 yet
+      localMaxArchiveNumber: 29, // local data only covers through #29
+      fetchLikedSongs: vi.fn().mockResolvedValue([]),
+      fetchAllPlaylists: vi.fn().mockResolvedValue([
+        { id: 'pl31', name: 'Digital Archive #31' },
+        { id: 'pl30', name: 'Digital Archive #30' },
+      ]),
+      fetchPlaylistTracks,
+      createPlaylist,
+      addTracksToPlaylist,
+      log: vi.fn(),
+    });
+
+    // Only the 3 genuinely new tracks get added to #31 — the 30 already in #30 are excluded.
+    expect(addTracksToPlaylist).toHaveBeenCalledTimes(1);
+    expect(addTracksToPlaylist).toHaveBeenCalledWith('tok', 'pl31', genuinelyNew.map((t) => t.uri));
+    expect(createPlaylist).not.toHaveBeenCalled();
+    expect(result.addedCount).toBe(3);
+    expect(result.pendingCount).toBe(0);
+  });
 });
