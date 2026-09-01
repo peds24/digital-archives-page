@@ -119,7 +119,10 @@ export function AsciiNote({ cols, rows, className = '' }: Props) {
     if (!el) return;
 
     const K2 = 5;
-    const kx = (gridCols * K2 * 3) / (8 * 4.6);
+    // 1.65 is the point cloud's own radius (swept across a full rotation, no
+    // clipping) — matches AsciiTorus's pattern of sizing kx off real content
+    // extent rather than an arbitrary constant.
+    const kx = (gridCols * K2 * 3) / (8 * 1.65);
     const ky = kx * 0.5;
 
     const zbuf = new Float32Array(gridCols * gridRows);
