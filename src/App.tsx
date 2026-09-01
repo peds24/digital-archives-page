@@ -38,6 +38,7 @@ export function App() {
           <InfoTooltip />
         </div>
         <p>every 30 liked songs, sealed off.</p>
+        <DiscoveryPanel trackPool={library.trackPool} />
       </header>
       <FilterBar
         dateFrom={dateFrom}
@@ -60,7 +61,6 @@ export function App() {
       {selectedArchive && (
         <ArchivePanel archive={selectedArchive} onClose={() => setSelectedArchiveId(null)} />
       )}
-      <DiscoveryPanel trackPool={library.trackPool} />
     </main>
   );
 }

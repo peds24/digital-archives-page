@@ -224,9 +224,32 @@ body {
 
 .track-unavailable { opacity: 0.55; font-style: italic; }
 
-.discovery-panel { border-top: 1px solid var(--hairline); padding-top: 32px; }
-.discovery-panel h2 { text-transform: lowercase; margin-top: 0; }
-.discovery-panel button {
+.discovery-trigger {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+.discovery-trigger span { font-size: 13px; color: var(--ink-dim); }
+.discovery-trigger button {
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--hairline);
+  padding: 8px 12px;
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.discovery-trigger button:hover { border-color: var(--accent); color: var(--accent); }
+
+.discovery-panel { padding: 20px; }
+.discovery-panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.discovery-panel h2 { text-transform: lowercase; margin: 0; }
+.discovery-panel-header button {
   background: var(--surface);
   color: var(--accent);
   border: 1px solid var(--accent);
