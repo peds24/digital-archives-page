@@ -1,15 +1,15 @@
 import { useEffect, useState } from 'react';
 import { loadAllArchives, type ArchiveLibrary } from './lib/loadArchives';
 import { filterArchives } from './lib/filterArchives';
-import { FilterBar, type ProgressFilter } from './components/FilterBar';
-import { ArchiveGrid } from './components/ArchiveGrid';
-import { ArchivePanel } from './components/ArchivePanel';
-import { DiscoveryPanel } from './components/DiscoveryPanel';
+import { type ProgressFilter } from './components/FilterBar';
 import { InfoTooltip } from './components/InfoTooltip';
+import { HomeView } from './components/HomeView';
+import { ArchivesView } from './components/ArchivesView';
 
 export function App() {
   const [library, setLibrary] = useState<ArchiveLibrary | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [view, setView] = useState<'home' | 'archives'>('home');
   const [dateFrom, setDateFrom] = useState('');
   const [dateTo, setDateTo] = useState('');
   const [progressFilter, setProgressFilter] = useState<ProgressFilter>('all');
@@ -32,34 +32,48 @@ export function App() {
 
   return (
     <main className="app">
+      <nav className="site-nav">
+        <button
+          className={view === 'home' ? 'active' : ''}
+          onClick={() => setView('home')}
+        >
+          home
+        </button>
+        <button
+          className={view === 'archives' ? 'active' : ''}
+          onClick={() => setView('archives')}
+        >
+          archives
+        </button>
+      </nav>
       <header className="app-header">
         <div className="app-header-title">
           <h1>digital archives</h1>
           <InfoTooltip />
         </div>
         <p>every 30 liked songs, sealed off.</p>
-        <DiscoveryPanel trackPool={library.trackPool} />
       </header>
-      <FilterBar
-        dateFrom={dateFrom}
-        dateTo={dateTo}
-        progressFilter={progressFilter}
-        onDateFromChange={setDateFrom}
-        onDateToChange={setDateTo}
-        onProgressFilterChange={setProgressFilter}
-        onClear={() => {
-          setDateFrom('');
-          setDateTo('');
-          setProgressFilter('all');
-        }}
-      />
-      <ArchiveGrid
-        archives={filteredArchives}
-        selectedArchiveId={selectedArchiveId}
-        onSelect={setSelectedArchiveId}
-      />
-      {selectedArchive && (
-        <ArchivePanel archive={selectedArchive} onClose={() => setSelectedArchiveId(null)} />
+      {view === 'home' ? (
+        <HomeView trackPool={library.trackPool} archiveCount={library.archives.length} />
+      ) : (
+        <ArchivesView
+          archives={filteredArchives}
+          dateFrom={dateFrom}
+          dateTo={dateTo}
+          progressFilter={progressFilter}
+          onDateFromChange={setDateFrom}
+          onDateToChange={setDateTo}
+          onProgressFilterChange={setProgressFilter}
+          onClear={() => {
+            setDateFrom('');
+            setDateTo('');
+            setProgressFilter('all');
+          }}
+          selectedArchiveId={selectedArchiveId}
+          selectedArchive={selectedArchive}
+          onSelect={setSelectedArchiveId}
+          onCloseSelected={() => setSelectedArchiveId(null)}
+        />
       )}
     </main>
   );

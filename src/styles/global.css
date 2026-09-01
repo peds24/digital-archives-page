@@ -36,6 +36,24 @@ body {
   padding: 48px 24px 80px;
 }
 
+.site-nav {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 24px;
+}
+.site-nav button {
+  background: transparent;
+  border: 1px solid var(--hairline);
+  color: var(--ink-dim);
+  padding: 8px 16px;
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  text-transform: lowercase;
+}
+.site-nav button:hover { border-color: var(--accent); color: var(--accent); }
+.site-nav button.active { color: var(--accent); border-color: var(--accent); }
+
 .app-header {
   border-bottom: 1px solid var(--hairline);
   padding-bottom: 24px;
@@ -300,4 +318,15 @@ body {
   color: var(--accent);
   white-space: pre;
   text-align: center;
+}
+
+.home-view { text-align: center; padding: 24px 0; }
+.home-hero { display: block; margin: 0 auto 24px; }
+.home-lede {
+  max-width: 56ch;
+  margin: 0 auto 32px;
+  color: var(--ink-dim);
+  line-height: 1.6;
+  font-size: 14px;
+  text-align: left;
 }
