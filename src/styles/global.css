@@ -183,7 +183,8 @@ body {
 .archive-tile canvas { width: 100%; aspect-ratio: 1 / 1; display: block; }
 .archive-tile-meta {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 2px;
   padding: 10px 12px;
   font-size: 12px;
   color: var(--ink-dim);
