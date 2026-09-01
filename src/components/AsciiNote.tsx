@@ -27,7 +27,7 @@ interface Point {
 
 // Notehead: tilted ellipsoid (one per note).
 function makeNotehead(pts: Point[], cx: number, cy: number) {
-  const rx = 0.95, ry = 0.68, rz = 0.6;
+  const rx = 0.62, ry = 0.44, rz = 0.39;
   const tilt = -0.32;
   const ct = Math.cos(tilt), st = Math.sin(tilt);
   for (let th = 0; th < Math.PI * 2; th += 0.055) {
@@ -86,7 +86,7 @@ function makeBeam(pts: Point[], x1: number, y1: number, x2: number, y2: number) 
 function buildPoints(): Point[] {
   const pts: Point[] = [];
   const headYL = -1.3, headYR = -1.55;
-  const stemXL = -0.18, stemXR = 1.82;
+  const stemXL = -0.47, stemXR = 1.53;
   const beamY = 1.75;
   const beamYL = beamY, beamYR = beamY;
 
