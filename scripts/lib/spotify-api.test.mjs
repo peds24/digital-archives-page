@@ -272,12 +272,12 @@ describe('fetchLikedSongs', () => {
 });
 
 describe('createPlaylist', () => {
-  it('POSTs to /users/{id}/playlists with name, public:true, collaborative:false', async () => {
+  it('POSTs to /me/playlists with name, public:true, collaborative:false', async () => {
     const fetchImpl = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ id: 'new-pl' }) });
     const playlist = await createPlaylist('tok', 'u1', 'Digital Archive #30', fetchImpl);
     expect(playlist).toEqual({ id: 'new-pl' });
     const [url, init] = fetchImpl.mock.calls[0];
-    expect(url).toBe('https://api.spotify.com/v1/users/u1/playlists');
+    expect(url).toBe('https://api.spotify.com/v1/me/playlists');
     expect(init.method).toBe('POST');
     expect(JSON.parse(init.body)).toEqual({ name: 'Digital Archive #30', public: true, collaborative: false });
   });
@@ -290,7 +290,7 @@ describe('addTracksToPlaylist', () => {
     await addTracksToPlaylist('tok', 'pl1', uris, fetchImpl);
     expect(fetchImpl).toHaveBeenCalledTimes(1);
     const [url, init] = fetchImpl.mock.calls[0];
-    expect(url).toBe('https://api.spotify.com/v1/playlists/pl1/tracks');
+    expect(url).toBe('https://api.spotify.com/v1/playlists/pl1/items');
     expect(JSON.parse(init.body).uris).toHaveLength(30);
   });
 
