@@ -29,7 +29,6 @@ export async function run({
   const likedSongs = await fetchLikedSongsFn(token, knownIds);
 
   let updatedQueue = syncQueue(queue, likedSongs);
-  updatedQueue = pruneArchived(updatedQueue, archivedTrackIds);
 
   const playlists = await fetchAllPlaylistsFn(token);
   const archives = playlists
@@ -39,12 +38,23 @@ export async function run({
 
   const latest = archives[0] ?? null;
   let openArchive = null;
+  let latestTrackIds = [];
   if (latest) {
     const latestTracks = await fetchPlaylistTracksFn(token, latest.id);
+    // Freshly-fetched playlist contents are Spotify's live, authoritative state — a rerun
+    // after a crash mid-way through a previous run (e.g. a top-off succeeded but a later
+    // createPlaylist call then failed, so the ledger was never persisted) must not re-add
+    // tracks that are already sitting in this archive. Local public/data/*.json (the
+    // source of archivedTrackIds) can be stale until buildArchives regenerates it, so it
+    // can't be trusted alone here.
+    latestTrackIds = latestTracks.filter((t) => !t.unavailable).map((t) => t.id);
     if (latestTracks.length < 30) {
       openArchive = { id: latest.id, trackCount: latestTracks.length };
     }
   }
+
+  const excludedIds = new Set([...archivedTrackIds, ...latestTrackIds]);
+  updatedQueue = pruneArchived(updatedQueue, excludedIds);
 
   const plan = planFill(updatedQueue, openArchive);
 
@@ -123,7 +133,19 @@ async function main() {
       : addTracksToPlaylist,
   });
 
-  if (result.addedCount > 0 && !dryRun) {
+  if (dryRun) {
+    console.log(`[dry-run] would leave ${result.queue.length} pending track(s) in the ledger.`);
+    return;
+  }
+
+  // Persist the ledger immediately after the Spotify writes above, before the
+  // (separately fallible) archive regeneration below — so a crash partway through
+  // regenerating public/data/*.json still leaves the ledger reflecting what's
+  // actually pending, rather than re-arming the duplicate-track risk on the next run.
+  mkdirSync(stateDir, { recursive: true });
+  writeFileSync(statePath, JSON.stringify({ tracks: result.queue }, null, 2));
+
+  if (result.addedCount > 0) {
     mkdirSync(dataDir, { recursive: true });
     await buildArchives({
       token,
@@ -132,14 +154,6 @@ async function main() {
       writeFile: (name, contents) => writeFileSync(new URL(name, dataDir), contents),
     });
   }
-
-  if (dryRun) {
-    console.log(`[dry-run] would leave ${result.queue.length} pending track(s) in the ledger.`);
-    return;
-  }
-
-  mkdirSync(stateDir, { recursive: true });
-  writeFileSync(statePath, JSON.stringify({ tracks: result.queue }, null, 2));
 }
 
 const isMain = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
