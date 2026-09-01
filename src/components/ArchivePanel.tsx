@@ -1,4 +1,5 @@
 import type { ArchiveDetail } from '../lib/types';
+import { Modal } from './Modal';
 
 interface ArchivePanelProps {
   archive: ArchiveDetail;
@@ -7,24 +8,29 @@ interface ArchivePanelProps {
 
 export function ArchivePanel({ archive, onClose }: ArchivePanelProps) {
   return (
-    <div className="archive-panel">
-      <div className="archive-panel-header">
-        <h2>Digital Archive #{String(archive.number).padStart(3, '0')}</h2>
-        <button onClick={onClose}>close</button>
+    <Modal onClose={onClose}>
+      <div className="archive-panel">
+        <div className="archive-panel-header">
+          <h2>Digital Archive #{String(archive.number).padStart(3, '0')}</h2>
+          <div className="archive-panel-header-actions">
+            <a href={archive.spotifyUrl} target="_blank" rel="noreferrer">open in spotify ↗</a>
+            <button onClick={onClose}>close</button>
+          </div>
+        </div>
+        <ol className="archive-tracklist">
+          {archive.tracks.map((track) => (
+            <li key={track.id} className={track.unavailable ? 'track-unavailable' : undefined}>
+              {track.coverUrl && <img src={track.coverUrl} alt="" width={40} height={40} />}
+              <span>{track.name} — {track.artists.join(', ')}</span>
+              {track.unavailable ? (
+                <span>unavailable</span>
+              ) : (
+                <a href={track.spotifyUrl} target="_blank" rel="noreferrer">open ↗</a>
+              )}
+            </li>
+          ))}
+        </ol>
       </div>
-      <ol className="archive-tracklist">
-        {archive.tracks.map((track) => (
-          <li key={track.id} className={track.unavailable ? 'track-unavailable' : undefined}>
-            {track.coverUrl && <img src={track.coverUrl} alt="" width={40} height={40} />}
-            <span>{track.name} — {track.artists.join(', ')}</span>
-            {track.unavailable ? (
-              <span>unavailable</span>
-            ) : (
-              <a href={track.spotifyUrl} target="_blank" rel="noreferrer">open ↗</a>
-            )}
-          </li>
-        ))}
-      </ol>
-    </div>
+    </Modal>
   );
 }
