@@ -30,8 +30,8 @@ function makeNotehead(pts: Point[], cx: number, cy: number) {
   const rx = 0.95, ry = 0.68, rz = 0.6;
   const tilt = -0.32;
   const ct = Math.cos(tilt), st = Math.sin(tilt);
-  for (let th = 0; th < Math.PI * 2; th += 0.08) {
-    for (let ph = -Math.PI / 2; ph <= Math.PI / 2; ph += 0.08) {
+  for (let th = 0; th < Math.PI * 2; th += 0.055) {
+    for (let ph = -Math.PI / 2; ph <= Math.PI / 2; ph += 0.055) {
       const lx = rx * Math.cos(ph) * Math.cos(th);
       const ly = ry * Math.sin(ph);
       const lz = rz * Math.cos(ph) * Math.sin(th);
@@ -51,21 +51,21 @@ function makeNotehead(pts: Point[], cx: number, cy: number) {
 // Stem: a thin vertical cylinder running from a note's head up to the beam.
 function makeStem(pts: Point[], x: number, yBottom: number, yTop: number) {
   const r = 0.075;
-  for (let h = yBottom; h <= yTop; h += 0.05) {
-    for (let a = 0; a < Math.PI * 2; a += 0.4) {
+  for (let h = yBottom; h <= yTop; h += 0.035) {
+    for (let a = 0; a < Math.PI * 2; a += 0.28) {
       const cx = Math.cos(a), cz = Math.sin(a);
       pts.push({ x: x + r * cx, y: h, z: r * cz, nx: cx, ny: 0, nz: cz });
     }
   }
 }
 
-// Beam: a flat slanted slab connecting the two stem tops.
+// Beam: a flat level slab connecting the two stem tops.
 function makeBeam(pts: Point[], x1: number, y1: number, x2: number, y2: number) {
   const dx = x2 - x1, dy = y2 - y1;
   const len = Math.hypot(dx, dy) || 1;
   const upX = -dy / len, upY = dx / len;
   const thickness = 0.16, depth = 0.14;
-  for (let t = 0; t <= 1; t += 0.02) {
+  for (let t = 0; t <= 1; t += 0.014) {
     const cx = x1 + dx * t, cy = y1 + dy * t;
     for (let w = -thickness; w <= thickness; w += thickness) {
       for (let z = -depth; z <= depth; z += depth) {
@@ -81,13 +81,14 @@ function makeBeam(pts: Point[], x1: number, y1: number, x2: number, y2: number) 
   }
 }
 
-// A slanted beamed eighth-note pair: two noteheads, two stems, and a
-// connecting beam bar (like the glyph ♫).
+// A beamed eighth-note pair: two noteheads, two stems, and a
+// level connecting beam bar (like the glyph ♫).
 function buildPoints(): Point[] {
   const pts: Point[] = [];
   const headYL = -1.3, headYR = -1.55;
   const stemXL = -0.18, stemXR = 1.82;
-  const beamYL = 1.55, beamYR = 1.9;
+  const beamY = 1.75;
+  const beamYL = beamY, beamYR = beamY;
 
   makeNotehead(pts, -1.0, headYL);
   makeNotehead(pts, 1.0, headYR);
@@ -110,8 +111,8 @@ export function AsciiNote({ cols, rows, className = '' }: Props) {
   const ref = useRef<HTMLPreElement>(null);
   const narrow = useNarrow();
 
-  const gridCols = cols ?? (narrow ? 40 : 64);
-  const gridRows = rows ?? (narrow ? 34 : 52);
+  const gridCols = cols ?? (narrow ? 40 : 88);
+  const gridRows = rows ?? (narrow ? 34 : 72);
 
   useEffect(() => {
     const el = ref.current;
