@@ -10,12 +10,12 @@
 }
 
 :root {
-  --ground: #050A06;
-  --surface: #0B2013;
-  --surface-raised: #123A22;
-  --ink: #E4FFF0;
-  --ink-dim: #7FCB9C;
-  --hairline: #1C4A2C;
+  --ground: #030C06;
+  --surface: #0A1F11;
+  --surface-raised: #11311C;
+  --ink: #E1F4E8;
+  --ink-dim: #72C08E;
+  --hairline: #194328;
   --accent: #1DB954;
 }
 
