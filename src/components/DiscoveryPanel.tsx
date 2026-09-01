@@ -19,10 +19,14 @@ export function DiscoveryPanel({ trackPool }: DiscoveryPanelProps) {
       <button onClick={reroll}>reroll 5 songs</button>
       <ul className="discovery-results">
         {results.map((track) => (
-          <li key={track.id}>
+          <li key={track.id} className={track.unavailable ? 'track-unavailable' : undefined}>
             <span>{track.name} — {track.artists.join(', ')}</span>
             <span className="discovery-source">from #{String(track.archiveNumber).padStart(3, '0')}</span>
-            <a href={track.spotifyUrl} target="_blank" rel="noreferrer">open ↗</a>
+            {track.unavailable ? (
+              <span>unavailable</span>
+            ) : (
+              <a href={track.spotifyUrl} target="_blank" rel="noreferrer">open ↗</a>
+            )}
           </li>
         ))}
       </ul>

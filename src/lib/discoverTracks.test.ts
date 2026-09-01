@@ -76,6 +76,20 @@ describe('discoverTracks', () => {
     expect(distinctArchives.size).toBe(5);
   });
 
+  it('never returns an unavailable track, even when the fallback-allowing-repeats path kicks in', () => {
+    const pool = [
+      track({ id: 'available-1', artists: ['SharedArtist'], unavailable: false }),
+      track({ id: 'unavailable-1', artists: ['SharedArtist'], unavailable: true }),
+      track({ id: 'unavailable-2', artists: ['SharedArtist'], unavailable: true }),
+    ];
+
+    const results = discoverTracks(pool, 3);
+
+    expect(results.length).toBeGreaterThan(0);
+    expect(results.every((t) => !t.unavailable)).toBe(true);
+    expect(results.some((t) => t.id.startsWith('unavailable'))).toBe(false);
+  });
+
   it('is deterministic for a given rnd sequence', () => {
     const pool = Array.from({ length: 10 }, (_, i) =>
       track({

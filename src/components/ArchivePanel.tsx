@@ -14,10 +14,14 @@ export function ArchivePanel({ archive, onClose }: ArchivePanelProps) {
       </div>
       <ol className="archive-tracklist">
         {archive.tracks.map((track) => (
-          <li key={track.id}>
-            <img src={track.coverUrl} alt="" width={40} height={40} />
+          <li key={track.id} className={track.unavailable ? 'track-unavailable' : undefined}>
+            {track.coverUrl && <img src={track.coverUrl} alt="" width={40} height={40} />}
             <span>{track.name} — {track.artists.join(', ')}</span>
-            <a href={track.spotifyUrl} target="_blank" rel="noreferrer">open ↗</a>
+            {track.unavailable ? (
+              <span>unavailable</span>
+            ) : (
+              <a href={track.spotifyUrl} target="_blank" rel="noreferrer">open ↗</a>
+            )}
           </li>
         ))}
       </ol>

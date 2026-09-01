@@ -5,7 +5,8 @@ export function discoverTracks(
   count = 5,
   rnd: () => number = Math.random
 ): DiscoverableTrack[] {
-  const shuffled = [...pool];
+  const available = pool.filter((track) => !track.unavailable);
+  const shuffled = [...available];
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(rnd() * (i + 1));
     [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
