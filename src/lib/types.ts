@@ -4,7 +4,7 @@ export interface Track {
   artists: string[];
   album: string;
   coverUrl: string;
-  releaseDate: string;
+  releaseDate: string | null;
   durationMs: number;
   addedAt: string;
   spotifyUrl: string;

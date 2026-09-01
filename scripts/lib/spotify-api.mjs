@@ -11,7 +11,7 @@ export async function fetchAllPlaylists(token, fetchImpl) {
   return playlists;
 }
 
-export async function fetchPlaylistTracks(token, playlistId, fetchImpl, skipped = []) {
+export async function fetchPlaylistTracks(token, playlistId, fetchImpl) {
   const tracks = [];
   let trackIndex = 0;
   let url = `/playlists/${playlistId}/items?limit=100`;
