@@ -2,12 +2,12 @@ import { useEffect, useState } from 'react';
 import { loadAllArchives, type ArchiveLibrary } from './lib/loadArchives';
 import { filterArchives } from './lib/filterArchives';
 import { type ProgressFilter } from './components/FilterBar';
-import { InfoTooltip } from './components/InfoTooltip';
 import { ThemeToggle } from './components/ThemeToggle';
 import { AsciiNote } from './components/AsciiNote';
 import { HomeView } from './components/HomeView';
 import { ArchivesView } from './components/ArchivesView';
 import { DiscoverView } from './components/DiscoverView';
+import { ArtView } from './components/ArtView';
 
 const PERSONAL_SITE_URL = 'https://peds24.github.io/personal-website/';
 const OWNER_NAME = 'pedro serdio hank';
@@ -16,7 +16,7 @@ const OWNER_EMAIL = 'serdiopedro@gmail.com';
 export function App() {
   const [library, setLibrary] = useState<ArchiveLibrary | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [view, setView] = useState<'home' | 'archives' | 'discover'>('home');
+  const [view, setView] = useState<'home' | 'archives' | 'discover' | 'art'>('home');
   const [dateFrom, setDateFrom] = useState('');
   const [dateTo, setDateTo] = useState('');
   const [progressFilter, setProgressFilter] = useState<ProgressFilter>('all');
@@ -46,7 +46,6 @@ export function App() {
           <h1>
             digital<span className="dot">.</span>archives
           </h1>
-          <InfoTooltip />
         </div>
         <p>every 30 liked songs, sealed off.</p>
         <nav className="site-nav">
@@ -67,6 +66,12 @@ export function App() {
             onClick={() => setView('discover')}
           >
             discover
+          </button>
+          <button
+            className={view === 'art' ? 'active' : ''}
+            onClick={() => setView('art')}
+          >
+            art
           </button>
           <a href={PERSONAL_SITE_URL}>personal website</a>
         </nav>
@@ -93,6 +98,7 @@ export function App() {
         />
       )}
       {view === 'discover' && <DiscoverView trackPool={library.trackPool} />}
+      {view === 'art' && <ArtView />}
       <footer className="app-footer">
         <span>© {new Date().getFullYear()} {OWNER_NAME}</span>
         <span aria-hidden="true">·</span>

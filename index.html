@@ -2,13 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Inline favicon so there's no extra asset to keep in sync with `base`.
+         Two variants, one per theme palette (src/styles/global.css); the
+         pre-paint script below picks the matching one so there's no flash. -->
+    <link rel="icon" id="favicon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23030C06'/><text x='16' y='21' font-family='monospace' font-size='14' font-weight='bold' text-anchor='middle' fill='%231DB954'>dA</text></svg>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Browse Digital Archive playlists — batches of 30 liked songs, sealed off once full." />
     <title>Digital Archives</title>
-    <!-- Sets data-theme before first paint so there's no flash of the wrong
-         theme. Mirrors the resolution in src/hooks/useTheme.ts: a stored
-         override wins, otherwise the OS preference decides. -->
+    <!-- Sets data-theme (and the matching favicon) before first paint so
+         there's no flash of the wrong theme. Mirrors the resolution in
+         src/hooks/useTheme.ts: a stored override wins, otherwise the OS
+         preference decides. -->
     <script>
       (function () {
         var stored = localStorage.getItem('theme');
@@ -16,6 +20,12 @@
           ? stored
           : (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
         document.documentElement.dataset.theme = theme;
+
+        var favicons = {
+          dark: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23030C06'/><text x='16' y='21' font-family='monospace' font-size='14' font-weight='bold' text-anchor='middle' fill='%231DB954'>dA</text></svg>",
+          light: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23DCD6C8'/><text x='16' y='21' font-family='monospace' font-size='14' font-weight='bold' text-anchor='middle' fill='%230B6B34'>dA</text></svg>"
+        };
+        document.getElementById('favicon').setAttribute('href', favicons[theme]);
       })();
     </script>
   </head>
