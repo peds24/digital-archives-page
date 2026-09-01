@@ -8,7 +8,8 @@
       "dateRange": {
         "earliest": "2026-04-29T17:58:28Z",
         "latest": "2026-04-29T17:58:28Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/7v7QNct1FXJkJuTdH2LZTQ"
     },
     {
       "id": "archive-002",
@@ -18,7 +19,8 @@
       "dateRange": {
         "earliest": "2022-06-01T06:35:28Z",
         "latest": "2022-06-01T06:37:24Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/3c3DoUxmfmFs1BvC5fXFj1"
     },
     {
       "id": "archive-003",
@@ -28,7 +30,8 @@
       "dateRange": {
         "earliest": "2022-06-01T06:31:41Z",
         "latest": "2022-06-01T06:34:02Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/0OheLUZR9N0AGpsL6ptqry"
     },
     {
       "id": "archive-004",
@@ -38,7 +41,8 @@
       "dateRange": {
         "earliest": "2022-07-26T15:00:04Z",
         "latest": "2022-07-26T15:01:57Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/7kf7FpitsIN28nnoSiiX3w"
     },
     {
       "id": "archive-005",
@@ -48,7 +52,8 @@
       "dateRange": {
         "earliest": "2022-09-06T08:16:15Z",
         "latest": "2022-09-06T08:19:30Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/1mq7Rd8KQfiZ0ml46T7hm3"
     },
     {
       "id": "archive-006",
@@ -58,7 +63,8 @@
       "dateRange": {
         "earliest": "2022-10-31T20:00:46Z",
         "latest": "2022-10-31T20:10:09Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/1N4IQuNluIoqyiwtyha99l"
     },
     {
       "id": "archive-007",
@@ -68,7 +74,8 @@
       "dateRange": {
         "earliest": "2023-01-27T08:25:19Z",
         "latest": "2023-01-27T08:25:19Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/1Kx0goTfOMHN2CR6tyUaic"
     },
     {
       "id": "archive-008",
@@ -78,7 +85,8 @@
       "dateRange": {
         "earliest": "2023-04-14T03:08:14Z",
         "latest": "2023-04-14T03:08:14Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/3yvQqihCg7bkyNUAIj1q9j"
     },
     {
       "id": "archive-009",
@@ -88,7 +96,8 @@
       "dateRange": {
         "earliest": "2023-06-24T05:42:14Z",
         "latest": "2023-06-24T05:42:14Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/7Hn1VELMdUgnFsPzsbq2zN"
     },
     {
       "id": "archive-010",
@@ -98,7 +107,8 @@
       "dateRange": {
         "earliest": "2023-08-25T01:56:51Z",
         "latest": "2023-08-25T01:56:51Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/7pkCzuuP9i1Vg3mh3F08dh"
     },
     {
       "id": "archive-011",
@@ -108,7 +118,8 @@
       "dateRange": {
         "earliest": "2023-10-12T16:33:15Z",
         "latest": "2023-10-12T16:41:04Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/608KsH2LNweeme9owMpzee"
     },
     {
       "id": "archive-012",
@@ -118,7 +129,8 @@
       "dateRange": {
         "earliest": "2023-12-08T00:17:48Z",
         "latest": "2023-12-08T00:17:48Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/12U1h6iCUIj33LuzLSyzoe"
     },
     {
       "id": "archive-013",
@@ -128,7 +140,8 @@
       "dateRange": {
         "earliest": "2024-01-29T21:42:24Z",
         "latest": "2024-01-29T21:42:24Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/50bKp34XHHTi8KVGKqi1Gj"
     },
     {
       "id": "archive-014",
@@ -138,7 +151,8 @@
       "dateRange": {
         "earliest": "2024-02-24T19:28:49Z",
         "latest": "2024-02-24T19:28:49Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/5QzAbKAEBS3TfKWecbsRHp"
     },
     {
       "id": "archive-015",
@@ -148,7 +162,8 @@
       "dateRange": {
         "earliest": "2024-04-21T05:31:25Z",
         "latest": "2024-04-21T05:31:25Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/42ReAeZytBg8S9Jvyg7WM7"
     },
     {
       "id": "archive-016",
@@ -158,7 +173,8 @@
       "dateRange": {
         "earliest": "2024-06-10T03:13:47Z",
         "latest": "2024-06-10T03:13:47Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/2PqOm8yB7hDYpz0PCtlrfV"
     },
     {
       "id": "archive-017",
@@ -168,7 +184,8 @@
       "dateRange": {
         "earliest": "2024-08-10T02:02:04Z",
         "latest": "2024-08-10T02:02:04Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/51tR8h3x9etd8wqRkoZKmo"
     },
     {
       "id": "archive-018",
@@ -178,7 +195,8 @@
       "dateRange": {
         "earliest": "2024-09-26T05:36:57Z",
         "latest": "2024-09-26T05:36:57Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/0pa2loquWw9EalO8nBOEh8"
     },
     {
       "id": "archive-019",
@@ -188,7 +206,8 @@
       "dateRange": {
         "earliest": "2024-11-21T05:11:59Z",
         "latest": "2024-11-21T05:11:59Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/3UUXcxtDatajMPJzyqUNvz"
     },
     {
       "id": "archive-020",
@@ -198,7 +217,8 @@
       "dateRange": {
         "earliest": "2025-01-18T06:37:45Z",
         "latest": "2025-01-18T06:37:45Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/75jVaq7uu3ocO3neFGCaS0"
     },
     {
       "id": "archive-021",
@@ -208,7 +228,8 @@
       "dateRange": {
         "earliest": "2025-02-20T23:47:03Z",
         "latest": "2025-02-20T23:47:03Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/3bqy6X2EHAjY3XApIu8IAN"
     },
     {
       "id": "archive-022",
@@ -218,7 +239,8 @@
       "dateRange": {
         "earliest": "2025-04-06T22:45:34Z",
         "latest": "2025-04-06T22:45:34Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/5D5U2UiJ30557pvKNbNyIQ"
     },
     {
       "id": "archive-023",
@@ -228,7 +250,8 @@
       "dateRange": {
         "earliest": "2025-04-29T01:16:32Z",
         "latest": "2025-04-29T01:16:32Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/0k0kAWdJuWfydcBkSnAY7i"
     },
     {
       "id": "archive-024",
@@ -238,7 +261,8 @@
       "dateRange": {
         "earliest": "2025-08-12T21:14:36Z",
         "latest": "2025-08-12T21:14:36Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/1Lvt7gBD4N4UodRhnnsak5"
     },
     {
       "id": "archive-025",
@@ -248,7 +272,8 @@
       "dateRange": {
         "earliest": "2025-11-04T23:39:28Z",
         "latest": "2025-11-04T23:39:28Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/2iwkPw97PzDIsTOZk9py7h"
     },
     {
       "id": "archive-026",
@@ -258,7 +283,8 @@
       "dateRange": {
         "earliest": "2026-02-02T19:13:00Z",
         "latest": "2026-02-02T19:13:00Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/3O1jlIedDs5YJbDMU367eJ"
     },
     {
       "id": "archive-027",
@@ -268,7 +294,8 @@
       "dateRange": {
         "earliest": "2026-04-27T21:20:46Z",
         "latest": "2026-04-28T21:13:06Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/139PHmnSNok2bPG5S5l0uN"
     },
     {
       "id": "archive-028",
@@ -278,7 +305,19 @@
       "dateRange": {
         "earliest": "2026-07-06T17:26:58Z",
         "latest": "2026-07-06T17:26:58Z"
-      }
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/5ocuNNgZYLlmejthh9r3Si"
+    },
+    {
+      "id": "archive-029",
+      "number": 29,
+      "trackCount": 22,
+      "inProgress": true,
+      "dateRange": {
+        "earliest": "2026-09-01T02:04:19Z",
+        "latest": "2026-09-01T02:04:19Z"
+      },
+      "spotifyUrl": "https://open.spotify.com/playlist/6sBZGzGtSquKJDeoyj40cK"
     }
   ]
 }
