@@ -10,13 +10,13 @@
 }
 
 :root {
-  --ground: #131311;
-  --surface: #1b1a17;
-  --surface-raised: #201f1b;
-  --ink: #f2efe7;
-  --ink-dim: #8c887d;
-  --hairline: #34322c;
-  --accent: #6fe0c9;
+  --ground: #0B0902;
+  --surface: #171106;
+  --surface-raised: #1E1608;
+  --ink: #F5EAD4;
+  --ink-dim: #AC9C68;
+  --hairline: #3D310E;
+  --accent: #1DB954;
 }
 
 * { box-sizing: border-box; }
@@ -290,4 +290,14 @@ body {
   max-height: 80vh;
   overflow-y: auto;
   padding: 0;
+}
+
+.ascii-note {
+  margin: 0;
+  line-height: 1;
+  font-size: 11px;
+  letter-spacing: 0;
+  color: var(--accent);
+  white-space: pre;
+  text-align: center;
 }
