@@ -25,59 +25,75 @@ interface Point {
   nx: number; ny: number; nz: number;
 }
 
-function buildPoints(): Point[] {
-  const pts: Point[] = [];
-
-  // Notehead: tilted ellipsoid
-  const rx = 1.0, ry = 0.72, rz = 0.62;
-  const headY = -1.3;
+// Notehead: tilted ellipsoid (one per note).
+function makeNotehead(pts: Point[], cx: number, cy: number) {
+  const rx = 0.95, ry = 0.68, rz = 0.6;
   const tilt = -0.32;
   const ct = Math.cos(tilt), st = Math.sin(tilt);
-  for (let th = 0; th < Math.PI * 2; th += 0.07) {
-    for (let ph = -Math.PI / 2; ph <= Math.PI / 2; ph += 0.07) {
+  for (let th = 0; th < Math.PI * 2; th += 0.08) {
+    for (let ph = -Math.PI / 2; ph <= Math.PI / 2; ph += 0.08) {
       const lx = rx * Math.cos(ph) * Math.cos(th);
       const ly = ry * Math.sin(ph);
       const lz = rz * Math.cos(ph) * Math.sin(th);
       const x = lx * ct - ly * st;
       const y = lx * st + ly * ct;
-      const z = lz;
       const nlx = (Math.cos(ph) * Math.cos(th)) / rx;
       const nly = Math.sin(ph) / ry;
       const nlz = (Math.cos(ph) * Math.sin(th)) / rz;
       const nx = nlx * ct - nly * st;
       const ny = nlx * st + nly * ct;
-      const nz = nlz;
-      const nlen = Math.hypot(nx, ny, nz) || 1;
-      pts.push({ x, y: y + headY, z, nx: nx / nlen, ny: ny / nlen, nz: nz / nlen });
+      const nlen = Math.hypot(nx, ny, nlz) || 1;
+      pts.push({ x: cx + x, y: cy + y, z: lz, nx: nx / nlen, ny: ny / nlen, nz: nlz / nlen });
     }
   }
+}
 
-  // Stem
-  const stemX = 0.82, stemR = 0.075;
-  const stemBottom = headY + 0.1, stemTop = headY + 3.1;
-  for (let h = stemBottom; h <= stemTop; h += 0.05) {
-    for (let a = 0; a < Math.PI * 2; a += 0.35) {
+// Stem: a thin vertical cylinder running from a note's head up to the beam.
+function makeStem(pts: Point[], x: number, yBottom: number, yTop: number) {
+  const r = 0.075;
+  for (let h = yBottom; h <= yTop; h += 0.05) {
+    for (let a = 0; a < Math.PI * 2; a += 0.4) {
       const cx = Math.cos(a), cz = Math.sin(a);
-      pts.push({ x: stemX + stemR * cx, y: h, z: stemR * cz, nx: cx, ny: 0, nz: cz });
+      pts.push({ x: x + r * cx, y: h, z: r * cz, nx: cx, ny: 0, nz: cz });
     }
   }
+}
 
-  // Flag (eighth-note wedge near the stem top)
-  const fx = stemX + 0.28, fy = stemTop - 0.55, fz = 0;
-  const frx = 0.5, fry = 0.62, frz = 0.4;
-  for (let th2 = 0; th2 < Math.PI * 2; th2 += 0.11) {
-    for (let ph2 = -Math.PI / 2; ph2 <= Math.PI / 2; ph2 += 0.11) {
-      const lx2 = frx * Math.cos(ph2) * Math.cos(th2);
-      const ly2 = fry * Math.sin(ph2);
-      const lz2 = frz * Math.cos(ph2) * Math.sin(th2);
-      if (lx2 < -0.1) continue;
-      const nlen2 = Math.hypot(lx2 / frx, ly2 / fry, lz2 / frz) || 1;
-      pts.push({
-        x: fx + lx2, y: fy + ly2, z: fz + lz2,
-        nx: (lx2 / frx) / nlen2, ny: (ly2 / fry) / nlen2, nz: (lz2 / frz) / nlen2,
-      });
+// Beam: a flat slanted slab connecting the two stem tops.
+function makeBeam(pts: Point[], x1: number, y1: number, x2: number, y2: number) {
+  const dx = x2 - x1, dy = y2 - y1;
+  const len = Math.hypot(dx, dy) || 1;
+  const upX = -dy / len, upY = dx / len;
+  const thickness = 0.16, depth = 0.14;
+  for (let t = 0; t <= 1; t += 0.02) {
+    const cx = x1 + dx * t, cy = y1 + dy * t;
+    for (let w = -thickness; w <= thickness; w += thickness) {
+      for (let z = -depth; z <= depth; z += depth) {
+        if (w === 0 && z === 0) continue;
+        const isTop = w > 0;
+        const isFront = z > 0;
+        const nx = isTop ? upX : -upX;
+        const ny = isTop ? upY : -upY;
+        const nz = isFront ? 1 : z < 0 ? -1 : 0;
+        pts.push({ x: cx + upX * w, y: cy + upY * w, z, nx, ny, nz });
+      }
     }
   }
+}
+
+// A slanted beamed eighth-note pair: two noteheads, two stems, and a
+// connecting beam bar (like the glyph ♫).
+function buildPoints(): Point[] {
+  const pts: Point[] = [];
+  const headYL = -1.3, headYR = -1.55;
+  const stemXL = -0.18, stemXR = 1.82;
+  const beamYL = 1.55, beamYR = 1.9;
+
+  makeNotehead(pts, -1.0, headYL);
+  makeNotehead(pts, 1.0, headYR);
+  makeStem(pts, stemXL, headYL + 0.1, beamYL);
+  makeStem(pts, stemXR, headYR + 0.1, beamYR);
+  makeBeam(pts, stemXL, beamYL, stemXR, beamYR);
 
   return pts;
 }
@@ -102,7 +118,7 @@ export function AsciiNote({ cols, rows, className = '' }: Props) {
     if (!el) return;
 
     const K2 = 5;
-    const kx = (gridCols * K2 * 3) / (8 * 3.2);
+    const kx = (gridCols * K2 * 3) / (8 * 4.6);
     const ky = kx * 0.5;
 
     const zbuf = new Float32Array(gridCols * gridRows);
