@@ -14,6 +14,7 @@ function track(overrides: Partial<DiscoverableTrack> = {}): DiscoverableTrack {
     durationMs: 200000,
     addedAt: '2026-01-01',
     spotifyUrl: '',
+    unavailable: false,
     archiveId: 'archive-001',
     archiveNumber: 1,
     ...overrides,

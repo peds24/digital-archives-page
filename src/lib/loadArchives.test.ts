@@ -44,6 +44,7 @@ describe('loadAllArchives', () => {
           durationMs: 180000,
           addedAt: '2026-04-29T17:58:28Z',
           spotifyUrl: 'https://open.spotify.com/track/track-001',
+          unavailable: false,
         },
         {
           id: 'track-002',
@@ -55,6 +56,7 @@ describe('loadAllArchives', () => {
           durationMs: 200000,
           addedAt: '2026-04-29T17:58:28Z',
           spotifyUrl: 'https://open.spotify.com/track/track-002',
+          unavailable: false,
         },
       ],
     };
@@ -76,6 +78,7 @@ describe('loadAllArchives', () => {
           durationMs: 220000,
           addedAt: '2022-06-01T06:35:28Z',
           spotifyUrl: 'https://open.spotify.com/track/track-003',
+          unavailable: false,
         },
       ],
     };

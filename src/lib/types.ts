@@ -8,6 +8,7 @@ export interface Track {
   durationMs: number;
   addedAt: string;
   spotifyUrl: string;
+  unavailable: boolean;
 }
 
 export interface DiscoverableTrack extends Track {

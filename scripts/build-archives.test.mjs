@@ -26,12 +26,12 @@ describe('run', () => {
         {
           id: 't1', name: 'Song A', artists: ['Artist A'], album: 'Album',
           coverUrl: '', releaseDate: '2025-01-01', durationMs: 200000,
-          addedAt: '2026-01-01T00:00:00Z', spotifyUrl: '',
+          addedAt: '2026-01-01T00:00:00Z', spotifyUrl: '', unavailable: false,
         },
         {
           id: 't2', name: 'Song B', artists: ['Artist B'], album: 'Album',
           coverUrl: '', releaseDate: '2025-01-01', durationMs: 200000,
-          addedAt: '2026-01-02T00:00:00Z', spotifyUrl: '',
+          addedAt: '2026-01-02T00:00:00Z', spotifyUrl: '', unavailable: false,
         },
       ],
       writeFile,
@@ -45,7 +45,7 @@ describe('run', () => {
 
     const songA = written.tracks.find((t) => t.name === 'Song A');
     expect(Object.keys(songA).sort()).toEqual(
-      ['addedAt', 'album', 'artists', 'coverUrl', 'durationMs', 'id', 'name', 'releaseDate', 'spotifyUrl'].sort(),
+      ['addedAt', 'album', 'artists', 'coverUrl', 'durationMs', 'id', 'name', 'releaseDate', 'spotifyUrl', 'unavailable'].sort(),
     );
     expect(songA.mood).toBeUndefined();
     expect(songA.genres).toBeUndefined();
@@ -74,7 +74,7 @@ describe('run', () => {
         {
           id: 't1', name: 'Song A', artists: ['Artist A'], album: 'Album',
           coverUrl: '', releaseDate: '2025-01-01', durationMs: 200000,
-          addedAt: '2026-01-01T00:00:00Z', spotifyUrl: '',
+          addedAt: '2026-01-01T00:00:00Z', spotifyUrl: '', unavailable: false,
         },
       ],
       fetchArtistGenres,
@@ -104,7 +104,7 @@ describe('run', () => {
           {
             id: 't1', name: 'Song A', artists: ['Artist A'], album: 'Album',
             coverUrl: '', releaseDate: '2025-01-01', durationMs: 200000,
-            addedAt: '2026-01-01T00:00:00Z', spotifyUrl: '',
+            addedAt: '2026-01-01T00:00:00Z', spotifyUrl: '', unavailable: false,
           },
         ];
       },

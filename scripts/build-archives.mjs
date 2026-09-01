@@ -33,7 +33,7 @@ export async function run({
     const tracks = rawTracks.map((raw) => ({
       id: raw.id, name: raw.name, artists: raw.artists, album: raw.album,
       coverUrl: raw.coverUrl, releaseDate: raw.releaseDate, durationMs: raw.durationMs,
-      addedAt: raw.addedAt, spotifyUrl: raw.spotifyUrl,
+      addedAt: raw.addedAt, spotifyUrl: raw.spotifyUrl, unavailable: raw.unavailable,
     }));
 
     const id = `archive-${String(playlist.number).padStart(3, '0')}`;

@@ -13,18 +13,49 @@ export async function fetchAllPlaylists(token, fetchImpl) {
 
 export async function fetchPlaylistTracks(token, playlistId, fetchImpl, skipped = []) {
   const tracks = [];
+  let trackIndex = 0;
   let url = `/playlists/${playlistId}/items?limit=100`;
   while (url) {
     const page = await spotifyFetch(token, url, fetchImpl);
     for (const item of page.items) {
+      trackIndex += 1;
       const t = item.item;
-      if (!t) continue;
-      // Skip non-track items (e.g., episodes) — playlists can contain mixed types
-      if (t.type && t.type !== 'track') continue;
-      // Skip local files — Spotify reports type:'track' for these but they have no
-      // catalog id (and therefore no usable spotifyUrl/coverUrl); never show a broken link.
-      if (!t.id) {
-        skipped.push({ name: t.name, artists: (t.artists ?? []).map((a) => a.name) });
+      // Skip non-track items (e.g., episodes) — playlists can contain mixed types.
+      // These are excluded entirely, not placeholders: they were never "a song here".
+      if (t && t.type && t.type !== 'track') continue;
+      // Fully delisted from Spotify's catalog since it was added — no recoverable data
+      // at all. Keep a visible placeholder rather than silently shrinking the archive.
+      if (!t) {
+        tracks.push({
+          id: `${playlistId}-unavailable-${trackIndex}`,
+          name: 'Track removed from Spotify',
+          artists: [],
+          album: '',
+          coverUrl: '',
+          releaseDate: null,
+          durationMs: 0,
+          addedAt: item.added_at,
+          spotifyUrl: '',
+          unavailable: true,
+        });
+        continue;
+      }
+      // Local file — Spotify reports type:'track' for these but there's no catalog id
+      // (and therefore no usable spotifyUrl/coverUrl/artist). Keep the real name as a
+      // placeholder rather than dropping it or showing a broken link.
+      if (t.is_local) {
+        tracks.push({
+          id: `${playlistId}-unavailable-${trackIndex}`,
+          name: t.name,
+          artists: [],
+          album: '',
+          coverUrl: '',
+          releaseDate: null,
+          durationMs: t.duration_ms,
+          addedAt: item.added_at,
+          spotifyUrl: '',
+          unavailable: true,
+        });
         continue;
       }
       tracks.push({
@@ -38,6 +69,7 @@ export async function fetchPlaylistTracks(token, playlistId, fetchImpl, skipped 
         durationMs: t.duration_ms,
         addedAt: item.added_at,
         spotifyUrl: t.external_urls?.spotify ?? '',
+        unavailable: false,
       });
     }
     url = page.next ? page.next.replace('https://api.spotify.com/v1', '') : null;
