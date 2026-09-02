@@ -124,6 +124,13 @@ export async function addTracksToPlaylist(token, playlistId, uris, fetchImpl) {
   }
 }
 
+export async function updatePlaylistDetails(token, playlistId, details, fetchImpl) {
+  await spotifyFetch(token, `/playlists/${playlistId}`, fetchImpl, {
+    method: 'PUT',
+    body: details,
+  });
+}
+
 // base64Jpeg is the base64-encoded body of a JPEG under Spotify's 256KB limit (no
 // data: URL prefix). Requires the ugc-image-upload scope on the token.
 export async function uploadPlaylistCoverImage(token, playlistId, base64Jpeg, fetchImpl) {

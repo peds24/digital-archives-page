@@ -83,8 +83,13 @@ export async function spotifyFetch(token, path, fetchImpl = fetch, options = {})
     throw new Error(`Spotify API request failed (${res.status}): ${path}`);
   }
   // The cover-image upload returns 204 No Content — nothing to parse.
-  if (res.status === 204) {
+  if (res.status === 204) return null;
+
+  // Some endpoints (e.g. PUT /playlists/{id}) return 200 with an empty body on
+  // success — res.json() throws SyntaxError on an empty string, so fall back to null.
+  try {
+    return await res.json();
+  } catch {
     return null;
   }
-  return res.json();
 }
