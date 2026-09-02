@@ -1,13 +1,13 @@
 {
   "id": "archive-029",
   "number": 29,
-  "trackCount": 22,
+  "trackCount": 23,
   "inProgress": true,
   "dateRange": {
-    "earliest": "2026-09-01T02:04:19Z",
-    "latest": "2026-09-01T02:04:19Z"
+    "earliest": "2026-09-02T00:04:07Z",
+    "latest": "2026-09-02T00:04:17Z"
   },
-  "spotifyUrl": "https://open.spotify.com/playlist/6sBZGzGtSquKJDeoyj40cK",
+  "spotifyUrl": "https://open.spotify.com/playlist/1AVwXXSQpy1QPmUHxn4t1Y",
   "tracks": [
     {
       "id": "7uRi7w5NJN2X57xxHJdLZE",
@@ -19,7 +19,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b27353e10b63c25c7f7a3d7e0f9d",
       "releaseDate": "1980-11-21",
       "durationMs": 273554,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/7uRi7w5NJN2X57xxHJdLZE",
       "unavailable": false
     },
@@ -33,7 +33,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b27353e10b63c25c7f7a3d7e0f9d",
       "releaseDate": "1980-11-21",
       "durationMs": 448740,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/6WQKyeXBzA9oRyENIYTmU3",
       "unavailable": false
     },
@@ -47,7 +47,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf39e4261576717ff4737bb6",
       "releaseDate": "1977-09-23",
       "durationMs": 455497,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/0xeBC6N81ZBYDtxuBFGSuO",
       "unavailable": false
     },
@@ -61,7 +61,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ea5cea785aab2932281b90a5",
       "releaseDate": "1972",
       "durationMs": 246866,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/0WAEGVylZjbe2mQ6Or6HxY",
       "unavailable": false
     },
@@ -75,7 +75,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738bcae48391e7bc7f90e00c18",
       "releaseDate": "2009-09-04",
       "durationMs": 240573,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/6st8aj6PmtqGctnLAat95M",
       "unavailable": false
     },
@@ -89,7 +89,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b27312c805544ba208842da0d9f3",
       "releaseDate": "2026-09-18",
       "durationMs": 141804,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/5lXmwQPyv08yBsGhsB05qi",
       "unavailable": false
     },
@@ -104,7 +104,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739b9b36b0e22870b9f542d937",
       "releaseDate": "2013-05-20",
       "durationMs": 279773,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/0IedgQjjJ8Ad4B3UDQ5Lyn",
       "unavailable": false
     },
@@ -118,7 +118,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b27372794a02454878876b884db9",
       "releaseDate": "1996-03",
       "durationMs": 242333,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/1oNfCMHwcVQtQPwpBqj49O",
       "unavailable": false
     },
@@ -132,7 +132,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b27397799c773192f15030215aad",
       "releaseDate": "1994-01-01",
       "durationMs": 216265,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/50mzwHrUSmAlnOnNphNp1W",
       "unavailable": false
     },
@@ -146,7 +146,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735d94268e054c9f92055b8d61",
       "releaseDate": "2008",
       "durationMs": 544733,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/4stHbOlIfXvjmcAKj9qYGJ",
       "unavailable": false
     },
@@ -160,7 +160,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b27382448b157380d980b97c820f",
       "releaseDate": "1987-10-21",
       "durationMs": 372480,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/1gsdFORVSQP3jiLDLPbd0e",
       "unavailable": false
     },
@@ -174,7 +174,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736e5ef5d2a899f03e61b72cd0",
       "releaseDate": "1993-10-25",
       "durationMs": 361000,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/5oVq9ZuOXYtgwEccdxSh53",
       "unavailable": false
     },
@@ -188,7 +188,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b273564b9a0c99103bf3c5e054f7",
       "releaseDate": "2019-06-21",
       "durationMs": 157026,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/63guTqlCMP66ifj7ZdmQe4",
       "unavailable": false
     },
@@ -202,7 +202,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b27379708a357c25a8b6fb15bc75",
       "releaseDate": "1980",
       "durationMs": 174019,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/55Z7zcoqkibfRck7lpayJx",
       "unavailable": false
     },
@@ -216,7 +216,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b273da7b326bd7ffa7b6b95b0660",
       "releaseDate": "1969-10-10",
       "durationMs": 365659,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/1T0CdfKPKb1gJi4vCKpZ9C",
       "unavailable": false
     },
@@ -230,7 +230,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c634d4769c1fb60221cdc021",
       "releaseDate": "1967-06-15",
       "durationMs": 129533,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/1N9e1myOWV26evyObwnkoM",
       "unavailable": false
     },
@@ -244,7 +244,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736e186edfb8fe3710fdc1f7c2",
       "releaseDate": "1970-07-24",
       "durationMs": 667409,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/0eOt6ksp9ng4a00UdIw2OE",
       "unavailable": false
     },
@@ -258,7 +258,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736ce61113662ecf693b605ee5",
       "releaseDate": "1977",
       "durationMs": 210760,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/16GUMo6u3D2qo9a19AkYct",
       "unavailable": false
     },
@@ -272,7 +272,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b273db216ca805faf5fe35df4ee6",
       "releaseDate": "1973-03-01",
       "durationMs": 169560,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/2ctvdKmETyOzPb2GiJJT53",
       "unavailable": false
     },
@@ -286,7 +286,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738e00fbb2cbfbece8f72da813",
       "releaseDate": "1973",
       "durationMs": 250213,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/2j3O83dYETyYooYCQVLFNx",
       "unavailable": false
     },
@@ -300,7 +300,7 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b27377cd96962995ec43fede15c9",
       "releaseDate": "2020-10-28",
       "durationMs": 103468,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/2PV4Xn0Jy9Z5uz7akQUhdg",
       "unavailable": false
     },
@@ -314,8 +314,22 @@
       "coverUrl": "https://i.scdn.co/image/ab67616d0000b27344fc111787f221cf5629a2b9",
       "releaseDate": "1996",
       "durationMs": 214880,
-      "addedAt": "2026-09-01T02:04:19Z",
+      "addedAt": "2026-09-02T00:04:07Z",
       "spotifyUrl": "https://open.spotify.com/track/6hFHsQWB7HdVrSe7efRR82",
+      "unavailable": false
+    },
+    {
+      "id": "4RduagyN6mPKY5h81Gzb8P",
+      "name": "Efficace Swing",
+      "artists": [
+        "Cortex"
+      ],
+      "album": "Cortex, Vol. 2",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b58aae7b21918689bd2ee7a0",
+      "releaseDate": "1977",
+      "durationMs": 178080,
+      "addedAt": "2026-09-02T00:04:17Z",
+      "spotifyUrl": "https://open.spotify.com/track/4RduagyN6mPKY5h81Gzb8P",
       "unavailable": false
     }
   ]
