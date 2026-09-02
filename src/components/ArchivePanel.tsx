@@ -1,12 +1,14 @@
 import type { ArchiveDetail } from '../lib/types';
 import { Modal } from './Modal';
+import { TrackRow } from './TrackRow';
 
 interface ArchivePanelProps {
   archive: ArchiveDetail;
   onClose: () => void;
+  onPlayTrack: (id: string) => void;
 }
 
-export function ArchivePanel({ archive, onClose }: ArchivePanelProps) {
+export function ArchivePanel({ archive, onClose, onPlayTrack }: ArchivePanelProps) {
   return (
     <Modal onClose={onClose}>
       <div className="archive-panel">
@@ -17,17 +19,17 @@ export function ArchivePanel({ archive, onClose }: ArchivePanelProps) {
             <button onClick={onClose}>close</button>
           </div>
         </div>
-        <ol className="archive-tracklist">
-          {archive.tracks.map((track) => (
-            <li key={track.id} className={track.unavailable ? 'track-unavailable' : undefined}>
-              {track.coverUrl && <img src={track.coverUrl} alt="" width={40} height={40} />}
-              <span>{track.name} — {track.artists.join(', ')}</span>
-              {track.unavailable ? (
-                <span>unavailable</span>
-              ) : (
-                <a href={track.spotifyUrl} target="_blank" rel="noreferrer">open ↗</a>
-              )}
-            </li>
+        <ol className="track-rows">
+          {archive.tracks.map((track, i) => (
+            <TrackRow
+              key={track.id}
+              id={track.id}
+              name={track.name}
+              artists={track.artists}
+              unavailable={track.unavailable}
+              badge={String(i + 1).padStart(2, '0')}
+              onPlay={onPlayTrack}
+            />
           ))}
         </ol>
       </div>

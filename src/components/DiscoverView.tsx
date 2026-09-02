@@ -1,12 +1,14 @@
 import { useState } from 'react';
 import type { DiscoverableTrack } from '../lib/types';
 import { discoverTracks } from '../lib/discoverTracks';
+import { TrackRow } from './TrackRow';
 
 interface DiscoverViewProps {
   trackPool: DiscoverableTrack[];
+  onPlayTrack: (id: string) => void;
 }
 
-export function DiscoverView({ trackPool }: DiscoverViewProps) {
+export function DiscoverView({ trackPool, onPlayTrack }: DiscoverViewProps) {
   const [results, setResults] = useState<DiscoverableTrack[]>(() => discoverTracks(trackPool, 5));
 
   function reroll() {
@@ -19,17 +21,17 @@ export function DiscoverView({ trackPool }: DiscoverViewProps) {
         <p>five random songs pulled from across every archive</p>
         <button onClick={reroll}>shuffle</button>
       </div>
-      <ul className="discovery-results">
+      <ul className="track-rows">
         {results.map((track) => (
-          <li key={track.id} className={track.unavailable ? 'track-unavailable' : undefined}>
-            <span>{track.name} — {track.artists.join(', ')}</span>
-            <span className="discovery-source">from #{String(track.archiveNumber).padStart(3, '0')}</span>
-            {track.unavailable ? (
-              <span>unavailable</span>
-            ) : (
-              <a href={track.spotifyUrl} target="_blank" rel="noreferrer">open ↗</a>
-            )}
-          </li>
+          <TrackRow
+            key={track.id}
+            id={track.id}
+            name={track.name}
+            artists={track.artists}
+            unavailable={track.unavailable}
+            badge={`from #${String(track.archiveNumber).padStart(3, '0')}`}
+            onPlay={onPlayTrack}
+          />
         ))}
       </ul>
     </div>

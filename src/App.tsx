@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import { loadAllArchives, type ArchiveLibrary } from './lib/loadArchives';
 import { filterArchives } from './lib/filterArchives';
+import { resolveNowPlaying } from './lib/spotifyEmbed';
+import { useTheme } from './hooks/useTheme';
 import { type ProgressFilter } from './components/FilterBar';
 import { ThemeToggle } from './components/ThemeToggle';
 import { AsciiNote } from './components/AsciiNote';
@@ -8,6 +10,7 @@ import { HomeView } from './components/HomeView';
 import { ArchivesView } from './components/ArchivesView';
 import { DiscoverView } from './components/DiscoverView';
 import { ArtView } from './components/ArtView';
+import { MiniPlayer } from './components/MiniPlayer';
 
 const PERSONAL_SITE_URL = 'https://peds24.github.io/personal-website/';
 const OWNER_NAME = 'pedro serdio hank';
@@ -21,6 +24,8 @@ export function App() {
   const [dateTo, setDateTo] = useState('');
   const [progressFilter, setProgressFilter] = useState<ProgressFilter>('all');
   const [selectedArchiveId, setSelectedArchiveId] = useState<string | null>(null);
+  const [playingTrackId, setPlayingTrackId] = useState<string | null>(null);
+  const { theme, toggleTheme } = useTheme();
 
   useEffect(() => {
     loadAllArchives()
@@ -37,9 +42,25 @@ export function App() {
     ? library.archives.find((a) => a.id === selectedArchiveId) ?? null
     : null;
 
+  const mostRecentArchive = library.archives.reduce<ArchiveLibrary['archives'][number] | null>(
+    (latest, archive) => (!latest || archive.number > latest.number ? archive : latest),
+    null
+  );
+
+  const nowPlaying = resolveNowPlaying({
+    overrideTrackId: playingTrackId,
+    openArchivePlaylistUrl: selectedArchive?.spotifyUrl ?? null,
+    fallbackPlaylistUrl: mostRecentArchive?.spotifyUrl ?? null,
+  });
+
+  function selectArchive(id: string) {
+    setSelectedArchiveId(id);
+    setPlayingTrackId(null);
+  }
+
   return (
     <main className="app">
-      <ThemeToggle />
+      <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
       <header className="app-header">
         <AsciiNote className="app-hero" cols={44} rows={36} />
         <div className="app-header-title">
@@ -76,6 +97,7 @@ export function App() {
           <a href={PERSONAL_SITE_URL}>personal website</a>
         </nav>
       </header>
+      <MiniPlayer target={nowPlaying} theme={theme} />
       {view === 'home' && <HomeView archiveCount={library.archives.length} />}
       {view === 'archives' && (
         <ArchivesView
@@ -93,11 +115,14 @@ export function App() {
           }}
           selectedArchiveId={selectedArchiveId}
           selectedArchive={selectedArchive}
-          onSelect={setSelectedArchiveId}
+          onSelect={selectArchive}
           onCloseSelected={() => setSelectedArchiveId(null)}
+          onPlayTrack={setPlayingTrackId}
         />
       )}
-      {view === 'discover' && <DiscoverView trackPool={library.trackPool} />}
+      {view === 'discover' && (
+        <DiscoverView trackPool={library.trackPool} onPlayTrack={setPlayingTrackId} />
+      )}
       {view === 'art' && <ArtView />}
       <footer className="app-footer">
         <span>© {new Date().getFullYear()} {OWNER_NAME}</span>

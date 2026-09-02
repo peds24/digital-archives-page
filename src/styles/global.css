@@ -267,26 +267,32 @@ body {
   color: var(--accent);
 }
 
-.archive-tracklist { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
-.archive-tracklist li {
+.track-rows { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.track-rows li {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 12px;
   font-size: 13px;
   border-bottom: 1px solid var(--hairline);
   padding-bottom: 8px;
 }
-.archive-tracklist li > span { flex: 1; }
-.archive-tracklist img {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
+.track-rows li > span:first-child { flex: 1 1 auto; min-width: 0; }
+.track-badge { color: var(--ink-dim); margin-left: auto; flex-shrink: 0; white-space: nowrap; }
+.track-play-btn {
+  background: transparent;
+  border: none;
+  color: var(--accent);
+  font-family: inherit;
+  font-size: 13px;
+  padding: 0;
+  cursor: pointer;
   flex-shrink: 0;
+  white-space: nowrap;
 }
-.archive-tracklist a, .discovery-results a { color: var(--accent); text-decoration: none; white-space: nowrap; flex-shrink: 0; }
+.track-play-btn:hover { text-decoration: underline; }
 
 .track-unavailable { opacity: 0.55; font-style: italic; }
+.track-unavailable > span:last-child { flex-shrink: 0; white-space: nowrap; }
 
 .discover-view-header {
   display: flex;
@@ -307,18 +313,29 @@ body {
 }
 .discover-view-header button:hover { background: var(--surface-raised); }
 
-.discovery-results { list-style: none; margin: 20px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
-.discovery-results li {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  font-size: 13px;
-  border-bottom: 1px solid var(--hairline);
-  padding-bottom: 8px;
+.mini-player {
+  margin: 0 0 12px;
+  border: 1px solid var(--hairline);
+  line-height: 0;
+  overflow: hidden;
 }
-.discovery-results li > span:first-child { flex: 1 1 auto; min-width: 0; }
-.discovery-source { color: var(--ink-dim); margin-left: auto; flex-shrink: 0; white-space: nowrap; }
-.discovery-results li > span:last-child:not(.discovery-source) { flex-shrink: 0; white-space: nowrap; }
+.mini-player iframe { display: block; }
+
+@media (max-width: 40rem) {
+  .app { padding-bottom: calc(92px + env(safe-area-inset-bottom)); }
+  .mini-player {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    border: none;
+    border-top: 1px solid var(--hairline);
+    background: var(--surface);
+    padding-bottom: env(safe-area-inset-bottom);
+    z-index: 50;
+  }
+}
 
 .modal-backdrop {
   position: fixed;

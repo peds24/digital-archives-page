@@ -16,12 +16,13 @@ interface ArchivesViewProps {
   selectedArchive: ArchiveDetail | null;
   onSelect: (id: string) => void;
   onCloseSelected: () => void;
+  onPlayTrack: (id: string) => void;
 }
 
 export function ArchivesView({
   archives, dateFrom, dateTo, progressFilter,
   onDateFromChange, onDateToChange, onProgressFilterChange, onClear,
-  selectedArchiveId, selectedArchive, onSelect, onCloseSelected,
+  selectedArchiveId, selectedArchive, onSelect, onCloseSelected, onPlayTrack,
 }: ArchivesViewProps) {
   return (
     <div className="archives-view">
@@ -40,7 +41,7 @@ export function ArchivesView({
         onSelect={onSelect}
       />
       {selectedArchive && (
-        <ArchivePanel archive={selectedArchive} onClose={onCloseSelected} />
+        <ArchivePanel archive={selectedArchive} onClose={onCloseSelected} onPlayTrack={onPlayTrack} />
       )}
     </div>
   );

@@ -1,7 +1,11 @@
-import { useTheme } from '../hooks/useTheme';
+import type { Theme } from '../hooks/useTheme';
 
-export function ThemeToggle() {
-  const { theme, toggleTheme } = useTheme();
+interface ThemeToggleProps {
+  theme: Theme;
+  toggleTheme: () => void;
+}
+
+export function ThemeToggle({ theme, toggleTheme }: ThemeToggleProps) {
   const next = theme === 'dark' ? 'light' : 'dark';
 
   return (
