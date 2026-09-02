@@ -54,13 +54,13 @@ export async function run({
 
 const STATE_PATH = fileURLToPath(new URL('./state/cover-art-uploaded.json', import.meta.url));
 
-function loadUploadedNumbers() {
+export function loadUploadedNumbers() {
   if (!existsSync(STATE_PATH)) return new Set();
   const data = JSON.parse(readFileSync(STATE_PATH, 'utf-8'));
   return new Set(data.numbers ?? []);
 }
 
-function saveUploadedNumbers(uploadedNumbers) {
+export function saveUploadedNumbers(uploadedNumbers) {
   mkdirSync(new URL('./state/', import.meta.url), { recursive: true });
   const numbers = [...uploadedNumbers].sort((a, b) => a - b);
   writeFileSync(STATE_PATH, JSON.stringify({ numbers }, null, 2));

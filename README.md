@@ -66,16 +66,23 @@ make a playlist → move them → rebuild the site":
    new ones (30 tracks each) as long as enough pending songs remain.
 4. Regenerates `public/data/*.json` using the same logic as
    `build-archives`.
+5. Uploads generated cover art (see below) to any archive that doesn't
+   have one yet — normally just the archive this run created, if any.
 
 Run `npm run archive-liked-songs:dry-run` first to see what it *would* do
 (no Spotify writes, no file writes, just log output) before running it for
-real.
+real. Dry-run skips the cover-art step entirely, same as the other writes.
 
-Requires the `user-library-read` and `playlist-modify-public` scopes — if
-`.env` was set up before this feature existed, re-run `npm run authorize`
-once to pick them up. Also requires `SPOTIFY_USER_ID` in `.env` — your
-Spotify username, visible in `open.spotify.com/user/<id>` or via
-`https://api.spotify.com/v1/me`.
+Requires the `user-library-read`, `playlist-modify-public`, and
+`ugc-image-upload` scopes — if `.env` was set up before these features
+existed, re-run `npm run authorize` once to pick them up. Also requires
+`SPOTIFY_USER_ID` in `.env` — your Spotify username, visible in
+`open.spotify.com/user/<id>` or via `https://api.spotify.com/v1/me`.
+
+A cover-art upload failure is treated as cosmetic — logged as a warning,
+never fails the run — since it can hit Spotify's undocumented burst limit
+on that endpoint (see below) independently of whether the actual archiving
+work succeeded.
 
 Ordinarily this runs weekly via a scheduled Claude Code agent rather than
 by hand.
@@ -89,6 +96,10 @@ stops as `ArchiveTile.tsx`, so the Spotify cover matches what the site shows)
 and uploads it as the playlist's custom cover image via Spotify's
 [Add Custom Playlist Cover Image](https://developer.spotify.com/documentation/web-api/reference/upload-custom-playlist-cover)
 endpoint, replacing Spotify's default auto-generated mosaic.
+
+This is also the last step of `archive-liked-songs` (above), so in normal
+operation you don't need to run it by hand — it's here for the initial
+backfill and for manually re-covering a specific archive.
 
 ```bash
 npm run upload-cover-art:dry-run   # render + log without uploading

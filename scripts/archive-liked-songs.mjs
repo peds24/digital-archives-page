@@ -9,11 +9,14 @@ import {
   createPlaylist,
   addTracksToPlaylist,
   updatePlaylistDetails,
+  uploadPlaylistCoverImage,
 } from './lib/spotify-api.mjs';
 import { syncQueue, pruneArchived, planFill } from './lib/liked-songs-queue.mjs';
 import { collectArchivedTrackIds } from './lib/archived-tracks.mjs';
 import { buildDateRangeDescription } from './lib/archive-description.mjs';
 import { parseArchiveNumber, run as buildArchives } from './build-archives.mjs';
+import { renderCoverArt } from './lib/generate-cover-art.mjs';
+import { run as uploadCoverArt, loadUploadedNumbers, saveUploadedNumbers } from './upload-cover-art.mjs';
 
 export async function run({
   token,
@@ -189,6 +192,29 @@ async function main() {
     fetchPlaylistTracks,
     writeFile: (name, contents) => writeFileSync(new URL(name, dataDir), contents),
   });
+
+  // A cover-art upload failure (Spotify's undocumented burst limit on this endpoint —
+  // see upload-cover-art.mjs) is cosmetic and must never mark this run as failed; any
+  // archive it doesn't reach this week is picked up automatically on the next run,
+  // same as a crash would be.
+  try {
+    const uploadedNumbers = loadUploadedNumbers();
+    await uploadCoverArt({
+      token,
+      numbers: null,
+      uploadedNumbers,
+      fetchAllPlaylists,
+      renderCoverArt,
+      uploadPlaylistCoverImage,
+      onUploaded: (number) => {
+        uploadedNumbers.add(number);
+        saveUploadedNumbers(uploadedNumbers);
+      },
+      log: console.log,
+    });
+  } catch (err) {
+    console.log(`Warning: cover-art upload did not finish: ${err.message}`);
+  }
 }
 
 const isMain = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
