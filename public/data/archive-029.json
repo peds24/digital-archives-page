@@ -1,11 +1,11 @@
 {
   "id": "archive-029",
   "number": 29,
-  "trackCount": 23,
+  "trackCount": 24,
   "inProgress": true,
   "dateRange": {
     "earliest": "2026-09-02T00:04:07Z",
-    "latest": "2026-09-02T00:04:17Z"
+    "latest": "2026-09-02T00:06:56Z"
   },
   "spotifyUrl": "https://open.spotify.com/playlist/1AVwXXSQpy1QPmUHxn4t1Y",
   "tracks": [
@@ -330,6 +330,20 @@
       "durationMs": 178080,
       "addedAt": "2026-09-02T00:04:17Z",
       "spotifyUrl": "https://open.spotify.com/track/4RduagyN6mPKY5h81Gzb8P",
+      "unavailable": false
+    },
+    {
+      "id": "4OwHTayaxm1ApYwzfW0PdG",
+      "name": "GET HOT! ゲット・ホット",
+      "artists": [
+        "菊池ひみこ"
+      ],
+      "album": "REVERSE IT",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bbc415006199af685a9d9220",
+      "releaseDate": "1984",
+      "durationMs": 336506,
+      "addedAt": "2026-09-02T00:06:56Z",
+      "spotifyUrl": "https://open.spotify.com/track/4OwHTayaxm1ApYwzfW0PdG",
       "unavailable": false
     }
   ]
