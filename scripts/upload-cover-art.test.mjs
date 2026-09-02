@@ -68,4 +68,76 @@ describe('run', () => {
 
     expect(delay).toHaveBeenCalledTimes(1);
   });
+
+  it('skips archives already in uploadedNumbers', async () => {
+    const uploadPlaylistCoverImage = vi.fn().mockResolvedValue(undefined);
+    const fetchAllPlaylists = vi.fn().mockResolvedValue([
+      { id: 'pl1', name: 'Digital Archive #1' },
+      { id: 'pl2', name: 'Digital Archive #2' },
+      { id: 'pl3', name: 'Digital Archive #3' },
+    ]);
+
+    const result = await run({
+      token: 'tok',
+      numbers: null,
+      uploadedNumbers: new Set([1, 2]),
+      fetchAllPlaylists,
+      renderCoverArt: vi.fn(() => Buffer.from('jpeg')),
+      uploadPlaylistCoverImage,
+      delay: vi.fn().mockResolvedValue(undefined),
+      log: vi.fn(),
+    });
+
+    expect(uploadPlaylistCoverImage).toHaveBeenCalledTimes(1);
+    expect(uploadPlaylistCoverImage).toHaveBeenCalledWith('tok', 'pl3', expect.any(String));
+    expect(result).toEqual({ uploadedCount: 1 });
+  });
+
+  it('an explicit --number overrides uploadedNumbers, re-uploading an already-covered archive', async () => {
+    const uploadPlaylistCoverImage = vi.fn().mockResolvedValue(undefined);
+    const fetchAllPlaylists = vi.fn().mockResolvedValue([{ id: 'pl1', name: 'Digital Archive #1' }]);
+
+    const result = await run({
+      token: 'tok',
+      numbers: [1],
+      uploadedNumbers: new Set([1]),
+      fetchAllPlaylists,
+      renderCoverArt: vi.fn(() => Buffer.from('jpeg')),
+      uploadPlaylistCoverImage,
+      delay: vi.fn().mockResolvedValue(undefined),
+      log: vi.fn(),
+    });
+
+    expect(uploadPlaylistCoverImage).toHaveBeenCalledTimes(1);
+    expect(result).toEqual({ uploadedCount: 1 });
+  });
+
+  it('calls onUploaded synchronously after each success, before the next item can fail', async () => {
+    const onUploaded = vi.fn();
+    const fetchAllPlaylists = vi.fn().mockResolvedValue([
+      { id: 'pl1', name: 'Digital Archive #1' },
+      { id: 'pl2', name: 'Digital Archive #2' },
+    ]);
+    const uploadPlaylistCoverImage = vi
+      .fn()
+      .mockResolvedValueOnce(undefined)
+      .mockRejectedValueOnce(new Error('Spotify API request failed (401): /playlists/pl2/images'));
+
+    await expect(
+      run({
+        token: 'tok',
+        numbers: null,
+        fetchAllPlaylists,
+        renderCoverArt: vi.fn(() => Buffer.from('jpeg')),
+        uploadPlaylistCoverImage,
+        onUploaded,
+        delay: vi.fn().mockResolvedValue(undefined),
+        log: vi.fn(),
+      })
+    ).rejects.toThrow('401');
+
+    // archive #1 succeeded and must be recorded even though #2 then failed
+    expect(onUploaded).toHaveBeenCalledTimes(1);
+    expect(onUploaded).toHaveBeenCalledWith(1);
+  });
 });

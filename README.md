@@ -92,15 +92,25 @@ endpoint, replacing Spotify's default auto-generated mosaic.
 
 ```bash
 npm run upload-cover-art:dry-run   # render + log without uploading
-npm run upload-cover-art           # upload to every Digital Archive playlist
-npm run upload-cover-art -- --number=12   # just archive #12
+npm run upload-cover-art           # upload to every archive that doesn't have one yet
+npm run upload-cover-art -- --number=12   # force re-upload just archive #12
 ```
 
 Requires the `ugc-image-upload` scope — if `.env` was set up before this
-feature existed, re-run `npm run authorize` once to pick it up. Spotify
-enforces a strict, undocumented rate limit on this endpoint, so the script
-spaces uploads out and relies on the existing 429/Retry-After handling in
-`scripts/lib/spotify-client.mjs` for anything stricter.
+feature existed, re-run `npm run authorize` once to pick it up.
+
+A committed ledger at `scripts/state/cover-art-uploaded.json` tracks which
+archive numbers already have a generated cover, so a normal run only touches
+newly-created archives — Spotify's API has no reliable way to ask "does this
+playlist already have a custom cover," so the script tracks it locally
+instead. `--number=N` bypasses the ledger for a one-off re-upload.
+
+Spotify enforces a strict, undocumented rate limit on this endpoint that can
+show up as a bare `401` partway through a run rather than a proper `429` with
+`Retry-After` (which `scripts/lib/spotify-client.mjs` already handles). The
+ledger is written after every individual upload, not batched at the end, so
+if a run gets cut off, re-running picks up right where it left off instead of
+re-uploading everything.
 
 ## Development
 
