@@ -76,3 +76,50 @@ export async function fetchPlaylistTracks(token, playlistId, fetchImpl) {
   }
   return tracks;
 }
+
+export async function fetchLikedSongs(token, knownIds = new Set(), fetchImpl) {
+  const tracks = [];
+  let url = `/me/tracks?limit=50`;
+  let stop = false;
+  while (url && !stop) {
+    const page = await spotifyFetch(token, url, fetchImpl);
+    for (const item of page.items) {
+      const t = item.track;
+      if (!t || t.is_local) continue;
+      if (knownIds.has(t.id)) {
+        stop = true;
+        break;
+      }
+      tracks.push({
+        id: t.id,
+        name: t.name,
+        artists: t.artists.map((a) => a.name),
+        addedAt: item.added_at,
+        uri: t.uri,
+      });
+    }
+    url = !stop && page.next ? page.next.replace('https://api.spotify.com/v1', '') : null;
+  }
+  return tracks;
+}
+
+export async function createPlaylist(token, userId, name, fetchImpl) {
+  // Spotify's Feb/Mar 2026 API migration removed POST /users/{user_id}/playlists —
+  // playlists are now always created for the authenticated user via /me/playlists.
+  // userId is kept as a parameter for interface stability but is no longer used here.
+  return spotifyFetch(token, `/me/playlists`, fetchImpl, {
+    method: 'POST',
+    body: { name, public: true, collaborative: false },
+  });
+}
+
+export async function addTracksToPlaylist(token, playlistId, uris, fetchImpl) {
+  for (let i = 0; i < uris.length; i += 100) {
+    const chunk = uris.slice(i, i + 100);
+    // Renamed from /playlists/{id}/tracks to /playlists/{id}/items in the same migration.
+    await spotifyFetch(token, `/playlists/${playlistId}/items`, fetchImpl, {
+      method: 'POST',
+      body: { uris: chunk },
+    });
+  }
+}

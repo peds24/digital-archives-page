@@ -55,9 +55,15 @@ export async function getAccessTokenFromRefreshToken({ clientId, clientSecret, r
   return data.access_token;
 }
 
-export async function spotifyFetch(token, path, fetchImpl = fetch, retryCount = 0) {
+export async function spotifyFetch(token, path, fetchImpl = fetch, options = {}) {
+  const { method = 'GET', body, retryCount = 0 } = options;
   const res = await fetchImpl(`${API_BASE}${path}`, {
-    headers: { Authorization: `Bearer ${token}` },
+    method,
+    headers: {
+      Authorization: `Bearer ${token}`,
+      ...(body !== undefined ? { 'Content-Type': 'application/json' } : {}),
+    },
+    ...(body !== undefined ? { body: JSON.stringify(body) } : {}),
   });
   if (res.status === 429) {
     if (retryCount >= 4) {
@@ -69,7 +75,7 @@ export async function spotifyFetch(token, path, fetchImpl = fetch, retryCount = 
     const raw = res.headers.get('Retry-After');
     const retryAfter = raw && Number.isFinite(Number(raw)) ? Number(raw) : 1;
     await new Promise((resolve) => setTimeout(resolve, retryAfter * 1000));
-    return spotifyFetch(token, path, fetchImpl, retryCount + 1);
+    return spotifyFetch(token, path, fetchImpl, { method, body, retryCount: retryCount + 1 });
   }
   if (!res.ok) {
     throw new Error(`Spotify API request failed (${res.status}): ${path}`);

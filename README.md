@@ -50,6 +50,36 @@ npm run build-archives
 This fetches every "Digital Archive #NNN" playlist from your account and
 (re)writes `public/data/*.json`. Run it whenever your Spotify playlists change.
 
+## Automating the weekly archive move
+
+`npm run archive-liked-songs` is the automated version of "like 30 songs →
+make a playlist → move them → rebuild the site":
+
+1. Fetches Liked Songs incrementally — only pages until it reaches a track
+   it's already seen, rather than the whole library every time.
+2. Cross-references against `public/data/archive-*.json` to know what's
+   already archived, and keeps everything else in a small committed
+   ledger at `scripts/state/liked-songs-queue.json` — this ledger, not
+   Spotify's live Liked Songs list, is the source of truth for "what's
+   pending," since songs are intentionally never unliked.
+3. Tops off the current open "Digital Archive #NNN" playlist, then opens
+   new ones (30 tracks each) as long as enough pending songs remain.
+4. Regenerates `public/data/*.json` using the same logic as
+   `build-archives`.
+
+Run `npm run archive-liked-songs:dry-run` first to see what it *would* do
+(no Spotify writes, no file writes, just log output) before running it for
+real.
+
+Requires the `user-library-read` and `playlist-modify-public` scopes — if
+`.env` was set up before this feature existed, re-run `npm run authorize`
+once to pick them up. Also requires `SPOTIFY_USER_ID` in `.env` — your
+Spotify username, visible in `open.spotify.com/user/<id>` or via
+`https://api.spotify.com/v1/me`.
+
+Ordinarily this runs weekly via a scheduled Claude Code agent rather than
+by hand.
+
 ## Development
 
 ```bash

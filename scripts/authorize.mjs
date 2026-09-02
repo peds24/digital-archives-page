@@ -4,7 +4,12 @@ import 'dotenv/config';
 import { buildAuthorizeUrl, exchangeAuthorizationCode } from './lib/spotify-client.mjs';
 
 const REDIRECT_URI = 'http://127.0.0.1:8888/callback';
-const SCOPES = ['playlist-read-private', 'playlist-read-collaborative'];
+export const SCOPES = [
+  'playlist-read-private',
+  'playlist-read-collaborative',
+  'user-library-read',
+  'playlist-modify-public',
+];
 const ENV_PATH = fileURLToPath(new URL('../.env', import.meta.url));
 
 function printAuthorizeInstructions() {
