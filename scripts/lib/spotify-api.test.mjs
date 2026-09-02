@@ -5,6 +5,7 @@ import {
   fetchLikedSongs,
   createPlaylist,
   addTracksToPlaylist,
+  uploadPlaylistCoverImage,
   updatePlaylistDetails,
 } from './spotify-api.mjs';
 
@@ -308,6 +309,19 @@ describe('addTracksToPlaylist', () => {
     expect(fetchImpl).toHaveBeenCalledTimes(2);
     expect(JSON.parse(fetchImpl.mock.calls[0][1].body).uris).toHaveLength(100);
     expect(JSON.parse(fetchImpl.mock.calls[1][1].body).uris).toHaveLength(30);
+  });
+});
+
+describe('uploadPlaylistCoverImage', () => {
+  it('PUTs the raw base64 body as image/jpeg, not JSON', async () => {
+    const fetchImpl = vi.fn().mockResolvedValue({ ok: true, status: 204 });
+    await uploadPlaylistCoverImage('tok', 'pl1', 'ZmFrZS1qcGVn', fetchImpl);
+    expect(fetchImpl).toHaveBeenCalledTimes(1);
+    const [url, init] = fetchImpl.mock.calls[0];
+    expect(url).toBe('https://api.spotify.com/v1/playlists/pl1/images');
+    expect(init.method).toBe('PUT');
+    expect(init.headers['Content-Type']).toBe('image/jpeg');
+    expect(init.body).toBe('ZmFrZS1qcGVn');
   });
 });
 

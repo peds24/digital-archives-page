@@ -9,6 +9,7 @@ export const SCOPES = [
   'playlist-read-collaborative',
   'user-library-read',
   'playlist-modify-public',
+  'ugc-image-upload',
 ];
 const ENV_PATH = fileURLToPath(new URL('../.env', import.meta.url));
 

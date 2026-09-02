@@ -1,4 +1,5 @@
 import type { ArchiveSummary, ArchiveDetail } from '../lib/types';
+import type { QueueTrack } from '../lib/nowPlaying';
 import { FilterBar, type ProgressFilter } from './FilterBar';
 import { ArchiveGrid } from './ArchiveGrid';
 import { ArchivePanel } from './ArchivePanel';
@@ -16,12 +17,14 @@ interface ArchivesViewProps {
   selectedArchive: ArchiveDetail | null;
   onSelect: (id: string) => void;
   onCloseSelected: () => void;
+  currentTrackId: string | null;
+  onPlayTrack: (queue: QueueTrack[], index: number) => void;
 }
 
 export function ArchivesView({
   archives, dateFrom, dateTo, progressFilter,
   onDateFromChange, onDateToChange, onProgressFilterChange, onClear,
-  selectedArchiveId, selectedArchive, onSelect, onCloseSelected,
+  selectedArchiveId, selectedArchive, onSelect, onCloseSelected, currentTrackId, onPlayTrack,
 }: ArchivesViewProps) {
   return (
     <div className="archives-view">
@@ -40,7 +43,12 @@ export function ArchivesView({
         onSelect={onSelect}
       />
       {selectedArchive && (
-        <ArchivePanel archive={selectedArchive} onClose={onCloseSelected} />
+        <ArchivePanel
+          archive={selectedArchive}
+          currentTrackId={currentTrackId}
+          onClose={onCloseSelected}
+          onPlayTrack={onPlayTrack}
+        />
       )}
     </div>
   );
