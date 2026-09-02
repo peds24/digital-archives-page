@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import type { DiscoverableTrack } from '../lib/types';
 import { discoverTracks } from '../lib/discoverTracks';
+import { toQueueTrack, type QueueTrack } from '../lib/nowPlaying';
 import { TrackRow } from './TrackRow';
 
 interface DiscoverViewProps {
   trackPool: DiscoverableTrack[];
-  onPlayTrack: (id: string) => void;
+  onPlayTrack: (queue: QueueTrack[], index: number) => void;
 }
 
 export function DiscoverView({ trackPool, onPlayTrack }: DiscoverViewProps) {
@@ -14,6 +15,8 @@ export function DiscoverView({ trackPool, onPlayTrack }: DiscoverViewProps) {
   function reroll() {
     setResults(discoverTracks(trackPool, 5));
   }
+
+  const queue = results.filter((track) => !track.unavailable).map(toQueueTrack);
 
   return (
     <div className="discover-view">
@@ -25,12 +28,14 @@ export function DiscoverView({ trackPool, onPlayTrack }: DiscoverViewProps) {
         {results.map((track) => (
           <TrackRow
             key={track.id}
-            id={track.id}
             name={track.name}
             artists={track.artists}
             unavailable={track.unavailable}
             badge={`from #${String(track.archiveNumber).padStart(3, '0')}`}
-            onPlay={onPlayTrack}
+            onPlay={() => {
+              const queueIndex = queue.findIndex((t) => t.id === track.id);
+              if (queueIndex >= 0) onPlayTrack(queue, queueIndex);
+            }}
           />
         ))}
       </ul>

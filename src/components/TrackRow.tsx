@@ -1,13 +1,12 @@
 interface TrackRowProps {
-  id: string;
   name: string;
   artists: string[];
   unavailable: boolean;
   badge: string;
-  onPlay: (id: string) => void;
+  onPlay: () => void;
 }
 
-export function TrackRow({ id, name, artists, unavailable, badge, onPlay }: TrackRowProps) {
+export function TrackRow({ name, artists, unavailable, badge, onPlay }: TrackRowProps) {
   return (
     <li className={unavailable ? 'track-unavailable' : undefined}>
       <span>{name} — {artists.join(', ')}</span>
@@ -15,7 +14,7 @@ export function TrackRow({ id, name, artists, unavailable, badge, onPlay }: Trac
       {unavailable ? (
         <span>unavailable</span>
       ) : (
-        <button type="button" className="track-play-btn" onClick={() => onPlay(id)}>
+        <button type="button" className="track-play-btn" onClick={onPlay}>
           play
         </button>
       )}

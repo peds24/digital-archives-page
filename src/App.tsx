@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { loadAllArchives, type ArchiveLibrary } from './lib/loadArchives';
 import { filterArchives } from './lib/filterArchives';
-import { resolveNowPlaying } from './lib/spotifyEmbed';
-import { useTheme } from './hooks/useTheme';
+import { toQueueTrack } from './lib/nowPlaying';
+import { useNowPlaying } from './hooks/useNowPlaying';
 import { type ProgressFilter } from './components/FilterBar';
 import { ThemeToggle } from './components/ThemeToggle';
 import { AsciiNote } from './components/AsciiNote';
@@ -10,7 +10,7 @@ import { HomeView } from './components/HomeView';
 import { ArchivesView } from './components/ArchivesView';
 import { DiscoverView } from './components/DiscoverView';
 import { ArtView } from './components/ArtView';
-import { MiniPlayer } from './components/MiniPlayer';
+import { NowPlayingBar } from './components/NowPlayingBar';
 
 const PERSONAL_SITE_URL = 'https://peds24.github.io/personal-website/';
 const OWNER_NAME = 'pedro serdio hank';
@@ -24,14 +24,37 @@ export function App() {
   const [dateTo, setDateTo] = useState('');
   const [progressFilter, setProgressFilter] = useState<ProgressFilter>('all');
   const [selectedArchiveId, setSelectedArchiveId] = useState<string | null>(null);
-  const [playingTrackId, setPlayingTrackId] = useState<string | null>(null);
-  const { theme, toggleTheme } = useTheme();
+  const navRef = useRef<HTMLElement>(null);
+  const [navWidth, setNavWidth] = useState<number | null>(null);
 
   useEffect(() => {
     loadAllArchives()
       .then(setLibrary)
       .catch((err: Error) => setError(err.message));
   }, []);
+
+  // The now-playing bar is capped to the width the nav tabs span, not the
+  // full page — measured live since that width depends on font/text layout.
+  useEffect(() => {
+    const el = navRef.current;
+    if (!el) return;
+    const observer = new ResizeObserver(([entry]) => setNavWidth(entry.contentRect.width));
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  const mostRecentArchive = library
+    ? library.archives.reduce<ArchiveLibrary['archives'][number] | null>(
+        (latest, archive) => (!latest || archive.number > latest.number ? archive : latest),
+        null
+      )
+    : null;
+
+  const initialTracks = mostRecentArchive
+    ? mostRecentArchive.tracks.filter((track) => !track.unavailable).map(toQueueTrack)
+    : [];
+
+  const nowPlaying = useNowPlaying(initialTracks);
 
   if (error) return <div className="app-error">Couldn't load the archives: {error}</div>;
   if (!library) return <div className="app-loading">Loading archives…</div>;
@@ -42,25 +65,17 @@ export function App() {
     ? library.archives.find((a) => a.id === selectedArchiveId) ?? null
     : null;
 
-  const mostRecentArchive = library.archives.reduce<ArchiveLibrary['archives'][number] | null>(
-    (latest, archive) => (!latest || archive.number > latest.number ? archive : latest),
-    null
-  );
-
-  const nowPlaying = resolveNowPlaying({
-    overrideTrackId: playingTrackId,
-    openArchivePlaylistUrl: selectedArchive?.spotifyUrl ?? null,
-    fallbackPlaylistUrl: mostRecentArchive?.spotifyUrl ?? null,
-  });
-
   function selectArchive(id: string) {
     setSelectedArchiveId(id);
-    setPlayingTrackId(null);
+    const archive = library!.archives.find((a) => a.id === id);
+    if (!archive) return;
+    const tracks = archive.tracks.filter((track) => !track.unavailable).map(toQueueTrack);
+    if (tracks.length) nowPlaying.playQueue(tracks, 0, { autoplay: false });
   }
 
   return (
     <main className="app">
-      <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
+      <ThemeToggle />
       <header className="app-header">
         <AsciiNote className="app-hero" cols={44} rows={36} />
         <div className="app-header-title">
@@ -69,7 +84,7 @@ export function App() {
           </h1>
         </div>
         <p>every 30 liked songs, sealed off.</p>
-        <nav className="site-nav">
+        <nav className="site-nav" ref={navRef}>
           <button
             className={view === 'home' ? 'active' : ''}
             onClick={() => setView('home')}
@@ -97,7 +112,7 @@ export function App() {
           <a href={PERSONAL_SITE_URL}>personal website</a>
         </nav>
       </header>
-      <MiniPlayer target={nowPlaying} theme={theme} />
+      <NowPlayingBar player={nowPlaying} maxWidth={navWidth} />
       {view === 'home' && <HomeView archiveCount={library.archives.length} />}
       {view === 'archives' && (
         <ArchivesView
@@ -117,11 +132,14 @@ export function App() {
           selectedArchive={selectedArchive}
           onSelect={selectArchive}
           onCloseSelected={() => setSelectedArchiveId(null)}
-          onPlayTrack={setPlayingTrackId}
+          onPlayTrack={(queue, index) => nowPlaying.playQueue(queue, index, { autoplay: true })}
         />
       )}
       {view === 'discover' && (
-        <DiscoverView trackPool={library.trackPool} onPlayTrack={setPlayingTrackId} />
+        <DiscoverView
+          trackPool={library.trackPool}
+          onPlayTrack={(queue, index) => nowPlaying.playQueue(queue, index, { autoplay: true })}
+        />
       )}
       {view === 'art' && <ArtView />}
       <footer className="app-footer">
