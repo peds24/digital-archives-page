@@ -74,6 +74,10 @@ export function useNowPlaying(initialTracks: QueueTrack[]) {
     const clamped = clampIndex(startIndex, tracks.length);
     setQueue(tracks);
     setIndex(clamped);
+    // Reset immediately rather than waiting on the embed's next playback_update —
+    // otherwise a newly loaded track briefly shows the previous track's stale
+    // position and pause state.
+    setPlayback({ isPaused: !autoplay, isBuffering: autoplay, position: 0, duration: 0 });
     const controller = controllerRef.current;
     if (!controller) return;
     controller.loadUri(`spotify:track:${tracks[clamped].id}`);

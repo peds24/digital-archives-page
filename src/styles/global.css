@@ -330,6 +330,7 @@ body {
    ResizeObserver in App), not the full page — see NowPlayingBar. */
 .now-playing-bar {
   position: relative;
+  width: 100%;
   max-width: var(--nav-width, 320px);
   margin: 0 auto 12px;
   display: flex;

@@ -35,13 +35,17 @@ export function App() {
 
   // The now-playing bar is capped to the width the nav tabs span, not the
   // full page — measured live since that width depends on font/text layout.
+  // Depends on `library`, not []: the <nav> this observes doesn't exist yet
+  // on App's first render (still showing "Loading archives…"), so an
+  // effect that only ever ran once would find navRef.current null and never
+  // get another chance to attach the observer.
   useEffect(() => {
     const el = navRef.current;
     if (!el) return;
     const observer = new ResizeObserver(([entry]) => setNavWidth(entry.contentRect.width));
     observer.observe(el);
     return () => observer.disconnect();
-  }, []);
+  }, [library]);
 
   const mostRecentArchive = library
     ? library.archives.reduce<ArchiveLibrary['archives'][number] | null>(
