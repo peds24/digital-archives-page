@@ -12,7 +12,9 @@
     "build-archives": "node scripts/build-archives.mjs",
     "authorize": "node scripts/authorize.mjs",
     "archive-liked-songs": "node scripts/archive-liked-songs.mjs",
-    "archive-liked-songs:dry-run": "node scripts/archive-liked-songs.mjs --dry-run"
+    "archive-liked-songs:dry-run": "node scripts/archive-liked-songs.mjs --dry-run",
+    "upload-cover-art": "tsx scripts/upload-cover-art.mjs",
+    "upload-cover-art:dry-run": "tsx scripts/upload-cover-art.mjs --dry-run"
   },
   "dependencies": {
     "react": "^19.2.8",
@@ -23,8 +25,10 @@
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.2.0",
+    "canvas": "^3.2.3",
     "dotenv": "^17.4.2",
     "oxlint": "^1.75.0",
+    "tsx": "^4.23.13",
     "typescript": "~6.0.2",
     "vite": "^7.3.6",
     "vitest": "^3.2.7"

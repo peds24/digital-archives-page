@@ -80,6 +80,28 @@ Spotify username, visible in `open.spotify.com/user/<id>` or via
 Ordinarily this runs weekly via a scheduled Claude Code agent rather than
 by hand.
 
+## Syncing generated cover art to Spotify
+
+Each archive tile on the site is a seeded generative pattern, not a photo — see
+`src/algorithms/tileAlgorithms.ts`. `npm run upload-cover-art` renders that same
+pattern per "Digital Archive #NNN" playlist (same algorithm, seed, and color
+stops as `ArchiveTile.tsx`, so the Spotify cover matches what the site shows)
+and uploads it as the playlist's custom cover image via Spotify's
+[Add Custom Playlist Cover Image](https://developer.spotify.com/documentation/web-api/reference/upload-custom-playlist-cover)
+endpoint, replacing Spotify's default auto-generated mosaic.
+
+```bash
+npm run upload-cover-art:dry-run   # render + log without uploading
+npm run upload-cover-art           # upload to every Digital Archive playlist
+npm run upload-cover-art -- --number=12   # just archive #12
+```
+
+Requires the `ugc-image-upload` scope — if `.env` was set up before this
+feature existed, re-run `npm run authorize` once to pick it up. Spotify
+enforces a strict, undocumented rate limit on this endpoint, so the script
+spaces uploads out and relies on the existing 429/Retry-After handling in
+`scripts/lib/spotify-client.mjs` for anything stricter.
+
 ## Development
 
 ```bash

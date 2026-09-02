@@ -39,4 +39,8 @@ describe('SCOPES', () => {
       ])
     );
   });
+
+  it('includes ugc-image-upload, needed to set custom playlist cover art', () => {
+    expect(SCOPES).toContain('ugc-image-upload');
+  });
 });

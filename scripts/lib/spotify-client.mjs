@@ -56,14 +56,16 @@ export async function getAccessTokenFromRefreshToken({ clientId, clientSecret, r
 }
 
 export async function spotifyFetch(token, path, fetchImpl = fetch, options = {}) {
-  const { method = 'GET', body, retryCount = 0 } = options;
+  // contentType/rawBody exist for endpoints like the playlist cover-image upload,
+  // which take a raw base64 body under image/jpeg rather than a JSON payload.
+  const { method = 'GET', body, retryCount = 0, contentType = 'application/json', rawBody = false } = options;
   const res = await fetchImpl(`${API_BASE}${path}`, {
     method,
     headers: {
       Authorization: `Bearer ${token}`,
-      ...(body !== undefined ? { 'Content-Type': 'application/json' } : {}),
+      ...(body !== undefined ? { 'Content-Type': contentType } : {}),
     },
-    ...(body !== undefined ? { body: JSON.stringify(body) } : {}),
+    ...(body !== undefined ? { body: rawBody ? body : JSON.stringify(body) } : {}),
   });
   if (res.status === 429) {
     if (retryCount >= 4) {
@@ -75,10 +77,14 @@ export async function spotifyFetch(token, path, fetchImpl = fetch, options = {})
     const raw = res.headers.get('Retry-After');
     const retryAfter = raw && Number.isFinite(Number(raw)) ? Number(raw) : 1;
     await new Promise((resolve) => setTimeout(resolve, retryAfter * 1000));
-    return spotifyFetch(token, path, fetchImpl, { method, body, retryCount: retryCount + 1 });
+    return spotifyFetch(token, path, fetchImpl, { method, body, contentType, rawBody, retryCount: retryCount + 1 });
   }
   if (!res.ok) {
     throw new Error(`Spotify API request failed (${res.status}): ${path}`);
+  }
+  // The cover-image upload returns 204 No Content — nothing to parse.
+  if (res.status === 204) {
+    return null;
   }
   return res.json();
 }

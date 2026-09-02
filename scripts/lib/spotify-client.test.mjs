@@ -92,6 +92,30 @@ describe('spotifyFetch', () => {
     expect(init.body).toBeUndefined();
     expect(init.headers['Content-Type']).toBeUndefined();
   });
+
+  it('sends the body raw (not JSON.stringify-ed) and honors a custom Content-Type when rawBody is set', async () => {
+    const fakeFetch = vi.fn().mockResolvedValue({ ok: true, status: 200, json: async () => ({}) });
+    await spotifyFetch('tok', '/playlists/pl1/images', fakeFetch, {
+      method: 'PUT',
+      body: 'ZmFrZS1qcGVn',
+      contentType: 'image/jpeg',
+      rawBody: true,
+    });
+    const [, init] = fakeFetch.mock.calls[0];
+    expect(init.headers['Content-Type']).toBe('image/jpeg');
+    expect(init.body).toBe('ZmFrZS1qcGVn');
+  });
+
+  it('returns null for a 204 No Content response instead of parsing a body', async () => {
+    const fakeFetch = vi.fn().mockResolvedValue({ ok: true, status: 204 });
+    const result = await spotifyFetch('tok', '/playlists/pl1/images', fakeFetch, {
+      method: 'PUT',
+      body: 'ZmFrZS1qcGVn',
+      contentType: 'image/jpeg',
+      rawBody: true,
+    });
+    expect(result).toBeNull();
+  });
 });
 
 describe('buildAuthorizeUrl', () => {
