@@ -136,12 +136,14 @@ export function App() {
           selectedArchive={selectedArchive}
           onSelect={selectArchive}
           onCloseSelected={() => setSelectedArchiveId(null)}
+          currentTrackId={nowPlaying.current?.id ?? null}
           onPlayTrack={(queue, index) => nowPlaying.playQueue(queue, index, { autoplay: true })}
         />
       )}
       {view === 'discover' && (
         <DiscoverView
           trackPool={library.trackPool}
+          currentTrackId={nowPlaying.current?.id ?? null}
           onPlayTrack={(queue, index) => nowPlaying.playQueue(queue, index, { autoplay: true })}
         />
       )}

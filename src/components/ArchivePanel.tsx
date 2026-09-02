@@ -1,14 +1,16 @@
 import type { ArchiveDetail } from '../lib/types';
 import { toQueueTrack, randomIndex, type QueueTrack } from '../lib/nowPlaying';
 import { TrackRow } from './TrackRow';
+import { SpotifyGlyph } from './SpotifyGlyph';
 
 interface ArchivePanelProps {
   archive: ArchiveDetail;
+  currentTrackId: string | null;
   onClose: () => void;
   onPlayTrack: (queue: QueueTrack[], index: number) => void;
 }
 
-export function ArchivePanel({ archive, onClose, onPlayTrack }: ArchivePanelProps) {
+export function ArchivePanel({ archive, currentTrackId, onClose, onPlayTrack }: ArchivePanelProps) {
   const queue = archive.tracks.filter((track) => !track.unavailable).map(toQueueTrack);
 
   function shuffle() {
@@ -30,12 +32,7 @@ export function ArchivePanel({ archive, onClose, onPlayTrack }: ArchivePanelProp
             aria-label="Open in Spotify"
             title="Open in Spotify"
           >
-            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
-              <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" strokeWidth="1.6" />
-              <path d="M6.5 15.5c3-1 8-1 11 .8" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
-              <path d="M6.5 12c3.5-1.2 9-1.2 12.5.6" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
-              <path d="M6.5 8.3c4-1.4 10.5-1.4 14.5.8" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
-            </svg>
+            <SpotifyGlyph size={16} />
           </a>
           <button onClick={onClose}>close</button>
         </div>
@@ -47,6 +44,7 @@ export function ArchivePanel({ archive, onClose, onPlayTrack }: ArchivePanelProp
             name={track.name}
             artists={track.artists}
             unavailable={track.unavailable}
+            active={track.id === currentTrackId}
             badge={String(i + 1).padStart(2, '0')}
             onPlay={() => {
               const queueIndex = queue.findIndex((t) => t.id === track.id);

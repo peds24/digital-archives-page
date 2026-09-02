@@ -307,6 +307,9 @@ body {
 .track-unavailable { opacity: 0.55; font-style: italic; }
 .track-unavailable > span:last-child { flex-shrink: 0; white-space: nowrap; }
 
+.track-active { color: var(--accent); border-bottom-color: var(--accent); }
+.track-active .track-badge { color: var(--accent); }
+
 /* This list sits inline under the archive posters now (not a popup), so it
    stays compact rather than reading as a second full-size section. */
 .archive-panel .track-rows { gap: 4px; }

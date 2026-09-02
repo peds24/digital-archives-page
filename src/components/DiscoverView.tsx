@@ -6,10 +6,11 @@ import { TrackRow } from './TrackRow';
 
 interface DiscoverViewProps {
   trackPool: DiscoverableTrack[];
+  currentTrackId: string | null;
   onPlayTrack: (queue: QueueTrack[], index: number) => void;
 }
 
-export function DiscoverView({ trackPool, onPlayTrack }: DiscoverViewProps) {
+export function DiscoverView({ trackPool, currentTrackId, onPlayTrack }: DiscoverViewProps) {
   const [results, setResults] = useState<DiscoverableTrack[]>(() => discoverTracks(trackPool, 5));
 
   function reroll() {
@@ -31,6 +32,7 @@ export function DiscoverView({ trackPool, onPlayTrack }: DiscoverViewProps) {
             name={track.name}
             artists={track.artists}
             unavailable={track.unavailable}
+            active={track.id === currentTrackId}
             badge={`from #${String(track.archiveNumber).padStart(3, '0')}`}
             onPlay={() => {
               const queueIndex = queue.findIndex((t) => t.id === track.id);
