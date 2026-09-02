@@ -1,11 +1,11 @@
 {
   "id": "archive-029",
   "number": 29,
-  "trackCount": 24,
+  "trackCount": 25,
   "inProgress": true,
   "dateRange": {
     "earliest": "2026-09-02T00:04:07Z",
-    "latest": "2026-09-02T00:06:56Z"
+    "latest": "2026-09-02T00:29:17Z"
   },
   "spotifyUrl": "https://open.spotify.com/playlist/1AVwXXSQpy1QPmUHxn4t1Y",
   "tracks": [
@@ -344,6 +344,20 @@
       "durationMs": 336506,
       "addedAt": "2026-09-02T00:06:56Z",
       "spotifyUrl": "https://open.spotify.com/track/4OwHTayaxm1ApYwzfW0PdG",
+      "unavailable": false
+    },
+    {
+      "id": "7GVvj4zJNVuBJSl6StEfn5",
+      "name": "Only A Fool Would Say That",
+      "artists": [
+        "Steely Dan"
+      ],
+      "album": "Can't Buy A Thrill",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730ddd7e736f870994f4707947",
+      "releaseDate": "1972-11-01",
+      "durationMs": 175273,
+      "addedAt": "2026-09-02T00:29:17Z",
+      "spotifyUrl": "https://open.spotify.com/track/7GVvj4zJNVuBJSl6StEfn5",
       "unavailable": false
     }
   ]
