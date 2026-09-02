@@ -123,3 +123,10 @@ export async function addTracksToPlaylist(token, playlistId, uris, fetchImpl) {
     });
   }
 }
+
+export async function updatePlaylistDetails(token, playlistId, details, fetchImpl) {
+  await spotifyFetch(token, `/playlists/${playlistId}`, fetchImpl, {
+    method: 'PUT',
+    body: details,
+  });
+}

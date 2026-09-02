@@ -80,5 +80,11 @@ export async function spotifyFetch(token, path, fetchImpl = fetch, options = {})
   if (!res.ok) {
     throw new Error(`Spotify API request failed (${res.status}): ${path}`);
   }
-  return res.json();
+  // Some endpoints (e.g. PUT /playlists/{id}) return 200 with an empty body on
+  // success — res.json() throws SyntaxError on an empty string, so fall back to null.
+  try {
+    return await res.json();
+  } catch {
+    return null;
+  }
 }

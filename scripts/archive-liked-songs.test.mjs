@@ -25,6 +25,7 @@ describe('run', () => {
       fetchPlaylistTracks: vi.fn(),
       createPlaylist,
       addTracksToPlaylist,
+      updatePlaylistDetails: vi.fn().mockResolvedValue(undefined),
       log: vi.fn(),
     });
 
@@ -48,6 +49,7 @@ describe('run', () => {
       fetchPlaylistTracks: vi.fn().mockResolvedValue(Array.from({ length: 22 }, (_, i) => ({ id: `old${i}` }))),
       createPlaylist,
       addTracksToPlaylist,
+      updatePlaylistDetails: vi.fn().mockResolvedValue(undefined),
       log: vi.fn(),
     });
 
@@ -71,6 +73,7 @@ describe('run', () => {
       fetchPlaylistTracks: vi.fn().mockResolvedValue(Array.from({ length: 22 }, (_, i) => ({ id: `old${i}` }))),
       createPlaylist,
       addTracksToPlaylist,
+      updatePlaylistDetails: vi.fn().mockResolvedValue(undefined),
       log: vi.fn(),
     });
 
@@ -97,6 +100,7 @@ describe('run', () => {
       fetchPlaylistTracks: vi.fn().mockResolvedValue(Array.from({ length: 30 }, (_, i) => ({ id: `old${i}` }))),
       createPlaylist,
       addTracksToPlaylist,
+      updatePlaylistDetails: vi.fn().mockResolvedValue(undefined),
       log: vi.fn(),
     });
 
@@ -120,6 +124,7 @@ describe('run', () => {
       fetchPlaylistTracks: vi.fn(),
       createPlaylist: vi.fn(),
       addTracksToPlaylist: vi.fn(),
+      updatePlaylistDetails: vi.fn().mockResolvedValue(undefined),
       log: vi.fn(),
     });
 
@@ -152,6 +157,7 @@ describe('run', () => {
       ]),
       createPlaylist,
       addTracksToPlaylist,
+      updatePlaylistDetails: vi.fn().mockResolvedValue(undefined),
       log: vi.fn(),
     });
 
@@ -181,6 +187,7 @@ describe('run', () => {
       ]),
       createPlaylist,
       addTracksToPlaylist,
+      updatePlaylistDetails: vi.fn().mockResolvedValue(undefined),
       log: vi.fn(),
     });
 
@@ -220,6 +227,7 @@ describe('run', () => {
       fetchPlaylistTracks,
       createPlaylist,
       addTracksToPlaylist,
+      updatePlaylistDetails: vi.fn().mockResolvedValue(undefined),
       log: vi.fn(),
     });
 
@@ -229,5 +237,79 @@ describe('run', () => {
     expect(createPlaylist).not.toHaveBeenCalled();
     expect(result.addedCount).toBe(3);
     expect(result.pendingCount).toBe(0);
+  });
+
+  it('sets a new archive\'s description to its date range', async () => {
+    const updatePlaylistDetails = vi.fn().mockResolvedValue(undefined);
+    const createPlaylist = vi.fn().mockResolvedValue({ id: 'new-pl' });
+    const queue = Array.from({ length: 30 }, (_, i) => track(`t${i}`, i));
+
+    await run({
+      token: 'tok',
+      userId: 'u1',
+      queue,
+      archivedTrackIds: new Set(),
+      fetchLikedSongs: vi.fn().mockResolvedValue([]),
+      fetchAllPlaylists: vi.fn().mockResolvedValue([]),
+      fetchPlaylistTracks: vi.fn(),
+      createPlaylist,
+      addTracksToPlaylist: vi.fn().mockResolvedValue(undefined),
+      updatePlaylistDetails,
+      log: vi.fn(),
+    });
+
+    // All 30 tracks share the same date (Jan 1, 2026, minutes apart), so the range collapses to one day.
+    expect(updatePlaylistDetails).toHaveBeenCalledWith('tok', 'new-pl', { description: 'Jan 1, 2026 – Jan 1, 2026' });
+  });
+
+  it("sets a topped-off archive's description from both its existing and newly-added tracks' dates", async () => {
+    const updatePlaylistDetails = vi.fn().mockResolvedValue(undefined);
+    const queue = [track('new0', 100)]; // Jan 1, 2026 (100 minutes in)
+
+    await run({
+      token: 'tok',
+      userId: 'u1',
+      queue,
+      archivedTrackIds: new Set(),
+      fetchLikedSongs: vi.fn().mockResolvedValue([]),
+      fetchAllPlaylists: vi.fn().mockResolvedValue([{ id: 'pl29', name: 'Digital Archive #29' }]),
+      fetchPlaylistTracks: vi.fn().mockResolvedValue([
+        { id: 'old0', unavailable: false, addedAt: '2025-11-05T00:00:00Z' },
+      ]),
+      createPlaylist: vi.fn(),
+      addTracksToPlaylist: vi.fn().mockResolvedValue(undefined),
+      updatePlaylistDetails,
+      log: vi.fn(),
+    });
+
+    expect(updatePlaylistDetails).toHaveBeenCalledWith('tok', 'pl29', {
+      description: 'Nov 5, 2025 – Jan 1, 2026',
+    });
+  });
+
+  it('does not abort the run or block the ledger when updating the description fails', async () => {
+    const updatePlaylistDetails = vi.fn().mockRejectedValue(new Error('Spotify API request failed (500): /playlists/new-pl'));
+    const createPlaylist = vi.fn().mockResolvedValue({ id: 'new-pl' });
+    const addTracksToPlaylist = vi.fn().mockResolvedValue(undefined);
+    const queue = Array.from({ length: 30 }, (_, i) => track(`t${i}`, i));
+    const log = vi.fn();
+
+    const result = await run({
+      token: 'tok',
+      userId: 'u1',
+      queue,
+      archivedTrackIds: new Set(),
+      fetchLikedSongs: vi.fn().mockResolvedValue([]),
+      fetchAllPlaylists: vi.fn().mockResolvedValue([]),
+      fetchPlaylistTracks: vi.fn(),
+      createPlaylist,
+      addTracksToPlaylist,
+      updatePlaylistDetails,
+      log,
+    });
+
+    expect(addTracksToPlaylist).toHaveBeenCalled();
+    expect(result).toEqual({ queue: [], addedCount: 30, createdCount: 1, pendingCount: 0 });
+    expect(log).toHaveBeenCalledWith(expect.stringContaining('Warning: failed to update playlist description'));
   });
 });
