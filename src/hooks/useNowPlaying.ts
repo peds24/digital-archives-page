@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { clampIndex, type QueueTrack } from '../lib/nowPlaying';
-import { loadSpotifyIframeApi, type EmbedController } from '../lib/spotifyIframeApi';
+import { loadSpotifyIframeApi, type EmbedController, type PlaybackUpdatePayload } from '../lib/spotifyIframeApi';
 
 interface PlaybackState {
   isPaused: boolean;
@@ -10,6 +10,14 @@ interface PlaybackState {
 }
 
 const IDLE_PLAYBACK: PlaybackState = { isPaused: true, isBuffering: false, position: 0, duration: 0 };
+
+// After loadUri() + play(), the embed reports a transient "loaded but not
+// yet playing" (isPaused: true) update before the real "now playing" one
+// arrives. Applying it verbatim flashes the play icon right before it flips
+// back to pause. This window is how long we ignore an isPaused:true signal
+// after asking to autoplay, before trusting the embed again regardless
+// (e.g. autoplay actually got blocked by the browser).
+const PENDING_AUTOPLAY_GRACE_MS = 1200;
 
 /**
  * Drives a hidden Spotify embed one track at a time via the official iframe
@@ -24,6 +32,35 @@ export function useNowPlaying(initialTracks: QueueTrack[]) {
   const [queue, setQueue] = useState<QueueTrack[]>([]);
   const [index, setIndex] = useState(0);
   const [playback, setPlayback] = useState<PlaybackState>(IDLE_PLAYBACK);
+
+  const pendingAutoplayRef = useRef(false);
+  const pendingAutoplayTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  function clearPendingAutoplay() {
+    pendingAutoplayRef.current = false;
+    if (pendingAutoplayTimeoutRef.current !== null) {
+      clearTimeout(pendingAutoplayTimeoutRef.current);
+      pendingAutoplayTimeoutRef.current = null;
+    }
+  }
+
+  function armPendingAutoplay() {
+    pendingAutoplayRef.current = true;
+    if (pendingAutoplayTimeoutRef.current !== null) clearTimeout(pendingAutoplayTimeoutRef.current);
+    pendingAutoplayTimeoutRef.current = setTimeout(() => {
+      pendingAutoplayRef.current = false;
+      pendingAutoplayTimeoutRef.current = null;
+    }, PENDING_AUTOPLAY_GRACE_MS);
+  }
+
+  function handlePlaybackUpdate(data: PlaybackUpdatePayload) {
+    if (pendingAutoplayRef.current && data.isPaused) {
+      setPlayback((prev) => ({ ...prev, isBuffering: data.isBuffering, position: data.position, duration: data.duration }));
+      return;
+    }
+    if (!data.isPaused) clearPendingAutoplay();
+    setPlayback({ isPaused: data.isPaused, isBuffering: data.isBuffering, position: data.position, duration: data.duration });
+  }
 
   // A primitive, not the array itself: initialTracks is rebuilt fresh every
   // App render, but the underlying data (the newest archive) only actually
@@ -45,14 +82,7 @@ export function useNowPlaying(initialTracks: QueueTrack[]) {
             return;
           }
           controllerRef.current = controller;
-          controller.addListener('playback_update', (event) => {
-            setPlayback({
-              isPaused: event.data.isPaused,
-              isBuffering: event.data.isBuffering,
-              position: event.data.position,
-              duration: event.data.duration,
-            });
-          });
+          controller.addListener('playback_update', (event) => handlePlaybackUpdate(event.data));
           setQueue(initialTracks);
           setIndex(0);
         }
@@ -78,6 +108,8 @@ export function useNowPlaying(initialTracks: QueueTrack[]) {
     // otherwise a newly loaded track briefly shows the previous track's stale
     // position and pause state.
     setPlayback({ isPaused: !autoplay, isBuffering: autoplay, position: 0, duration: 0 });
+    if (autoplay) armPendingAutoplay();
+    else clearPendingAutoplay();
     const controller = controllerRef.current;
     if (!controller) return;
     controller.loadUri(`spotify:track:${tracks[clamped].id}`);
@@ -85,7 +117,14 @@ export function useNowPlaying(initialTracks: QueueTrack[]) {
   }
 
   function togglePlay() {
-    controllerRef.current?.togglePlay();
+    const controller = controllerRef.current;
+    if (!controller) return;
+    // Same idea as playQueue's optimistic reset: the embed's playback_update
+    // round-trip for a plain toggle can take the better part of a second,
+    // which reads as a stuck button if we just wait for it.
+    clearPendingAutoplay();
+    setPlayback((prev) => ({ ...prev, isPaused: !prev.isPaused }));
+    controller.togglePlay();
   }
 
   function next() {
