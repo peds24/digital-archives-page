@@ -27,7 +27,18 @@ export function NowPlayingBar({ player, maxWidth }: NowPlayingBarProps) {
           {isPreviewPlayback(duration, current.durationMs) && <span className="now-playing-preview-badge">preview</span>}
           <span className="now-playing-time">{formatTime(position)} / {formatTime(duration || current.durationMs)}</span>
           <button type="button" onClick={togglePlay} aria-label={isPaused ? 'Play' : 'Pause'}>
-            {isBuffering ? '…' : isPaused ? '▶' : '❚❚'}
+            {isBuffering ? (
+              '…'
+            ) : isPaused ? (
+              <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">
+                <path d="M4 2.5v11l10-5.5z" fill="currentColor" />
+              </svg>
+            ) : (
+              <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">
+                <rect x="4" y="2.5" width="3" height="11" fill="currentColor" />
+                <rect x="9" y="2.5" width="3" height="11" fill="currentColor" />
+              </svg>
+            )}
           </button>
           <button type="button" onClick={next} disabled={!hasNext} aria-label="Next track">››</button>
           <div className="now-playing-progress" style={{ width: duration ? `${Math.min(100, (position / duration) * 100)}%` : '0%' }} />

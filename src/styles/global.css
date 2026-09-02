@@ -303,6 +303,9 @@ body {
   white-space: nowrap;
 }
 .track-play-btn:hover { text-decoration: underline; }
+.track-actions { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+.track-actions .spotify-glyph-link { color: var(--ink-dim); }
+.track-actions .spotify-glyph-link:hover { color: var(--accent); }
 
 .track-unavailable { opacity: 0.55; font-style: italic; }
 .track-unavailable > span:last-child { flex-shrink: 0; white-space: nowrap; }

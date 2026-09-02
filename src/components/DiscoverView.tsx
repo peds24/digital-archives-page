@@ -34,6 +34,7 @@ export function DiscoverView({ trackPool, currentTrackId, onPlayTrack }: Discove
             unavailable={track.unavailable}
             active={track.id === currentTrackId}
             badge={`from #${String(track.archiveNumber).padStart(3, '0')}`}
+            spotifyUrl={track.spotifyUrl}
             onPlay={() => {
               const queueIndex = queue.findIndex((t) => t.id === track.id);
               if (queueIndex >= 0) onPlayTrack(queue, queueIndex);
