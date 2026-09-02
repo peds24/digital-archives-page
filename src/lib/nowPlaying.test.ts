@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { toQueueTrack, clampIndex, isPreviewPlayback, formatTime } from './nowPlaying';
+import { toQueueTrack, clampIndex, randomIndex, isPreviewPlayback, formatTime } from './nowPlaying';
 import type { Track } from './types';
 
 function track(overrides: Partial<Track> = {}): Track {
@@ -45,6 +45,28 @@ describe('clampIndex', () => {
 
   it('returns 0 for an empty list', () => {
     expect(clampIndex(3, 0)).toBe(0);
+  });
+});
+
+describe('randomIndex', () => {
+  it('returns 0 for an empty list', () => {
+    expect(randomIndex(0)).toBe(0);
+  });
+
+  it('picks the lowest index when rnd returns 0', () => {
+    expect(randomIndex(5, () => 0)).toBe(0);
+  });
+
+  it('picks the highest index when rnd returns just under 1', () => {
+    expect(randomIndex(5, () => 0.999)).toBe(4);
+  });
+
+  it('stays in bounds across a range of rnd outputs', () => {
+    for (let r = 0; r < 1; r += 0.05) {
+      const index = randomIndex(7, () => r);
+      expect(index).toBeGreaterThanOrEqual(0);
+      expect(index).toBeLessThan(7);
+    }
   });
 });
 

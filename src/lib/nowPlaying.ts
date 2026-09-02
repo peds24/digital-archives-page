@@ -23,6 +23,11 @@ export function clampIndex(index: number, length: number): number {
   return Math.min(Math.max(index, 0), length - 1);
 }
 
+export function randomIndex(length: number, rnd: () => number = Math.random): number {
+  if (length <= 0) return 0;
+  return Math.floor(rnd() * length);
+}
+
 // Spotify's embed plays a ~30s preview for listeners who aren't logged into a
 // Premium account. There's no explicit flag for this in playback_update, but
 // the embed's own reported duration is the giveaway: a real track's duration
