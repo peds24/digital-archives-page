@@ -70,6 +70,18 @@ describe('spotifyFetch', () => {
     expect(delays).toEqual([1000]);
   });
 
+  it('returns null instead of throwing when a successful response has an empty body', async () => {
+    const fakeFetch = vi.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      json: async () => {
+        throw new SyntaxError('Unexpected end of JSON input');
+      },
+    });
+    const result = await spotifyFetch('tok', '/playlists/pl1', fakeFetch, { method: 'PUT', body: { description: 'x' } });
+    expect(result).toBeNull();
+  });
+
   it('sends method and JSON body when options include them, and sets Content-Type', async () => {
     const fakeFetch = vi.fn().mockResolvedValue({ ok: true, status: 201, json: async () => ({ id: 'new-playlist' }) });
     const result = await spotifyFetch('tok', '/users/u1/playlists', fakeFetch, {

@@ -8,9 +8,11 @@ import {
   fetchLikedSongs,
   createPlaylist,
   addTracksToPlaylist,
+  updatePlaylistDetails,
 } from './lib/spotify-api.mjs';
 import { syncQueue, pruneArchived, planFill } from './lib/liked-songs-queue.mjs';
 import { collectArchivedTrackIds } from './lib/archived-tracks.mjs';
+import { buildDateRangeDescription } from './lib/archive-description.mjs';
 import { parseArchiveNumber, run as buildArchives } from './build-archives.mjs';
 
 export async function run({
@@ -24,6 +26,7 @@ export async function run({
   fetchPlaylistTracks: fetchPlaylistTracksFn,
   createPlaylist: createPlaylistFn,
   addTracksToPlaylist: addTracksToPlaylistFn,
+  updatePlaylistDetails: updatePlaylistDetailsFn,
   log = console.log,
 }) {
   const knownIds = new Set([...queue.map((t) => t.id), ...archivedTrackIds]);
@@ -48,14 +51,32 @@ export async function run({
   const unreconciled = archives.filter((a) => a.number >= localMaxArchiveNumber);
 
   let openArchive = null;
+  let openArchiveTracks = [];
   const liveExcludedIds = [];
   for (const archive of unreconciled) {
     const tracks = await fetchPlaylistTracksFn(token, archive.id);
     for (const t of tracks) {
       if (!t.unavailable) liveExcludedIds.push(t.id);
     }
-    openArchive = tracks.length < 30 ? { id: archive.id, trackCount: tracks.length } : null;
+    if (tracks.length < 30) {
+      openArchive = { id: archive.id, trackCount: tracks.length };
+      openArchiveTracks = tracks;
+    } else {
+      openArchive = null;
+      openArchiveTracks = [];
+    }
   }
+
+  // A description-update failure is cosmetic — it must never abort a run that already
+  // made real Spotify writes, which would lose ledger persistence and re-arm the
+  // duplicate-track risk the crash-recovery logic above exists to prevent.
+  const updateDescription = async (playlistId, tracks) => {
+    try {
+      await updatePlaylistDetailsFn(token, playlistId, { description: buildDateRangeDescription(tracks) });
+    } catch (err) {
+      log(`Warning: failed to update playlist description for ${playlistId}: ${err.message}`);
+    }
+  };
 
   const excludedIds = new Set([...archivedTrackIds, ...liveExcludedIds]);
   updatedQueue = pruneArchived(updatedQueue, excludedIds);
@@ -66,6 +87,7 @@ export async function run({
   if (plan.topOff.length > 0) {
     await addTracksToPlaylistFn(token, openArchive.id, plan.topOff.map((t) => t.uri));
     addedCount += plan.topOff.length;
+    await updateDescription(openArchive.id, [...openArchiveTracks, ...plan.topOff]);
   }
 
   let nextNumber = latest ? latest.number + 1 : 1;
@@ -73,6 +95,7 @@ export async function run({
   for (const batch of plan.newArchives) {
     const playlist = await createPlaylistFn(token, userId, `Digital Archive #${nextNumber}`);
     await addTracksToPlaylistFn(token, playlist.id, batch.map((t) => t.uri));
+    await updateDescription(playlist.id, batch);
     addedCount += batch.length;
     createdCount += 1;
     nextNumber += 1;
@@ -140,6 +163,11 @@ async function main() {
           console.log(`[dry-run] would add ${uris.length} track(s) to ${playlistId}`);
         }
       : addTracksToPlaylist,
+    updatePlaylistDetails: dryRun
+      ? async (t, playlistId, details) => {
+          console.log(`[dry-run] would set description on ${playlistId}: ${details.description}`);
+        }
+      : updatePlaylistDetails,
   });
 
   if (dryRun) {

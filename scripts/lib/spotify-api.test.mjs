@@ -1,5 +1,12 @@
 import { describe, it, expect, vi } from 'vitest';
-import { fetchAllPlaylists, fetchPlaylistTracks, fetchLikedSongs, createPlaylist, addTracksToPlaylist } from './spotify-api.mjs';
+import {
+  fetchAllPlaylists,
+  fetchPlaylistTracks,
+  fetchLikedSongs,
+  createPlaylist,
+  addTracksToPlaylist,
+  updatePlaylistDetails,
+} from './spotify-api.mjs';
 
 describe('fetchAllPlaylists', () => {
   it('follows pagination via next and uses /me/playlists endpoint', async () => {
@@ -301,5 +308,24 @@ describe('addTracksToPlaylist', () => {
     expect(fetchImpl).toHaveBeenCalledTimes(2);
     expect(JSON.parse(fetchImpl.mock.calls[0][1].body).uris).toHaveLength(100);
     expect(JSON.parse(fetchImpl.mock.calls[1][1].body).uris).toHaveLength(30);
+  });
+});
+
+describe('updatePlaylistDetails', () => {
+  it('PUTs the given details to /playlists/{id}', async () => {
+    // Spotify returns 200 with an empty body on success for this endpoint.
+    const fetchImpl = vi.fn().mockResolvedValue({
+      ok: true,
+      status: 200,
+      json: async () => {
+        throw new SyntaxError('Unexpected end of JSON input');
+      },
+    });
+    await updatePlaylistDetails('tok', 'pl1', { description: 'Jan 3, 2026 – Feb 14, 2026' }, fetchImpl);
+    expect(fetchImpl).toHaveBeenCalledTimes(1);
+    const [url, init] = fetchImpl.mock.calls[0];
+    expect(url).toBe('https://api.spotify.com/v1/playlists/pl1');
+    expect(init.method).toBe('PUT');
+    expect(JSON.parse(init.body)).toEqual({ description: 'Jan 3, 2026 – Feb 14, 2026' });
   });
 });
