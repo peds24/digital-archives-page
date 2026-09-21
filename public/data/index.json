@@ -311,11 +311,11 @@
     {
       "id": "archive-029",
       "number": 29,
-      "trackCount": 27,
-      "inProgress": true,
+      "trackCount": 30,
+      "inProgress": false,
       "dateRange": {
         "earliest": "2026-09-02T00:04:07Z",
-        "latest": "2026-09-14T17:16:59Z"
+        "latest": "2026-09-21T02:52:30Z"
       },
       "spotifyUrl": "https://open.spotify.com/playlist/1AVwXXSQpy1QPmUHxn4t1Y"
     }

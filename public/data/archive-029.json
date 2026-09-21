@@ -1,11 +1,11 @@
 {
   "id": "archive-029",
   "number": 29,
-  "trackCount": 27,
-  "inProgress": true,
+  "trackCount": 30,
+  "inProgress": false,
   "dateRange": {
     "earliest": "2026-09-02T00:04:07Z",
-    "latest": "2026-09-14T17:16:59Z"
+    "latest": "2026-09-21T02:52:30Z"
   },
   "spotifyUrl": "https://open.spotify.com/playlist/1AVwXXSQpy1QPmUHxn4t1Y",
   "tracks": [
@@ -386,6 +386,48 @@
       "durationMs": 179293,
       "addedAt": "2026-09-14T17:16:59Z",
       "spotifyUrl": "https://open.spotify.com/track/1WCrk7CIbrK9BzEzw02Qz3",
+      "unavailable": false
+    },
+    {
+      "id": "7EiujtpJ3Ty0RcFhMHDHhZ",
+      "name": "Make a Smile for Me",
+      "artists": [
+        "Bill Withers"
+      ],
+      "album": "'Justments",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27334c5960e310bf44ef1f8cf41",
+      "releaseDate": "1974-08-08",
+      "durationMs": 196706,
+      "addedAt": "2026-09-21T02:52:30Z",
+      "spotifyUrl": "https://open.spotify.com/track/7EiujtpJ3Ty0RcFhMHDHhZ",
+      "unavailable": false
+    },
+    {
+      "id": "3nbFVNHVYCMCdD9vBo3udv",
+      "name": "You're Not The Only One I Know",
+      "artists": [
+        "The Sundays"
+      ],
+      "album": "Reading Writing And Arithmetic",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273136341bc093dca22dbd11143",
+      "releaseDate": "1990",
+      "durationMs": 231560,
+      "addedAt": "2026-09-21T02:52:30Z",
+      "spotifyUrl": "https://open.spotify.com/track/3nbFVNHVYCMCdD9vBo3udv",
+      "unavailable": false
+    },
+    {
+      "id": "4twr2sQAmUk6wuQy3Qcrbe",
+      "name": "Radio",
+      "artists": [
+        "beabadoobee"
+      ],
+      "album": "Pylon",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27312c805544ba208842da0d9f3",
+      "releaseDate": "2026-09-18",
+      "durationMs": 160230,
+      "addedAt": "2026-09-21T02:52:30Z",
+      "spotifyUrl": "https://open.spotify.com/track/4twr2sQAmUk6wuQy3Qcrbe",
       "unavailable": false
     }
   ]
