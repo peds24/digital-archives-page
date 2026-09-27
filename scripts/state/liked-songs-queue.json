@@ -1,3 +1,103 @@
 {
-  "tracks": []
+  "tracks": [
+    {
+      "id": "7dCLMi5pZleCWsRroWaBYH",
+      "name": "I'll Erase Away Your Pain",
+      "artists": [
+        "The Whatnauts"
+      ],
+      "addedAt": "2026-09-21T23:56:36Z",
+      "uri": "spotify:track:7dCLMi5pZleCWsRroWaBYH"
+    },
+    {
+      "id": "6brulQ9j9jYNGOiXLqRctL",
+      "name": "Norton Commander - Garage Session",
+      "artists": [
+        "Men I Trust"
+      ],
+      "addedAt": "2026-09-22T02:44:41Z",
+      "uri": "spotify:track:6brulQ9j9jYNGOiXLqRctL"
+    },
+    {
+      "id": "7LJz6DZS1tIRB06bbYbAPi",
+      "name": "...& On",
+      "artists": [
+        "Erykah Badu"
+      ],
+      "addedAt": "2026-09-23T00:03:39Z",
+      "uri": "spotify:track:7LJz6DZS1tIRB06bbYbAPi"
+    },
+    {
+      "id": "1swmf4hFMJYRNA8Rq9PVaW",
+      "name": "Martha My Dear - Remastered 2009",
+      "artists": [
+        "The Beatles"
+      ],
+      "addedAt": "2026-09-24T17:27:22Z",
+      "uri": "spotify:track:1swmf4hFMJYRNA8Rq9PVaW"
+    },
+    {
+      "id": "7sGL3k2M6FiWFP9x83wiLA",
+      "name": "Sweet Painted Lady - Remastered 2014",
+      "artists": [
+        "Elton John"
+      ],
+      "addedAt": "2026-09-24T17:33:09Z",
+      "uri": "spotify:track:7sGL3k2M6FiWFP9x83wiLA"
+    },
+    {
+      "id": "5gBaFSNhSW7FMjjmDmNqWX",
+      "name": "Why",
+      "artists": [
+        "Fleetwood Mac"
+      ],
+      "addedAt": "2026-09-24T17:53:48Z",
+      "uri": "spotify:track:5gBaFSNhSW7FMjjmDmNqWX"
+    },
+    {
+      "id": "7M7AwtGvWdMYudqx5Iuh1m",
+      "name": "Althea - 2013 Remaster",
+      "artists": [
+        "Grateful Dead"
+      ],
+      "addedAt": "2026-09-24T18:01:25Z",
+      "uri": "spotify:track:7M7AwtGvWdMYudqx5Iuh1m"
+    },
+    {
+      "id": "2UqE0rptNZpA2gjKDqOa0p",
+      "name": "What's Wrong With Groovin'",
+      "artists": [
+        "Letta Mbulu"
+      ],
+      "addedAt": "2026-09-24T18:18:00Z",
+      "uri": "spotify:track:2UqE0rptNZpA2gjKDqOa0p"
+    },
+    {
+      "id": "71XhXay6rKPZCVAaDtFlSR",
+      "name": "Lost Ones",
+      "artists": [
+        "Ms. Lauryn Hill"
+      ],
+      "addedAt": "2026-09-24T18:18:30Z",
+      "uri": "spotify:track:71XhXay6rKPZCVAaDtFlSR"
+    },
+    {
+      "id": "2Yg4GGGKqGwoqM5OgdhpAj",
+      "name": "My Way",
+      "artists": [
+        "Nina Simone"
+      ],
+      "addedAt": "2026-09-24T18:19:06Z",
+      "uri": "spotify:track:2Yg4GGGKqGwoqM5OgdhpAj"
+    },
+    {
+      "id": "5naBxlfM61rL6tE42fQiL9",
+      "name": "Instantané",
+      "artists": [
+        "Paradis"
+      ],
+      "addedAt": "2026-09-26T21:37:24Z",
+      "uri": "spotify:track:5naBxlfM61rL6tE42fQiL9"
+    }
+  ]
 }
